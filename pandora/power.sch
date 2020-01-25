@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 3 8
 Title "Pandora CC2652R Development Board"
 Date "2020-01-24"
 Rev "A"
@@ -13,4 +13,110 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
+Text HLabel 1200 1000 0    50   Input ~ 0
+POWER
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E2E59C2
+P 1500 1300
+AR Path="/5E2B9A47/5E2E59C2" Ref="#PWR?"  Part="1" 
+AR Path="/5E2BABF8/5E2E59C2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 1150 50  0001 C CNN
+F 1 "+3V3" V 1500 1500 50  0000 C CNN
+F 2 "" H 1500 1300 50  0001 C CNN
+F 3 "" H 1500 1300 50  0001 C CNN
+	1    1500 1300
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	1300 1000 1200 1000
+Wire Wire Line
+	1500 1300 1400 1300
+Entry Wire Line
+	1300 1200 1400 1300
+Entry Wire Line
+	1300 1300 1400 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5E2E59CD
+P 1500 1500
+AR Path="/5E2B9A47/5E2E59CD" Ref="#PWR?"  Part="1" 
+AR Path="/5E2BABF8/5E2E59CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 1250 50  0001 C CNN
+F 1 "GND" H 1505 1327 50  0000 C CNN
+F 2 "" H 1500 1500 50  0001 C CNN
+F 3 "" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1300 1100 1400 1200
+Entry Wire Line
+	1300 1000 1400 1100
+$Comp
+L power:VDD #PWR?
+U 1 1 5E2E6EE1
+P 1500 1000
+F 0 "#PWR?" H 1500 850 50  0001 C CNN
+F 1 "VDD" H 1517 1173 50  0000 C CNN
+F 2 "" H 1500 1000 50  0001 C CNN
+F 3 "" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E2E718D
+P 1500 1200
+F 0 "#PWR?" H 1500 1050 50  0001 C CNN
+F 1 "+5V" V 1515 1328 50  0000 L CNN
+F 2 "" H 1500 1200 50  0001 C CNN
+F 3 "" H 1500 1200 50  0001 C CNN
+	1    1500 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E2E7880
+P 1900 1000
+F 0 "#FLG?" H 1900 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1173 50  0000 C CNN
+F 2 "" H 1900 1000 50  0001 C CNN
+F 3 "~" H 1900 1000 50  0001 C CNN
+	1    1900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1200 1500 1200
+Wire Wire Line
+	1400 1100 1500 1100
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E2E89B0
+P 1900 1500
+F 0 "#FLG?" H 1900 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1673 50  0000 C CNN
+F 2 "" H 1900 1500 50  0001 C CNN
+F 3 "~" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1100 1500 1100
+Connection ~ 1500 1100
+Wire Wire Line
+	1500 1100 1500 1000
+Wire Wire Line
+	1400 1400 1500 1400
+Wire Wire Line
+	1500 1400 1500 1500
+Connection ~ 1500 1400
+Wire Wire Line
+	1500 1400 1900 1400
+Wire Wire Line
+	1900 1400 1900 1500
+Wire Wire Line
+	1900 1100 1900 1000
+Wire Bus Line
+	1300 1000 1300 1300
 $EndSCHEMATC
