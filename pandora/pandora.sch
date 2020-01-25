@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 8
 Title "Pandora CC2652R Development Board"
-Date "2020-01-17"
+Date "2020-01-24"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -667,15 +667,46 @@ CE 9A 01 BC 0F E0 49 B3 03 A9 66 24 C1 20 08 82 20 88 9D 35 01 08 A3 7C DD B1 09
 B1 CC FC 14 A2 18 FF 1F FC 9A E6 91 F7 03 D4 D2 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L TI_SimpleLink:CC2652R U?
-U 1 1 5E2288D2
-P 5900 4000
-F 0 "U?" H 5900 5715 50  0000 C CNN
-F 1 "CC2652R" H 5900 5624 50  0000 C CNN
-F 2 "TI_SimpleLink:Texas_RGZ0048A" H 5900 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cc2652r.pdf" H 5900 4000 50  0001 C CNN
-	1    5900 4000
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 2000 2000 1000 1000
+U 5E2B9A47
+F0 "mcu" 50
+F1 "mcu.sch" 50
+$EndSheet
+$Sheet
+S 2000 4000 1000 1000
+U 5E2BABF8
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 4000 2000 1000 1000
+U 5E2BAC38
+F0 "connectors" 50
+F1 "connectors.sch" 50
+$EndSheet
+$Sheet
+S 4000 4000 1000 1000
+U 5E2BAC7C
+F0 "keypad" 50
+F1 "keypad.sch" 50
+$EndSheet
+$Sheet
+S 6000 2000 1000 1000
+U 5E2BACD0
+F0 "lcd" 50
+F1 "lcd.sch" 50
+$EndSheet
+$Sheet
+S 6000 4000 1000 1000
+U 5E2BAD17
+F0 "servo" 50
+F1 "servo.sch" 50
+$EndSheet
+$Sheet
+S 8000 2000 1000 1000
+U 5E2BAD6A
+F0 "led" 50
+F1 "led.sch" 50
+$EndSheet
 $EndSCHEMATC
