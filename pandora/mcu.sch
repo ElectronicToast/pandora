@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title "Pandora CC2652R Development Board"
-Date "2020-01-24"
+Date "2020-01-27"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -13,27 +13,8 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text HLabel 1200 900  0    50   Input ~ 0
-POWER
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E2BB942
-P 1500 1000
-F 0 "#PWR?" H 1500 850 50  0001 C CNN
-F 1 "+3V3" H 1515 1173 50  0000 C CNN
-F 2 "" H 1500 1000 50  0001 C CNN
-F 3 "" H 1500 1000 50  0001 C CNN
-	1    1500 1000
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	1300 900  1200 900 
-Wire Wire Line
-	1500 1000 1400 1000
 Text HLabel 1200 1500 0    50   Input ~ 0
 KEYPAD
-Entry Wire Line
-	1300 900  1400 1000
 Entry Wire Line
 	1300 1500 1400 1600
 Entry Wire Line
@@ -142,23 +123,6 @@ Wire Wire Line
 	1800 3500 1400 3500
 Wire Wire Line
 	1800 3600 1400 3600
-Entry Wire Line
-	1300 1000 1400 1100
-Wire Bus Line
-	1300 1000 1300 900 
-$Comp
-L power:GND #PWR?
-U 1 1 5E2BF6BF
-P 1500 1100
-F 0 "#PWR?" H 1500 850 50  0001 C CNN
-F 1 "GND" H 1505 927 50  0000 C CNN
-F 2 "" H 1500 1100 50  0001 C CNN
-F 3 "" H 1500 1100 50  0001 C CNN
-	1    1500 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1100 1400 1100
 Text Label 1400 2700 0    50   ~ 0
 LCD_E
 Text Label 1400 2800 0    50   ~ 0
@@ -322,23 +286,23 @@ Wire Wire Line
 	1800 4700 1400 4700
 Wire Wire Line
 	1800 4800 1400 4800
-Text HLabel 1200 5000 0    50   Input ~ 0
+Text HLabel 1200 5500 0    50   Input ~ 0
 LED
 Wire Bus Line
-	1200 5000 1300 5000
+	1200 5500 1300 5500
 Entry Wire Line
-	1300 5000 1400 5100
+	1300 5500 1400 5600
 Entry Wire Line
-	1300 5100 1400 5200
-Text Label 1400 5100 0    50   ~ 0
+	1300 5600 1400 5700
+Text Label 1400 5600 0    50   ~ 0
 LED1
 Wire Wire Line
-	1800 5100 1400 5100
+	1800 5600 1400 5600
 Wire Wire Line
-	1800 5200 1400 5200
+	1800 5700 1400 5700
 Wire Bus Line
-	1300 5100 1300 5000
-Text Label 1400 5200 0    50   ~ 0
+	1300 5600 1300 5500
+Text Label 1400 5700 0    50   ~ 0
 LED2
 $Comp
 L power:GND #PWR?
@@ -355,6 +319,30 @@ Wire Wire Line
 	6900 5600 6900 5500
 Wire Wire Line
 	6900 5500 6800 5500
+Text HLabel 1200 5000 0    50   Input ~ 0
+IMU
+Wire Bus Line
+	1200 5000 1300 5000
+Entry Wire Line
+	1300 5000 1400 5100
+Entry Wire Line
+	1300 5100 1400 5200
+Text Label 1400 5200 0    50   ~ 0
+IMU_MOSI
+Wire Wire Line
+	1800 5100 1400 5100
+Wire Wire Line
+	1800 5200 1400 5200
+Text Label 1400 5300 0    50   ~ 0
+IMU_MISO
+Text Label 1400 5100 0    50   ~ 0
+IMU_~CS
+Entry Wire Line
+	1300 5200 1400 5300
+Wire Wire Line
+	1800 5300 1400 5300
+Wire Bus Line
+	1300 5000 1300 5200
 Wire Bus Line
 	1300 1500 1300 2200
 Wire Bus Line
