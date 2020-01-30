@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 12
 Title "Pandora CC2652R Development Board"
-Date "2020-01-27"
+Date "2020-01-30"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -668,58 +668,85 @@ B1 CC FC 14 A2 18 FF 1F FC 9A E6 91 F7 03 D4 D2 00 00 00 00 49 45 4E 44 AE 42 60
 EndData
 $EndBitmap
 $Sheet
-S 2000 2000 1000 1000
+S 2000 2500 1000 1300
 U 5E2B9A47
 F0 "mcu" 50
 F1 "mcu.sch" 50
-F2 "KEYPAD" I L 2000 2100 50 
-F3 "LCD" I L 2000 2200 50 
-F4 "SERVO" I L 2000 2300 50 
-F5 "LED" I L 2000 2500 50 
-F6 "IMU" I L 2000 2400 50 
+F2 "KEYPAD" I R 3000 2600 50 
+F3 "LCD" I R 3000 2800 50 
+F4 "IMU" I R 3000 3300 50 
+F5 "SERVO_OUT" I R 3000 3100 50 
+F6 "SERVO_AIN" I R 3000 3000 50 
+F7 "SPEAKER" I R 3000 3500 50 
+F8 "JTAG" I R 3000 3700 50 
+F9 "RF" I L 2000 3200 50 
 $EndSheet
 $Sheet
-S 4000 2000 1000 1000
+S 8000 2000 1000 1000
 U 5E2BAC38
 F0 "connectors" 50
 F1 "connectors.sch" 50
 $EndSheet
 $Sheet
-S 4000 4000 1000 1000
+S 3500 2000 500  200 
 U 5E2BAC7C
 F0 "keypad" 50
 F1 "keypad.sch" 50
+F2 "KEYPAD" I L 3500 2100 50 
 $EndSheet
 $Sheet
-S 6000 2000 1000 1000
+S 3500 2400 1000 200 
 U 5E2BACD0
 F0 "lcd" 50
 F1 "lcd.sch" 50
-F2 "LCD" I L 6000 2100 50 
+F2 "LCD" I L 3500 2500 50 
+F3 "LCD_OUT" I R 4500 2500 50 
 $EndSheet
 $Sheet
-S 6000 4000 1000 1000
+S 3500 2800 1200 200 
 U 5E2BAD17
 F0 "servo" 50
 F1 "servo.sch" 50
+F2 "SERVO_FDBK" I R 4700 2900 50 
+F3 "SERVO_AIN" I L 3500 2900 50 
 $EndSheet
 $Sheet
-S 8000 2000 1000 1000
-U 5E2BAD6A
-F0 "led" 50
-F1 "led.sch" 50
-$EndSheet
-$Sheet
-S 8000 4000 1000 1000
+S 3500 3400 500  200 
 U 5E2F4223
 F0 "imu" 50
 F1 "imu.sch" 50
-F2 "IMU" I L 8000 4100 50 
+F2 "IMU" I L 3500 3500 50 
 $EndSheet
 $Sheet
-S 2000 4000 1000 1000
+S 2000 6000 1000 1000
 U 5E2BABF8
 F0 "power" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 1000 3100 500  200 
+U 5E325835
+F0 "rf" 50
+F1 "rf.sch" 50
+F2 "RF" I R 1500 3200 50 
+$EndSheet
+$Sheet
+S 3500 3800 500  200 
+U 5E64A3EA
+F0 "speaker" 50
+F1 "speaker.sch" 50
+F2 "SPEAKER" I L 3500 3900 50 
+$EndSheet
+$Sheet
+S 3200 6000 1000 1000
+U 5E3404DD
+F0 "mechanical" 50
+F1 "mechanical.sch" 50
+$EndSheet
+$Sheet
+S 5000 6000 1000 1000
+U 5E341789
+F0 "led" 50
+F1 "led.sch" 50
 $EndSheet
 $EndSCHEMATC

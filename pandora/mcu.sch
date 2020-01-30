@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 12
 Title "Pandora CC2652R Development Board"
-Date "2020-01-27"
+Date "2020-01-30"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -13,60 +13,14 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text HLabel 1200 1500 0    50   Input ~ 0
+Text HLabel 1200 2400 0    50   Input ~ 0
 KEYPAD
 Entry Wire Line
-	1300 1500 1400 1600
+	1300 2400 1400 2500
 Entry Wire Line
-	1300 1600 1400 1700
+	1300 2500 1400 2600
 Entry Wire Line
-	1300 1700 1400 1800
-Entry Wire Line
-	1300 1800 1400 1900
-Entry Wire Line
-	1300 1900 1400 2000
-Entry Wire Line
-	1300 2000 1400 2100
-Entry Wire Line
-	1300 2100 1400 2200
-Entry Wire Line
-	1300 2200 1400 2300
-Text Label 1400 1600 0    50   ~ 0
-KPD_OUT1
-Text Label 1400 1700 0    50   ~ 0
-KPD_OUT2
-Text Label 1400 1800 0    50   ~ 0
-KPD_OUT3
-Text Label 1400 1900 0    50   ~ 0
-KPD_OUT4
-Text Label 1400 2000 0    50   ~ 0
-KPD_IN1
-Text Label 1400 2100 0    50   ~ 0
-KPD_IN2
-Text Label 1400 2200 0    50   ~ 0
-KPD_IN3
-Text Label 1400 2300 0    50   ~ 0
-KPD_IN4
-Wire Bus Line
-	1200 1500 1300 1500
-Wire Wire Line
-	1800 1600 1400 1600
-Wire Wire Line
-	1800 1700 1400 1700
-Wire Wire Line
-	1800 1800 1400 1800
-Wire Wire Line
-	1800 1900 1400 1900
-Wire Wire Line
-	1800 2000 1400 2000
-Wire Wire Line
-	1800 2100 1400 2100
-Wire Wire Line
-	1800 2200 1400 2200
-Wire Wire Line
-	1800 2300 1400 2300
-Text HLabel 1200 2500 0    50   Input ~ 0
-LCD
+	1300 2600 1400 2700
 Entry Wire Line
 	1300 2700 1400 2800
 Entry Wire Line
@@ -77,34 +31,30 @@ Entry Wire Line
 	1300 3000 1400 3100
 Entry Wire Line
 	1300 3100 1400 3200
-Entry Wire Line
-	1300 3200 1400 3300
-Entry Wire Line
-	1300 3300 1400 3400
-Entry Wire Line
-	1300 3400 1400 3500
-Entry Wire Line
-	1300 3500 1400 3600
+Text Label 1400 2500 0    50   ~ 0
+KPD_OUT1
 Text Label 1400 2600 0    50   ~ 0
-LCD_RW
+KPD_OUT2
+Text Label 1400 2700 0    50   ~ 0
+KPD_OUT3
+Text Label 1400 2800 0    50   ~ 0
+KPD_OUT4
 Text Label 1400 2900 0    50   ~ 0
-LCD_DB1
+KPD_IN1
 Text Label 1400 3000 0    50   ~ 0
-LCD_DB2
+KPD_IN2
 Text Label 1400 3100 0    50   ~ 0
-LCD_DB3
+KPD_IN3
 Text Label 1400 3200 0    50   ~ 0
-LCD_DB4
-Text Label 1400 3300 0    50   ~ 0
-LCD_DB5
-Text Label 1400 3400 0    50   ~ 0
-LCD_DB6
-Text Label 1400 3500 0    50   ~ 0
-LCD_DB7
-Text Label 1400 3600 0    50   ~ 0
-LCD_DB8
+KPD_IN4
 Wire Bus Line
-	1200 2500 1300 2500
+	1200 2400 1300 2400
+Wire Wire Line
+	1800 2500 1400 2500
+Wire Wire Line
+	1800 2600 1400 2600
+Wire Wire Line
+	1800 2700 1400 2700
 Wire Wire Line
 	1800 2800 1400 2800
 Wire Wire Line
@@ -115,115 +65,12 @@ Wire Wire Line
 	1800 3100 1400 3100
 Wire Wire Line
 	1800 3200 1400 3200
-Wire Wire Line
-	1800 3300 1400 3300
-Wire Wire Line
-	1800 3400 1400 3400
-Wire Wire Line
-	1800 3500 1400 3500
-Wire Wire Line
-	1800 3600 1400 3600
-Text Label 1400 2700 0    50   ~ 0
-LCD_E
-Text Label 1400 2800 0    50   ~ 0
-LCD_RS
-Wire Wire Line
-	1400 2600 1800 2600
-Wire Wire Line
-	1400 2700 1800 2700
+Text HLabel 1200 3600 0    50   Input ~ 0
+LCD
 Entry Wire Line
-	1300 2500 1400 2600
+	1300 3800 1400 3900
 Entry Wire Line
-	1300 2600 1400 2700
-$Comp
-L pandora:CC2652R U?
-U 1 1 5E2BBC74
-P 6100 4000
-F 0 "U?" H 6100 5765 50  0000 C CNN
-F 1 "CC2652R" H 6100 5674 50  0000 C CNN
-F 2 "pandora:Texas_RGZ0048A" H 6100 4050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cc2652r.pdf" H 6100 4050 50  0001 C CNN
-	1    6100 4000
-	1    0    0    -1  
-$EndComp
-Text Label 5000 5500 0    50   ~ 0
-LCD_E
-Text Label 5000 5400 0    50   ~ 0
-LCD_RW
-Text Label 5000 5300 0    50   ~ 0
-LCD_RS
-Wire Wire Line
-	5000 5300 5400 5300
-Wire Wire Line
-	5000 5400 5400 5400
-Wire Wire Line
-	5000 5500 5400 5500
-Text Label 5000 3300 0    50   ~ 0
-LCD_DB1
-Text Label 5000 3400 0    50   ~ 0
-LCD_DB2
-Text Label 5000 3500 0    50   ~ 0
-LCD_DB3
-Text Label 5000 3600 0    50   ~ 0
-LCD_DB4
-Text Label 5000 3700 0    50   ~ 0
-LCD_DB5
-Text Label 5000 3800 0    50   ~ 0
-LCD_DB6
-Text Label 5000 3900 0    50   ~ 0
-LCD_DB7
-Text Label 5000 4000 0    50   ~ 0
-LCD_DB8
-Wire Wire Line
-	5000 3300 5400 3300
-Wire Wire Line
-	5000 3400 5400 3400
-Wire Wire Line
-	5000 3500 5400 3500
-Wire Wire Line
-	5000 3600 5400 3600
-Wire Wire Line
-	5000 3700 5400 3700
-Wire Wire Line
-	5000 3800 5400 3800
-Wire Wire Line
-	5000 3900 5400 3900
-Wire Wire Line
-	5000 4000 5400 4000
-Text Label 5000 2900 0    50   ~ 0
-KPD_OUT1
-Text Label 5000 3000 0    50   ~ 0
-KPD_OUT2
-Text Label 5000 3100 0    50   ~ 0
-KPD_OUT3
-Text Label 5000 3200 0    50   ~ 0
-KPD_OUT4
-Wire Wire Line
-	5400 2900 5000 2900
-Wire Wire Line
-	5400 3000 5000 3000
-Wire Wire Line
-	5400 3100 5000 3100
-Wire Wire Line
-	5400 3200 5000 3200
-Text Label 5000 2500 0    50   ~ 0
-KPD_IN1
-Text Label 5000 2600 0    50   ~ 0
-KPD_IN2
-Text Label 5000 2700 0    50   ~ 0
-KPD_IN3
-Text Label 5000 2800 0    50   ~ 0
-KPD_IN4
-Wire Wire Line
-	5400 2500 5000 2500
-Wire Wire Line
-	5400 2600 5000 2600
-Wire Wire Line
-	5400 2700 5000 2700
-Wire Wire Line
-	5400 2800 5000 2800
-Text HLabel 1200 3800 0    50   Input ~ 0
-SERVO
+	1300 3900 1400 4000
 Entry Wire Line
 	1300 4000 1400 4100
 Entry Wire Line
@@ -238,34 +85,26 @@ Entry Wire Line
 	1300 4500 1400 4600
 Entry Wire Line
 	1300 4600 1400 4700
-Entry Wire Line
-	1300 4700 1400 4800
-Wire Bus Line
-	1200 3800 1300 3800
-Entry Wire Line
-	1300 3800 1400 3900
-Entry Wire Line
-	1300 3900 1400 4000
-Text Label 1400 3900 0    50   ~ 0
-SRV_OUT1
+Text Label 1400 3700 0    50   ~ 0
+LCD_RW
 Text Label 1400 4000 0    50   ~ 0
-SRV_OUT2
+LCD_DB1
 Text Label 1400 4100 0    50   ~ 0
-SRV_OUT3
+LCD_DB2
 Text Label 1400 4200 0    50   ~ 0
-SRV_OUT4
+LCD_DB3
 Text Label 1400 4300 0    50   ~ 0
-SRV_OUT5
+LCD_DB4
 Text Label 1400 4400 0    50   ~ 0
-SRV_FDB1
+LCD_DB5
 Text Label 1400 4500 0    50   ~ 0
-SRV_FDB2
+LCD_DB6
 Text Label 1400 4600 0    50   ~ 0
-SRV_FDB3
+LCD_DB7
 Text Label 1400 4700 0    50   ~ 0
-SRV_FDB4
-Text Label 1400 4800 0    50   ~ 0
-SRV_FDB5
+LCD_DB8
+Wire Bus Line
+	1200 3600 1300 3600
 Wire Wire Line
 	1800 3900 1400 3900
 Wire Wire Line
@@ -284,69 +123,727 @@ Wire Wire Line
 	1800 4600 1400 4600
 Wire Wire Line
 	1800 4700 1400 4700
+Text Label 1400 3800 0    50   ~ 0
+LCD_E
+Text Label 1400 3900 0    50   ~ 0
+LCD_RS
 Wire Wire Line
-	1800 4800 1400 4800
-Text HLabel 1200 5500 0    50   Input ~ 0
-LED
-Wire Bus Line
-	1200 5500 1300 5500
+	1400 3700 1800 3700
+Wire Wire Line
+	1400 3800 1800 3800
 Entry Wire Line
-	1300 5500 1400 5600
+	1300 3600 1400 3700
 Entry Wire Line
-	1300 5600 1400 5700
-Text Label 1400 5600 0    50   ~ 0
-LED1
+	1300 3700 1400 3800
+Text Label 4500 2900 0    50   ~ 0
+LCD_DB1
+Text Label 4500 3000 0    50   ~ 0
+LCD_DB2
+Text Label 4500 3100 0    50   ~ 0
+LCD_DB3
+Text Label 4500 3200 0    50   ~ 0
+LCD_DB4
+Text Label 4500 3300 0    50   ~ 0
+LCD_DB5
+Text Label 4500 3400 0    50   ~ 0
+LCD_DB6
+Text Label 4500 3500 0    50   ~ 0
+LCD_DB7
+Text Label 4500 3600 0    50   ~ 0
+LCD_DB8
 Wire Wire Line
-	1800 5600 1400 5600
+	4500 2900 4900 2900
 Wire Wire Line
-	1800 5700 1400 5700
-Wire Bus Line
-	1300 5600 1300 5500
-Text Label 1400 5700 0    50   ~ 0
-LED2
-$Comp
-L power:GND #PWR?
-U 1 1 5E2EB9D4
-P 6900 5600
-F 0 "#PWR?" H 6900 5350 50  0001 C CNN
-F 1 "GND" H 6905 5427 50  0000 C CNN
-F 2 "" H 6900 5600 50  0001 C CNN
-F 3 "" H 6900 5600 50  0001 C CNN
-	1    6900 5600
-	1    0    0    -1  
-$EndComp
+	4500 3000 4900 3000
 Wire Wire Line
-	6900 5600 6900 5500
+	4500 3100 4900 3100
 Wire Wire Line
-	6900 5500 6800 5500
-Text HLabel 1200 5000 0    50   Input ~ 0
-IMU
-Wire Bus Line
-	1200 5000 1300 5000
+	4500 3200 4900 3200
+Wire Wire Line
+	4500 3300 4900 3300
+Wire Wire Line
+	4500 3400 4900 3400
+Wire Wire Line
+	4500 3500 4900 3500
+Wire Wire Line
+	4500 3600 4900 3600
+Text Label 4300 2500 0    50   ~ 0
+KPD_OUT1
+Text Label 4300 2600 0    50   ~ 0
+KPD_OUT2
+Text Label 4300 2700 0    50   ~ 0
+KPD_OUT3
+Text Label 4300 2800 0    50   ~ 0
+KPD_OUT4
+Wire Wire Line
+	4900 2500 4300 2500
+Wire Wire Line
+	4900 2600 4300 2600
+Wire Wire Line
+	4900 2700 4300 2700
+Wire Wire Line
+	4900 2800 4300 2800
+Text Label 4300 2100 0    50   ~ 0
+KPD_IN1
+Text Label 4300 2200 0    50   ~ 0
+KPD_IN2
+Text Label 4300 2300 0    50   ~ 0
+KPD_IN3
+Text Label 4300 2400 0    50   ~ 0
+KPD_IN4
+Wire Wire Line
+	4900 2100 4300 2100
+Wire Wire Line
+	4900 2200 4300 2200
+Wire Wire Line
+	4900 2300 4300 2300
+Wire Wire Line
+	4900 2400 4300 2400
+Text HLabel 1200 5100 0    50   Input ~ 0
+SERVO_PWM
 Entry Wire Line
-	1300 5000 1400 5100
+	1300 5300 1400 5400
+Entry Wire Line
+	1300 5800 1400 5900
+Entry Wire Line
+	1300 5900 1400 6000
+Entry Wire Line
+	1300 6000 1400 6100
+Wire Bus Line
+	1200 5100 1300 5100
 Entry Wire Line
 	1300 5100 1400 5200
-Text Label 1400 5200 0    50   ~ 0
-IMU_MOSI
-Wire Wire Line
-	1800 5100 1400 5100
-Wire Wire Line
-	1800 5200 1400 5200
-Text Label 1400 5300 0    50   ~ 0
-IMU_MISO
-Text Label 1400 5100 0    50   ~ 0
-IMU_~CS
 Entry Wire Line
 	1300 5200 1400 5300
 Wire Wire Line
+	1800 5200 1400 5200
+Wire Wire Line
+	1800 5400 1400 5400
+Wire Wire Line
+	1800 5900 1400 5900
+Wire Wire Line
+	1800 6100 1400 6100
+$Comp
+L power:GND #PWR?
+U 1 1 5E2EB9D4
+P 6400 5200
+F 0 "#PWR?" H 6400 4950 50  0001 C CNN
+F 1 "GND" H 6405 5027 50  0000 C CNN
+F 2 "" H 6400 5200 50  0001 C CNN
+F 3 "" H 6400 5200 50  0001 C CNN
+	1    6400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5200 6400 5100
+Wire Wire Line
+	6400 5100 6300 5100
+Text HLabel 1200 6500 0    50   Input ~ 0
+IMU
+Wire Bus Line
+	1200 6500 1300 6500
+Entry Wire Line
+	1300 6500 1400 6600
+Entry Wire Line
+	1300 6600 1400 6700
+Text Label 1400 6700 0    50   ~ 0
+IMU_MOSI
+Wire Wire Line
+	1800 6600 1400 6600
+Wire Wire Line
+	1800 6700 1400 6700
+Text Label 1400 6800 0    50   ~ 0
+IMU_MISO
+Text Label 1400 6600 0    50   ~ 0
+IMU_~CS
+Entry Wire Line
+	1300 6700 1400 6800
+Wire Wire Line
+	1800 6800 1400 6800
+Text HLabel 1200 5800 0    50   Input ~ 0
+SERVO_AIN
+Wire Wire Line
+	1800 6000 1400 6000
+Wire Bus Line
+	1200 5800 1300 5800
+Text Label 1400 5900 0    50   ~ 0
+SRV_AIN1
+Text Label 1400 6000 0    50   ~ 0
+SRV_AIN2
+Text Label 1400 6100 0    50   ~ 0
+SRV_AIN3
+Wire Wire Line
+	4900 4600 4100 4600
+Wire Wire Line
+	4900 4700 4100 4700
+Wire Wire Line
+	4900 4800 4100 4800
+Wire Wire Line
+	4900 5100 4100 5100
+Wire Wire Line
+	4900 4900 4100 4900
+Wire Wire Line
+	4900 5000 4100 5000
+Text Label 4100 5100 0    50   ~ 0
+SRV_AIN1
+Text Label 4100 5000 0    50   ~ 0
+SRV_AIN2
+Text Label 4100 4900 0    50   ~ 0
+SRV_AIN3
+Text Label 4300 4300 0    50   ~ 0
+IMU_MOSI
+Wire Wire Line
+	4900 4200 4300 4200
+Wire Wire Line
+	4900 4300 4300 4300
+Text Label 4300 4400 0    50   ~ 0
+IMU_MISO
+Text Label 4300 4200 0    50   ~ 0
+IMU_~CS
+Wire Wire Line
+	4900 4400 4300 4400
+$Comp
+L Device:C_Small C?
+U 1 1 5E34B936
+P 6900 5100
+F 0 "C?" H 6992 5146 50  0000 L CNN
+F 1 "0.1uF" H 6992 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 5100 50  0001 C CNN
+F 3 "~" H 6900 5100 50  0001 C CNN
+	1    6900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3400 6400 3400
+Wire Wire Line
+	6400 3400 6400 3300
+$Comp
+L Device:C_Small C?
+U 1 1 5E34E892
+P 7500 3500
+F 0 "C?" V 7550 3400 50  0000 C CNN
+F 1 "12pF" V 7450 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3500 50  0001 C CNN
+F 3 "~" H 7500 3500 50  0001 C CNN
+	1    7500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E34E3C8
+P 7500 3300
+F 0 "C?" V 7450 3400 50  0000 C CNN
+F 1 "12pF" V 7550 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3300 50  0001 C CNN
+F 3 "~" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3500 7600 3500
+Wire Wire Line
+	7600 3300 7900 3300
+Wire Wire Line
+	7900 3300 7900 3500
+$Comp
+L Device:C_Small C?
+U 1 1 5E360690
+P 7000 2900
+F 0 "C?" V 6950 3000 50  0000 C CNN
+F 1 "1uF" V 7050 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2900 50  0001 C CNN
+F 3 "~" H 7000 2900 50  0001 C CNN
+	1    7000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3609A3
+P 7900 2900
+F 0 "#PWR?" H 7900 2650 50  0001 C CNN
+F 1 "GND" H 7905 2727 50  0000 C CNN
+F 2 "" H 7900 2900 50  0001 C CNN
+F 3 "" H 7900 2900 50  0001 C CNN
+	1    7900 2900
+	1    0    0    -1  
+$EndComp
+Text Label 6300 4500 0    50   ~ 0
+JTAG_TMS
+Text Label 6300 4600 0    50   ~ 0
+JTAG_TCK
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3664BB
+P 6900 4700
+F 0 "R?" H 6968 4746 50  0000 L CNN
+F 1 "10k" H 6968 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 4700 50  0001 C CNN
+F 3 "~" H 6900 4700 50  0001 C CNN
+	1    6900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4800 6900 4900
+Wire Wire Line
+	6900 4900 6300 4900
+Wire Wire Line
+	6900 5000 6900 4900
+Connection ~ 6900 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5E36CB6C
+P 6900 5200
+F 0 "#PWR?" H 6900 4950 50  0001 C CNN
+F 1 "GND" H 6905 5027 50  0000 C CNN
+F 2 "" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E36CF45
+P 6900 4600
+F 0 "#PWR?" H 6900 4450 50  0001 C CNN
+F 1 "+3V3" H 6915 4773 50  0000 C CNN
+F 2 "" H 6900 4600 50  0001 C CNN
+F 3 "" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4500 0    50   ~ 0
+SPK
+Wire Wire Line
+	4700 4500 4900 4500
+Text Label 1200 7100 0    50   ~ 0
+SPK
+Text HLabel 1200 7100 0    50   Input ~ 0
+SPEAKER
+Wire Wire Line
+	1400 7100 1200 7100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E380B11
+P 6400 2000
+F 0 "#PWR?" H 6400 1850 50  0001 C CNN
+F 1 "+3V3" H 6415 2173 50  0000 C CNN
+F 2 "" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2000 6400 2100
+Wire Wire Line
+	6400 2100 6300 2100
+Wire Wire Line
+	6300 2300 6400 2300
+Wire Wire Line
+	6400 2300 6400 2200
+Connection ~ 6400 2100
+Wire Wire Line
+	6300 2200 6400 2200
+Connection ~ 6400 2200
+Wire Wire Line
+	6400 2200 6400 2100
+Connection ~ 6400 2300
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5E38D62C
+P 6700 2000
+F 0 "#PWR?" H 6700 1850 50  0001 C CNN
+F 1 "+3.3VA" H 6715 2173 50  0000 C CNN
+F 2 "" H 6700 2000 50  0001 C CNN
+F 3 "" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 5100 0    50   ~ 0
+AUXIO19
+Text Notes 3500 5000 0    50   ~ 0
+AUXIO20
+Text Notes 3500 4900 0    50   ~ 0
+AUXIO21
+Text Notes 3500 4800 0    50   ~ 0
+AUXIO22
+Text Notes 3500 4700 0    50   ~ 0
+AUXIO23
+Text Notes 3500 4600 0    50   ~ 0
+AUXIO24
+Text Notes 3500 4500 0    50   ~ 0
+AUXIO25
+Text Notes 3500 4400 0    50   ~ 0
+AUXIO26
+Text Notes 3500 3800 0    50   ~ 0
+TDI
+Text Notes 3500 3700 0    50   ~ 0
+TDO
+Wire Wire Line
+	4500 4100 4900 4100
+Wire Wire Line
+	4500 4000 4900 4000
+Wire Wire Line
+	4500 3900 4900 3900
+Text Label 4500 3900 0    50   ~ 0
+LCD_RS
+Text Label 4500 4000 0    50   ~ 0
+LCD_RW
+Text Label 4500 4100 0    50   ~ 0
+LCD_E
+Wire Wire Line
+	6700 4500 6300 4500
+Wire Wire Line
+	6700 4600 6300 4600
+Text Label 4100 3700 0    50   ~ 0
+JTAG_TDO
+Text Label 4100 3800 0    50   ~ 0
+JTAG_TDI
+Wire Wire Line
+	4900 3700 4100 3700
+Wire Wire Line
+	4100 3800 4900 3800
+Text HLabel 1200 1000 0    50   Input ~ 0
+JTAG
+Entry Wire Line
+	1300 1000 1400 1100
+Entry Wire Line
+	1300 1100 1400 1200
+Entry Wire Line
+	1300 1200 1400 1300
+Entry Wire Line
+	1300 1300 1400 1400
+Wire Bus Line
+	1300 1000 1200 1000
+Text Label 1400 1200 0    50   ~ 0
+JTAG_TMS
+Text Label 1400 1100 0    50   ~ 0
+JTAG_TCK
+Text Label 1400 1400 0    50   ~ 0
+JTAG_TDI
+Text Label 1400 1300 0    50   ~ 0
+JTAG_TDO
+Wire Wire Line
+	1800 1100 1400 1100
+Wire Wire Line
+	1800 1200 1400 1200
+Wire Wire Line
+	1800 1400 1400 1400
+Wire Wire Line
+	1800 1300 1400 1300
+Text Label 6300 4100 0    50   ~ 0
+RF_P
+Text Label 6300 4200 0    50   ~ 0
+RF_N
+Wire Wire Line
+	6500 4100 6300 4100
+Wire Wire Line
+	6500 4200 6300 4200
+Text Label 1400 1900 0    50   ~ 0
+RF_P
+Text Label 1400 2000 0    50   ~ 0
+RF_N
+Wire Wire Line
+	1600 1900 1400 1900
+Wire Wire Line
+	1600 2000 1400 2000
+Text HLabel 1200 1800 0    50   Input ~ 0
+RF
+Wire Bus Line
+	1200 1800 1300 1800
+Entry Wire Line
+	1300 1800 1400 1900
+Entry Wire Line
+	1300 1900 1400 2000
+Wire Bus Line
+	1300 1800 1300 1900
+Text Label 7000 4900 0    50   ~ 0
+~RESET
+Wire Wire Line
+	7300 4900 6900 4900
+Wire Wire Line
+	6400 3300 6600 3300
+Wire Wire Line
+	6600 3500 6300 3500
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 5E34C40F
+P 6600 3400
+F 0 "Y?" V 6554 3488 50  0000 L CNN
+F 1 "32.768kHz" V 6650 3500 50  0000 L CNN
+F 2 "" H 6600 3400 50  0001 C CNN
+F 3 "~" H 6600 3400 50  0001 C CNN
+	1    6600 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4ADAF3
+P 6800 4000
+F 0 "#PWR?" H 6800 3750 50  0001 C CNN
+F 1 "GND" H 6805 3827 50  0000 C CNN
+F 2 "" H 6800 4000 50  0001 C CNN
+F 3 "" H 6800 4000 50  0001 C CNN
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24_Small Y?
+U 1 1 5E4AE193
+P 6800 3800
+F 0 "Y?" V 6754 3944 50  0000 L CNN
+F 1 "FA-238_48M" V 6845 3944 50  0000 L CNN
+F 2 "" H 6800 3800 50  0001 C CNN
+F 3 "~" H 6800 3800 50  0001 C CNN
+	1    6800 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3700 6300 3700
+Wire Wire Line
+	6800 3900 6400 3900
+Wire Wire Line
+	6400 3900 6400 3800
+Wire Wire Line
+	6400 3800 6300 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5E4B8F51
+P 7900 3500
+F 0 "#PWR?" H 7900 3250 50  0001 C CNN
+F 1 "GND" H 7905 3327 50  0000 C CNN
+F 2 "" H 7900 3500 50  0001 C CNN
+F 3 "" H 7900 3500 50  0001 C CNN
+	1    7900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3300 7400 3300
+Connection ~ 6600 3300
+Wire Wire Line
+	6600 3500 7400 3500
+Connection ~ 6600 3500
+Connection ~ 7900 3500
+Wire Wire Line
+	6800 4000 6700 4000
+Wire Wire Line
+	6700 4000 6700 3800
+Wire Wire Line
+	6800 4000 6900 4000
+Wire Wire Line
+	6900 4000 6900 3800
+Connection ~ 6800 4000
+Text Notes 6700 3600 0    50   ~ 0
+NEED FOOTPRINT
+Text Notes 7000 4100 0    50   ~ 0
+CHECK\nFOOTPRINT
+Text Notes 8300 3500 0    50   ~ 0
+CHECK LOAD CAPS
+$Comp
+L Device:C_Small C?
+U 1 1 5E50AC77
+P 7000 2100
+F 0 "C?" V 6950 2200 50  0000 C CNN
+F 1 "0.1uF" V 7050 2250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E50B06B
+P 7000 2300
+F 0 "C?" V 6950 2400 50  0000 C CNN
+F 1 "0.1uF" V 7050 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2300 50  0001 C CNN
+F 3 "~" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E50B214
+P 7300 2200
+F 0 "C?" V 7250 2300 50  0000 C CNN
+F 1 "0.1uF" V 7350 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 2200 50  0001 C CNN
+F 3 "~" H 7300 2200 50  0001 C CNN
+	1    7300 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 2100 6400 2100
+Wire Wire Line
+	7200 2200 6400 2200
+Wire Wire Line
+	6900 2300 6400 2300
+Wire Wire Line
+	7600 2900 7600 2700
+Wire Wire Line
+	7600 2100 7100 2100
+Connection ~ 7600 2900
+Wire Wire Line
+	7600 2200 7400 2200
+Connection ~ 7600 2200
+Wire Wire Line
+	7600 2200 7600 2100
+Wire Wire Line
+	7600 2300 7100 2300
+Connection ~ 7600 2300
+Wire Wire Line
+	7600 2300 7600 2200
+$Comp
+L Device:C_Small C?
+U 1 1 5E54B541
+P 7300 2600
+F 0 "C?" V 7250 2700 50  0000 C CNN
+F 1 "0.1uF" V 7350 2750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 2600 50  0001 C CNN
+F 3 "~" H 7300 2600 50  0001 C CNN
+	1    7300 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E54B8CA
+P 7000 2700
+F 0 "C?" V 6950 2800 50  0000 C CNN
+F 1 "0.1uF" V 7050 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 2900 7600 2900
+Wire Wire Line
+	6700 2000 6700 2600
+Connection ~ 6700 2600
+Wire Wire Line
+	6300 2600 6700 2600
+Wire Wire Line
+	6700 2700 6700 2600
+Wire Wire Line
+	6300 2700 6700 2700
+Wire Wire Line
+	7200 2600 6700 2600
+Wire Wire Line
+	6700 2700 6900 2700
+Connection ~ 6700 2700
+Wire Wire Line
+	7400 2600 7600 2600
+Connection ~ 7600 2600
+Wire Wire Line
+	7100 2700 7600 2700
+Connection ~ 7600 2700
+Wire Wire Line
+	7600 2700 7600 2600
+Wire Wire Line
+	6300 2900 6900 2900
+Wire Wire Line
+	7100 2900 7600 2900
+$Comp
+L pandora:CC2652R U?
+U 1 1 5E2BBC74
+P 5600 3600
+F 0 "U?" H 5600 5365 50  0000 C CNN
+F 1 "CC2652R" H 5600 5274 50  0000 C CNN
+F 2 "pandora:Texas_RGZ0048A" H 5600 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cc2652r.pdf" H 5600 3650 50  0001 C CNN
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 3100
+Wire Wire Line
+	7600 2300 7600 2400
+$Comp
+L Device:C_Small C?
+U 1 1 5E5C0136
+P 7300 2400
+F 0 "C?" V 7250 2500 50  0000 C CNN
+F 1 "0.1uF" V 7350 2550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 2400 50  0001 C CNN
+F 3 "~" H 7300 2400 50  0001 C CNN
+	1    7300 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E5CB79C
+P 7000 2500
+F 0 "C?" V 6950 2600 50  0000 C CNN
+F 1 "22uF" V 7050 2650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2500 50  0001 C CNN
+F 3 "~" H 7000 2500 50  0001 C CNN
+	1    7000 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 2400 6400 2400
+Wire Wire Line
+	6900 2500 6900 2400
+Connection ~ 6900 2400
+Wire Wire Line
+	6900 2400 7200 2400
+Wire Wire Line
+	7400 2400 7600 2400
+Connection ~ 7600 2400
+Wire Wire Line
+	7600 2400 7600 2500
+Wire Wire Line
+	7100 2500 7600 2500
+Connection ~ 7600 2500
+Wire Wire Line
+	7600 2500 7600 2600
+Text Notes 7800 2500 0    50   ~ 0
+MAY NEED TO BE 1206
+Wire Wire Line
+	6400 2400 6400 2300
+Connection ~ 6400 2400
+Wire Wire Line
+	6400 2400 6900 2400
+Wire Wire Line
 	1800 5300 1400 5300
+Text Label 1400 5200 0    50   ~ 0
+SRV_PWM1
+Text Label 1400 5300 0    50   ~ 0
+SRV_PWM2
+Text Label 1400 5400 0    50   ~ 0
+SRV_PWM3
+Text Label 4100 4600 0    50   ~ 0
+SRV_PWM1
+Text Label 4100 4700 0    50   ~ 0
+SRV_PWM2
+Text Label 4100 4800 0    50   ~ 0
+SRV_PWM3
+Text Notes 1200 2300 0    50   ~ 0
+Keypad
+Text Notes 1200 3500 0    50   ~ 0
+LCD to MCU
+Text Notes 1200 5000 0    50   ~ 0
+Servo PWM out
+Text Notes 1200 5700 0    50   ~ 0
+Servo ADC input
+Text Notes 1200 6400 0    50   ~ 0
+IMU SPI
+Text Notes 1200 1700 0    50   ~ 0
+Radio
+Text Notes 1200 900  0    50   ~ 0
+JTAG interface
+Text Notes 4900 1600 0    100  ~ 20
+MICROCONTROLLER
+Text Notes 4000 6500 0    50   ~ 0
+TODO: ADD SUPERVISOR IC
 Wire Bus Line
-	1300 5000 1300 5200
+	1300 6500 1300 6700
 Wire Bus Line
-	1300 1500 1300 2200
+	1300 5100 1300 5300
 Wire Bus Line
-	1300 2500 1300 3500
+	1300 5800 1300 6000
 Wire Bus Line
-	1300 3800 1300 4700
+	1300 1000 1300 1300
+Wire Bus Line
+	1300 2400 1300 3100
+Wire Bus Line
+	1300 3600 1300 4600
 $EndSCHEMATC
