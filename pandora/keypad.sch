@@ -455,84 +455,22 @@ F 3 "~" H 6900 2700 50  0001 C CNN
 	1    6900 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E6033CA
-P 4500 4800
-AR Path="/5E2B9A47/5E6033CA" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E6033CA" Ref="R?"  Part="1" 
-F 0 "R?" H 4568 4846 50  0000 L CNN
-F 1 "100" H 4568 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 4800 50  0001 C CNN
-F 3 "~" H 4500 4800 50  0001 C CNN
-	1    4500 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E604D57
-P 5300 4800
-AR Path="/5E2B9A47/5E604D57" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E604D57" Ref="R?"  Part="1" 
-F 0 "R?" H 5368 4846 50  0000 L CNN
-F 1 "100" H 5368 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 4800 50  0001 C CNN
-F 3 "~" H 5300 4800 50  0001 C CNN
-	1    5300 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E605159
-P 6100 4800
-AR Path="/5E2B9A47/5E605159" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E605159" Ref="R?"  Part="1" 
-F 0 "R?" H 6168 4846 50  0000 L CNN
-F 1 "100" H 6168 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6100 4800 50  0001 C CNN
-F 3 "~" H 6100 4800 50  0001 C CNN
-	1    6100 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E605582
-P 6900 4800
-AR Path="/5E2B9A47/5E605582" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E605582" Ref="R?"  Part="1" 
-F 0 "R?" H 6968 4846 50  0000 L CNN
-F 1 "100" H 6968 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 4800 50  0001 C CNN
-F 3 "~" H 6900 4800 50  0001 C CNN
-	1    6900 4800
-	1    0    0    -1  
-$EndComp
-Text Label 3000 5000 0    50   ~ 0
+Text Label 3000 4800 0    50   ~ 0
 KPD_IN1
-Text Label 3000 5100 0    50   ~ 0
+Text Label 3000 4900 0    50   ~ 0
 KPD_IN2
-Text Label 3000 5200 0    50   ~ 0
+Text Label 3000 5000 0    50   ~ 0
 KPD_IN3
-Text Label 3000 5300 0    50   ~ 0
+Text Label 3000 5100 0    50   ~ 0
 KPD_IN4
 Wire Wire Line
-	4500 5000 4500 4900
+	3000 4800 4500 4800
 Wire Wire Line
-	3000 5000 4500 5000
+	3000 4900 5300 4900
 Wire Wire Line
-	5300 5100 5300 4900
+	3000 5000 6100 5000
 Wire Wire Line
-	3000 5100 5300 5100
-Wire Wire Line
-	6100 5200 6100 4900
-Wire Wire Line
-	3000 5200 6100 5200
-Wire Wire Line
-	6900 5300 6900 4900
-Wire Wire Line
-	3000 5300 6900 5300
-Wire Wire Line
-	4500 4700 4500 4400
+	3000 5100 6900 5100
 Connection ~ 4500 3200
 Wire Wire Line
 	4500 3200 4500 2800
@@ -558,8 +496,6 @@ Wire Wire Line
 	5300 4000 5300 4400
 Connection ~ 5300 4400
 Wire Wire Line
-	5300 4400 5300 4700
-Wire Wire Line
 	6100 2800 6100 3200
 Connection ~ 6100 3200
 Wire Wire Line
@@ -572,8 +508,6 @@ Wire Wire Line
 	6100 4000 6100 4400
 Connection ~ 6100 4400
 Wire Wire Line
-	6100 4400 6100 4700
-Wire Wire Line
 	6900 2800 6900 3200
 Connection ~ 6900 3200
 Wire Wire Line
@@ -585,8 +519,6 @@ Connection ~ 6900 4000
 Wire Wire Line
 	6900 4000 6900 4400
 Connection ~ 6900 4400
-Wire Wire Line
-	6900 4400 6900 4700
 Wire Wire Line
 	3600 3000 4300 3000
 Connection ~ 4300 3000
@@ -661,6 +593,14 @@ Wire Wire Line
 Wire Wire Line
 	6900 2500 6100 2500
 Connection ~ 6100 2500
+Wire Wire Line
+	4500 4400 4500 4800
+Wire Wire Line
+	5300 4400 5300 4900
+Wire Wire Line
+	6100 4400 6100 5000
+Wire Wire Line
+	6900 4400 6900 5100
 Wire Bus Line
 	1400 1000 1400 1700
 $EndSCHEMATC

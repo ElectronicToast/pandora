@@ -47,61 +47,6 @@ Text Label 1500 1900 0    50   ~ 0
 SRV_AIN2
 Text Label 1500 2000 0    50   ~ 0
 SRV_AIN3
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 1 1 5E637752
-P 4400 3100
-F 0 "U?" H 4400 3467 50  0000 C CNN
-F 1 "MCP6004" H 4400 3376 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4350 3200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4450 3300 50  0001 C CNN
-	1    4400 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 2 1 5E6389C7
-P 4400 3800
-F 0 "U?" H 4400 4167 50  0000 C CNN
-F 1 "MCP6004" H 4400 4076 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4350 3900 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4450 4000 50  0001 C CNN
-	2    4400 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 3 1 5E6395C6
-P 4400 4500
-F 0 "U?" H 4400 4867 50  0000 C CNN
-F 1 "MCP6004" H 4400 4776 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4350 4600 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4450 4700 50  0001 C CNN
-	3    4400 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 4 1 5E63A9E9
-P 4400 5400
-F 0 "U?" H 4400 5767 50  0000 C CNN
-F 1 "MCP6004" H 4400 5676 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4350 5500 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4450 5600 50  0001 C CNN
-	4    4400 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 5 1 5E63BE79
-P 7400 4100
-F 0 "U?" H 7358 4146 50  0000 L CNN
-F 1 "MCP6004" H 7358 4055 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7350 4200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7450 4300 50  0001 C CNN
-	5    7400 4100
-	1    0    0    -1  
-$EndComp
 Text Label 1500 1300 0    50   ~ 0
 SRV_FDBK2
 Text Label 1500 1400 0    50   ~ 0
@@ -113,79 +58,453 @@ Wire Wire Line
 Wire Wire Line
 	1500 1400 2000 1400
 $Comp
-L power:GND #PWR?
-U 1 1 5E65B7BC
-P 3800 5300
-F 0 "#PWR?" H 3800 5050 50  0001 C CNN
-F 1 "GND" H 3805 5127 50  0000 C CNN
-F 2 "" H 3800 5300 50  0001 C CNN
-F 3 "" H 3800 5300 50  0001 C CNN
-	1    3800 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 5400 4700 5400
-Wire Wire Line
-	4000 5500 4100 5500
-Text Notes 7400 4300 0    50   ~ 0
-SOIC-14
-Text Notes 7400 4400 0    50   ~ 0
-CHECK FOOTPRINT
-Wire Wire Line
-	4800 5400 4800 5700
-Wire Wire Line
-	4800 5700 4000 5700
-Wire Wire Line
-	4000 5700 4000 5500
-Wire Wire Line
-	3800 5300 4100 5300
-Text Notes 4200 5900 0    50   ~ 0
-UNUSED
-$Comp
 L Device:C_Small C?
 U 1 1 5E3DF409
-P 6900 4100
-F 0 "C?" H 6992 4146 50  0000 L CNN
-F 1 "0.1uF" H 6992 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 4100 50  0001 C CNN
-F 3 "~" H 6900 4100 50  0001 C CNN
-	1    6900 4100
+P 7400 4100
+F 0 "C?" H 7492 4146 50  0000 L CNN
+F 1 "0.1uF" H 7492 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 4100 50  0001 C CNN
+F 3 "~" H 7400 4100 50  0001 C CNN
+	1    7400 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5E3DF7A0
-P 7300 3800
-F 0 "#PWR?" H 7300 3650 50  0001 C CNN
-F 1 "+3V3" H 7315 3973 50  0000 C CNN
-F 2 "" H 7300 3800 50  0001 C CNN
-F 3 "" H 7300 3800 50  0001 C CNN
-	1    7300 3800
-	1    0    0    -1  
+L Device:R_Small_US R?
+U 1 1 5E369D1C
+P 3900 2000
+AR Path="/5E64A3EA/5E369D1C" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E369D1C" Ref="R?"  Part="1" 
+F 0 "R?" V 3695 2000 50  0000 C CNN
+F 1 "100" V 3786 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 2000 50  0001 C CNN
+F 3 "~" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7300 3800 6900 3800
-Wire Wire Line
-	6900 3800 6900 4000
-Connection ~ 7300 3800
-Wire Wire Line
-	6900 4200 6900 4400
-Wire Wire Line
-	6900 4400 7300 4400
+Text Notes 3400 2200 0    50   ~ 0
+FIND VALUES
 $Comp
-L power:GND #PWR?
-U 1 1 5E3E0ED4
-P 7300 4400
-F 0 "#PWR?" H 7300 4150 50  0001 C CNN
-F 1 "GND" H 7305 4227 50  0000 C CNN
-F 2 "" H 7300 4400 50  0001 C CNN
-F 3 "" H 7300 4400 50  0001 C CNN
-	1    7300 4400
+L Device:R_Small_US R?
+U 1 1 5E36D3A2
+P 4400 2700
+AR Path="/5E64A3EA/5E36D3A2" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E36D3A2" Ref="R?"  Part="1" 
+F 0 "R?" V 4195 2700 50  0000 C CNN
+F 1 "100" V 4286 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 2700 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	0    1    1    0   
+$EndComp
+Text Label 5200 1900 0    50   ~ 0
+SRV_AIN1
+Wire Wire Line
+	3300 2000 3800 2000
+$Comp
+L Device:C_Small C?
+U 1 1 5E479AEB
+P 7000 4100
+F 0 "C?" H 7092 4146 50  0000 L CNN
+F 1 "1uF" H 7092 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 4100 50  0001 C CNN
+F 3 "~" H 7000 4100 50  0001 C CNN
+	1    7000 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 7300 4400
-Wire Bus Line
-	1400 1700 1400 1900
+$Comp
+L Amplifier_Operational:MCP6001-OT U?
+U 1 1 5E47A8F0
+P 4500 1900
+F 0 "U?" H 4600 2050 50  0000 L CNN
+F 1 "MCP6001" H 4600 1750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4400 1700 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4500 2100 50  0001 C CNN
+	1    4500 1900
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 2200 0    50   ~ 0
+SOT-23-5
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E47C38B
+P 4400 2200
+F 0 "#PWR?" H 4400 1950 50  0001 C CNN
+F 1 "GNDA" H 4405 2027 50  0000 C CNN
+F 2 "" H 4400 2200 50  0001 C CNN
+F 3 "" H 4400 2200 50  0001 C CNN
+	1    4400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5E47CC9B
+P 4400 1600
+F 0 "#PWR?" H 4400 1450 50  0001 C CNN
+F 1 "+3.3VA" H 4415 1773 50  0000 C CNN
+F 2 "" H 4400 1600 50  0001 C CNN
+F 3 "" H 4400 1600 50  0001 C CNN
+	1    4400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E47D678
+P 7000 4300
+F 0 "#PWR?" H 7000 4050 50  0001 C CNN
+F 1 "GNDA" H 7005 4127 50  0000 C CNN
+F 2 "" H 7000 4300 50  0001 C CNN
+F 3 "" H 7000 4300 50  0001 C CNN
+	1    7000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5E47E207
+P 7000 3900
+F 0 "#PWR?" H 7000 3750 50  0001 C CNN
+F 1 "+3.3VA" H 7015 4073 50  0000 C CNN
+F 2 "" H 7000 3900 50  0001 C CNN
+F 3 "" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3900 7000 4000
+Wire Wire Line
+	7000 4200 7000 4300
+$Comp
+L Device:C_Small C?
+U 1 1 5E47EE68
+P 7800 4100
+F 0 "C?" H 7892 4146 50  0000 L CNN
+F 1 "0.1uF" H 7892 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4100 50  0001 C CNN
+F 3 "~" H 7800 4100 50  0001 C CNN
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E47F09B
+P 8200 4100
+F 0 "C?" H 8292 4146 50  0000 L CNN
+F 1 "0.1uF" H 8292 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4100 50  0001 C CNN
+F 3 "~" H 8200 4100 50  0001 C CNN
+	1    8200 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4300
+Connection ~ 7000 3900
+Wire Wire Line
+	7400 4000 7400 3900
+Connection ~ 7400 3900
+Wire Wire Line
+	7400 3900 7000 3900
+Wire Wire Line
+	7400 4200 7400 4300
+Connection ~ 7400 4300
+Wire Wire Line
+	7400 4300 7000 4300
+Wire Wire Line
+	7800 4000 7800 3900
+Wire Wire Line
+	7400 3900 7800 3900
+Connection ~ 7800 3900
+Wire Wire Line
+	7800 3900 8200 3900
+Wire Wire Line
+	7800 4200 7800 4300
+Connection ~ 7800 4300
+Wire Wire Line
+	7800 4300 7400 4300
+Wire Wire Line
+	8200 4000 8200 3900
+Wire Wire Line
+	8200 4200 8200 4300
+Wire Wire Line
+	8200 4300 7800 4300
+Wire Wire Line
+	4000 2000 4100 2000
+Wire Wire Line
+	4300 2700 4100 2700
+Wire Wire Line
+	4100 2700 4100 2000
+Connection ~ 4100 2000
+Wire Wire Line
+	4100 2000 4200 2000
+Wire Wire Line
+	5100 2700 5100 1900
+Text Label 3300 2000 0    50   ~ 0
+SRV_FDBK1
+Connection ~ 5100 1900
+Wire Wire Line
+	4800 1900 5100 1900
+Wire Wire Line
+	5100 1900 5600 1900
+Wire Wire Line
+	4500 2700 5100 2700
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E488142
+P 7500 1800
+AR Path="/5E2B9A47/5E488142" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E488142" Ref="R?"  Part="1" 
+F 0 "R?" H 7568 1846 50  0000 L CNN
+F 1 "10k" H 7568 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 1800 50  0001 C CNN
+F 3 "~" H 7500 1800 50  0001 C CNN
+	1    7500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E4884DF
+P 7500 2200
+AR Path="/5E2B9A47/5E4884DF" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E4884DF" Ref="R?"  Part="1" 
+F 0 "R?" H 7568 2246 50  0000 L CNN
+F 1 "10k" H 7568 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 2200 50  0001 C CNN
+F 3 "~" H 7500 2200 50  0001 C CNN
+	1    7500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5E488BBF
+P 7500 1700
+F 0 "#PWR?" H 7500 1550 50  0001 C CNN
+F 1 "+3.3VA" H 7515 1873 50  0000 C CNN
+F 2 "" H 7500 1700 50  0001 C CNN
+F 3 "" H 7500 1700 50  0001 C CNN
+	1    7500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E489483
+P 7500 2300
+F 0 "#PWR?" H 7500 2050 50  0001 C CNN
+F 1 "GNDA" H 7505 2127 50  0000 C CNN
+F 2 "" H 7500 2300 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2100 7500 2000
+Text Label 7600 2000 0    50   ~ 0
+VREF
+Wire Wire Line
+	7800 2000 7500 2000
+Connection ~ 7500 2000
+Wire Wire Line
+	7500 2000 7500 1900
+Text Label 3300 1600 0    50   ~ 0
+VREF
+Wire Wire Line
+	4200 1800 4100 1800
+Wire Wire Line
+	4100 1800 4100 1600
+Wire Wire Line
+	4100 1600 3300 1600
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E49C264
+P 3900 3600
+AR Path="/5E64A3EA/5E49C264" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E49C264" Ref="R?"  Part="1" 
+F 0 "R?" V 3695 3600 50  0000 C CNN
+F 1 "100" V 3786 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 3600 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	0    1    1    0   
+$EndComp
+Text Notes 3400 3800 0    50   ~ 0
+FIND VALUES
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E49C26F
+P 4400 4300
+AR Path="/5E64A3EA/5E49C26F" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E49C26F" Ref="R?"  Part="1" 
+F 0 "R?" V 4195 4300 50  0000 C CNN
+F 1 "100" V 4286 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 4300 50  0001 C CNN
+F 3 "~" H 4400 4300 50  0001 C CNN
+	1    4400 4300
+	0    1    1    0   
+$EndComp
+Text Label 5200 3500 0    50   ~ 0
+SRV_AIN2
+Wire Wire Line
+	3300 3600 3800 3600
+$Comp
+L Amplifier_Operational:MCP6001-OT U?
+U 1 1 5E49C27B
+P 4500 3500
+F 0 "U?" H 4600 3650 50  0000 L CNN
+F 1 "MCP6001" H 4600 3350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4400 3300 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4500 3700 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 3800 0    50   ~ 0
+SOT-23-5
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E49C286
+P 4400 3800
+F 0 "#PWR?" H 4400 3550 50  0001 C CNN
+F 1 "GNDA" H 4405 3627 50  0000 C CNN
+F 2 "" H 4400 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5E49C290
+P 4400 3200
+F 0 "#PWR?" H 4400 3050 50  0001 C CNN
+F 1 "+3.3VA" H 4415 3373 50  0000 C CNN
+F 2 "" H 4400 3200 50  0001 C CNN
+F 3 "" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3600 4100 3600
+Wire Wire Line
+	4300 4300 4100 4300
+Wire Wire Line
+	4100 4300 4100 3600
+Connection ~ 4100 3600
+Wire Wire Line
+	4100 3600 4200 3600
+Wire Wire Line
+	5100 4300 5100 3500
+Text Label 3300 3600 0    50   ~ 0
+SRV_FDBK2
+Connection ~ 5100 3500
+Wire Wire Line
+	4800 3500 5100 3500
+Wire Wire Line
+	5100 3500 5600 3500
+Wire Wire Line
+	4500 4300 5100 4300
+Text Label 3300 3200 0    50   ~ 0
+VREF
+Wire Wire Line
+	4200 3400 4100 3400
+Wire Wire Line
+	4100 3400 4100 3200
+Wire Wire Line
+	4100 3200 3300 3200
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E49EA5F
+P 3900 5200
+AR Path="/5E64A3EA/5E49EA5F" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E49EA5F" Ref="R?"  Part="1" 
+F 0 "R?" V 3695 5200 50  0000 C CNN
+F 1 "100" V 3786 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 5200 50  0001 C CNN
+F 3 "~" H 3900 5200 50  0001 C CNN
+	1    3900 5200
+	0    1    1    0   
+$EndComp
+Text Notes 3400 5400 0    50   ~ 0
+FIND VALUES
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E49EA6A
+P 4400 5900
+AR Path="/5E64A3EA/5E49EA6A" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E49EA6A" Ref="R?"  Part="1" 
+F 0 "R?" V 4195 5900 50  0000 C CNN
+F 1 "100" V 4286 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 5900 50  0001 C CNN
+F 3 "~" H 4400 5900 50  0001 C CNN
+	1    4400 5900
+	0    1    1    0   
+$EndComp
+Text Label 5200 5100 0    50   ~ 0
+SRV_AIN3
+Wire Wire Line
+	3300 5200 3800 5200
+$Comp
+L Amplifier_Operational:MCP6001-OT U?
+U 1 1 5E49EA76
+P 4500 5100
+F 0 "U?" H 4600 5250 50  0000 L CNN
+F 1 "MCP6001" H 4600 4950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4400 4900 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4500 5300 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 5400 0    50   ~ 0
+SOT-23-5
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E49EA81
+P 4400 5400
+F 0 "#PWR?" H 4400 5150 50  0001 C CNN
+F 1 "GNDA" H 4405 5227 50  0000 C CNN
+F 2 "" H 4400 5400 50  0001 C CNN
+F 3 "" H 4400 5400 50  0001 C CNN
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5E49EA8B
+P 4400 4800
+F 0 "#PWR?" H 4400 4650 50  0001 C CNN
+F 1 "+3.3VA" H 4415 4973 50  0000 C CNN
+F 2 "" H 4400 4800 50  0001 C CNN
+F 3 "" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5200 4100 5200
+Wire Wire Line
+	4300 5900 4100 5900
+Wire Wire Line
+	4100 5900 4100 5200
+Connection ~ 4100 5200
+Wire Wire Line
+	4100 5200 4200 5200
+Wire Wire Line
+	5100 5900 5100 5100
+Text Label 3300 5200 0    50   ~ 0
+SRV_FDBK3
+Connection ~ 5100 5100
+Wire Wire Line
+	4800 5100 5100 5100
+Wire Wire Line
+	5100 5100 5600 5100
+Wire Wire Line
+	4500 5900 5100 5900
+Text Label 3300 4800 0    50   ~ 0
+VREF
+Wire Wire Line
+	4200 5000 4100 5000
+Wire Wire Line
+	4100 5000 4100 4800
+Wire Wire Line
+	4100 4800 3300 4800
+Text Notes 3500 1100 0    100  ~ 20
+SERVO FEEDBACK SCALE
+Text Notes 7100 1100 0    100  ~ 20
+VREF DIVIDER
 Wire Bus Line
 	1400 1100 1400 1300
+Wire Bus Line
+	1400 1700 1400 1900
 $EndSCHEMATC

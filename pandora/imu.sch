@@ -18,34 +18,23 @@ IMU
 Wire Bus Line
 	1200 1300 1300 1300
 Entry Wire Line
-	1300 1300 1400 1400
+	1300 1600 1400 1700
 Entry Wire Line
 	1300 1400 1400 1500
 Text Label 1400 1500 0    50   ~ 0
 IMU_MOSI
 Wire Wire Line
-	1800 1400 1400 1400
+	1800 1700 1400 1700
 Wire Wire Line
 	1800 1500 1400 1500
 Text Label 1400 1600 0    50   ~ 0
 IMU_MISO
-Text Label 1400 1400 0    50   ~ 0
+Text Label 1400 1700 0    50   ~ 0
 IMU_~CS
 Entry Wire Line
 	1300 1500 1400 1600
 Wire Wire Line
 	1800 1600 1400 1600
-$Comp
-L Sensor_Motion:MPU-9250 U?
-U 1 1 5E31F4A7
-P 5500 4000
-F 0 "U?" H 5700 3200 50  0000 C CNN
-F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
-F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5500 3000 50  0001 C CNN
-F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
-	1    5500 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E648F4E
@@ -72,6 +61,188 @@ Wire Wire Line
 	4700 4900 4700 4200
 Wire Wire Line
 	4700 4200 4800 4200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E4BA111
+P 5300 2900
+F 0 "#PWR?" H 5300 2750 50  0001 C CNN
+F 1 "+3V3" H 5315 3073 50  0000 C CNN
+F 2 "" H 5300 2900 50  0001 C CNN
+F 3 "" H 5300 2900 50  0001 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E4BA3F1
+P 5700 2900
+F 0 "#PWR?" H 5700 2750 50  0001 C CNN
+F 1 "+3V3" H 5715 3073 50  0000 C CNN
+F 2 "" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E4BB60C
+P 5900 3000
+F 0 "C?" V 5850 3100 50  0000 C CNN
+F 1 "0.1uF" V 5950 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3000 50  0001 C CNN
+F 3 "~" H 5900 3000 50  0001 C CNN
+	1    5900 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E4BB8D3
+P 5000 3000
+AR Path="/5E2B9A47/5E4BB8D3" Ref="C?"  Part="1" 
+AR Path="/5E2F4223/5E4BB8D3" Ref="C?"  Part="1" 
+F 0 "C?" V 4950 3100 50  0000 C CNN
+F 1 "10nF" V 5050 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E4BC0BD
+P 6600 4200
+AR Path="/5E2B9A47/5E4BC0BD" Ref="C?"  Part="1" 
+AR Path="/5E2F4223/5E4BC0BD" Ref="C?"  Part="1" 
+F 0 "C?" V 6550 4300 50  0000 C CNN
+F 1 "0.1uF" V 6650 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 4200 50  0001 C CNN
+F 3 "~" H 6600 4200 50  0001 C CNN
+	1    6600 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4200 6200 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5E4BC21B
+P 7000 4200
+F 0 "#PWR?" H 7000 3950 50  0001 C CNN
+F 1 "GND" H 7005 4027 50  0000 C CNN
+F 2 "" H 7000 4200 50  0001 C CNN
+F 3 "" H 7000 4200 50  0001 C CNN
+	1    7000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4200 6700 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5E4BC696
+P 6300 3000
+F 0 "#PWR?" H 6300 2750 50  0001 C CNN
+F 1 "GND" H 6305 2827 50  0000 C CNN
+F 2 "" H 6300 3000 50  0001 C CNN
+F 3 "" H 6300 3000 50  0001 C CNN
+	1    6300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3000 6000 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5E4BCA87
+P 4700 3000
+F 0 "#PWR?" H 4700 2750 50  0001 C CNN
+F 1 "GND" H 4705 2827 50  0000 C CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3000 4900 3000
+Wire Wire Line
+	5400 3100 5400 3000
+Wire Wire Line
+	5400 3000 5300 3000
+Wire Wire Line
+	5300 3000 5300 2900
+Wire Wire Line
+	5300 3000 5100 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5600 3100 5600 3000
+Wire Wire Line
+	5600 3000 5700 3000
+Wire Wire Line
+	5700 3000 5700 2900
+Wire Wire Line
+	5700 3000 5800 3000
+Connection ~ 5700 3000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E4BDDCC
+P 6400 4100
+F 0 "#PWR?" H 6400 3950 50  0001 C CNN
+F 1 "+3V3" H 6415 4273 50  0000 C CNN
+F 2 "" H 6400 4100 50  0001 C CNN
+F 3 "" H 6400 4100 50  0001 C CNN
+	1    6400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4100 6400 4300
+Wire Wire Line
+	6400 4300 6200 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5E4BF532
+P 6400 4400
+F 0 "#PWR?" H 6400 4150 50  0001 C CNN
+F 1 "GND" H 6405 4227 50  0000 C CNN
+F 2 "" H 6400 4400 50  0001 C CNN
+F 3 "" H 6400 4400 50  0001 C CNN
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4400 6200 4400
+$Comp
+L Sensor_Motion:MPU-9250 U?
+U 1 1 5E31F4A7
+P 5500 4000
+F 0 "U?" H 5700 3200 50  0000 C CNN
+F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5500 3000 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 4000
+NoConn ~ 6200 3900
+NoConn ~ 6200 3700
+Text Label 4400 3700 0    50   ~ 0
+IMU_MOSI
+Wire Wire Line
+	4800 4000 4400 4000
+Wire Wire Line
+	4800 3700 4400 3700
+Text Label 4400 3800 0    50   ~ 0
+IMU_MISO
+Text Label 4400 4000 0    50   ~ 0
+IMU_~CS
+Wire Wire Line
+	4800 3800 4400 3800
+Entry Wire Line
+	1300 1300 1400 1400
+Text Label 1400 1400 0    50   ~ 0
+IMU_SCK
+Wire Wire Line
+	1800 1400 1400 1400
+Text Label 4400 3900 0    50   ~ 0
+IMU_SCK
+Wire Wire Line
+	4400 3900 4800 3900
 Wire Bus Line
-	1300 1300 1300 1500
+	1300 1300 1300 1600
 $EndSCHEMATC
