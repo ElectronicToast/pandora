@@ -61,4 +61,8 @@ Wire Wire Line
 	1400 1600 1800 1600
 Wire Wire Line
 	1800 1400 1400 1400
+Text Notes 4000 4000 0    50   ~ 0
+TODO: ADD LDO
+Text Notes 4000 3000 0    50   ~ 0
+TODO: ADD BUCKBOOST
 $EndSCHEMATC
