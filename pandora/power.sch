@@ -156,4 +156,32 @@ Text Notes 2900 2000 0    50   ~ 0
 DIGITAL
 Text Notes 3500 2000 0    50   ~ 0
 SERVO
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5E4D93A9
+P 1700 3100
+F 0 "BT?" H 1818 3196 50  0000 L CNN
+F 1 "AA ALKALINE/NIMH" H 1818 3105 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 1700 3160 50  0001 C CNN
+F 3 "~" V 1700 3160 50  0001 C CNN
+	1    1700 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 3300 0    50   ~ 0
+KEYSTONE 2460
+Text Notes 1900 3400 0    50   ~ 0
+CHECK FOOTPRINT
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5E4D98FC
+P 1700 3600
+F 0 "BT?" H 1818 3696 50  0000 L CNN
+F 1 "AA ALKALINE/NIMH" H 1818 3605 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 1700 3660 50  0001 C CNN
+F 3 "~" V 1700 3660 50  0001 C CNN
+	1    1700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3400 1700 3200
 $EndSCHEMATC
