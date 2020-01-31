@@ -801,7 +801,7 @@ Entry Wire Line
 	1300 1300 1400 1400
 Wire Wire Line
 	1900 1400 1400 1400
-Text Label 2700 6500 0    50   ~ 0
+Text Label 4400 6600 0    50   ~ 0
 JTAG_~RESET
 $Comp
 L Switch:SW_Push SW?
@@ -830,11 +830,9 @@ Wire Wire Line
 Wire Wire Line
 	3100 7000 3200 7000
 Wire Wire Line
-	3200 6500 2700 6500
+	4900 6600 4400 6600
 Text Notes 2800 7200 0    50   ~ 0
 FIND FOOTPRINT
-Wire Wire Line
-	3200 7000 3200 6500
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E38EEC4
@@ -846,9 +844,6 @@ F 3 "" H 3200 6200 50  0001 C CNN
 	1    3200 6200
 	1    0    0    -1  
 $EndComp
-Connection ~ 3200 6500
-Wire Wire Line
-	3200 6400 3200 6500
 $Comp
 L Device:R_Small_US R?
 U 1 1 5E38EEBA
@@ -1055,6 +1050,10 @@ Wire Wire Line
 Connection ~ 9200 2100
 Wire Wire Line
 	7900 3700 7900 3500
+Connection ~ 7900 3700
+Connection ~ 7900 3500
+Wire Wire Line
+	3200 6400 3200 7000
 Wire Bus Line
 	1300 5100 1300 5300
 Wire Bus Line
@@ -1067,6 +1066,4 @@ Wire Bus Line
 	1300 2400 1300 3100
 Wire Bus Line
 	1300 3600 1300 4600
-Connection ~ 7900 3700
-Connection ~ 7900 3500
 $EndSCHEMATC
