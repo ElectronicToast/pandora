@@ -795,18 +795,6 @@ F 3 "" H 7600 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 2900 7600 2900
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E3639BB
-P 7900 3500
-F 0 "#PWR?" H 7900 3250 50  0001 C CNN
-F 1 "GNDD" H 7904 3345 50  0000 C CNN
-F 2 "" H 7900 3500 50  0001 C CNN
-F 3 "" H 7900 3500 50  0001 C CNN
-	1    7900 3500
-	1    0    0    -1  
-$EndComp
-Connection ~ 7900 3500
 Text Label 1400 1400 0    50   ~ 0
 JTAG_~RESET
 Entry Wire Line
@@ -939,11 +927,6 @@ Text Label 6300 3100 0    50   ~ 0
 DCDC_SW
 Wire Wire Line
 	6700 3100 6300 3100
-Text Label 8800 2100 0    50   ~ 0
-DCDC_SW
-Wire Wire Line
-	9200 2100 8800 2100
-Connection ~ 9200 2100
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E46A4C0
@@ -1009,6 +992,69 @@ Text Label 1400 6600 0    50   ~ 0
 IMU_SCK
 Wire Wire Line
 	1800 6600 1400 6600
+$Comp
+L Device:C_Small C?
+U 1 1 5E4E1A1F
+P 7500 3900
+F 0 "C?" V 7550 3800 50  0000 C CNN
+F 1 "12pF" V 7450 3750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3900 50  0001 C CNN
+F 3 "~" H 7500 3900 50  0001 C CNN
+	1    7500 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E4E1A29
+P 7500 3700
+F 0 "C?" V 7450 3800 50  0000 C CNN
+F 1 "12pF" V 7550 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3700 50  0001 C CNN
+F 3 "~" H 7500 3700 50  0001 C CNN
+	1    7500 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3900 7600 3900
+Wire Wire Line
+	7600 3700 7900 3700
+Wire Wire Line
+	7900 3700 7900 3900
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E4E1A36
+P 7900 3900
+F 0 "#PWR?" H 7900 3650 50  0001 C CNN
+F 1 "GNDD" H 7904 3745 50  0000 C CNN
+F 2 "" H 7900 3900 50  0001 C CNN
+F 3 "" H 7900 3900 50  0001 C CNN
+	1    7900 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 3900
+Wire Wire Line
+	7400 3700 6800 3700
+Connection ~ 6800 3700
+Wire Wire Line
+	7400 3900 6800 3900
+Connection ~ 6800 3900
+NoConn ~ 6700 3100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E501250
+P 9200 2000
+F 0 "#PWR?" H 9200 1850 50  0001 C CNN
+F 1 "+3V3" H 9215 2173 50  0000 C CNN
+F 2 "" H 9200 2000 50  0001 C CNN
+F 3 "" H 9200 2000 50  0001 C CNN
+	1    9200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2000 9200 2100
+Connection ~ 9200 2100
+Wire Wire Line
+	7900 3700 7900 3500
 Wire Bus Line
 	1300 5100 1300 5300
 Wire Bus Line
@@ -1021,4 +1067,6 @@ Wire Bus Line
 	1300 2400 1300 3100
 Wire Bus Line
 	1300 3600 1300 4600
+Connection ~ 7900 3700
+Connection ~ 7900 3500
 $EndSCHEMATC
