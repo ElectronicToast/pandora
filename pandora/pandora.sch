@@ -668,28 +668,35 @@ B1 CC FC 14 A2 18 FF 1F FC 9A E6 91 F7 03 D4 D2 00 00 00 00 49 45 4E 44 AE 42 60
 EndData
 $EndBitmap
 $Sheet
-S 8000 2000 1000 1000
+S 7900 2500 900  1500
 U 5E2BAC38
 F0 "connectors" 50
 F1 "connectors.sch" 50
+F2 "JTAG" I L 7900 3900 50 
+F3 "LCD_OUT_CNTR" I L 7900 2800 50 
+F4 "LCD_OUT_DB" I L 7900 2700 50 
+F5 "LCD_OUT_CTRL" I L 7900 2600 50 
+F6 "LCD_OUT_BL" I L 7900 3000 50 
+F7 "SERVO_PWM" I L 7900 3500 50 
+F8 "SERVO_FDBK" I L 7900 3400 50 
 $EndSheet
 $Sheet
-S 4900 2000 500  200 
+S 5100 2000 500  200 
 U 5E2BAC7C
 F0 "keypad" 50
 F1 "keypad.sch" 50
-F2 "KEYPAD" I L 4900 2100 50 
+F2 "KEYPAD" I L 5100 2100 50 
 $EndSheet
 $Sheet
-S 4900 2500 1300 400 
+S 5300 2500 1300 400 
 U 5E2BACD0
 F0 "lcd" 50
 F1 "lcd.sch" 50
-F2 "LCD_CTRL" I L 4900 2600 50 
-F3 "LCD_OUT_CTRL" I R 6200 2600 50 
-F4 "LCD_OUT_DB" I R 6200 2700 50 
-F5 "LCD_DB" I L 4900 2700 50 
-F6 "LCD_OUT_CNTR" I R 6200 2800 50 
+F2 "LCD_CTRL" I L 5300 2600 50 
+F3 "LCD_OUT_CTRL" I R 6600 2600 50 
+F4 "LCD_OUT_DB" I R 6600 2700 50 
+F5 "LCD_DB" I L 5300 2700 50 
+F6 "LCD_OUT_CNTR" I R 6600 2800 50 
 $EndSheet
 $Sheet
 S 4900 3900 500  200 
@@ -718,13 +725,14 @@ F0 "mechanical" 50
 F1 "mechanical.sch" 50
 $EndSheet
 $Sheet
-S 6000 3900 600  600 
+S 6000 3900 1000 600 
 U 5E341789
 F0 "led_speaker" 50
 F1 "led_speaker.sch" 50
 F2 "STATLED" I L 6000 4200 50 
 F3 "SPEAKER" I L 6000 4400 50 
 F4 "LCD_BL" I L 6000 4000 50 
+F5 "LCD_OUT_BL" I R 7000 4000 50 
 $EndSheet
 $Sheet
 S 4900 3300 700  200 
@@ -766,19 +774,19 @@ Wire Bus Line
 Wire Bus Line
 	4400 3200 4400 2700
 Wire Bus Line
-	4400 2700 4900 2700
+	4400 2700 5300 2700
 Wire Bus Line
 	4100 3100 4300 3100
 Wire Bus Line
 	4300 3100 4300 2600
 Wire Bus Line
-	4300 2600 4900 2600
+	4300 2600 5300 2600
 Wire Bus Line
 	4100 2900 4200 2900
 Wire Bus Line
 	4200 2900 4200 2100
 Wire Bus Line
-	4200 2100 4900 2100
+	4200 2100 5100 2100
 Wire Wire Line
 	6000 4200 4100 4200
 Wire Wire Line
@@ -794,9 +802,57 @@ Wire Bus Line
 Wire Bus Line
 	5800 4000 6000 4000
 Text Notes 4500 2600 0    50   ~ 0
-Control
+Control [3V3]
 Text Notes 4500 2700 0    50   ~ 0
-Data
+Data [3V3]
 Text Notes 4500 3100 0    50   ~ 0
 RGB Backlight
+Wire Bus Line
+	6600 2600 7900 2600
+Wire Bus Line
+	6600 2700 7900 2700
+Wire Wire Line
+	6600 2800 7900 2800
+Text Notes 6700 2800 0    50   ~ 0
+Contrast Adjust
+Text Notes 6700 2700 0    50   ~ 0
+Data [5V]
+Text Notes 6700 2600 0    50   ~ 0
+Control [5V]
+Wire Bus Line
+	7900 3000 7100 3000
+Wire Bus Line
+	7100 3000 7100 4000
+Wire Bus Line
+	7100 4000 7000 4000
+Wire Wire Line
+	7900 3400 5600 3400
+Wire Wire Line
+	7900 3500 7400 3500
+Wire Wire Line
+	7400 3500 7400 3700
+Wire Wire Line
+	7400 3700 4100 3700
+Wire Bus Line
+	4100 4800 7400 4800
+Wire Bus Line
+	7400 4800 7400 3900
+Wire Bus Line
+	7400 3900 7900 3900
+Text Notes 4500 4800 0    50   ~ 0
+JTAG Debug / Reset
+Text Notes 4500 2100 0    50   ~ 0
+Keypad I/O
+Text Notes 7200 3000 0    50   ~ 0
+Low side drive
+Text Notes 5900 3400 0    50   ~ 0
+Feedback potentiometer
+Text Notes 4200 3600 0    50   ~ 0
+ADC input
+Text Notes 4200 3700 0    50   ~ 0
+PWM output
+Text Notes 4200 4200 0    50   ~ 0
+Status LED
+Text Notes 4200 4400 0    50   ~ 0
+Speaker out / PWM
 $EndSCHEMATC

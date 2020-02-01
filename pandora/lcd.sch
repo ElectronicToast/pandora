@@ -33,43 +33,15 @@ Entry Wire Line
 	1300 2400 1400 2500
 Entry Wire Line
 	1300 2500 1400 2600
-Text Label 1400 1500 0    50   ~ 0
+Text Label 1400 1600 0    50   ~ 0
 LCD_RW
 Text Label 1400 1900 0    50   ~ 0
-LCD_DB1
-Text Label 1400 2000 0    50   ~ 0
-LCD_DB2
-Text Label 1400 2100 0    50   ~ 0
-LCD_DB3
-Text Label 1400 2200 0    50   ~ 0
-LCD_DB4
-Text Label 1400 2300 0    50   ~ 0
-LCD_DB5
-Text Label 1400 2400 0    50   ~ 0
-LCD_DB6
-Text Label 1400 2500 0    50   ~ 0
-LCD_DB7
-Text Label 1400 2600 0    50   ~ 0
-LCD_DB8
+LCD_DB0
 Wire Bus Line
 	1200 1400 1300 1400
 Wire Wire Line
 	1800 1900 1400 1900
-Wire Wire Line
-	1800 2000 1400 2000
-Wire Wire Line
-	1800 2100 1400 2100
-Wire Wire Line
-	1800 2200 1400 2200
-Wire Wire Line
-	1800 2300 1400 2300
-Wire Wire Line
-	1800 2400 1400 2400
-Wire Wire Line
-	1800 2500 1400 2500
-Wire Wire Line
-	1800 2600 1400 2600
-Text Label 1400 1600 0    50   ~ 0
+Text Label 1400 1500 0    50   ~ 0
 LCD_E
 Text Label 1400 1700 0    50   ~ 0
 LCD_RS
@@ -95,11 +67,11 @@ Entry Wire Line
 	1300 4100 1400 4200
 Entry Wire Line
 	1300 4200 1400 4300
-Text Label 1400 3200 0    50   ~ 0
+Text Label 1400 3300 0    50   ~ 0
 LCD_OUT_RW
 Wire Bus Line
 	1200 3100 1300 3100
-Text Label 1400 3300 0    50   ~ 0
+Text Label 1400 3200 0    50   ~ 0
 LCD_OUT_E
 Text Label 1400 3400 0    50   ~ 0
 LCD_OUT_RS
@@ -107,28 +79,22 @@ Entry Wire Line
 	1300 3100 1400 3200
 Entry Wire Line
 	1300 3200 1400 3300
-Text Label 1400 3600 0    50   ~ 0
-LCD_OUT_DB1
-Text Label 1400 3700 0    50   ~ 0
-LCD_OUT_DB2
 Text Label 1400 3800 0    50   ~ 0
-LCD_OUT_DB3
+LCD_OUT_DB2
 Text Label 1400 3900 0    50   ~ 0
-LCD_OUT_DB4
+LCD_OUT_DB3
 Text Label 1400 4000 0    50   ~ 0
-LCD_OUT_DB5
+LCD_OUT_DB4
 Text Label 1400 4100 0    50   ~ 0
-LCD_OUT_DB6
+LCD_OUT_DB5
 Text Label 1400 4200 0    50   ~ 0
-LCD_OUT_DB7
+LCD_OUT_DB6
 Text Label 1400 4300 0    50   ~ 0
-LCD_OUT_DB8
+LCD_OUT_DB7
+Text Label 1400 3600 0    50   ~ 0
+LCD_OUT_DB0
 Wire Wire Line
 	2000 3200 1400 3200
-Wire Wire Line
-	2000 3600 1400 3600
-Wire Wire Line
-	2000 3700 1400 3700
 Wire Wire Line
 	2000 3800 1400 3800
 Wire Wire Line
@@ -141,6 +107,8 @@ Wire Wire Line
 	2000 4200 1400 4200
 Wire Wire Line
 	2000 4300 1400 4300
+Wire Wire Line
+	2000 3600 1400 3600
 $Comp
 L power:+5V #PWR?
 U 1 1 5E640121
@@ -185,24 +153,20 @@ Wire Wire Line
 	4900 3000 4900 3100
 Wire Wire Line
 	5600 3000 5300 3000
-Text Label 5400 3400 0    50   ~ 0
-LCD_DB1
 Text Label 5400 3500 0    50   ~ 0
-LCD_DB2
+LCD_DB1
 Text Label 5400 3600 0    50   ~ 0
-LCD_DB3
+LCD_DB2
 Text Label 5400 3700 0    50   ~ 0
-LCD_DB4
+LCD_DB3
 Text Label 5400 3800 0    50   ~ 0
-LCD_DB5
+LCD_DB4
 Text Label 5400 3900 0    50   ~ 0
-LCD_DB6
+LCD_DB5
 Text Label 5400 4000 0    50   ~ 0
-LCD_DB7
+LCD_DB6
 Text Label 5400 4100 0    50   ~ 0
-LCD_DB8
-Wire Wire Line
-	5800 3400 5400 3400
+LCD_DB7
 Wire Wire Line
 	5800 3500 5400 3500
 Wire Wire Line
@@ -217,24 +181,20 @@ Wire Wire Line
 	5800 4000 5400 4000
 Wire Wire Line
 	5800 4100 5400 4100
-Text Label 3800 3400 0    50   ~ 0
-LCD_OUT_DB1
 Text Label 3800 3500 0    50   ~ 0
-LCD_OUT_DB2
+LCD_OUT_DB1
 Text Label 3800 3600 0    50   ~ 0
-LCD_OUT_DB3
+LCD_OUT_DB2
 Text Label 3800 3700 0    50   ~ 0
-LCD_OUT_DB4
+LCD_OUT_DB3
 Text Label 3800 3800 0    50   ~ 0
-LCD_OUT_DB5
+LCD_OUT_DB4
 Text Label 3800 3900 0    50   ~ 0
-LCD_OUT_DB6
+LCD_OUT_DB5
 Text Label 3800 4000 0    50   ~ 0
-LCD_OUT_DB7
+LCD_OUT_DB6
 Text Label 3800 4100 0    50   ~ 0
-LCD_OUT_DB8
-Wire Wire Line
-	4400 3400 3800 3400
+LCD_OUT_DB7
 Wire Wire Line
 	4400 3500 3800 3500
 Wire Wire Line
@@ -278,9 +238,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 4400 4400 4400
 Text Label 1400 4500 0    50   ~ 0
-LCD_VEE
+LCD_V0
 Text Label 8200 3700 0    50   ~ 0
-LCD_VEE
+LCD_V0
 Text Notes 4300 2400 0    100  ~ 20
 LEVEL SHIFTER
 $Comp
@@ -376,7 +336,47 @@ LCD_OUT_DB
 Text HLabel 1200 3100 0    50   Input ~ 0
 LCD_OUT_CTRL
 Wire Wire Line
-	8050 3700 8600 3700
+	8050 3700 8500 3700
+Wire Wire Line
+	2000 3700 1400 3700
+Text Label 1400 3700 0    50   ~ 0
+LCD_OUT_DB1
+Wire Wire Line
+	1800 2600 1400 2600
+Wire Wire Line
+	1800 2500 1400 2500
+Wire Wire Line
+	1800 2400 1400 2400
+Wire Wire Line
+	1800 2300 1400 2300
+Wire Wire Line
+	1800 2200 1400 2200
+Wire Wire Line
+	1800 2100 1400 2100
+Wire Wire Line
+	1800 2000 1400 2000
+Text Label 1400 2600 0    50   ~ 0
+LCD_DB7
+Text Label 1400 2500 0    50   ~ 0
+LCD_DB6
+Text Label 1400 2400 0    50   ~ 0
+LCD_DB5
+Text Label 1400 2300 0    50   ~ 0
+LCD_DB4
+Text Label 1400 2200 0    50   ~ 0
+LCD_DB3
+Text Label 1400 2100 0    50   ~ 0
+LCD_DB2
+Text Label 1400 2000 0    50   ~ 0
+LCD_DB1
+Text Label 3800 3400 0    50   ~ 0
+LCD_OUT_DB0
+Wire Wire Line
+	4400 3400 3800 3400
+Text Label 5400 3400 0    50   ~ 0
+LCD_DB0
+Wire Wire Line
+	5800 3400 5400 3400
 Wire Bus Line
 	1300 3100 1300 3300
 Wire Bus Line

@@ -85,30 +85,26 @@ Entry Wire Line
 	1300 4300 1400 4400
 Entry Wire Line
 	1300 4400 1400 4500
-Text Label 1400 3400 0    50   ~ 0
-LCD_RW
-Text Label 1400 3800 0    50   ~ 0
-LCD_DB1
 Text Label 1400 3900 0    50   ~ 0
-LCD_DB2
+LCD_DB1
 Text Label 1400 4000 0    50   ~ 0
-LCD_DB3
+LCD_DB2
 Text Label 1400 4100 0    50   ~ 0
-LCD_DB4
+LCD_DB3
 Text Label 1400 4200 0    50   ~ 0
-LCD_DB5
+LCD_DB4
 Text Label 1400 4300 0    50   ~ 0
-LCD_DB6
+LCD_DB5
 Text Label 1400 4400 0    50   ~ 0
-LCD_DB7
+LCD_DB6
 Text Label 1400 4500 0    50   ~ 0
-LCD_DB8
+LCD_DB7
+Text Label 1400 3800 0    50   ~ 0
+LCD_DB0
 Wire Bus Line
 	1200 3300 1300 3300
 Wire Wire Line
 	1800 3600 1400 3600
-Wire Wire Line
-	1800 3800 1400 3800
 Wire Wire Line
 	1800 3900 1400 3900
 Wire Wire Line
@@ -123,14 +119,10 @@ Wire Wire Line
 	1800 4400 1400 4400
 Wire Wire Line
 	1800 4500 1400 4500
-Text Label 1400 3500 0    50   ~ 0
-LCD_E
+Wire Wire Line
+	1800 3800 1400 3800
 Text Label 1400 3600 0    50   ~ 0
 LCD_RS
-Wire Wire Line
-	1400 3400 1800 3400
-Wire Wire Line
-	1400 3500 1800 3500
 Entry Wire Line
 	1300 3300 1400 3400
 Entry Wire Line
@@ -202,17 +194,11 @@ Wire Wire Line
 Text HLabel 1200 5400 0    50   Input ~ 0
 SERVO_PWM
 Wire Wire Line
-	1600 5400 1200 5400
-Wire Wire Line
-	1600 5500 1200 5500
-Wire Wire Line
 	6400 5200 6400 5100
 Wire Wire Line
 	6400 5100 6300 5100
 Text HLabel 1200 5500 0    50   Input ~ 0
 SERVO_AIN
-Text Label 1200 5500 0    50   ~ 0
-SRV_AIN
 Text Label 4300 4000 0    50   ~ 0
 IMU_MOSI
 Wire Wire Line
@@ -303,12 +289,12 @@ Text Label 4400 4900 0    50   ~ 0
 SPK
 Wire Wire Line
 	4400 4900 4900 4900
-Text Label 1200 7300 0    50   ~ 0
+Text Label 1400 7300 0    50   ~ 0
 SPK
 Text HLabel 1200 7300 0    50   Input ~ 0
 SPEAKER
 Wire Wire Line
-	1400 7300 1200 7300
+	1600 7300 1200 7300
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E380B11
@@ -662,11 +648,9 @@ Wire Wire Line
 Connection ~ 6400 2400
 Wire Wire Line
 	6400 2400 6900 2400
-Text Label 1200 5400 0    50   ~ 0
-SRV_PWM
 Text Notes 1200 2100 0    50   ~ 0
 Keypad
-Text Notes 1200 3200 0    50   ~ 0
+Text Notes 1100 3200 0    50   ~ 0
 LCD to MCU
 Text Notes 1200 5200 0    50   ~ 0
 Servo
@@ -674,7 +658,7 @@ Text Notes 1200 5800 0    50   ~ 0
 IMU SPI
 Text Notes 1200 1600 0    50   ~ 0
 Radio
-Text Notes 1200 800  0    50   ~ 0
+Text Notes 1100 800  0    50   ~ 0
 JTAG interface
 Text Notes 4900 1600 0    100  ~ 20
 MICROCONTROLLER
@@ -1024,13 +1008,13 @@ Text Label 4400 4800 0    50   ~ 0
 STATLED
 Wire Wire Line
 	4400 4800 4900 4800
-Text Label 1200 6800 0    50   ~ 0
+Text Label 1400 6800 0    50   ~ 0
 STATLED
 Wire Wire Line
-	1500 6800 1200 6800
-Text Notes 1200 6600 0    50   ~ 0
+	1700 6800 1200 6800
+Text Notes 900  6600 0    50   ~ 0
 General purpose LED
-Text Notes 1200 7100 0    50   ~ 0
+Text Notes 1100 7100 0    50   ~ 0
 Speaker
 Text Label 1400 4700 0    50   ~ 0
 LCD_BL_R
@@ -1054,6 +1038,24 @@ Entry Wire Line
 	1300 4700 1400 4800
 Entry Wire Line
 	1300 4800 1400 4900
+Text HLabel 1200 6800 0    50   Input ~ 0
+STATLED
+Wire Wire Line
+	1400 3400 1800 3400
+Wire Wire Line
+	1400 3500 1800 3500
+Text Label 1400 3400 0    50   ~ 0
+LCD_E
+Text Label 1400 3500 0    50   ~ 0
+LCD_RW
+Text Label 1400 5400 0    50   ~ 0
+SRV_PWM
+Text Label 1400 5500 0    50   ~ 0
+SRV_AIN
+Wire Wire Line
+	1800 5500 1200 5500
+Wire Wire Line
+	1800 5400 1200 5400
 Wire Bus Line
 	1300 4600 1300 4800
 Wire Bus Line
@@ -1066,6 +1068,4 @@ Wire Bus Line
 	1300 2200 1300 2900
 Wire Bus Line
 	1300 3700 1300 4400
-Text HLabel 1200 6800 0    50   Input ~ 0
-STATLED
 $EndSCHEMATC
