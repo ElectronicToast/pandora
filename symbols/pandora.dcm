@@ -6,4 +6,10 @@ K SimpleLink, Multiprotocol
 F http://www.ti.com/lit/ds/symlink/cc2652r.pdf
 $ENDCMP
 #
+$CMP LCD_Adafruit_16x02_Neg_RGB
+D LCD 12x2, 8 bit parallel bus, RGB common anode backlight
+K display LCD
+F https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf
+$ENDCMP
+#
 #End Doc Library
