@@ -755,8 +755,6 @@ Wire Wire Line
 	2600 7000 2700 7000
 Wire Wire Line
 	3100 7000 3200 7000
-Wire Wire Line
-	4900 6600 4400 6600
 Text Notes 2800 7200 0    50   ~ 0
 FIND FOOTPRINT
 $Comp
@@ -959,20 +957,6 @@ Connection ~ 6800 3700
 Wire Wire Line
 	7400 3900 6800 3900
 Connection ~ 6800 3900
-NoConn ~ 6700 3100
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E501250
-P 9200 2000
-F 0 "#PWR?" H 9200 1850 50  0001 C CNN
-F 1 "+3V3" H 9215 2173 50  0000 C CNN
-F 2 "" H 9200 2000 50  0001 C CNN
-F 3 "" H 9200 2000 50  0001 C CNN
-	1    9200 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 2000 9200 2100
 Connection ~ 9200 2100
 Wire Wire Line
 	7900 3700 7900 3500
@@ -1056,6 +1040,25 @@ Wire Wire Line
 	1800 5500 1200 5500
 Wire Wire Line
 	1800 5400 1200 5400
+Text Label 8800 2100 0    50   ~ 0
+DCDC_SW
+Wire Wire Line
+	8800 2100 9200 2100
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E37FBF0
+P 4200 6600
+AR Path="/5E64A3EA/5E37FBF0" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E37FBF0" Ref="R?"  Part="1" 
+F 0 "R?" V 3995 6600 50  0000 C CNN
+F 1 "100" V 4086 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4200 6600 50  0001 C CNN
+F 3 "~" H 4200 6600 50  0001 C CNN
+	1    4200 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 6600 4900 6600
 Wire Bus Line
 	1300 4600 1300 4800
 Wire Bus Line
