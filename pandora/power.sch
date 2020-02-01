@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 7 11
 Title "Pandora CC2652R Development Board"
 Date "2020-01-30"
 Rev "A"
@@ -184,4 +184,17 @@ F 3 "~" V 1700 3660 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 3400 1700 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5E35E5F8
+P 1700 3800
+F 0 "#PWR?" H 1700 3550 50  0001 C CNN
+F 1 "GND" H 1705 3627 50  0000 C CNN
+F 2 "" H 1700 3800 50  0001 C CNN
+F 3 "" H 1700 3800 50  0001 C CNN
+	1    1700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3800 1700 3700
 $EndSCHEMATC

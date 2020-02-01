@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 12
+Sheet 12 11
 Title "Pandora CC2652R Development Board"
 Date "2020-01-30"
 Rev "A"
@@ -13,50 +13,6 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text HLabel 1300 1100 0    50   Input ~ 0
-SERVO_FDBK
-Entry Wire Line
-	1400 1300 1500 1400
-Entry Wire Line
-	1400 1700 1500 1800
-Entry Wire Line
-	1400 1800 1500 1900
-Entry Wire Line
-	1400 1900 1500 2000
-Wire Bus Line
-	1300 1100 1400 1100
-Entry Wire Line
-	1400 1100 1500 1200
-Entry Wire Line
-	1400 1200 1500 1300
-Text Label 1500 1200 0    50   ~ 0
-SRV_FDBK1
-Wire Wire Line
-	1900 1800 1500 1800
-Wire Wire Line
-	1900 2000 1500 2000
-Text HLabel 1300 1700 0    50   Input ~ 0
-SERVO_AIN
-Wire Wire Line
-	1900 1900 1500 1900
-Wire Bus Line
-	1300 1700 1400 1700
-Text Label 1500 1800 0    50   ~ 0
-SRV_AIN1
-Text Label 1500 1900 0    50   ~ 0
-SRV_AIN2
-Text Label 1500 2000 0    50   ~ 0
-SRV_AIN3
-Text Label 1500 1300 0    50   ~ 0
-SRV_FDBK2
-Text Label 1500 1400 0    50   ~ 0
-SRV_FDBK3
-Wire Wire Line
-	1500 1200 2000 1200
-Wire Wire Line
-	1500 1300 2000 1300
-Wire Wire Line
-	1500 1400 2000 1400
 $Comp
 L Device:C_Small C?
 U 1 1 5E3DF409
@@ -97,7 +53,7 @@ F 3 "~" H 4400 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5200 1900 0    50   ~ 0
-SRV_AIN1
+AIN
 Wire Wire Line
 	3300 2000 3800 2000
 $Comp
@@ -172,58 +128,16 @@ Wire Wire Line
 	7000 3900 7000 4000
 Wire Wire Line
 	7000 4200 7000 4300
-$Comp
-L Device:C_Small C?
-U 1 1 5E47EE68
-P 7800 4100
-F 0 "C?" H 7892 4146 50  0000 L CNN
-F 1 "0.1uF" H 7892 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4100 50  0001 C CNN
-F 3 "~" H 7800 4100 50  0001 C CNN
-	1    7800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E47F09B
-P 8200 4100
-F 0 "C?" H 8292 4146 50  0000 L CNN
-F 1 "0.1uF" H 8292 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4100 50  0001 C CNN
-F 3 "~" H 8200 4100 50  0001 C CNN
-	1    8200 4100
-	1    0    0    -1  
-$EndComp
 Connection ~ 7000 4300
 Connection ~ 7000 3900
 Wire Wire Line
 	7400 4000 7400 3900
-Connection ~ 7400 3900
 Wire Wire Line
 	7400 3900 7000 3900
 Wire Wire Line
 	7400 4200 7400 4300
-Connection ~ 7400 4300
 Wire Wire Line
 	7400 4300 7000 4300
-Wire Wire Line
-	7800 4000 7800 3900
-Wire Wire Line
-	7400 3900 7800 3900
-Connection ~ 7800 3900
-Wire Wire Line
-	7800 3900 8200 3900
-Wire Wire Line
-	7800 4200 7800 4300
-Connection ~ 7800 4300
-Wire Wire Line
-	7800 4300 7400 4300
-Wire Wire Line
-	8200 4000 8200 3900
-Wire Wire Line
-	8200 4200 8200 4300
-Wire Wire Line
-	8200 4300 7800 4300
 Wire Wire Line
 	4000 2000 4100 2000
 Wire Wire Line
@@ -236,12 +150,12 @@ Wire Wire Line
 Wire Wire Line
 	5100 2700 5100 1900
 Text Label 3300 2000 0    50   ~ 0
-SRV_FDBK1
+FDBK
 Connection ~ 5100 1900
 Wire Wire Line
 	4800 1900 5100 1900
 Wire Wire Line
-	5100 1900 5600 1900
+	5100 1900 5400 1900
 Wire Wire Line
 	4500 2700 5100 2700
 $Comp
@@ -309,202 +223,20 @@ Wire Wire Line
 	4100 1800 4100 1600
 Wire Wire Line
 	4100 1600 3300 1600
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E49C264
-P 3900 3600
-AR Path="/5E64A3EA/5E49C264" Ref="R?"  Part="1" 
-AR Path="/5E2BAD17/5E49C264" Ref="R?"  Part="1" 
-F 0 "R?" V 3695 3600 50  0000 C CNN
-F 1 "100" V 3786 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 3600 50  0001 C CNN
-F 3 "~" H 3900 3600 50  0001 C CNN
-	1    3900 3600
-	0    1    1    0   
-$EndComp
-Text Notes 3400 3800 0    50   ~ 0
-FIND VALUES
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E49C26F
-P 4400 4300
-AR Path="/5E64A3EA/5E49C26F" Ref="R?"  Part="1" 
-AR Path="/5E2BAD17/5E49C26F" Ref="R?"  Part="1" 
-F 0 "R?" V 4195 4300 50  0000 C CNN
-F 1 "100" V 4286 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 4300 50  0001 C CNN
-F 3 "~" H 4400 4300 50  0001 C CNN
-	1    4400 4300
-	0    1    1    0   
-$EndComp
-Text Label 5200 3500 0    50   ~ 0
-SRV_AIN2
-Wire Wire Line
-	3300 3600 3800 3600
-$Comp
-L Amplifier_Operational:MCP6001-OT U?
-U 1 1 5E49C27B
-P 4500 3500
-F 0 "U?" H 4600 3650 50  0000 L CNN
-F 1 "MCP6001" H 4600 3350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4400 3300 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4500 3700 50  0001 C CNN
-	1    4500 3500
-	1    0    0    -1  
-$EndComp
-Text Notes 4600 3800 0    50   ~ 0
-SOT-23-5
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E49C286
-P 4400 3800
-F 0 "#PWR?" H 4400 3550 50  0001 C CNN
-F 1 "GNDA" H 4405 3627 50  0000 C CNN
-F 2 "" H 4400 3800 50  0001 C CNN
-F 3 "" H 4400 3800 50  0001 C CNN
-	1    4400 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5E49C290
-P 4400 3200
-F 0 "#PWR?" H 4400 3050 50  0001 C CNN
-F 1 "+3.3VA" H 4415 3373 50  0000 C CNN
-F 2 "" H 4400 3200 50  0001 C CNN
-F 3 "" H 4400 3200 50  0001 C CNN
-	1    4400 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3600 4100 3600
-Wire Wire Line
-	4300 4300 4100 4300
-Wire Wire Line
-	4100 4300 4100 3600
-Connection ~ 4100 3600
-Wire Wire Line
-	4100 3600 4200 3600
-Wire Wire Line
-	5100 4300 5100 3500
-Text Label 3300 3600 0    50   ~ 0
-SRV_FDBK2
-Connection ~ 5100 3500
-Wire Wire Line
-	4800 3500 5100 3500
-Wire Wire Line
-	5100 3500 5600 3500
-Wire Wire Line
-	4500 4300 5100 4300
-Text Label 3300 3200 0    50   ~ 0
-VREF
-Wire Wire Line
-	4200 3400 4100 3400
-Wire Wire Line
-	4100 3400 4100 3200
-Wire Wire Line
-	4100 3200 3300 3200
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E49EA5F
-P 3900 5200
-AR Path="/5E64A3EA/5E49EA5F" Ref="R?"  Part="1" 
-AR Path="/5E2BAD17/5E49EA5F" Ref="R?"  Part="1" 
-F 0 "R?" V 3695 5200 50  0000 C CNN
-F 1 "100" V 3786 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 5200 50  0001 C CNN
-F 3 "~" H 3900 5200 50  0001 C CNN
-	1    3900 5200
-	0    1    1    0   
-$EndComp
-Text Notes 3400 5400 0    50   ~ 0
-FIND VALUES
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E49EA6A
-P 4400 5900
-AR Path="/5E64A3EA/5E49EA6A" Ref="R?"  Part="1" 
-AR Path="/5E2BAD17/5E49EA6A" Ref="R?"  Part="1" 
-F 0 "R?" V 4195 5900 50  0000 C CNN
-F 1 "100" V 4286 5900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 5900 50  0001 C CNN
-F 3 "~" H 4400 5900 50  0001 C CNN
-	1    4400 5900
-	0    1    1    0   
-$EndComp
-Text Label 5200 5100 0    50   ~ 0
-SRV_AIN3
-Wire Wire Line
-	3300 5200 3800 5200
-$Comp
-L Amplifier_Operational:MCP6001-OT U?
-U 1 1 5E49EA76
-P 4500 5100
-F 0 "U?" H 4600 5250 50  0000 L CNN
-F 1 "MCP6001" H 4600 4950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4400 4900 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4500 5300 50  0001 C CNN
-	1    4500 5100
-	1    0    0    -1  
-$EndComp
-Text Notes 4600 5400 0    50   ~ 0
-SOT-23-5
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E49EA81
-P 4400 5400
-F 0 "#PWR?" H 4400 5150 50  0001 C CNN
-F 1 "GNDA" H 4405 5227 50  0000 C CNN
-F 2 "" H 4400 5400 50  0001 C CNN
-F 3 "" H 4400 5400 50  0001 C CNN
-	1    4400 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5E49EA8B
-P 4400 4800
-F 0 "#PWR?" H 4400 4650 50  0001 C CNN
-F 1 "+3.3VA" H 4415 4973 50  0000 C CNN
-F 2 "" H 4400 4800 50  0001 C CNN
-F 3 "" H 4400 4800 50  0001 C CNN
-	1    4400 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 5200 4100 5200
-Wire Wire Line
-	4300 5900 4100 5900
-Wire Wire Line
-	4100 5900 4100 5200
-Connection ~ 4100 5200
-Wire Wire Line
-	4100 5200 4200 5200
-Wire Wire Line
-	5100 5900 5100 5100
-Text Label 3300 5200 0    50   ~ 0
-SRV_FDBK3
-Connection ~ 5100 5100
-Wire Wire Line
-	4800 5100 5100 5100
-Wire Wire Line
-	5100 5100 5600 5100
-Wire Wire Line
-	4500 5900 5100 5900
-Text Label 3300 4800 0    50   ~ 0
-VREF
-Wire Wire Line
-	4200 5000 4100 5000
-Wire Wire Line
-	4100 5000 4100 4800
-Wire Wire Line
-	4100 4800 3300 4800
 Text Notes 3500 1100 0    100  ~ 20
 SERVO FEEDBACK SCALE
 Text Notes 7100 1100 0    100  ~ 20
 VREF DIVIDER
-Wire Bus Line
-	1400 1100 1400 1300
-Wire Bus Line
-	1400 1700 1400 1900
+Text HLabel 1300 1100 0    50   Input ~ 0
+FDBK
+Wire Wire Line
+	1500 1100 1300 1100
+Wire Wire Line
+	1500 1200 1300 1200
+Text HLabel 1300 1200 0    50   Input ~ 0
+AIN
+Text Label 1300 1200 0    50   ~ 0
+AIN
+Text Label 1300 1100 0    50   ~ 0
+FDBK
 $EndSCHEMATC

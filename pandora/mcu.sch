@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 11 11
 Title "Pandora CC2652R Development Board"
 Date "2020-01-30"
 Rev "A"
@@ -13,8 +13,12 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text HLabel 1200 2400 0    50   Input ~ 0
+Text HLabel 1200 2200 0    50   Input ~ 0
 KEYPAD
+Entry Wire Line
+	1300 2200 1400 2300
+Entry Wire Line
+	1300 2300 1400 2400
 Entry Wire Line
 	1300 2400 1400 2500
 Entry Wire Line
@@ -27,28 +31,28 @@ Entry Wire Line
 	1300 2800 1400 2900
 Entry Wire Line
 	1300 2900 1400 3000
-Entry Wire Line
-	1300 3000 1400 3100
-Entry Wire Line
-	1300 3100 1400 3200
-Text Label 1400 2500 0    50   ~ 0
+Text Label 1400 2300 0    50   ~ 0
 KPD_OUT1
-Text Label 1400 2600 0    50   ~ 0
+Text Label 1400 2400 0    50   ~ 0
 KPD_OUT2
-Text Label 1400 2700 0    50   ~ 0
+Text Label 1400 2500 0    50   ~ 0
 KPD_OUT3
-Text Label 1400 2800 0    50   ~ 0
+Text Label 1400 2600 0    50   ~ 0
 KPD_OUT4
-Text Label 1400 2900 0    50   ~ 0
+Text Label 1400 2700 0    50   ~ 0
 KPD_IN1
-Text Label 1400 3000 0    50   ~ 0
+Text Label 1400 2800 0    50   ~ 0
 KPD_IN2
-Text Label 1400 3100 0    50   ~ 0
+Text Label 1400 2900 0    50   ~ 0
 KPD_IN3
-Text Label 1400 3200 0    50   ~ 0
+Text Label 1400 3000 0    50   ~ 0
 KPD_IN4
 Wire Bus Line
-	1200 2400 1300 2400
+	1200 2200 1300 2200
+Wire Wire Line
+	1800 2300 1400 2300
+Wire Wire Line
+	1800 2400 1400 2400
 Wire Wire Line
 	1800 2500 1400 2500
 Wire Wire Line
@@ -61,12 +65,12 @@ Wire Wire Line
 	1800 2900 1400 2900
 Wire Wire Line
 	1800 3000 1400 3000
-Wire Wire Line
-	1800 3100 1400 3100
-Wire Wire Line
-	1800 3200 1400 3200
-Text HLabel 1200 3600 0    50   Input ~ 0
-LCD
+Text HLabel 1200 3300 0    50   Input ~ 0
+LCD_CTRL
+Entry Wire Line
+	1300 3500 1400 3600
+Entry Wire Line
+	1300 3700 1400 3800
 Entry Wire Line
 	1300 3800 1400 3900
 Entry Wire Line
@@ -81,30 +85,30 @@ Entry Wire Line
 	1300 4300 1400 4400
 Entry Wire Line
 	1300 4400 1400 4500
-Entry Wire Line
-	1300 4500 1400 4600
-Entry Wire Line
-	1300 4600 1400 4700
-Text Label 1400 3700 0    50   ~ 0
+Text Label 1400 3400 0    50   ~ 0
 LCD_RW
-Text Label 1400 4000 0    50   ~ 0
+Text Label 1400 3800 0    50   ~ 0
 LCD_DB1
-Text Label 1400 4100 0    50   ~ 0
+Text Label 1400 3900 0    50   ~ 0
 LCD_DB2
-Text Label 1400 4200 0    50   ~ 0
+Text Label 1400 4000 0    50   ~ 0
 LCD_DB3
-Text Label 1400 4300 0    50   ~ 0
+Text Label 1400 4100 0    50   ~ 0
 LCD_DB4
-Text Label 1400 4400 0    50   ~ 0
+Text Label 1400 4200 0    50   ~ 0
 LCD_DB5
-Text Label 1400 4500 0    50   ~ 0
+Text Label 1400 4300 0    50   ~ 0
 LCD_DB6
-Text Label 1400 4600 0    50   ~ 0
+Text Label 1400 4400 0    50   ~ 0
 LCD_DB7
-Text Label 1400 4700 0    50   ~ 0
+Text Label 1400 4500 0    50   ~ 0
 LCD_DB8
 Wire Bus Line
-	1200 3600 1300 3600
+	1200 3300 1300 3300
+Wire Wire Line
+	1800 3600 1400 3600
+Wire Wire Line
+	1800 3800 1400 3800
 Wire Wire Line
 	1800 3900 1400 3900
 Wire Wire Line
@@ -119,22 +123,18 @@ Wire Wire Line
 	1800 4400 1400 4400
 Wire Wire Line
 	1800 4500 1400 4500
-Wire Wire Line
-	1800 4600 1400 4600
-Wire Wire Line
-	1800 4700 1400 4700
-Text Label 1400 3800 0    50   ~ 0
+Text Label 1400 3500 0    50   ~ 0
 LCD_E
-Text Label 1400 3900 0    50   ~ 0
+Text Label 1400 3600 0    50   ~ 0
 LCD_RS
 Wire Wire Line
-	1400 3700 1800 3700
+	1400 3400 1800 3400
 Wire Wire Line
-	1400 3800 1800 3800
+	1400 3500 1800 3500
 Entry Wire Line
-	1300 3600 1400 3700
+	1300 3300 1400 3400
 Entry Wire Line
-	1300 3700 1400 3800
+	1300 3400 1400 3500
 Text Label 4500 2900 0    50   ~ 0
 LCD_DB1
 Text Label 4500 3000 0    50   ~ 0
@@ -199,76 +199,32 @@ Wire Wire Line
 	4900 2300 4300 2300
 Wire Wire Line
 	4900 2400 4300 2400
-Text HLabel 1200 5100 0    50   Input ~ 0
+Text HLabel 1200 5400 0    50   Input ~ 0
 SERVO_PWM
-Entry Wire Line
-	1300 5300 1400 5400
-Entry Wire Line
-	1300 5800 1400 5900
-Entry Wire Line
-	1300 5900 1400 6000
-Entry Wire Line
-	1300 6000 1400 6100
-Wire Bus Line
-	1200 5100 1300 5100
-Entry Wire Line
-	1300 5100 1400 5200
-Entry Wire Line
-	1300 5200 1400 5300
 Wire Wire Line
-	1800 5200 1400 5200
+	1600 5400 1200 5400
 Wire Wire Line
-	1800 5400 1400 5400
-Wire Wire Line
-	1800 5900 1400 5900
-Wire Wire Line
-	1800 6100 1400 6100
+	1600 5500 1200 5500
 Wire Wire Line
 	6400 5200 6400 5100
 Wire Wire Line
 	6400 5100 6300 5100
-Text HLabel 1200 5800 0    50   Input ~ 0
+Text HLabel 1200 5500 0    50   Input ~ 0
 SERVO_AIN
-Wire Wire Line
-	1800 6000 1400 6000
-Wire Bus Line
-	1200 5800 1300 5800
-Text Label 1400 5900 0    50   ~ 0
-SRV_AIN1
-Text Label 1400 6000 0    50   ~ 0
-SRV_AIN2
-Text Label 1400 6100 0    50   ~ 0
-SRV_AIN3
-Wire Wire Line
-	4900 4600 4100 4600
-Wire Wire Line
-	4900 4700 4100 4700
-Wire Wire Line
-	4900 4800 4100 4800
-Wire Wire Line
-	4900 5100 4100 5100
-Wire Wire Line
-	4900 4900 4100 4900
-Wire Wire Line
-	4900 5000 4100 5000
-Text Label 4100 5100 0    50   ~ 0
-SRV_AIN1
-Text Label 4100 5000 0    50   ~ 0
-SRV_AIN2
-Text Label 4100 4900 0    50   ~ 0
-SRV_AIN3
-Text Label 4300 4300 0    50   ~ 0
+Text Label 1200 5500 0    50   ~ 0
+SRV_AIN
+Text Label 4300 4000 0    50   ~ 0
 IMU_MOSI
 Wire Wire Line
-	4900 4200 4300 4200
+	4900 3900 4300 3900
 Wire Wire Line
-	4900 4300 4300 4300
-Text Label 4300 4400 0    50   ~ 0
+	4900 4000 4300 4000
+Text Label 4300 4100 0    50   ~ 0
 IMU_MISO
-Text Label 4300 4200 0    50   ~ 0
+Text Label 4300 3900 0    50   ~ 0
 IMU_~CS
 Wire Wire Line
-	4900 4400 4300 4400
+	4900 4100 4300 4100
 Wire Wire Line
 	6300 3400 6400 3400
 Wire Wire Line
@@ -343,10 +299,10 @@ F 3 "" H 6900 4600 50  0001 C CNN
 	1    6900 4600
 	1    0    0    -1  
 $EndComp
-Text Label 4700 4500 0    50   ~ 0
+Text Label 4400 4900 0    50   ~ 0
 SPK
 Wire Wire Line
-	4700 4500 4900 4500
+	4400 4900 4900 4900
 Text Label 1200 7300 0    50   ~ 0
 SPK
 Text HLabel 1200 7300 0    50   Input ~ 0
@@ -411,16 +367,16 @@ TDI
 Text Notes 3500 3700 0    50   ~ 0
 TDO
 Wire Wire Line
-	4500 4100 4900 4100
+	4500 4400 4900 4400
 Wire Wire Line
-	4500 4000 4900 4000
+	4500 4300 4900 4300
 Wire Wire Line
-	4500 3900 4900 3900
-Text Label 4500 3900 0    50   ~ 0
+	4500 4200 4900 4200
+Text Label 4500 4200 0    50   ~ 0
 LCD_RS
-Text Label 4500 4000 0    50   ~ 0
+Text Label 4500 4300 0    50   ~ 0
 LCD_RW
-Text Label 4500 4100 0    50   ~ 0
+Text Label 4500 4400 0    50   ~ 0
 LCD_E
 Wire Wire Line
 	6700 4500 6300 4500
@@ -470,24 +426,24 @@ Wire Wire Line
 	6500 4100 6300 4100
 Wire Wire Line
 	6500 4200 6300 4200
-Text Label 1400 1900 0    50   ~ 0
+Text Label 1400 1800 0    50   ~ 0
 RF_P
-Text Label 1400 2000 0    50   ~ 0
+Text Label 1400 1900 0    50   ~ 0
 RF_N
 Wire Wire Line
-	1600 1900 1400 1900
+	1600 1800 1400 1800
 Wire Wire Line
-	1600 2000 1400 2000
-Text HLabel 1200 1800 0    50   Input ~ 0
+	1600 1900 1400 1900
+Text HLabel 1200 1700 0    50   Input ~ 0
 RF
 Wire Bus Line
-	1200 1800 1300 1800
+	1200 1700 1300 1700
+Entry Wire Line
+	1300 1700 1400 1800
 Entry Wire Line
 	1300 1800 1400 1900
-Entry Wire Line
-	1300 1900 1400 2000
 Wire Bus Line
-	1300 1800 1300 1900
+	1300 1700 1300 1800
 Text Label 7000 4900 0    50   ~ 0
 ~RESET
 Wire Wire Line
@@ -706,31 +662,17 @@ Wire Wire Line
 Connection ~ 6400 2400
 Wire Wire Line
 	6400 2400 6900 2400
-Wire Wire Line
-	1800 5300 1400 5300
-Text Label 1400 5200 0    50   ~ 0
-SRV_PWM1
-Text Label 1400 5300 0    50   ~ 0
-SRV_PWM2
-Text Label 1400 5400 0    50   ~ 0
-SRV_PWM3
-Text Label 4100 4600 0    50   ~ 0
-SRV_PWM1
-Text Label 4100 4700 0    50   ~ 0
-SRV_PWM2
-Text Label 4100 4800 0    50   ~ 0
-SRV_PWM3
-Text Notes 1200 2300 0    50   ~ 0
+Text Label 1200 5400 0    50   ~ 0
+SRV_PWM
+Text Notes 1200 2100 0    50   ~ 0
 Keypad
-Text Notes 1200 3500 0    50   ~ 0
+Text Notes 1200 3200 0    50   ~ 0
 LCD to MCU
-Text Notes 1200 5000 0    50   ~ 0
-Servo PWM out
-Text Notes 1200 5700 0    50   ~ 0
-Servo ADC input
-Text Notes 1200 6400 0    50   ~ 0
+Text Notes 1200 5200 0    50   ~ 0
+Servo
+Text Notes 1200 5800 0    50   ~ 0
 IMU SPI
-Text Notes 1200 1700 0    50   ~ 0
+Text Notes 1200 1600 0    50   ~ 0
 Radio
 Text Notes 1200 800  0    50   ~ 0
 JTAG interface
@@ -959,34 +901,34 @@ F 3 "" H 6900 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 5000 6900 4900
-Text HLabel 1200 6500 0    50   Input ~ 0
-IMU
+Text HLabel 1200 5900 0    50   Input ~ 0
+IMU_SPI
 Wire Bus Line
-	1200 6500 1300 6500
+	1200 5900 1300 5900
 Entry Wire Line
-	1300 6800 1400 6900
+	1300 6200 1400 6300
 Entry Wire Line
-	1300 6600 1400 6700
-Text Label 1400 6700 0    50   ~ 0
+	1300 6000 1400 6100
+Text Label 1400 6100 0    50   ~ 0
 IMU_MOSI
 Wire Wire Line
-	1800 6900 1400 6900
+	1800 6300 1400 6300
 Wire Wire Line
-	1800 6700 1400 6700
-Text Label 1400 6800 0    50   ~ 0
+	1800 6100 1400 6100
+Text Label 1400 6200 0    50   ~ 0
 IMU_MISO
-Text Label 1400 6900 0    50   ~ 0
+Text Label 1400 6300 0    50   ~ 0
 IMU_~CS
 Entry Wire Line
-	1300 6700 1400 6800
+	1300 6100 1400 6200
 Wire Wire Line
-	1800 6800 1400 6800
+	1800 6200 1400 6200
 Entry Wire Line
-	1300 6500 1400 6600
-Text Label 1400 6600 0    50   ~ 0
+	1300 5900 1400 6000
+Text Label 1400 6000 0    50   ~ 0
 IMU_SCK
 Wire Wire Line
-	1800 6600 1400 6600
+	1800 6000 1400 6000
 $Comp
 L Device:C_Small C?
 U 1 1 5E4E1A1F
@@ -1054,16 +996,76 @@ Connection ~ 7900 3700
 Connection ~ 7900 3500
 Wire Wire Line
 	3200 6400 3200 7000
+Text HLabel 1200 3700 0    50   Input ~ 0
+LCD_DB
 Wire Bus Line
-	1300 5100 1300 5300
+	1300 3700 1200 3700
+Text Label 4300 5100 0    50   ~ 0
+SRV_AIN
+Text Label 4300 5000 0    50   ~ 0
+SRV_PWM
+Wire Wire Line
+	4300 5000 4900 5000
+Wire Wire Line
+	4300 5100 4900 5100
+Text Label 4500 4500 0    50   ~ 0
+LCD_BL_R
+Wire Wire Line
+	4500 4500 4900 4500
+Text Label 4500 4600 0    50   ~ 0
+LCD_BL_G
+Text Label 4500 4700 0    50   ~ 0
+LCD_BL_B
+Wire Wire Line
+	4500 4600 4900 4600
+Wire Wire Line
+	4500 4700 4900 4700
+Text Label 4400 4800 0    50   ~ 0
+STATLED
+Wire Wire Line
+	4400 4800 4900 4800
+Text Label 1200 6800 0    50   ~ 0
+STATLED
+Wire Wire Line
+	1500 6800 1200 6800
+Text Notes 1200 6600 0    50   ~ 0
+General purpose LED
+Text Notes 1200 7100 0    50   ~ 0
+Speaker
+Text Label 1400 4700 0    50   ~ 0
+LCD_BL_R
+Wire Wire Line
+	1400 4700 1800 4700
+Text Label 1400 4800 0    50   ~ 0
+LCD_BL_G
+Text Label 1400 4900 0    50   ~ 0
+LCD_BL_B
+Wire Wire Line
+	1400 4800 1800 4800
+Wire Wire Line
+	1400 4900 1800 4900
+Text HLabel 1200 4600 0    50   Input ~ 0
+LCD_BL
 Wire Bus Line
-	1300 5800 1300 6000
+	1300 4600 1200 4600
+Entry Wire Line
+	1300 4600 1400 4700
+Entry Wire Line
+	1300 4700 1400 4800
+Entry Wire Line
+	1300 4800 1400 4900
 Wire Bus Line
-	1300 6500 1300 6800
+	1300 4600 1300 4800
+Wire Bus Line
+	1300 3300 1300 3500
+Wire Bus Line
+	1300 5900 1300 6200
 Wire Bus Line
 	1300 900  1300 1300
 Wire Bus Line
-	1300 2400 1300 3100
+	1300 2200 1300 2900
 Wire Bus Line
-	1300 3600 1300 4600
+	1300 3700 1300 4400
+Text HLabel 1200 6800 0    50   Input ~ 0
+STATLED
 $EndSCHEMATC

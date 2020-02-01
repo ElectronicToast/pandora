@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 12
+Sheet 2 11
 Title "Pandora CC2652R Development Board"
 Date "2020-01-30"
 Rev "A"

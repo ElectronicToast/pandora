@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 10 12
 Title "Pandora CC2652R Development Board"
 Date "2020-01-30"
 Rev "A"
@@ -13,4 +13,247 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5E35221D
+P 3300 1800
+F 0 "D?" V 3346 1732 50  0000 R CNN
+F 1 "RED" V 3255 1732 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3300 1800 50  0001 C CNN
+F 3 "~" V 3300 1800 50  0001 C CNN
+	1    3300 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E35B389
+P 3300 2200
+AR Path="/5E2B9A47/5E35B389" Ref="R?"  Part="1" 
+AR Path="/5E341789/5E35B389" Ref="R?"  Part="1" 
+F 0 "R?" H 3368 2246 50  0000 L CNN
+F 1 "3.3k" H 3368 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 2200 50  0001 C CNN
+F 3 "~" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E35B837
+P 3300 2400
+AR Path="/5E2BABF8/5E35B837" Ref="#PWR?"  Part="1" 
+AR Path="/5E341789/5E35B837" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3300 2150 50  0001 C CNN
+F 1 "GND" H 3305 2227 50  0000 C CNN
+F 2 "" H 3300 2400 50  0001 C CNN
+F 3 "" H 3300 2400 50  0001 C CNN
+	1    3300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2400 3300 2300
+Wire Wire Line
+	3300 2100 3300 1900
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E35BA83
+P 3300 1600
+F 0 "#PWR?" H 3300 1450 50  0001 C CNN
+F 1 "+BATT" H 3315 1773 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1700 3300 1600
+Text Notes 3400 2000 0    50   ~ 0
+0805
+Text Notes 3100 1300 0    50   ~ 0
+MAIN BATTERY
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5E35CD36
+P 4000 1800
+F 0 "D?" V 4046 1732 50  0000 R CNN
+F 1 "GREEN" V 3955 1732 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4000 1800 50  0001 C CNN
+F 3 "~" V 4000 1800 50  0001 C CNN
+	1    4000 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E35CD40
+P 4000 2200
+AR Path="/5E2B9A47/5E35CD40" Ref="R?"  Part="1" 
+AR Path="/5E341789/5E35CD40" Ref="R?"  Part="1" 
+F 0 "R?" H 4068 2246 50  0000 L CNN
+F 1 "1.5k" H 4068 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 2200 50  0001 C CNN
+F 3 "~" H 4000 2200 50  0001 C CNN
+	1    4000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E35CD4A
+P 4000 2400
+AR Path="/5E2BABF8/5E35CD4A" Ref="#PWR?"  Part="1" 
+AR Path="/5E341789/5E35CD4A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 2150 50  0001 C CNN
+F 1 "GND" H 4005 2227 50  0000 C CNN
+F 2 "" H 4000 2400 50  0001 C CNN
+F 3 "" H 4000 2400 50  0001 C CNN
+	1    4000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2400 4000 2300
+Wire Wire Line
+	4000 2100 4000 1900
+Wire Wire Line
+	4000 1700 4000 1600
+Text Notes 4100 2000 0    50   ~ 0
+0805
+Text Notes 4000 1300 0    50   ~ 0
+5V
+$Comp
+L power:+5V #PWR?
+U 1 1 5E35D796
+P 4000 1600
+F 0 "#PWR?" H 4000 1450 50  0001 C CNN
+F 1 "+5V" H 4015 1773 50  0000 C CNN
+F 2 "" H 4000 1600 50  0001 C CNN
+F 3 "" H 4000 1600 50  0001 C CNN
+	1    4000 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 2900 1000 0    100  ~ 20
+POWER INDICATORS
+Text Label 1400 1500 0    50   ~ 0
+STATLED
+Wire Wire Line
+	1700 1500 1400 1500
+Text HLabel 1400 1500 0    50   Input ~ 0
+STATLED
+Text Label 1400 1700 0    50   ~ 0
+SPK
+Text HLabel 1400 1700 0    50   Input ~ 0
+SPEAKER
+Wire Wire Line
+	1600 1700 1400 1700
+Text Label 4800 4500 0    50   ~ 0
+SPK
+Text Notes 5900 4700 0    50   ~ 0
+SOT-23
+$Comp
+L power:GND #PWR?
+U 1 1 5E36C75C
+P 5800 4800
+F 0 "#PWR?" H 5800 4550 50  0001 C CNN
+F 1 "GND" H 5805 4627 50  0000 C CNN
+F 2 "" H 5800 4800 50  0001 C CNN
+F 3 "" H 5800 4800 50  0001 C CNN
+	1    5800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS?
+U 1 1 5E36C762
+P 6600 4000
+F 0 "LS?" H 6770 3996 50  0000 L CNN
+F 1 "Speaker" H 6770 3905 50  0000 L CNN
+F 2 "" H 6600 3800 50  0001 C CNN
+F 3 "~" H 6590 3950 50  0001 C CNN
+	1    6600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E36C768
+P 5300 4500
+F 0 "R?" V 5095 4500 50  0000 C CNN
+F 1 "100" V 5186 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 4500 50  0001 C CNN
+F 3 "~" H 5300 4500 50  0001 C CNN
+	1    5300 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 4500 5200 4500
+Wire Wire Line
+	5800 4700 5800 4800
+$Comp
+L Device:D_Small_ALT D?
+U 1 1 5E36C770
+P 5800 4000
+F 0 "D?" V 5754 4068 50  0000 L CNN
+F 1 "1N4001" V 5845 4068 50  0000 L CNN
+F 2 "" V 5800 4000 50  0001 C CNN
+F 3 "~" V 5800 4000 50  0001 C CNN
+	1    5800 4000
+	0    1    1    0   
+$EndComp
+Text Notes 5000 4000 0    50   ~ 0
+FIND FOOTPRINT
+Text Notes 6600 4400 0    50   ~ 0
+FIND FOOTPRINT
+Wire Wire Line
+	5800 4300 5800 4200
+Wire Wire Line
+	5800 4200 6400 4200
+Wire Wire Line
+	6400 4200 6400 4100
+Connection ~ 5800 4200
+Wire Wire Line
+	5800 4200 5800 4100
+Wire Wire Line
+	6400 4000 6400 3800
+Wire Wire Line
+	6400 3800 5800 3800
+Wire Wire Line
+	5800 3800 5800 3900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E36C780
+P 5800 3400
+F 0 "#PWR?" H 5800 3250 50  0001 C CNN
+F 1 "+3V3" H 5815 3573 50  0000 C CNN
+F 2 "" H 5800 3400 50  0001 C CNN
+F 3 "" H 5800 3400 50  0001 C CNN
+	1    5800 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 3800
+Wire Wire Line
+	5800 3700 5800 3800
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5E36C788
+P 5700 4500
+F 0 "Q?" H 5891 4546 50  0000 L CNN
+F 1 "MMBT3904" H 5891 4455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5900 4425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5700 4500 50  0001 L CNN
+	1    5700 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 4900 0    50   ~ 0
+CONFIRM PART NO
+Wire Wire Line
+	5400 4500 5500 4500
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E36C790
+P 5800 3600
+F 0 "R?" H 5732 3554 50  0000 R CNN
+F 1 "10" H 5732 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 3600 50  0001 C CNN
+F 3 "~" H 5800 3600 50  0001 C CNN
+	1    5800 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3500 5800 3400
 $EndSCHEMATC

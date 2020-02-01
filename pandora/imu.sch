@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 5 11
 Title "Pandora CC2652R Development Board"
 Date "2020-01-30"
 Rev "A"
@@ -14,7 +14,7 @@ Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
 Text HLabel 1200 1300 0    50   Input ~ 0
-IMU
+IMU_SPI
 Wire Bus Line
 	1200 1300 1300 1300
 Entry Wire Line
@@ -245,4 +245,6 @@ Wire Wire Line
 	4400 3900 4800 3900
 Wire Bus Line
 	1300 1300 1300 1600
+Text Notes 5700 5100 0    50   ~ 0
+CHECK FOOTPRINT
 $EndSCHEMATC
