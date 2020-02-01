@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
 Title "Pandora CC2652R Development Board"
-Date "2020-01-30"
+Date "2020-01-31"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -77,8 +77,6 @@ Entry Wire Line
 	1300 1400 1400 1500
 Entry Wire Line
 	1300 1500 1400 1600
-Text HLabel 1200 3100 0    50   Input ~ 0
-LCD_OUT_CTRL
 Entry Wire Line
 	1300 3300 1400 3400
 Entry Wire Line
@@ -279,14 +277,10 @@ Wire Wire Line
 	4300 4700 4300 4400
 Wire Wire Line
 	4300 4400 4400 4400
-Text Label 1400 4400 0    50   ~ 0
-LCD_OUT_VO
-Wire Wire Line
-	2000 4400 1400 4400
-Entry Wire Line
-	1300 4300 1400 4400
+Text Label 1400 4500 0    50   ~ 0
+LCD_VEE
 Text Label 8200 3700 0    50   ~ 0
-LCD_OUT_VO
+LCD_VEE
 Text Notes 4300 2400 0    100  ~ 20
 LEVEL SHIFTER
 $Comp
@@ -308,8 +302,6 @@ Text Notes 5100 5000 0    50   ~ 0
 VERIFY FOOTPRINT
 Text Notes 7400 2400 0    100  ~ 20
 CONTRAST ADJUST
-Wire Wire Line
-	8700 3700 8050 3700
 $Comp
 L power:+5V #PWR?
 U 1 1 5E3D1159
@@ -369,14 +361,22 @@ F 3 "" H 7900 4000 50  0001 C CNN
 	1    7900 4000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1200 3500 0    50   Input ~ 0
-LCD_OUT_DB
 Wire Bus Line
 	1200 3500 1300 3500
 Wire Bus Line
 	1300 1800 1200 1800
 Text HLabel 1200 1800 0    50   Input ~ 0
 LCD_DB
+Wire Wire Line
+	1200 4500 1700 4500
+Text HLabel 1200 4500 0    50   Input ~ 0
+LCD_OUT_CNTR
+Text HLabel 1200 3500 0    50   Input ~ 0
+LCD_OUT_DB
+Text HLabel 1200 3100 0    50   Input ~ 0
+LCD_OUT_CTRL
+Wire Wire Line
+	8050 3700 8600 3700
 Wire Bus Line
 	1300 3100 1300 3300
 Wire Bus Line
@@ -384,5 +384,5 @@ Wire Bus Line
 Wire Bus Line
 	1300 1800 1300 2500
 Wire Bus Line
-	1300 3500 1300 4300
+	1300 3500 1300 4200
 $EndSCHEMATC
