@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 3 11
 Title "Pandora CC2652R Development Board"
-Date "2020-01-31"
+Date "2020-02-01"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -69,12 +69,12 @@ $Comp
 L Device:D_Small_ALT D?
 U 1 1 5E5EE14A
 P 3500 3000
-F 0 "D?" H 3400 2900 50  0000 C CNN
-F 1 "1N4148" H 3300 3100 50  0000 C CNN
+F 0 "D?" H 3600 3100 50  0000 C CNN
+F 1 "1N4148" H 3700 2900 50  0000 C CNN
 F 2 "" V 3500 3000 50  0001 C CNN
 F 3 "~" V 3500 3000 50  0001 C CNN
 	1    3500 3000
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Notes 3100 2700 0    50   ~ 0
 FIND FOOTPRINTS
@@ -384,39 +384,6 @@ F 3 "~" H 6800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D?
-U 1 1 5E601587
-P 3500 3400
-F 0 "D?" H 3400 3300 50  0000 C CNN
-F 1 "1N4148" H 3300 3500 50  0000 C CNN
-F 2 "" V 3500 3400 50  0001 C CNN
-F 3 "~" V 3500 3400 50  0001 C CNN
-	1    3500 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small_ALT D?
-U 1 1 5E601E2E
-P 3500 3800
-F 0 "D?" H 3400 3700 50  0000 C CNN
-F 1 "1N4148" H 3300 3900 50  0000 C CNN
-F 2 "" V 3500 3800 50  0001 C CNN
-F 3 "~" V 3500 3800 50  0001 C CNN
-	1    3500 3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Small_ALT D?
-U 1 1 5E602226
-P 3500 4200
-F 0 "D?" H 3400 4100 50  0000 C CNN
-F 1 "1N4148" H 3300 4300 50  0000 C CNN
-F 2 "" V 3500 4200 50  0001 C CNN
-F 3 "~" V 3500 4200 50  0001 C CNN
-	1    3500 4200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_Small_US R?
 U 1 1 5E602614
 P 5300 2700
@@ -603,4 +570,39 @@ Wire Wire Line
 	6900 4400 6900 5100
 Wire Bus Line
 	1400 1000 1400 1700
+$Comp
+L Device:D_Small_ALT D?
+U 1 1 5E363CCE
+P 3500 3400
+F 0 "D?" H 3600 3500 50  0000 C CNN
+F 1 "1N4148" H 3700 3300 50  0000 C CNN
+F 2 "" V 3500 3400 50  0001 C CNN
+F 3 "~" V 3500 3400 50  0001 C CNN
+	1    3500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D?
+U 1 1 5E36401C
+P 3500 3800
+F 0 "D?" H 3600 3900 50  0000 C CNN
+F 1 "1N4148" H 3700 3700 50  0000 C CNN
+F 2 "" V 3500 3800 50  0001 C CNN
+F 3 "~" V 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D?
+U 1 1 5E364306
+P 3500 4200
+F 0 "D?" H 3600 4300 50  0000 C CNN
+F 1 "1N4148" H 3700 4100 50  0000 C CNN
+F 2 "" V 3500 4200 50  0001 C CNN
+F 3 "~" V 3500 4200 50  0001 C CNN
+	1    3500 4200
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 5500 0    50   ~ 0
+TODO: CONSIDER ANTI-GHOSTING ON ALL SWITCHES
 $EndSCHEMATC
