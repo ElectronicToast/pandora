@@ -484,6 +484,8 @@ Text Label 3600 3600 0    50   ~ 0
 SRV_FDBK
 Wire Wire Line
 	3600 3600 4000 3600
+Text Notes 3800 2800 0    100  ~ 20
+SERVO
 Wire Bus Line
 	1400 3500 1400 3700
 Wire Bus Line
@@ -492,6 +494,4 @@ Wire Bus Line
 	1400 1100 1400 1500
 Wire Bus Line
 	1400 2300 1400 3000
-Text Notes 3800 2800 0    100  ~ 20
-SERVO
 $EndSCHEMATC

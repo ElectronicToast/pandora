@@ -95,19 +95,6 @@ F 3 "~" H 4900 3000 50  0001 C CNN
 	1    4900 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E35CD4A
-P 4900 3200
-AR Path="/5E2BABF8/5E35CD4A" Ref="#PWR?"  Part="1" 
-AR Path="/5E341789/5E35CD4A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4900 2950 50  0001 C CNN
-F 1 "GND" H 4905 3027 50  0000 C CNN
-F 2 "" H 4900 3200 50  0001 C CNN
-F 3 "" H 4900 3200 50  0001 C CNN
-	1    4900 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 3200 4900 3100
 Wire Wire Line
@@ -131,18 +118,12 @@ F 3 "" H 4900 2400 50  0001 C CNN
 $EndComp
 Text Notes 3800 1800 0    100  ~ 20
 POWER INDICATORS
-Text Label 1300 1800 0    50   ~ 0
-STATLED
-Wire Wire Line
-	1600 1800 1300 1800
-Text HLabel 1300 1800 0    50   Input ~ 0
-STATLED
-Text Label 1300 2000 0    50   ~ 0
+Text Label 1500 2300 0    50   ~ 0
 SPK
-Text HLabel 1300 2000 0    50   Input ~ 0
+Text HLabel 1300 2300 0    50   Input ~ 0
 SPEAKER
 Wire Wire Line
-	1500 2000 1300 2000
+	1700 2300 1300 2300
 $Comp
 L Device:Speaker LS?
 U 1 1 5E36C762
@@ -318,20 +299,12 @@ Wire Wire Line
 	6400 5300 6500 5300
 Wire Wire Line
 	6500 5400 5000 5400
-Text Label 3800 5400 0    50   ~ 0
+Text Label 4000 5400 0    50   ~ 0
 SPK
 Wire Wire Line
-	3800 5400 4200 5400
-Text Label 3800 5500 0    50   ~ 0
-STATLED
-Wire Wire Line
-	3800 5500 4200 5500
+	4000 5400 4200 5400
 Text Label 5000 5400 0    50   ~ 0
 SPK_DRIVE
-Text Label 5000 5500 0    50   ~ 0
-STATLED_DRIVE
-Wire Wire Line
-	5000 5500 5600 5500
 $Comp
 L Transistor_Array:ULN2003 U?
 U 1 1 5E36D574
@@ -344,64 +317,156 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4700 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5000 5700
-NoConn ~ 5000 5600
 NoConn ~ 4200 5700
-NoConn ~ 4200 5600
-Text Label 6700 3200 0    50   ~ 0
-STATLED_DRIVE
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E382875
-P 6600 3000
-AR Path="/5E2B9A47/5E382875" Ref="R?"  Part="1" 
-AR Path="/5E341789/5E382875" Ref="R?"  Part="1" 
-F 0 "R?" H 6668 3046 50  0000 L CNN
-F 1 "270" H 6668 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 3000 50  0001 C CNN
-F 3 "~" H 6600 3000 50  0001 C CNN
-	1    6600 3000
-	1    0    0    -1  
-$EndComp
-Text Notes 6200 1800 0    100  ~ 20
-OTHER INDICATORS
 Text Notes 4900 4200 0    100  ~ 20
 LOW-SIDE DRIVER
-$Comp
-L Device:LED_Small_ALT D?
-U 1 1 5E392903
-P 6600 2600
-F 0 "D?" V 6646 2532 50  0000 R CNN
-F 1 "BLUE" V 6555 2532 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6600 2600 50  0001 C CNN
-F 3 "~" V 6600 2600 50  0001 C CNN
-	1    6600 2600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	6600 2900 6600 2700
+	6200 3200 6200 3100
 Wire Wire Line
-	6600 2500 6600 2400
-Text Notes 6700 2800 0    50   ~ 0
-0805
+	6800 3200 6200 3200
+Text Notes 6400 2100 0    50   ~ 0
+GENERAL PURPOSE LEDS
 $Comp
 L power:+5V #PWR?
 U 1 1 5E392910
-P 6600 2400
-F 0 "#PWR?" H 6600 2250 50  0001 C CNN
-F 1 "+5V" H 6615 2573 50  0000 C CNN
-F 2 "" H 6600 2400 50  0001 C CNN
-F 3 "" H 6600 2400 50  0001 C CNN
-	1    6600 2400
+P 6200 2400
+F 0 "#PWR?" H 6200 2250 50  0001 C CNN
+F 1 "+5V" H 6215 2573 50  0000 C CNN
+F 2 "" H 6200 2400 50  0001 C CNN
+F 3 "" H 6200 2400 50  0001 C CNN
+	1    6200 2400
 	1    0    0    -1  
 $EndComp
-Text Notes 6400 2100 0    50   ~ 0
-STATUS LED
+Text Notes 6300 2800 0    50   ~ 0
+0805
 Wire Wire Line
-	7300 3200 6600 3200
+	6200 2500 6200 2400
 Wire Wire Line
-	6600 3200 6600 3100
+	6200 2900 6200 2700
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5E392903
+P 6200 2600
+F 0 "D?" V 6246 2532 50  0000 R CNN
+F 1 "BLUE" V 6155 2532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6200 2600 50  0001 C CNN
+F 3 "~" V 6200 2600 50  0001 C CNN
+	1    6200 2600
+	0    -1   -1   0   
+$EndComp
+Text Notes 6200 1800 0    100  ~ 20
+OTHER INDICATORS
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E382875
+P 6200 3000
+AR Path="/5E2B9A47/5E382875" Ref="R?"  Part="1" 
+AR Path="/5E341789/5E382875" Ref="R?"  Part="1" 
+F 0 "R?" H 6268 3046 50  0000 L CNN
+F 1 "270" H 6268 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 3000 50  0001 C CNN
+F 3 "~" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 1300 1800 0    50   Input ~ 0
+LED
+Text Label 1500 1900 0    50   ~ 0
+LED1
+Text Label 1500 2000 0    50   ~ 0
+LED2
+Wire Wire Line
+	1500 1900 1700 1900
+Wire Wire Line
+	1500 2000 1700 2000
+Entry Wire Line
+	1400 1800 1500 1900
+Entry Wire Line
+	1400 1900 1500 2000
+Wire Bus Line
+	1300 1800 1400 1800
+Wire Bus Line
+	1400 1800 1400 1900
+Text Label 4000 5500 0    50   ~ 0
+LED1
+Text Label 4000 5600 0    50   ~ 0
+LED2
+Wire Wire Line
+	4000 5500 4200 5500
+Wire Wire Line
+	4000 5600 4200 5600
+Text Label 5000 5500 0    50   ~ 0
+LED1_DRIVE
+Text Label 5000 5600 0    50   ~ 0
+LED2_DRIVE
+Wire Wire Line
+	5500 5500 5000 5500
+Wire Wire Line
+	5500 5600 5000 5600
+Text Label 6300 3200 0    50   ~ 0
+LED1_DRIVE
+Wire Wire Line
+	7200 3200 7200 3100
+Wire Wire Line
+	7800 3200 7200 3200
+$Comp
+L power:+5V #PWR?
+U 1 1 5E415422
+P 7200 2400
+F 0 "#PWR?" H 7200 2250 50  0001 C CNN
+F 1 "+5V" H 7215 2573 50  0000 C CNN
+F 2 "" H 7200 2400 50  0001 C CNN
+F 3 "" H 7200 2400 50  0001 C CNN
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+Text Notes 7300 2800 0    50   ~ 0
+0805
+Wire Wire Line
+	7200 2500 7200 2400
+Wire Wire Line
+	7200 2900 7200 2700
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5E41542F
+P 7200 2600
+F 0 "D?" V 7246 2532 50  0000 R CNN
+F 1 "BLUE" V 7155 2532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7200 2600 50  0001 C CNN
+F 3 "~" V 7200 2600 50  0001 C CNN
+	1    7200 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E415439
+P 7200 3000
+AR Path="/5E2B9A47/5E415439" Ref="R?"  Part="1" 
+AR Path="/5E341789/5E415439" Ref="R?"  Part="1" 
+F 0 "R?" H 7268 3046 50  0000 L CNN
+F 1 "270" H 7268 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 3000 50  0001 C CNN
+F 3 "~" H 7200 3000 50  0001 C CNN
+	1    7200 3000
+	1    0    0    -1  
+$EndComp
+Text Label 7300 3200 0    50   ~ 0
+LED2_DRIVE
 Wire Bus Line
 	1400 1200 1400 1400
 Wire Bus Line
 	1400 800  1400 1000
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E418CAB
+P 4900 3200
+F 0 "#PWR?" H 4900 2950 50  0001 C CNN
+F 1 "GNDD" H 4904 3045 50  0000 C CNN
+F 2 "" H 4900 3200 50  0001 C CNN
+F 3 "" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 5000 0    50   ~ 0
+0805
 $EndSCHEMATC
