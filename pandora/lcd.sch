@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-01"
+Date "2020-02-02"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -109,17 +109,6 @@ Wire Wire Line
 	2000 4300 1400 4300
 Wire Wire Line
 	2000 3600 1400 3600
-$Comp
-L power:+5V #PWR?
-U 1 1 5E640121
-P 4900 2900
-F 0 "#PWR?" H 4900 2750 50  0001 C CNN
-F 1 "+5V" H 4915 3073 50  0000 C CNN
-F 2 "" H 4900 2900 50  0001 C CNN
-F 3 "" H 4900 2900 50  0001 C CNN
-	1    4900 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5E641A3F
@@ -385,4 +374,15 @@ Wire Bus Line
 	1300 1800 1300 2500
 Wire Bus Line
 	1300 3500 1300 4200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E37D61D
+P 4900 2900
+F 0 "#PWR?" H 4900 2750 50  0001 C CNN
+F 1 "+3V3" H 4915 3073 50  0000 C CNN
+F 2 "" H 4900 2900 50  0001 C CNN
+F 3 "" H 4900 2900 50  0001 C CNN
+	1    4900 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
