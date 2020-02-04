@@ -12,13 +12,25 @@ K display LCD
 F https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf
 $ENDCMP
 #
-$CMP MCP1702T-3302
+$CMP LM1086
+D 1.5A Fixed / Adjustable Linear Regulator, TO-220 / TO-263 (D2-PAK)
+K Fixed Adjustable Voltage Regulator 1.5A Positive
+F http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf
+$ENDCMP
+#
+$CMP LM1086CS-ADJ
+D 3.0A 25V LDO Linear Regulator, Adjustable Output, TO-220/TO-263
+K Voltage Regulator Adjustable 3.0A Positive LDO
+F http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf
+$ENDCMP
+#
+$CMP MCP1702
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
 K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf
 $ENDCMP
 #
-$CMP MCP1702T-3302EMB
+$CMP MCP1702T-3302
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
 K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf
