@@ -12,4 +12,16 @@ K display LCD
 F https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf
 $ENDCMP
 #
+$CMP MCP1702T-3302
+D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf
+$ENDCMP
+#
+$CMP MCP1702T-3302EMB
+D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf
+$ENDCMP
+#
 #End Doc Library
