@@ -21,14 +21,19 @@ D Power symbol creates a global label with name "GNDIN" , input ground
 K power-flag
 $ENDCMP
 #
+$CMP GNDMCU
+D Power symbol creates a global label with name "GNDMCU" , MCU ground
+K power-flag
+$ENDCMP
+#
 $CMP GNDRF
 D Power symbol creates a global label with name "GNDRF" , RF ground
-K power-flag
+K power-flag rf
 $ENDCMP
 #
 $CMP GNDSERVO
 D Power symbol creates a global label with name "GNDSERVO" , servo ground
-K power-flag
+K power-flag servo
 $ENDCMP
 #
 $CMP Jumper_RF_2
@@ -86,17 +91,22 @@ $ENDCMP
 #
 $CMP VIN
 D Power symbol creates a global label with name "VIN"
-K power-flag battery
+K power-flag
+$ENDCMP
+#
+$CMP VMCU
+D Power symbol creates a global label with name "VMCU"
+K power-flag mcu
 $ENDCMP
 #
 $CMP VRF
 D Power symbol creates a global label with name "VRF"
-K power-flag battery
+K power-flag rf
 $ENDCMP
 #
 $CMP VSERVO
 D Power symbol creates a global label with name "VSERVO"
-K power-flag battery
+K power-flag servo
 $ENDCMP
 #
 #End Doc Library
