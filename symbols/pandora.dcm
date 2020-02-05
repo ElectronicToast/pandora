@@ -6,20 +6,45 @@ K SimpleLink, Multiprotocol
 F http://www.ti.com/lit/ds/symlink/cc2652r.pdf
 $ENDCMP
 #
+$CMP GNDBAT
+D Power symbol creates a global label with name "GNDBAT" , battery ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDD
+D Power symbol creates a global label with name "GNDD" , digital ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDIN
+D Power symbol creates a global label with name "GNDIN" , input ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDRF
+D Power symbol creates a global label with name "GNDRF" , RF ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDSERVO
+D Power symbol creates a global label with name "GNDSERVO" , servo ground
+K power-flag
+$ENDCMP
+#
 $CMP Jumper_RF_2
-D Jumper, RF
+D RF jumper, 1-way
 K jumper bridge link
 F ~
 $ENDCMP
 #
 $CMP Jumper_RF_3
-D Jumper, RF
+D RF jumper, 2-way
 K jumper bridge link
 F ~
 $ENDCMP
 #
 $CMP Jumper_RF_4
-D Jumper, RF
+D RF jumper, 3-way
 K jumper bridge link
 F ~
 $ENDCMP
@@ -52,6 +77,26 @@ $CMP MCP1702T-3302
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
 K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VBAT"
+K power-flag battery
+$ENDCMP
+#
+$CMP VIN
+D Power symbol creates a global label with name "VIN"
+K power-flag battery
+$ENDCMP
+#
+$CMP VRF
+D Power symbol creates a global label with name "VRF"
+K power-flag battery
+$ENDCMP
+#
+$CMP VSERVO
+D Power symbol creates a global label with name "VSERVO"
+K power-flag battery
 $ENDCMP
 #
 #End Doc Library
