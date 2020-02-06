@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-04"
+Date "2020-02-05"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -304,8 +304,8 @@ L Transistor_Array:ULN2003 U?
 U 1 1 5E36D574
 P 4600 4700
 F 0 "U?" H 4600 5367 50  0000 C CNN
-F 1 "ULN2003" H 4600 5276 50  0000 C CNN
-F 2 "" H 4650 4150 50  0001 L CNN
+F 1 "ULN2003D" H 4600 5276 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4650 4150 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4700 4500 50  0001 C CNN
 	1    4600 4700
 	1    0    0    -1  
@@ -506,10 +506,6 @@ Wire Wire Line
 	6200 4700 6200 5500
 Wire Wire Line
 	5000 4700 6200 4700
-Wire Bus Line
-	1400 1200 1400 1400
-Wire Bus Line
-	1400 800  1400 1000
 Wire Wire Line
 	6000 4600 6000 5200
 $Comp
@@ -535,4 +531,10 @@ F 3 "~" H 6200 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 6200 5900
+Text Notes 4300 5700 0    50   ~ 0
+CHECK FOOTPRINT
+Wire Bus Line
+	1400 1200 1400 1400
+Wire Bus Line
+	1400 800  1400 1000
 $EndSCHEMATC
