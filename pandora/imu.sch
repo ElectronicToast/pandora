@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-05"
+Date "2020-02-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -89,8 +89,9 @@ U 1 1 5E4BB60C
 P 5900 3000
 F 0 "C?" V 5850 3100 50  0000 C CNN
 F 1 "0.1uF" V 5950 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3000 50  0001 C CNN
 F 3 "~" H 5900 3000 50  0001 C CNN
+F 4 "0603" H 5900 3000 50  0001 C CNN "Package"
 	1    5900 3000
 	0    1    1    0   
 $EndComp
@@ -102,8 +103,9 @@ AR Path="/5E2B9A47/5E4BB8D3" Ref="C?"  Part="1"
 AR Path="/5E2F4223/5E4BB8D3" Ref="C?"  Part="1" 
 F 0 "C?" V 4950 3100 50  0000 C CNN
 F 1 "10nF" V 5050 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 3000 50  0001 C CNN
 F 3 "~" H 5000 3000 50  0001 C CNN
+F 4 "0603" H 5000 3000 50  0001 C CNN "Package"
 	1    5000 3000
 	0    1    1    0   
 $EndComp
@@ -115,8 +117,9 @@ AR Path="/5E2B9A47/5E4BC0BD" Ref="C?"  Part="1"
 AR Path="/5E2F4223/5E4BC0BD" Ref="C?"  Part="1" 
 F 0 "C?" V 6550 4300 50  0000 C CNN
 F 1 "0.1uF" V 6650 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 4200 50  0001 C CNN
 F 3 "~" H 6600 4200 50  0001 C CNN
+F 4 "0603" H 6600 4200 50  0001 C CNN "Package"
 	1    6600 4200
 	0    1    1    0   
 $EndComp
@@ -215,6 +218,7 @@ F 0 "U?" H 5700 3200 50  0000 C CNN
 F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5500 3000 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
+F 4 "QFN-24" H 5500 4000 50  0001 C CNN "Package"
 	1    5500 4000
 	1    0    0    -1  
 $EndComp
@@ -245,6 +249,16 @@ Wire Wire Line
 	4400 3900 4800 3900
 Text Notes 5700 5100 0    50   ~ 0
 CHECK FOOTPRINT
+Text Notes 5500 2400 0    100  ~ 20
+IMU
+Wire Notes Line
+	4100 2500 4100 5400
+Wire Notes Line
+	4100 5400 7400 5400
+Wire Notes Line
+	7400 5400 7400 2500
+Wire Notes Line
+	7400 2500 4100 2500
 Wire Bus Line
 	1300 1300 1300 1600
 $EndSCHEMATC

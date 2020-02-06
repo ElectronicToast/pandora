@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-05"
+Date "2020-02-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -13,50 +13,62 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text Notes 3900 4000 0    100  ~ 20
+Text Notes 5100 3800 0    100  ~ 20
 MOUNTING HOLES
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5E3B7A7B
-P 3900 4500
-F 0 "H?" H 4000 4546 50  0000 L CNN
-F 1 "M3" H 4000 4455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 4500 50  0001 C CNN
-F 3 "~" H 3900 4500 50  0001 C CNN
-	1    3900 4500
+P 5200 4300
+F 0 "H?" H 5300 4346 50  0000 L CNN
+F 1 "M3" H 5300 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5200 4300 50  0001 C CNN
+F 3 "~" H 5200 4300 50  0001 C CNN
+F 4 "HOLE_M3" H 5200 4300 50  0001 C CNN "Package"
+	1    5200 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5E3B7BAB
-P 4300 4500
-F 0 "H?" H 4400 4546 50  0000 L CNN
-F 1 "M3" H 4400 4455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4300 4500 50  0001 C CNN
-F 3 "~" H 4300 4500 50  0001 C CNN
-	1    4300 4500
+P 5600 4300
+F 0 "H?" H 5700 4346 50  0000 L CNN
+F 1 "M3" H 5700 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 4300 50  0001 C CNN
+F 3 "~" H 5600 4300 50  0001 C CNN
+F 4 "HOLE_M3" H 5600 4300 50  0001 C CNN "Package"
+	1    5600 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5E3B7F3C
-P 4700 4500
-F 0 "H?" H 4800 4546 50  0000 L CNN
-F 1 "M3" H 4800 4455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4700 4500 50  0001 C CNN
-F 3 "~" H 4700 4500 50  0001 C CNN
-	1    4700 4500
+P 6000 4300
+F 0 "H?" H 6100 4346 50  0000 L CNN
+F 1 "M3" H 6100 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 4300 50  0001 C CNN
+F 3 "~" H 6000 4300 50  0001 C CNN
+F 4 "HOLE_M3" H 6000 4300 50  0001 C CNN "Package"
+	1    6000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5E3B81C5
-P 5100 4500
-F 0 "H?" H 5200 4546 50  0000 L CNN
-F 1 "M3" H 5200 4455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5100 4500 50  0001 C CNN
-F 3 "~" H 5100 4500 50  0001 C CNN
-	1    5100 4500
+P 6400 4300
+F 0 "H?" H 6500 4346 50  0000 L CNN
+F 1 "M3" H 6500 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6400 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+F 4 "HOLE_M3" H 6400 4300 50  0001 C CNN "Package"
+	1    6400 4300
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	4800 3900 4800 4700
+Wire Notes Line
+	4800 4700 6900 4700
+Wire Notes Line
+	6900 4700 6900 3900
+Wire Notes Line
+	6900 3900 4800 3900
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-05"
+Date "2020-02-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -855,4 +855,16 @@ Text Notes 4200 4400 0    50   ~ 0
 Speaker out / PWM
 Wire Bus Line
 	4100 4200 6000 4200
+Wire Notes Line
+	4700 6600 4700 7000
+Wire Notes Line
+	4700 7000 6700 7000
+Wire Notes Line
+	6700 7000 6700 6600
+Wire Notes Line
+	6700 6600 4700 6600
+Text Notes 4800 6900 0    50   ~ 0
+CAPS 0603 16V 20% UNLESS OTHERWISE NOTED
+Text Notes 4800 6800 0    50   ~ 0
+RES 0603 1/8W 5% UNLESS OTHERWISE NOTED
 $EndSCHEMATC

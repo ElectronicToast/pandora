@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-05"
+Date "2020-02-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -117,8 +117,9 @@ AR Path="/5E2B9A47/5E641A3F" Ref="C?"  Part="1"
 AR Path="/5E2BACD0/5E641A3F" Ref="C?"  Part="1" 
 F 0 "C?" V 5150 3100 50  0000 C CNN
 F 1 "0.1uF" V 5250 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 3000 50  0001 C CNN
 F 3 "~" H 5200 3000 50  0001 C CNN
+F 4 "0603" H 5200 3000 50  0001 C CNN "Package"
 	1    5200 3000
 	0    1    1    0   
 $EndComp
@@ -130,6 +131,7 @@ F 0 "U?" H 5050 3200 50  0000 C CNN
 F 1 "74LCX245" H 5200 3100 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4900 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 4900 3900 50  0001 C CNN
+F 4 "SOIC-20W" H 4900 3900 50  0001 C CNN "Package"
 	1    4900 3900
 	1    0    0    -1  
 $EndComp
@@ -243,13 +245,13 @@ F 3 "~" H 7900 3700 50  0001 C CNN
 	1    7900 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 7100 3900 0    50   ~ 0
-FIND FOOTPRINT
+Text Notes 7300 4000 0    50   ~ 0
+FIND \nFOOTPRINT
 Text Notes 5100 4900 0    50   ~ 0
 SOIC-20W
 Text Notes 5100 5000 0    50   ~ 0
 VERIFY FOOTPRINT
-Text Notes 7400 2400 0    100  ~ 20
+Text Notes 7300 2900 0    100  ~ 20
 CONTRAST ADJUST
 $Comp
 L power:+5V #PWR?
@@ -263,53 +265,7 @@ F 3 "" H 7900 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 4000 7900 3850
-Wire Wire Line
 	7900 3550 7900 3400
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E3679E3
-P 4300 4700
-F 0 "#PWR?" H 4300 4450 50  0001 C CNN
-F 1 "GNDD" H 4304 4545 50  0000 C CNN
-F 2 "" H 4300 4700 50  0001 C CNN
-F 3 "" H 4300 4700 50  0001 C CNN
-	1    4300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E367EC7
-P 4900 4700
-F 0 "#PWR?" H 4900 4450 50  0001 C CNN
-F 1 "GNDD" H 4904 4545 50  0000 C CNN
-F 2 "" H 4900 4700 50  0001 C CNN
-F 3 "" H 4900 4700 50  0001 C CNN
-	1    4900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E3682E8
-P 5600 3000
-F 0 "#PWR?" H 5600 2750 50  0001 C CNN
-F 1 "GNDD" H 5604 2845 50  0000 C CNN
-F 2 "" H 5600 3000 50  0001 C CNN
-F 3 "" H 5600 3000 50  0001 C CNN
-	1    5600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E3686E9
-P 7900 4000
-F 0 "#PWR?" H 7900 3750 50  0001 C CNN
-F 1 "GNDD" H 7904 3845 50  0000 C CNN
-F 2 "" H 7900 4000 50  0001 C CNN
-F 3 "" H 7900 4000 50  0001 C CNN
-	1    7900 4000
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	1200 3500 1300 3500
 Wire Bus Line
@@ -366,14 +322,6 @@ Text Label 5400 3400 0    50   ~ 0
 LCD_DB0
 Wire Wire Line
 	5800 3400 5400 3400
-Wire Bus Line
-	1300 3100 1300 3300
-Wire Bus Line
-	1300 1400 1300 1600
-Wire Bus Line
-	1300 1800 1300 2500
-Wire Bus Line
-	1300 3500 1300 4200
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E37D61D
@@ -385,4 +333,74 @@ F 3 "" H 4900 2900 50  0001 C CNN
 	1    4900 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7900 4000 7900 3850
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E5597D8
+P 4300 4700
+F 0 "#PWR?" H 4300 4450 50  0001 C CNN
+F 1 "GNDD" H 4305 4527 50  0000 C CNN
+F 2 "" H 4300 4700 50  0001 C CNN
+F 3 "" H 4300 4700 50  0001 C CNN
+	1    4300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E559AB9
+P 4900 4700
+F 0 "#PWR?" H 4900 4450 50  0001 C CNN
+F 1 "GNDD" H 4905 4527 50  0000 C CNN
+F 2 "" H 4900 4700 50  0001 C CNN
+F 3 "" H 4900 4700 50  0001 C CNN
+	1    4900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E559CD1
+P 7900 4000
+F 0 "#PWR?" H 7900 3750 50  0001 C CNN
+F 1 "GNDD" H 7905 3827 50  0000 C CNN
+F 2 "" H 7900 4000 50  0001 C CNN
+F 3 "" H 7900 4000 50  0001 C CNN
+	1    7900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E55A7AA
+P 5600 3000
+F 0 "#PWR?" H 5600 2750 50  0001 C CNN
+F 1 "GNDD" H 5605 2827 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3500 2500 3500 5200
+Wire Notes Line
+	3500 5200 6200 5200
+Wire Notes Line
+	6200 5200 6200 2500
+Wire Notes Line
+	6200 2500 3500 2500
+Wire Notes Line
+	7200 3000 7200 4500
+Wire Notes Line
+	7200 4500 8800 4500
+Wire Notes Line
+	8800 4500 8800 3000
+Wire Notes Line
+	8800 3000 7200 3000
+Wire Bus Line
+	1300 3100 1300 3300
+Wire Bus Line
+	1300 1400 1300 1600
+Wire Bus Line
+	1300 1800 1300 2500
+Wire Bus Line
+	1300 3500 1300 4200
 $EndSCHEMATC

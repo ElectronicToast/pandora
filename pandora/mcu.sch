@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-05"
+Date "2020-02-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -217,8 +217,9 @@ U 1 1 5E34E892
 P 7500 3500
 F 0 "C?" V 7550 3400 50  0000 C CNN
 F 1 "12pF" V 7450 3350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 3500 50  0001 C CNN
 F 3 "~" H 7500 3500 50  0001 C CNN
+F 4 "0603" H 7500 3500 50  0001 C CNN "Package"
 	1    7500 3500
 	0    -1   -1   0   
 $EndComp
@@ -228,8 +229,9 @@ U 1 1 5E34E3C8
 P 7500 3300
 F 0 "C?" V 7450 3400 50  0000 C CNN
 F 1 "12pF" V 7550 3450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 3300 50  0001 C CNN
 F 3 "~" H 7500 3300 50  0001 C CNN
+F 4 "0603" H 7500 3300 50  0001 C CNN "Package"
 	1    7500 3300
 	0    1    1    0   
 $EndComp
@@ -245,8 +247,9 @@ U 1 1 5E360690
 P 7000 2900
 F 0 "C?" V 6950 3000 50  0000 C CNN
 F 1 "1uF" V 7050 3050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 2900 50  0001 C CNN
 F 3 "~" H 7000 2900 50  0001 C CNN
+F 4 "0603" H 7000 2900 50  0001 C CNN "Package"
 	1    7000 2900
 	0    1    1    0   
 $EndComp
@@ -260,8 +263,9 @@ U 1 1 5E3664BB
 P 6900 4700
 F 0 "R?" H 6968 4746 50  0000 L CNN
 F 1 "10k" H 6968 4655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 4700 50  0001 C CNN
 F 3 "~" H 6900 4700 50  0001 C CNN
+F 4 "0603" H 6900 4700 50  0001 C CNN "Package"
 	1    6900 4700
 	1    0    0    -1  
 $EndComp
@@ -291,17 +295,6 @@ Text HLabel 1200 7500 0    50   Input ~ 0
 SPEAKER
 Wire Wire Line
 	1600 7500 1200 7500
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E380B11
-P 6400 2000
-F 0 "#PWR?" H 6400 1850 50  0001 C CNN
-F 1 "+3V3" H 6415 2173 50  0000 C CNN
-F 2 "" H 6400 2000 50  0001 C CNN
-F 3 "" H 6400 2000 50  0001 C CNN
-	1    6400 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6400 2000 6400 2100
 Wire Wire Line
@@ -317,17 +310,6 @@ Connection ~ 6400 2200
 Wire Wire Line
 	6400 2200 6400 2100
 Connection ~ 6400 2300
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5E38D62C
-P 6700 2000
-F 0 "#PWR?" H 6700 1850 50  0001 C CNN
-F 1 "+3.3VA" H 6715 2173 50  0000 C CNN
-F 2 "" H 6700 2000 50  0001 C CNN
-F 3 "" H 6700 2000 50  0001 C CNN
-	1    6700 2000
-	1    0    0    -1  
-$EndComp
 Text Notes 3000 5100 0    50   ~ 0
 AUXIO19
 Text Notes 3000 5000 0    50   ~ 0
@@ -442,17 +424,6 @@ F 3 "~" H 6600 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5E4ADAF3
-P 6800 4000
-F 0 "#PWR?" H 6800 3750 50  0001 C CNN
-F 1 "GND" H 6805 3827 50  0000 C CNN
-F 2 "" H 6800 4000 50  0001 C CNN
-F 3 "" H 6800 4000 50  0001 C CNN
-	1    6800 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal_GND24_Small Y?
 U 1 1 5E4AE193
 P 6800 3800
@@ -478,14 +449,9 @@ Wire Wire Line
 	6600 3500 7400 3500
 Connection ~ 6600 3500
 Wire Wire Line
-	6800 4000 6700 4000
-Wire Wire Line
 	6700 4000 6700 3800
 Wire Wire Line
-	6800 4000 6900 4000
-Wire Wire Line
 	6900 4000 6900 3800
-Connection ~ 6800 4000
 Text Notes 6700 3600 0    50   ~ 0
 NEED FOOTPRINT
 Text Notes 7000 4100 0    50   ~ 0
@@ -498,8 +464,9 @@ U 1 1 5E50AC77
 P 7000 2100
 F 0 "C?" V 6950 2200 50  0000 C CNN
 F 1 "0.1uF" V 7050 2250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 2100 50  0001 C CNN
 F 3 "~" H 7000 2100 50  0001 C CNN
+F 4 "0603" H 7000 2100 50  0001 C CNN "Package"
 	1    7000 2100
 	0    1    1    0   
 $EndComp
@@ -509,8 +476,9 @@ U 1 1 5E50B06B
 P 7000 2300
 F 0 "C?" V 6950 2400 50  0000 C CNN
 F 1 "0.1uF" V 7050 2450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 2300 50  0001 C CNN
 F 3 "~" H 7000 2300 50  0001 C CNN
+F 4 "0603" H 7000 2300 50  0001 C CNN "Package"
 	1    7000 2300
 	0    1    1    0   
 $EndComp
@@ -520,8 +488,9 @@ U 1 1 5E50B214
 P 7300 2200
 F 0 "C?" V 7250 2300 50  0000 C CNN
 F 1 "0.1uF" V 7350 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 2200 50  0001 C CNN
 F 3 "~" H 7300 2200 50  0001 C CNN
+F 4 "0603" H 7300 2200 50  0001 C CNN "Package"
 	1    7300 2200
 	0    1    1    0   
 $EndComp
@@ -549,8 +518,9 @@ U 1 1 5E54B541
 P 7300 2600
 F 0 "C?" V 7250 2700 50  0000 C CNN
 F 1 "0.1uF" V 7350 2750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 2600 50  0001 C CNN
 F 3 "~" H 7300 2600 50  0001 C CNN
+F 4 "0603" H 7300 2600 50  0001 C CNN "Package"
 	1    7300 2600
 	0    1    1    0   
 $EndComp
@@ -560,8 +530,9 @@ U 1 1 5E54B8CA
 P 7000 2700
 F 0 "C?" V 6950 2800 50  0000 C CNN
 F 1 "0.1uF" V 7050 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 2700 50  0001 C CNN
 F 3 "~" H 7000 2700 50  0001 C CNN
+F 4 "0603" H 7000 2700 50  0001 C CNN "Package"
 	1    7000 2700
 	0    1    1    0   
 $EndComp
@@ -595,6 +566,7 @@ F 0 "U?" H 5600 5365 50  0000 C CNN
 F 1 "CC2652R" H 5600 5274 50  0000 C CNN
 F 2 "pandora:Texas_RGZ0048A" H 5600 3650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cc2652r.pdf" H 5600 3650 50  0001 C CNN
+F 4 "VQFN-48" H 5600 3600 50  0001 C CNN "Package"
 	1    5600 3600
 	1    0    0    -1  
 $EndComp
@@ -606,8 +578,9 @@ U 1 1 5E5C0136
 P 7300 2400
 F 0 "C?" V 7250 2500 50  0000 C CNN
 F 1 "0.1uF" V 7350 2550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 2400 50  0001 C CNN
 F 3 "~" H 7300 2400 50  0001 C CNN
+F 4 "0603" H 7300 2400 50  0001 C CNN "Package"
 	1    7300 2400
 	0    1    1    0   
 $EndComp
@@ -619,6 +592,8 @@ F 0 "C?" V 6950 2600 50  0000 C CNN
 F 1 "22uF" V 7050 2650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7000 2500 50  0001 C CNN
 F 3 "~" H 7000 2500 50  0001 C CNN
+F 4 "1206" H 7000 2500 50  0001 C CNN "Package"
+F 5 "16V" H 7000 2500 50  0001 C CNN "Comment"
 	1    7000 2500
 	0    1    1    0   
 $EndComp
@@ -658,59 +633,11 @@ Text Notes 5300 7200 0    50   ~ 0
 TODO: ADD SUPERVISOR IC
 Text Notes 5300 7400 0    50   ~ 0
 ADM8322WC26ARJZR7
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E33DD4F
-P 6400 5200
-F 0 "#PWR?" H 6400 4950 50  0001 C CNN
-F 1 "GNDD" H 6404 5045 50  0000 C CNN
-F 2 "" H 6400 5200 50  0001 C CNN
-F 3 "" H 6400 5200 50  0001 C CNN
-	1    6400 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E33E5AB
-P 8000 2500
-F 0 "#PWR?" H 8000 2250 50  0001 C CNN
-F 1 "GNDD" H 8004 2345 50  0000 C CNN
-F 2 "" H 8000 2500 50  0001 C CNN
-F 3 "" H 8000 2500 50  0001 C CNN
-	1    8000 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 2500 7600 2400
 Connection ~ 7600 2400
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E34AE7C
-P 8000 2700
-F 0 "#PWR?" H 8000 2450 50  0001 C CNN
-F 1 "GNDA" H 8005 2527 50  0000 C CNN
-F 2 "" H 8000 2700 50  0001 C CNN
-F 3 "" H 8000 2700 50  0001 C CNN
-	1    8000 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 2500 7600 2500
 Connection ~ 7600 2500
-Wire Wire Line
-	8000 2700 7600 2700
 Connection ~ 7600 2700
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E357339
-P 7600 2900
-F 0 "#PWR?" H 7600 2650 50  0001 C CNN
-F 1 "GNDD" H 7604 2745 50  0000 C CNN
-F 2 "" H 7600 2900 50  0001 C CNN
-F 3 "" H 7600 2900 50  0001 C CNN
-	1    7600 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 2900 7600 2900
 Text Label 1400 1400 0    50   ~ 0
@@ -732,22 +659,11 @@ F 3 "~" H 2900 7200 50  0001 C CNN
 	1    2900 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E3AC14D
-P 2600 7000
-F 0 "#PWR?" H 2600 6750 50  0001 C CNN
-F 1 "GNDD" H 2604 6845 50  0000 C CNN
-F 2 "" H 2600 7000 50  0001 C CNN
-F 3 "" H 2600 7000 50  0001 C CNN
-	1    2600 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 7000 2700 7000
 Wire Wire Line
 	3100 7000 3200 7000
-Text Notes 2800 7200 0    50   ~ 0
+Text Notes 2800 7300 0    50   ~ 0
 FIND FOOTPRINT
 $Comp
 L power:+3V3 #PWR?
@@ -766,33 +682,10 @@ U 1 1 5E38EEBA
 P 3200 6300
 F 0 "R?" H 3268 6346 50  0000 L CNN
 F 1 "10k" H 3268 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 6300 50  0001 C CNN
 F 3 "~" H 3200 6300 50  0001 C CNN
+F 4 "0603" H 3200 6300 50  0001 C CNN "Package"
 	1    3200 6300
-	1    0    0    -1  
-$EndComp
-Text Notes 2300 6300 0    50   ~ 0
-MAY OR MAY NOT\nNEED TO POPULATE
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5E427550
-P 9800 2000
-F 0 "#PWR?" H 9800 1850 50  0001 C CNN
-F 1 "+3.3VA" H 9815 2173 50  0000 C CNN
-F 2 "" H 9800 2000 50  0001 C CNN
-F 3 "" H 9800 2000 50  0001 C CNN
-	1    9800 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E42E9FA
-P 9200 2400
-F 0 "#PWR?" H 9200 2150 50  0001 C CNN
-F 1 "GNDD" H 9204 2245 50  0000 C CNN
-F 2 "" H 9200 2400 50  0001 C CNN
-F 3 "" H 9200 2400 50  0001 C CNN
-	1    9200 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -801,8 +694,9 @@ U 1 1 5E42F1B3
 P 9500 2100
 F 0 "L?" V 9685 2100 50  0000 C CNN
 F 1 "6.8uH" V 9594 2100 50  0000 C CNN
-F 2 "" H 9500 2100 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 2100 50  0001 C CNN
 F 3 "~" H 9500 2100 50  0001 C CNN
+F 4 "0603" H 9500 2100 50  0001 C CNN "Package"
 	1    9500 2100
 	0    -1   -1   0   
 $EndComp
@@ -816,39 +710,23 @@ F 0 "C?" H 9892 2346 50  0000 L CNN
 F 1 "22uF" H 9892 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9800 2300 50  0001 C CNN
 F 3 "~" H 9800 2300 50  0001 C CNN
+F 4 "1206" H 9800 2300 50  0001 C CNN "Package"
+F 5 "16V" H 9800 2300 50  0001 C CNN "Comment"
 	1    9800 2300
 	1    0    0    -1  
 $EndComp
 Text Notes 10000 2500 0    50   ~ 0
 1206
-Text Notes 9400 2300 0    50   ~ 0
-0805\nCHECK
 Wire Wire Line
 	9400 2100 9200 2100
-Wire Wire Line
-	9200 2100 9200 2400
 Wire Wire Line
 	9800 2200 9800 2100
 Wire Wire Line
 	9800 2100 9600 2100
-Connection ~ 9800 2100
-Wire Wire Line
-	9800 2100 9800 2000
 Text Label 6300 3100 0    50   ~ 0
 DCDC_SW
 Wire Wire Line
 	6700 3100 6300 3100
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E46A4C0
-P 9800 2400
-F 0 "#PWR?" H 9800 2150 50  0001 C CNN
-F 1 "GNDD" H 9804 2245 50  0000 C CNN
-F 2 "" H 9800 2400 50  0001 C CNN
-F 3 "" H 9800 2400 50  0001 C CNN
-	1    9800 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5E46B44B
@@ -857,20 +735,10 @@ AR Path="/5E2BAD17/5E46B44B" Ref="C?"  Part="1"
 AR Path="/5E2B9A47/5E46B44B" Ref="C?"  Part="1" 
 F 0 "C?" H 6992 5146 50  0000 L CNN
 F 1 "0.1uF" H 6992 5055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 5100 50  0001 C CNN
 F 3 "~" H 6900 5100 50  0001 C CNN
+F 4 "0603" H 6900 5100 50  0001 C CNN "Package"
 	1    6900 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E4721BA
-P 6900 5200
-F 0 "#PWR?" H 6900 4950 50  0001 C CNN
-F 1 "GNDD" H 6904 5045 50  0000 C CNN
-F 2 "" H 6900 5200 50  0001 C CNN
-F 3 "" H 6900 5200 50  0001 C CNN
-	1    6900 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -909,8 +777,9 @@ U 1 1 5E4E1A1F
 P 7500 3900
 F 0 "C?" V 7550 3800 50  0000 C CNN
 F 1 "12pF" V 7450 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 3900 50  0001 C CNN
 F 3 "~" H 7500 3900 50  0001 C CNN
+F 4 "0603" H 7500 3900 50  0001 C CNN "Package"
 	1    7500 3900
 	0    -1   -1   0   
 $EndComp
@@ -920,8 +789,9 @@ U 1 1 5E4E1A29
 P 7500 3700
 F 0 "C?" V 7450 3800 50  0000 C CNN
 F 1 "12pF" V 7550 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 3700 50  0001 C CNN
 F 3 "~" H 7500 3700 50  0001 C CNN
+F 4 "0603" H 7500 3700 50  0001 C CNN "Package"
 	1    7500 3700
 	0    1    1    0   
 $EndComp
@@ -931,18 +801,6 @@ Wire Wire Line
 	7600 3700 7900 3700
 Wire Wire Line
 	7900 3700 7900 3900
-$Comp
-L power:GNDD #PWR?
-U 1 1 5E4E1A36
-P 7900 3900
-F 0 "#PWR?" H 7900 3650 50  0001 C CNN
-F 1 "GNDD" H 7904 3745 50  0000 C CNN
-F 2 "" H 7900 3900 50  0001 C CNN
-F 3 "" H 7900 3900 50  0001 C CNN
-	1    7900 3900
-	1    0    0    -1  
-$EndComp
-Connection ~ 7900 3900
 Wire Wire Line
 	7400 3700 6800 3700
 Connection ~ 6800 3700
@@ -1037,8 +895,9 @@ AR Path="/5E2BAD17/5E37FBF0" Ref="R?"  Part="1"
 AR Path="/5E2B9A47/5E37FBF0" Ref="R?"  Part="1" 
 F 0 "R?" V 3995 6600 50  0000 C CNN
 F 1 "100" V 4086 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4200 6600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 6600 50  0001 C CNN
 F 3 "~" H 4200 6600 50  0001 C CNN
+F 4 "0603" H 4200 6600 50  0001 C CNN "Package"
 	1    4200 6600
 	0    1    1    0   
 $EndComp
@@ -1056,6 +915,7 @@ F 0 "JP?" H 3950 3750 50  0000 C CNN
 F 1 "SJ" H 3550 3750 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3750 3700 50  0001 C CNN
 F 3 "~" H 3750 3700 50  0001 C CNN
+F 4 "SMD_PAD" H 3750 3700 50  0001 C CNN "Package"
 	1    3750 3700
 	-1   0    0    -1  
 $EndComp
@@ -1067,6 +927,7 @@ F 0 "JP?" H 3950 3850 50  0000 C CNN
 F 1 "SJ" H 3550 3850 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3750 3800 50  0001 C CNN
 F 3 "~" H 3750 3800 50  0001 C CNN
+F 4 "SMD_PAD" H 3750 3800 50  0001 C CNN "Package"
 	1    3750 3800
 	-1   0    0    -1  
 $EndComp
@@ -1102,6 +963,138 @@ Text Label 4500 2900 0    50   ~ 0
 LCD_DB0
 Wire Wire Line
 	4500 2900 4900 2900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E3DAE73
+P 6400 2000
+F 0 "#PWR?" H 6400 1850 50  0001 C CNN
+F 1 "+3V3" H 6415 2173 50  0000 C CNN
+F 2 "" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	1    0    0    -1  
+$EndComp
+Text Label 9900 2100 0    50   ~ 0
+VMCUA
+Wire Wire Line
+	10200 2100 9800 2100
+Connection ~ 9800 2100
+Text Label 6700 2000 0    50   ~ 0
+VMCUA
+Wire Wire Line
+	7000 2000 6700 2000
+Text Notes 9400 2200 0    50   ~ 0
+0603
+Text Notes 8700 1600 0    100  ~ 20
+MCU ANALOG POWER
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E46D68E
+P 6900 5200
+F 0 "#PWR?" H 6900 4950 50  0001 C CNN
+F 1 "GNDD" H 6905 5027 50  0000 C CNN
+F 2 "" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E46DDF4
+P 6400 5200
+F 0 "#PWR?" H 6400 4950 50  0001 C CNN
+F 1 "GNDD" H 6405 5027 50  0000 C CNN
+F 2 "" H 6400 5200 50  0001 C CNN
+F 3 "" H 6400 5200 50  0001 C CNN
+	1    6400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E46E1BF
+P 6800 4000
+F 0 "#PWR?" H 6800 3750 50  0001 C CNN
+F 1 "GNDD" H 6805 3827 50  0000 C CNN
+F 2 "" H 6800 4000 50  0001 C CNN
+F 3 "" H 6800 4000 50  0001 C CNN
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4000 6800 4000
+Connection ~ 6800 4000
+Wire Wire Line
+	6800 4000 6900 4000
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E46E86F
+P 7900 4000
+F 0 "#PWR?" H 7900 3750 50  0001 C CNN
+F 1 "GNDD" H 7905 3827 50  0000 C CNN
+F 2 "" H 7900 4000 50  0001 C CNN
+F 3 "" H 7900 4000 50  0001 C CNN
+	1    7900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4000 7900 3900
+Connection ~ 7900 3900
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E477AA3
+P 9800 2500
+F 0 "#PWR?" H 9800 2250 50  0001 C CNN
+F 1 "GNDD" H 9805 2327 50  0000 C CNN
+F 2 "" H 9800 2500 50  0001 C CNN
+F 3 "" H 9800 2500 50  0001 C CNN
+	1    9800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E477EE9
+P 9200 2500
+F 0 "#PWR?" H 9200 2250 50  0001 C CNN
+F 1 "GNDD" H 9205 2327 50  0000 C CNN
+F 2 "" H 9200 2500 50  0001 C CNN
+F 3 "" H 9200 2500 50  0001 C CNN
+	1    9200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E4780F3
+P 7600 2900
+F 0 "#PWR?" H 7600 2650 50  0001 C CNN
+F 1 "GNDD" H 7605 2727 50  0000 C CNN
+F 2 "" H 7600 2900 50  0001 C CNN
+F 3 "" H 7600 2900 50  0001 C CNN
+	1    7600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2900 7600 2700
+Connection ~ 7600 2900
+Wire Wire Line
+	7600 2600 7600 2500
+Connection ~ 7600 2600
+Text Notes 2800 7200 0    50   ~ 0
+SPEC SWITCH
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E48B06C
+P 2600 7000
+F 0 "#PWR?" H 2600 6750 50  0001 C CNN
+F 1 "GNDD" H 2605 6827 50  0000 C CNN
+F 2 "" H 2600 7000 50  0001 C CNN
+F 3 "" H 2600 7000 50  0001 C CNN
+	1    2600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2500 9800 2400
+Wire Wire Line
+	9200 2100 9200 2500
 Wire Bus Line
 	1300 4600 1300 4800
 Wire Bus Line

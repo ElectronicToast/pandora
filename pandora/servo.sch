@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-05"
+Date "2020-02-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -16,12 +16,13 @@ $EndDescr
 $Comp
 L Device:C_Small C?
 U 1 1 5E3DF409
-P 6700 2600
-F 0 "C?" H 6792 2646 50  0000 L CNN
-F 1 "0.1uF" H 6792 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 2600 50  0001 C CNN
-F 3 "~" H 6700 2600 50  0001 C CNN
-	1    6700 2600
+P 6400 1900
+F 0 "C?" H 6492 1946 50  0000 L CNN
+F 1 "0.1uF" H 6492 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 1900 50  0001 C CNN
+F 3 "~" H 6400 1900 50  0001 C CNN
+F 4 "0603" H 6400 1900 50  0001 C CNN "Package"
+	1    6400 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -32,8 +33,9 @@ AR Path="/5E64A3EA/5E369D1C" Ref="R?"  Part="1"
 AR Path="/5E2BAD17/5E369D1C" Ref="R?"  Part="1" 
 F 0 "R?" V 3395 2700 50  0000 C CNN
 F 1 "150k" V 3486 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 2700 50  0001 C CNN
 F 3 "~" H 3600 2700 50  0001 C CNN
+F 4 "0603" H 3600 2700 50  0001 C CNN "Package"
 	1    3600 2700
 	0    1    1    0   
 $EndComp
@@ -45,8 +47,9 @@ AR Path="/5E64A3EA/5E36D3A2" Ref="R?"  Part="1"
 AR Path="/5E2BAD17/5E36D3A2" Ref="R?"  Part="1" 
 F 0 "R?" V 4195 3400 50  0000 C CNN
 F 1 "120k" V 4286 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 3400 50  0001 C CNN
 F 3 "~" H 4400 3400 50  0001 C CNN
+F 4 "0603" H 4400 3400 50  0001 C CNN "Package"
 	1    4400 3400
 	0    1    1    0   
 $EndComp
@@ -57,12 +60,13 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5E479AEB
-P 6300 2600
-F 0 "C?" H 6392 2646 50  0000 L CNN
-F 1 "1uF" H 6392 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 2600 50  0001 C CNN
-F 3 "~" H 6300 2600 50  0001 C CNN
-	1    6300 2600
+P 6000 1900
+F 0 "C?" H 6092 1946 50  0000 L CNN
+F 1 "1uF" H 6092 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 1900 50  0001 C CNN
+F 3 "~" H 6000 1900 50  0001 C CNN
+F 4 "0603" H 6000 1900 50  0001 C CNN "Package"
+	1    6000 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -73,6 +77,7 @@ F 0 "U?" H 4600 2750 50  0000 L CNN
 F 1 "MCP6001" H 4600 2450 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4400 2400 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4500 2800 50  0001 C CNN
+F 4 "SOT-23-5" H 4500 2600 50  0001 C CNN "Package"
 	1    4500 2600
 	1    0    0    -1  
 $EndComp
@@ -103,38 +108,38 @@ $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 5E47D678
-P 6300 2900
-F 0 "#PWR?" H 6300 2650 50  0001 C CNN
-F 1 "GNDA" H 6305 2727 50  0000 C CNN
-F 2 "" H 6300 2900 50  0001 C CNN
-F 3 "" H 6300 2900 50  0001 C CNN
-	1    6300 2900
+P 6000 2200
+F 0 "#PWR?" H 6000 1950 50  0001 C CNN
+F 1 "GNDA" H 6005 2027 50  0000 C CNN
+F 2 "" H 6000 2200 50  0001 C CNN
+F 3 "" H 6000 2200 50  0001 C CNN
+	1    6000 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3VA #PWR?
 U 1 1 5E47E207
-P 6300 2300
-F 0 "#PWR?" H 6300 2150 50  0001 C CNN
-F 1 "+3.3VA" H 6315 2473 50  0000 C CNN
-F 2 "" H 6300 2300 50  0001 C CNN
-F 3 "" H 6300 2300 50  0001 C CNN
-	1    6300 2300
+P 6000 1600
+F 0 "#PWR?" H 6000 1450 50  0001 C CNN
+F 1 "+3.3VA" H 6015 1773 50  0000 C CNN
+F 2 "" H 6000 1600 50  0001 C CNN
+F 3 "" H 6000 1600 50  0001 C CNN
+	1    6000 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 2400 6300 2500
+	6000 1700 6000 1800
 Wire Wire Line
-	6300 2700 6300 2800
-Connection ~ 6300 2800
+	6000 2000 6000 2100
+Connection ~ 6000 2100
 Wire Wire Line
-	6700 2500 6700 2400
+	6400 1800 6400 1700
 Wire Wire Line
-	6700 2400 6300 2400
+	6400 1700 6000 1700
 Wire Wire Line
-	6700 2700 6700 2800
+	6400 2000 6400 2100
 Wire Wire Line
-	6700 2800 6300 2800
+	6400 2100 6000 2100
 Wire Wire Line
 	3700 2700 3800 2700
 Wire Wire Line
@@ -163,8 +168,9 @@ AR Path="/5E2B9A47/5E488142" Ref="R?"  Part="1"
 AR Path="/5E2BAD17/5E488142" Ref="R?"  Part="1" 
 F 0 "R?" H 3468 1746 50  0000 L CNN
 F 1 "150k" H 3468 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 1700 50  0001 C CNN
 F 3 "~" H 3400 1700 50  0001 C CNN
+F 4 "0603" H 3400 1700 50  0001 C CNN "Package"
 	1    3400 1700
 	1    0    0    -1  
 $EndComp
@@ -176,8 +182,9 @@ AR Path="/5E2B9A47/5E4884DF" Ref="R?"  Part="1"
 AR Path="/5E2BAD17/5E4884DF" Ref="R?"  Part="1" 
 F 0 "R?" H 3468 2146 50  0000 L CNN
 F 1 "160k" H 3468 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 2100 50  0001 C CNN
 F 3 "~" H 3400 2100 50  0001 C CNN
+F 4 "0603" H 3400 2100 50  0001 C CNN "Package"
 	1    3400 2100
 	1    0    0    -1  
 $EndComp
@@ -209,7 +216,7 @@ Wire Wire Line
 	4100 2500 4100 1900
 Wire Wire Line
 	4100 1900 3400 1900
-Text Notes 3500 1100 0    100  ~ 20
+Text Notes 3900 1100 0    100  ~ 20
 SERVO FEEDBACK SCALE
 Text HLabel 1300 1100 0    50   Input ~ 0
 FDBK
@@ -235,8 +242,16 @@ Text Notes 2800 2900 0    50   ~ 0
 Text Notes 5200 2800 0    50   ~ 0
 0 - 3.3V SWING
 Wire Wire Line
-	6300 2900 6300 2800
+	6000 2200 6000 2100
 Wire Wire Line
-	6300 2300 6300 2400
-Connection ~ 6300 2400
+	6000 1600 6000 1700
+Connection ~ 6000 1700
+Wire Notes Line
+	2700 1200 2700 3700
+Wire Notes Line
+	2700 3700 7000 3700
+Wire Notes Line
+	7000 3700 7000 1200
+Wire Notes Line
+	7000 1200 2700 1200
 $EndSCHEMATC
