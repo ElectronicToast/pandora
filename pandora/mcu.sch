@@ -681,7 +681,7 @@ F 5 "16V" H 9800 2300 50  0001 C CNN "Comment"
 	1    9800 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 10000 2500 0    50   ~ 0
+Text Notes 9900 2500 0    50   ~ 0
 1206
 Wire Wire Line
 	9400 2100 9200 2100
