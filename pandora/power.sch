@@ -65,44 +65,33 @@ SERVO
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5E4D93A9
-P 1100 3800
-F 0 "BT?" H 1218 3896 50  0000 L CNN
-F 1 "AA ALKALINE/NIMH" H 1218 3805 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 1100 3860 50  0001 C CNN
-F 3 "~" V 1100 3860 50  0001 C CNN
-F 4 "KEYSTONE_2460" H 1100 3800 50  0001 C CNN "Package"
-	1    1100 3800
+P 1300 4000
+F 0 "BT?" H 1418 4096 50  0000 L CNN
+F 1 "AA ALKALINE/NIMH" H 1418 4005 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 1300 4060 50  0001 C CNN
+F 3 "~" V 1300 4060 50  0001 C CNN
+F 4 "KEYSTONE_2460" H 1300 4000 50  0001 C CNN "Package"
+	1    1300 4000
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 4000 0    50   ~ 0
+Text Notes 1500 4200 0    50   ~ 0
 KEYSTONE 2460
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5E4D98FC
-P 1100 4300
-F 0 "BT?" H 1218 4396 50  0000 L CNN
-F 1 "AA ALKALINE/NIMH" H 1218 4305 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 1100 4360 50  0001 C CNN
-F 3 "~" V 1100 4360 50  0001 C CNN
-F 4 "KEYSTONE_2460" H 1100 4300 50  0001 C CNN "Package"
-	1    1100 4300
+P 1300 4500
+F 0 "BT?" H 1418 4596 50  0000 L CNN
+F 1 "AA ALKALINE/NIMH" H 1418 4505 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 1300 4560 50  0001 C CNN
+F 3 "~" V 1300 4560 50  0001 C CNN
+F 4 "KEYSTONE_2460" H 1300 4500 50  0001 C CNN "Package"
+	1    1300 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 4100 1100 3900
-$Comp
-L power:GND #PWR?
-U 1 1 5E35E5F8
-P 1100 4500
-F 0 "#PWR?" H 1100 4250 50  0001 C CNN
-F 1 "GND" H 1105 4327 50  0000 C CNN
-F 2 "" H 1100 4500 50  0001 C CNN
-F 3 "" H 1100 4500 50  0001 C CNN
-	1    1100 4500
-	1    0    0    -1  
-$EndComp
+	1300 4300 1300 4100
 Wire Wire Line
-	1100 4500 1100 4400
+	1300 4700 1300 4600
 $Comp
 L pandora:VIN #PWR?
 U 1 1 5E3BD68F
@@ -233,16 +222,16 @@ Wire Wire Line
 $Comp
 L pandora:VBAT #PWR?
 U 1 1 5E3C3B50
-P 1100 3500
-F 0 "#PWR?" H 1100 3350 50  0001 C CNN
-F 1 "VBAT" H 1115 3673 50  0000 C CNN
-F 2 "" H 1100 3500 50  0001 C CNN
-F 3 "" H 1100 3500 50  0001 C CNN
-	1    1100 3500
+P 1300 3700
+F 0 "#PWR?" H 1300 3550 50  0001 C CNN
+F 1 "VBAT" H 1315 3873 50  0000 C CNN
+F 2 "" H 1300 3700 50  0001 C CNN
+F 3 "" H 1300 3700 50  0001 C CNN
+	1    1300 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3600 1100 3500
+	1300 3800 1300 3700
 Text Notes 2500 2300 0    50   ~ 0
 RF
 $Comp
@@ -484,7 +473,7 @@ Wire Wire Line
 	9900 5300 10300 5300
 Wire Wire Line
 	9300 5300 9700 5300
-Text Notes 1000 3100 0    100  ~ 20
+Text Notes 1200 3200 0    100  ~ 20
 LV BATTERIES
 $Comp
 L power:+5V #PWR?
@@ -502,7 +491,7 @@ Wire Wire Line
 Connection ~ 7400 5300
 Wire Wire Line
 	6700 5200 6700 5300
-Text Notes 3400 4700 0    100  ~ 20
+Text Notes 2600 5500 0    100  ~ 20
 BATTERY BOOST CONVERTER
 Text Notes 8700 2500 0    100  ~ 20
 POWER SELECT
@@ -1042,4 +1031,424 @@ Wire Notes Line
 	8800 3700 9800 3700
 Text Notes 5600 2500 0    50   ~ 0
 ALTERNATE PART\nS3JBHR5G \nSMB
+$Comp
+L pandora:LT1935 U?
+U 1 1 5E4550CE
+P 3800 6600
+F 0 "U?" H 3800 6967 50  0000 C CNN
+F 1 "LT1935" H 3800 6876 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3900 6350 50  0001 L CIN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1935f.pdf" H 3600 6900 50  0001 C CNN
+	1    3800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E455AF2
+P 1600 6600
+AR Path="/5E2BAD17/5E455AF2" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E455AF2" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E455AF2" Ref="C?"  Part="1" 
+F 0 "C?" H 1692 6646 50  0000 L CNN
+F 1 "4.7uF" H 1692 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 6600 50  0001 C CNN
+F 3 "~" H 1600 6600 50  0001 C CNN
+F 4 "0603" H 1600 6600 50  0001 C CNN "Package"
+	1    1600 6600
+	1    0    0    -1  
+$EndComp
+Text Notes 1700 6800 0    50   ~ 0
+0805
+$Comp
+L Device:L_Small L?
+U 1 1 5E45A80A
+P 3800 6100
+AR Path="/5E2B9A47/5E45A80A" Ref="L?"  Part="1" 
+AR Path="/5E2BABF8/5E45A80A" Ref="L?"  Part="1" 
+F 0 "L?" V 3985 6100 50  0000 C CNN
+F 1 "1.8uH" V 3894 6100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 6100 50  0001 C CNN
+F 3 "~" H 3800 6100 50  0001 C CNN
+F 4 " CR43-1R" H 3800 6100 50  0001 C CNN "Package"
+	1    3800 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 6500 3400 6500
+Wire Wire Line
+	3400 6500 3400 6100
+Wire Wire Line
+	3400 6100 3700 6100
+Wire Wire Line
+	4100 6500 4200 6500
+Wire Wire Line
+	4200 6500 4200 6100
+Wire Wire Line
+	3900 6100 4200 6100
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5E46289D
+P 4400 6100
+F 0 "D?" H 4400 5895 50  0000 C CNN
+F 1 "MBRM120" H 4400 5986 50  0000 C CNN
+F 2 "Diode_SMD:D_Powermite_AK" V 4400 6100 50  0001 C CNN
+F 3 "~" V 4400 6100 50  0001 C CNN
+	1    4400 6100
+	-1   0    0    1   
+$EndComp
+Connection ~ 4200 6100
+Text Notes 4600 6000 0    50   ~ 0
+CHECK\nFOOTPRINT
+Wire Wire Line
+	4300 6100 4200 6100
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E46B03A
+P 4600 6800
+AR Path="/5E2B9A47/5E46B03A" Ref="R?"  Part="1" 
+AR Path="/5E2BABF8/5E46B03A" Ref="R?"  Part="1" 
+F 0 "R?" H 4668 6846 50  0000 L CNN
+F 1 "10k" H 4668 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 6800 50  0001 C CNN
+F 3 "~" H 4600 6800 50  0001 C CNN
+F 4 "0603" H 4600 6800 50  0001 C CNN "Package"
+	1    4600 6800
+	1    0    0    -1  
+$EndComp
+Text Notes 4700 7000 0    50   ~ 0
+0603
+Wire Wire Line
+	4500 6100 4600 6100
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E469DA1
+P 4600 6400
+AR Path="/5E2B9A47/5E469DA1" Ref="R?"  Part="1" 
+AR Path="/5E2BABF8/5E469DA1" Ref="R?"  Part="1" 
+F 0 "R?" H 4668 6446 50  0000 L CNN
+F 1 "29.4k" H 4668 6355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 6400 50  0001 C CNN
+F 3 "~" H 4600 6400 50  0001 C CNN
+F 4 "0603" H 4600 6400 50  0001 C CNN "Package"
+	1    4600 6400
+	1    0    0    -1  
+$EndComp
+Text Notes 4700 6300 0    50   ~ 0
+0603
+Wire Wire Line
+	4600 6100 4600 6300
+Wire Wire Line
+	4600 6500 4600 6600
+Wire Wire Line
+	4600 6600 4100 6600
+Connection ~ 4600 6600
+Wire Wire Line
+	4600 6600 4600 6700
+Wire Wire Line
+	3800 6900 3800 7100
+Wire Wire Line
+	4600 7100 4600 6900
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E47F00D
+P 1300 4700
+F 0 "#PWR?" H 1300 4450 50  0001 C CNN
+F 1 "GNDBAT" H 1305 4527 50  0000 C CNN
+F 2 "" H 1300 4700 50  0001 C CNN
+F 3 "" H 1300 4700 50  0001 C CNN
+	1    1300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E47F25D
+P 3800 7100
+F 0 "#PWR?" H 3800 6850 50  0001 C CNN
+F 1 "GNDBAT" H 3805 6927 50  0000 C CNN
+F 2 "" H 3800 7100 50  0001 C CNN
+F 3 "" H 3800 7100 50  0001 C CNN
+	1    3800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E480BB7
+P 4600 7100
+F 0 "#PWR?" H 4600 6850 50  0001 C CNN
+F 1 "GNDBAT" H 4605 6927 50  0000 C CNN
+F 2 "" H 4600 7100 50  0001 C CNN
+F 3 "" H 4600 7100 50  0001 C CNN
+	1    4600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E4810B2
+P 1600 7100
+F 0 "#PWR?" H 1600 6850 50  0001 C CNN
+F 1 "GNDBAT" H 1605 6927 50  0000 C CNN
+F 2 "" H 1600 7100 50  0001 C CNN
+F 3 "" H 1600 7100 50  0001 C CNN
+	1    1600 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 7100 1600 6700
+Wire Wire Line
+	1600 6500 1600 6100
+Connection ~ 3400 6100
+$Comp
+L pandora:VBAT #PWR?
+U 1 1 5E48CB47
+P 900 6000
+F 0 "#PWR?" H 900 5850 50  0001 C CNN
+F 1 "VBAT" H 915 6173 50  0000 C CNN
+F 2 "" H 900 6000 50  0001 C CNN
+F 3 "" H 900 6000 50  0001 C CNN
+	1    900  6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6000 900  6100
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5E4947C5
+P 6200 6100
+F 0 "FB?" V 5963 6100 50  0000 C CNN
+F 1 "1206_2A" V 6054 6100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 6100 50  0001 C CNN
+F 3 "~" H 6200 6100 50  0001 C CNN
+F 4 "0603" H 6200 6100 50  0001 C CNN "Package"
+	1    6200 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E49C2E7
+P 5000 6300
+AR Path="/5E2BAD17/5E49C2E7" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E49C2E7" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E49C2E7" Ref="C?"  Part="1" 
+F 0 "C?" H 5092 6346 50  0000 L CNN
+F 1 "150pF" H 5092 6255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 6300 50  0001 C CNN
+F 3 "~" H 5000 6300 50  0001 C CNN
+F 4 "0603" H 5000 6300 50  0001 C CNN "Package"
+	1    5000 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6200 5000 6100
+Wire Wire Line
+	5000 6100 4600 6100
+Connection ~ 4600 6100
+Wire Wire Line
+	5000 6400 5000 6600
+Wire Wire Line
+	5000 6600 4600 6600
+$Comp
+L Device:C_Small C?
+U 1 1 5E4A60ED
+P 5400 6600
+AR Path="/5E2BAD17/5E4A60ED" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E4A60ED" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E4A60ED" Ref="C?"  Part="1" 
+F 0 "C?" H 5492 6646 50  0000 L CNN
+F 1 "20uF" H 5492 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 6600 50  0001 C CNN
+F 3 "~" H 5400 6600 50  0001 C CNN
+F 4 "0603" H 5400 6600 50  0001 C CNN "Package"
+	1    5400 6600
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 6800 0    50   ~ 0
+0805
+Wire Wire Line
+	5400 6500 5400 6100
+Wire Wire Line
+	5400 6100 5000 6100
+Connection ~ 5000 6100
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E4AB6A1
+P 5400 7100
+F 0 "#PWR?" H 5400 6850 50  0001 C CNN
+F 1 "GNDBAT" H 5405 6927 50  0000 C CNN
+F 2 "" H 5400 7100 50  0001 C CNN
+F 3 "" H 5400 7100 50  0001 C CNN
+	1    5400 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 7100 5400 6700
+Wire Wire Line
+	6100 6100 5400 6100
+Connection ~ 5400 6100
+Text Label 6400 6100 0    50   ~ 0
+VBOOST
+Wire Wire Line
+	6700 6100 6300 6100
+Text Notes 3600 5800 0    50   ~ 0
+ CR43-1R
+Text Notes 3200 6000 0    50   ~ 0
+MAKE\nFOOTPRINT
+$Comp
+L Device:C_Small C?
+U 1 1 5E4DEFC6
+P 2500 6800
+AR Path="/5E2BAD17/5E4DEFC6" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E4DEFC6" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E4DEFC6" Ref="C?"  Part="1" 
+F 0 "C?" H 2592 6846 50  0000 L CNN
+F 1 "220nF" H 2592 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 6800 50  0001 C CNN
+F 3 "~" H 2500 6800 50  0001 C CNN
+F 4 "0603" H 2500 6800 50  0001 C CNN "Package"
+	1    2500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E4C9345
+P 2300 6600
+AR Path="/5E64A3EA/5E4C9345" Ref="R?"  Part="1" 
+AR Path="/5E2BAD17/5E4C9345" Ref="R?"  Part="1" 
+AR Path="/5E2B9A47/5E4C9345" Ref="R?"  Part="1" 
+AR Path="/5E2BABF8/5E4C9345" Ref="R?"  Part="1" 
+F 0 "R?" V 2095 6600 50  0000 C CNN
+F 1 "10k" V 2186 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2300 6600 50  0001 C CNN
+F 3 "~" H 2300 6600 50  0001 C CNN
+F 4 "0603" H 2300 6600 50  0001 C CNN "Package"
+	1    2300 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  6100 1600 6100
+Wire Wire Line
+	2500 6700 2500 6600
+Wire Wire Line
+	2500 6600 2400 6600
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E4EF9AD
+P 2500 7100
+F 0 "#PWR?" H 2500 6850 50  0001 C CNN
+F 1 "GNDBAT" H 2505 6927 50  0000 C CNN
+F 2 "" H 2500 7100 50  0001 C CNN
+F 3 "" H 2500 7100 50  0001 C CNN
+	1    2500 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7100 2500 6900
+Connection ~ 1600 6100
+Wire Notes Line
+	2100 6300 2100 7000
+Wire Notes Line
+	2100 7000 2900 7000
+Wire Notes Line
+	2900 7000 2900 6300
+Wire Notes Line
+	2900 6300 2100 6300
+Text Notes 2100 6300 0    50   ~ 0
+SOFT START FILTER
+Wire Notes Line
+	1300 5600 1300 7500
+Wire Notes Line
+	1300 7500 5900 7500
+Wire Notes Line
+	5900 7500 5900 5600
+Wire Notes Line
+	5900 5600 1300 5600
+Wire Notes Line
+	1000 3300 1000 5100
+Wire Notes Line
+	1000 5100 2400 5100
+Wire Notes Line
+	2400 5100 2400 3300
+Wire Notes Line
+	2400 3300 1000 3300
+Text Notes 5100 6500 0    50   ~ 0
+0603
+Wire Wire Line
+	2200 6600 2000 6600
+Wire Wire Line
+	1600 6100 2000 6100
+Wire Wire Line
+	2000 6100 3400 6100
+Connection ~ 2000 6100
+Wire Wire Line
+	2000 6600 2000 6100
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 5E5840B0
+P 3200 6600
+AR Path="/5E341789/5E5840B0" Ref="JP?"  Part="1" 
+AR Path="/5E2BABF8/5E5840B0" Ref="JP?"  Part="1" 
+F 0 "JP?" V 3050 6650 50  0000 L CNN
+F 1 "SJ" V 3150 6725 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 3200 6600 50  0001 C CNN
+F 3 "~" H 3200 6600 50  0001 C CNN
+F 4 "SMD_PAD" H 3200 6600 50  0001 C CNN "Package"
+	1    3200 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 6600 3500 6600
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E59F120
+P 3200 7100
+F 0 "#PWR?" H 3200 6850 50  0001 C CNN
+F 1 "GNDBAT" H 3205 6927 50  0000 C CNN
+F 2 "" H 3200 7100 50  0001 C CNN
+F 3 "" H 3200 7100 50  0001 C CNN
+	1    3200 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 7100 3200 6800
+Wire Wire Line
+	3200 6400 3000 6400
+Wire Wire Line
+	3000 6400 3000 6600
+Wire Wire Line
+	3000 6600 2500 6600
+Connection ~ 2500 6600
+Text Notes 3300 7100 0    50   ~ 0
+GND\nTO\nDISABLE\nSOFT\nSTART
+$Comp
+L Device:C_Small C?
+U 1 1 5E5B82CE
+P 900 6600
+AR Path="/5E2BAD17/5E5B82CE" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E5B82CE" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E5B82CE" Ref="C?"  Part="1" 
+F 0 "C?" H 992 6646 50  0000 L CNN
+F 1 "10uF" H 992 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 900 6600 50  0001 C CNN
+F 3 "~" H 900 6600 50  0001 C CNN
+F 4 "0603" H 900 6600 50  0001 C CNN "Package"
+	1    900  6600
+	1    0    0    -1  
+$EndComp
+Text Notes 1000 6800 0    50   ~ 0
+0805
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E5BCB63
+P 900 7100
+F 0 "#PWR?" H 900 6850 50  0001 C CNN
+F 1 "GNDBAT" H 905 6927 50  0000 C CNN
+F 2 "" H 900 7100 50  0001 C CNN
+F 3 "" H 900 7100 50  0001 C CNN
+	1    900  7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6700 900  7100
+Wire Wire Line
+	900  6100 900  6500
+Connection ~ 900  6100
 $EndSCHEMATC
