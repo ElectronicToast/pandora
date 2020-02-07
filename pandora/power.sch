@@ -765,8 +765,6 @@ Wire Wire Line
 	7000 1700 7000 1900
 Wire Wire Line
 	7000 1500 7000 1400
-Text Notes 6600 1800 0    50   ~ 0
-0805
 Wire Wire Line
 	6500 1400 6500 1500
 Wire Wire Line
@@ -780,21 +778,6 @@ F 1 "GNDD" H 6505 1727 50  0000 C CNN
 F 2 "" H 6500 1900 50  0001 C CNN
 F 3 "" H 6500 1900 50  0001 C CNN
 	1    6500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E50834C
-P 6500 1600
-AR Path="/5E2BAD17/5E50834C" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E50834C" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E50834C" Ref="C?"  Part="1" 
-F 0 "C?" H 6592 1646 50  0000 L CNN
-F 1 "10uF" H 6592 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 1600 50  0001 C CNN
-F 3 "~" H 6500 1600 50  0001 C CNN
-F 4 "0603" H 6500 1600 50  0001 C CNN "Package"
-	1    6500 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -826,27 +809,10 @@ Wire Notes Line
 	7600 1000 5600 1000
 Text Notes 6000 900  0    100  ~ 20
 SERVO POWER
-$Comp
-L Device:C_Small C?
-U 1 1 5E43A7E2
-P 4400 1600
-AR Path="/5E2BAD17/5E43A7E2" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E43A7E2" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E43A7E2" Ref="C?"  Part="1" 
-F 0 "C?" H 4492 1646 50  0000 L CNN
-F 1 "10uF" H 4492 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 1600 50  0001 C CNN
-F 3 "~" H 4400 1600 50  0001 C CNN
-F 4 "0603" H 4400 1600 50  0001 C CNN "Package"
-	1    4400 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 1900 4400 1700
 Wire Wire Line
 	4400 1400 4400 1500
-Text Notes 4500 1800 0    50   ~ 0
-0805
 $Comp
 L Device:C_Small C?
 U 1 1 5E43D577
@@ -1116,8 +1082,6 @@ F 4 "0603" H 4600 6800 50  0001 C CNN "Package"
 	1    4600 6800
 	1    0    0    -1  
 $EndComp
-Text Notes 4700 7000 0    50   ~ 0
-0603
 Wire Wire Line
 	4500 6100 4600 6100
 $Comp
@@ -1134,8 +1098,6 @@ F 4 "0603" H 4600 6400 50  0001 C CNN "Package"
 	1    4600 6400
 	1    0    0    -1  
 $EndComp
-Text Notes 4700 6300 0    50   ~ 0
-0603
 Wire Wire Line
 	4600 6100 4600 6300
 Wire Wire Line
@@ -1256,14 +1218,12 @@ AR Path="/5E2B9A47/5E4A60ED" Ref="C?"  Part="1"
 AR Path="/5E2BABF8/5E4A60ED" Ref="C?"  Part="1" 
 F 0 "C?" H 5492 6646 50  0000 L CNN
 F 1 "20uF" H 5492 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 6600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5400 6600 50  0001 C CNN
 F 3 "~" H 5400 6600 50  0001 C CNN
 F 4 "0603" H 5400 6600 50  0001 C CNN "Package"
 	1    5400 6600
 	1    0    0    -1  
 $EndComp
-Text Notes 5500 6800 0    50   ~ 0
-0805
 Wire Wire Line
 	5400 6500 5400 6100
 Wire Wire Line
@@ -1370,8 +1330,6 @@ Wire Notes Line
 	2400 5100 2400 3300
 Wire Notes Line
 	2400 3300 1000 3300
-Text Notes 5100 6500 0    50   ~ 0
-0603
 Wire Wire Line
 	2200 6600 2000 6600
 Wire Wire Line
@@ -1419,23 +1377,8 @@ Wire Wire Line
 Connection ~ 2500 6600
 Text Notes 3300 7100 0    50   ~ 0
 GND\nTO\nDISABLE\nSOFT\nSTART
-$Comp
-L Device:C_Small C?
-U 1 1 5E5B82CE
-P 900 6600
-AR Path="/5E2BAD17/5E5B82CE" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E5B82CE" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E5B82CE" Ref="C?"  Part="1" 
-F 0 "C?" H 992 6646 50  0000 L CNN
-F 1 "10uF" H 992 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 900 6600 50  0001 C CNN
-F 3 "~" H 900 6600 50  0001 C CNN
-F 4 "0603" H 900 6600 50  0001 C CNN "Package"
-	1    900  6600
-	1    0    0    -1  
-$EndComp
 Text Notes 1000 6800 0    50   ~ 0
-0805
+1206
 $Comp
 L pandora:GNDBAT #PWR?
 U 1 1 5E5BCB63
@@ -1454,4 +1397,55 @@ Wire Wire Line
 Connection ~ 900  6100
 Text Notes 8900 3900 0    50   ~ 0
 LOOK AT ALTERNATIVES\nMAKE FOOTPRINTS
+$Comp
+L Device:C_Small C?
+U 1 1 5E687B3D
+P 900 6600
+AR Path="/5E2BAD17/5E687B3D" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E687B3D" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E687B3D" Ref="C?"  Part="1" 
+F 0 "C?" H 992 6646 50  0000 L CNN
+F 1 "22uF" H 992 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 900 6600 50  0001 C CNN
+F 3 "~" H 900 6600 50  0001 C CNN
+F 4 "0603" H 900 6600 50  0001 C CNN "Package"
+	1    900  6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E6885A1
+P 4400 1600
+AR Path="/5E2BAD17/5E6885A1" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E6885A1" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E6885A1" Ref="C?"  Part="1" 
+F 0 "C?" H 4492 1646 50  0000 L CNN
+F 1 "10uF" H 4492 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4400 1600 50  0001 C CNN
+F 3 "~" H 4400 1600 50  0001 C CNN
+F 4 "0603" H 4400 1600 50  0001 C CNN "Package"
+	1    4400 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 1800 0    50   ~ 0
+1206
+Text Notes 6600 1800 0    50   ~ 0
+1206
+$Comp
+L Device:C_Small C?
+U 1 1 5E68B76A
+P 6500 1600
+AR Path="/5E2BAD17/5E68B76A" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E68B76A" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E68B76A" Ref="C?"  Part="1" 
+F 0 "C?" H 6592 1646 50  0000 L CNN
+F 1 "22uF" H 6592 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6500 1600 50  0001 C CNN
+F 3 "~" H 6500 1600 50  0001 C CNN
+F 4 "0603" H 6500 1600 50  0001 C CNN "Package"
+	1    6500 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 6800 0    50   ~ 0
+1206
 $EndSCHEMATC

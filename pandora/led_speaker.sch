@@ -125,7 +125,7 @@ AR Path="/5E64A3EA/5E36C790" Ref="R?"  Part="1"
 AR Path="/5E341789/5E36C790" Ref="R?"  Part="1" 
 F 0 "R?" H 7132 4254 50  0000 R CNN
 F 1 "10" H 7132 4345 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7200 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7200 4300 50  0001 C CNN
 F 3 "~" H 7200 4300 50  0001 C CNN
 F 4 "0603" H 7200 4300 50  0001 C CNN "Package"
 	1    7200 4300
@@ -557,7 +557,7 @@ Wire Notes Line
 Wire Notes Line
 	8500 3500 3500 3500
 Text Notes 6900 4300 0    50   ~ 0
-1206\n1/4W
+1210\n1/4W
 Wire Bus Line
 	1400 1200 1400 1400
 Wire Bus Line
