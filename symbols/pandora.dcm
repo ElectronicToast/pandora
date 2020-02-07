@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADM811
+D Power supply supervisor, Manual reset, Threshold 2.32-4.63V, SOT-143
+K Supervisor Reset
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf
+$ENDCMP
+#
+$CMP ADM811ZARTZ
+D Power supply supervisor, Manual reset, Threshold 2.32V, SOT-143
+K Supervisor Reset
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf
+$ENDCMP
+#
 $CMP CC2652R
 D Texas Instruments CC2652RSimpleLink™ Multiprotocol2.4 GHz WirelessMCU
 K SimpleLink, Multiprotocol
