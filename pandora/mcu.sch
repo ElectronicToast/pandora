@@ -274,17 +274,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 4900 6300 4900
 Connection ~ 6900 4900
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E36CF45
-P 6900 4600
-F 0 "#PWR?" H 6900 4450 50  0001 C CNN
-F 1 "+3V3" H 6915 4773 50  0000 C CNN
-F 2 "" H 6900 4600 50  0001 C CNN
-F 3 "" H 6900 4600 50  0001 C CNN
-	1    6900 4600
-	1    0    0    -1  
-$EndComp
 Text Label 4300 4500 0    50   ~ 0
 SPK
 Wire Wire Line
@@ -646,7 +635,7 @@ Entry Wire Line
 	1300 1300 1400 1400
 Wire Wire Line
 	1900 1400 1400 1400
-Text Label 4400 6600 0    50   ~ 0
+Text Label 4500 6300 0    50   ~ 0
 JTAG_~RESET
 $Comp
 L Switch:SW_Push SW?
@@ -665,29 +654,6 @@ Wire Wire Line
 	3100 7000 3200 7000
 Text Notes 2800 7300 0    50   ~ 0
 FIND FOOTPRINT
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E38EEC4
-P 3200 6200
-F 0 "#PWR?" H 3200 6050 50  0001 C CNN
-F 1 "+3V3" H 3215 6373 50  0000 C CNN
-F 2 "" H 3200 6200 50  0001 C CNN
-F 3 "" H 3200 6200 50  0001 C CNN
-	1    3200 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E38EEBA
-P 3200 6300
-F 0 "R?" H 3268 6346 50  0000 L CNN
-F 1 "10k" H 3268 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 6300 50  0001 C CNN
-F 3 "~" H 3200 6300 50  0001 C CNN
-F 4 "0603" H 3200 6300 50  0001 C CNN "Package"
-	1    3200 6300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:L_Small L?
 U 1 1 5E42F1B3
@@ -886,23 +852,6 @@ Text Label 8800 2100 0    50   ~ 0
 DCDC_SW
 Wire Wire Line
 	8800 2100 9200 2100
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E37FBF0
-P 4200 6600
-AR Path="/5E64A3EA/5E37FBF0" Ref="R?"  Part="1" 
-AR Path="/5E2BAD17/5E37FBF0" Ref="R?"  Part="1" 
-AR Path="/5E2B9A47/5E37FBF0" Ref="R?"  Part="1" 
-F 0 "R?" V 3995 6600 50  0000 C CNN
-F 1 "100" V 4086 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 6600 50  0001 C CNN
-F 3 "~" H 4200 6600 50  0001 C CNN
-F 4 "0603" H 4200 6600 50  0001 C CNN "Package"
-	1    4200 6600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4300 6600 4900 6600
 Text Label 4100 4600 0    50   ~ 0
 IMU_SCK
 Wire Wire Line
@@ -963,17 +912,6 @@ Text Label 4500 2900 0    50   ~ 0
 LCD_DB0
 Wire Wire Line
 	4500 2900 4900 2900
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E3DAE73
-P 6400 2000
-F 0 "#PWR?" H 6400 1850 50  0001 C CNN
-F 1 "+3V3" H 6415 2173 50  0000 C CNN
-F 2 "" H 6400 2000 50  0001 C CNN
-F 3 "" H 6400 2000 50  0001 C CNN
-	1    6400 2000
-	1    0    0    -1  
-$EndComp
 Text Label 9900 2100 0    50   ~ 0
 VMCUA
 Wire Wire Line
@@ -1095,6 +1033,164 @@ Wire Wire Line
 	9800 2500 9800 2400
 Wire Wire Line
 	9200 2100 9200 2500
+$Comp
+L pandora:VMCU #PWR?
+U 1 1 5E5C89F4
+P 6400 2000
+F 0 "#PWR?" H 6400 1850 50  0001 C CNN
+F 1 "VMCU" H 6415 2173 50  0000 C CNN
+F 2 "" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VMCU #PWR?
+U 1 1 5E5C8C17
+P 6900 4600
+F 0 "#PWR?" H 6900 4450 50  0001 C CNN
+F 1 "VMCU" H 6915 4773 50  0000 C CNN
+F 2 "" H 6900 4600 50  0001 C CNN
+F 3 "" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VMCU #PWR?
+U 1 1 5E5DABA9
+P 3200 6100
+F 0 "#PWR?" H 3200 5950 50  0001 C CNN
+F 1 "VMCU" H 3215 6273 50  0000 C CNN
+F 2 "" H 3200 6100 50  0001 C CNN
+F 3 "" H 3200 6100 50  0001 C CNN
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E38EEBA
+P 3200 6300
+F 0 "R?" H 3268 6346 50  0000 L CNN
+F 1 "10k" H 3268 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 6300 50  0001 C CNN
+F 3 "~" H 3200 6300 50  0001 C CNN
+F 4 "0603" H 3200 6300 50  0001 C CNN "Package"
+	1    3200 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6100 3200 6200
+$Comp
+L 74xGxx:74LVC1G08 U?
+U 1 1 5E5EF797
+P 5500 6400
+F 0 "U?" H 5700 6550 50  0000 C CNN
+F 1 "74LVC1G08" H 5850 6300 50  0000 C CNN
+F 2 "" H 5500 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5500 6400 50  0001 C CNN
+F 4 "SOT-23-5" H 5500 6400 50  0001 C CNN "Package"
+F 5 "SN74LVC1G08DBV" H 5500 6400 50  0001 C CNN "PartNo"
+	1    5500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VMCU #PWR?
+U 1 1 5E5F0BFE
+P 5500 5900
+F 0 "#PWR?" H 5500 5750 50  0001 C CNN
+F 1 "VMCU" H 5515 6073 50  0000 C CNN
+F 2 "" H 5500 5900 50  0001 C CNN
+F 3 "" H 5500 5900 50  0001 C CNN
+	1    5500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E5F11BC
+P 5700 6000
+F 0 "C?" V 5650 6100 50  0000 C CNN
+F 1 "0.1uF" V 5750 6150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5700 6000 50  0001 C CNN
+F 3 "~" H 5700 6000 50  0001 C CNN
+F 4 "0603" H 5700 6000 50  0001 C CNN "Package"
+	1    5700 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E5F2182
+P 6100 6000
+F 0 "#PWR?" H 6100 5750 50  0001 C CNN
+F 1 "GNDD" H 6105 5827 50  0000 C CNN
+F 2 "" H 6100 6000 50  0001 C CNN
+F 3 "" H 6100 6000 50  0001 C CNN
+	1    6100 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6000 5800 6000
+Wire Wire Line
+	5500 5900 5500 6000
+Wire Wire Line
+	5600 6000 5500 6000
+Connection ~ 5500 6000
+Wire Wire Line
+	5500 6000 5500 6300
+$Comp
+L pandora:GNDD #PWR?
+U 1 1 5E61FE5B
+P 5500 6600
+F 0 "#PWR?" H 5500 6350 50  0001 C CNN
+F 1 "GNDD" H 5505 6427 50  0000 C CNN
+F 2 "" H 5500 6600 50  0001 C CNN
+F 3 "" H 5500 6600 50  0001 C CNN
+	1    5500 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6600 5500 6500
+Text Label 5800 6400 0    50   ~ 0
+~RESET
+Wire Wire Line
+	6100 6400 5750 6400
+$Comp
+L pandora:VMCU #PWR?
+U 1 1 5E6360D4
+P 5000 5900
+F 0 "#PWR?" H 5000 5750 50  0001 C CNN
+F 1 "VMCU" H 5015 6073 50  0000 C CNN
+F 2 "" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E6360DB
+P 5000 6100
+F 0 "R?" H 5068 6146 50  0000 L CNN
+F 1 "10k" H 5068 6055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 6100 50  0001 C CNN
+F 3 "~" H 5000 6100 50  0001 C CNN
+F 4 "0603" H 5000 6100 50  0001 C CNN "Package"
+	1    5000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5900 5000 6000
+Wire Wire Line
+	4500 6300 5000 6300
+Wire Wire Line
+	5000 6300 5000 6200
+Wire Wire Line
+	5200 6350 5200 6300
+Wire Wire Line
+	5200 6300 5000 6300
+Connection ~ 5000 6300
+Wire Wire Line
+	5200 6450 5200 6500
+Wire Wire Line
+	5200 6500 5100 6500
 Wire Bus Line
 	1300 4600 1300 4800
 Wire Bus Line
