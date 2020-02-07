@@ -72,6 +72,18 @@ K Voltage Regulator Adjustable 3.0A Positive LDO
 F http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf
 $ENDCMP
 #
+$CMP LT1935
+D 1.2MHz Boost DC/DCConverter in ThinSOTwith 2A Switch
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1935f.pdf
+$ENDCMP
+#
+$CMP LT1935ES5
+D 1.2MHz Boost DC/DCConverter in ThinSOTwith 2A Switch
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1935f.pdf
+$ENDCMP
+#
 $CMP MCP1702
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
 K regulator linear ldo
