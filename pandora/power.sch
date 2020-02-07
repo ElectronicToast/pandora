@@ -506,15 +506,16 @@ CHECK\nFOOTPRINT
 Wire Wire Line
 	5500 3100 6300 3100
 Text Notes 9200 3500 0    50   ~ 0
-3A
+> 3A
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 5E46A822
 P 9300 3200
 F 0 "SW?" H 9300 3485 50  0000 C CNN
-F 1 "SW_SPDT" H 9300 3394 50  0000 C CNN
+F 1 " L102021ML04Q" H 9300 3394 50  0000 C CNN
 F 2 "" H 9300 3200 50  0001 C CNN
-F 3 "~" H 9300 3200 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/L/documents/datasheet.pdf" H 9300 3200 50  0001 C CNN
+F 4 " L102021ML04Q" H 9300 3200 50  0001 C CNN "PartNo"
 	1    9300 3200
 	-1   0    0    -1  
 $EndComp
@@ -717,8 +718,6 @@ F 4 "TO-263" H 6900 3100 50  0001 C CNN "Package"
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 9200 3800 0    50   ~ 0
-SPEC
 Text Notes 5800 1800 0    50   ~ 0
 DO-15
 $Comp
@@ -1451,4 +1450,6 @@ Wire Wire Line
 Wire Wire Line
 	900  6100 900  6500
 Connection ~ 900  6100
+Text Notes 8900 3900 0    50   ~ 0
+LOOK AT ALTERNATIVES\nMAKE FOOTPRINTS
 $EndSCHEMATC
