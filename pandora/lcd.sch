@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 5 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-06"
+Date "2020-02-07"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -395,6 +395,8 @@ Wire Notes Line
 	8800 4500 8800 3000
 Wire Notes Line
 	8800 3000 7200 3000
+Text Notes 8000 3900 0    50   ~ 0
+TC33X-2-103E
 Wire Bus Line
 	1300 3100 1300 3300
 Wire Bus Line
@@ -403,6 +405,4 @@ Wire Bus Line
 	1300 1800 1300 2500
 Wire Bus Line
 	1300 3500 1300 4200
-Text Notes 8000 3900 0    50   ~ 0
-TC33X-2-103E
 $EndSCHEMATC
