@@ -240,13 +240,13 @@ U 1 1 5E3CC972
 P 7900 3700
 F 0 "RV?" H 7832 3746 50  0000 R CNN
 F 1 "10k" H 7832 3655 50  0000 R CNN
-F 2 "" H 7900 3700 50  0001 C CNN
-F 3 "~" H 7900 3700 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 7900 3700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 7900 3700 50  0001 C CNN
+F 4 "Bourns_TC33" H 7900 3700 50  0001 C CNN "Package"
+F 5 "TC33X-2-103E" H 7900 3700 50  0001 C CNN "PartNo"
 	1    7900 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 7300 4000 0    50   ~ 0
-FIND \nFOOTPRINT
 Text Notes 5100 4900 0    50   ~ 0
 SOIC-20W
 Text Notes 5100 5000 0    50   ~ 0
@@ -403,4 +403,6 @@ Wire Bus Line
 	1300 1800 1300 2500
 Wire Bus Line
 	1300 3500 1300 4200
+Text Notes 8000 3900 0    50   ~ 0
+TC33X-2-103E
 $EndSCHEMATC
