@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-07"
+Date "2020-02-08"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -393,8 +393,10 @@ U 1 1 5E41DA2E
 P 8700 1700
 F 0 "J?" H 8780 1692 50  0000 L CNN
 F 1 "PinHeader_100mil_01x04" H 8780 1601 50  0000 L CNN
-F 2 "" H 8700 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8700 1700 50  0001 C CNN
 F 3 "~" H 8700 1700 50  0001 C CNN
+F 4 "Servo connector" H 8700 1700 50  0001 C CNN "Comment"
+F 5 "100mil_01x04" H 8700 1700 50  0001 C CNN "Package"
 	1    8700 1700
 	1    0    0    -1  
 $EndComp
@@ -524,7 +526,7 @@ F 0 "J?" H 5480 1892 50  0000 L CNN
 F 1 "JST-PH_2" H 5480 1801 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 5400 1900 50  0001 C CNN
 F 3 "~" H 5400 1900 50  0001 C CNN
-F 4 "JST PH LiPo connector" H 5400 1900 50  0001 C CNN "Comment"
+F 4 "JST PH auxiliary LiPo connector" H 5400 1900 50  0001 C CNN "Comment"
 F 5 "JST-PH_2_SMD_RghtAngle" H 5400 1900 50  0001 C CNN "Package"
 	1    5400 1900
 	1    0    0    -1  
@@ -585,6 +587,9 @@ Wire Wire Line
 Connection ~ 5000 1900
 Wire Wire Line
 	5200 2300 5100 2300
+Connection ~ 5100 2300
+Wire Wire Line
+	5100 2300 5100 2000
 Wire Bus Line
 	1400 3500 1400 3700
 Wire Bus Line
@@ -593,7 +598,4 @@ Wire Bus Line
 	1400 1100 1400 1500
 Wire Bus Line
 	1400 2300 1400 3000
-Connection ~ 5100 2300
-Wire Wire Line
-	5100 2300 5100 2000
 $EndSCHEMATC

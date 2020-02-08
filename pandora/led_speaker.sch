@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-07"
+Date "2020-02-08"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -112,6 +112,8 @@ F 0 "SPK?" H 7670 4496 50  0000 L CNN
 F 1 "CEM-1212S" H 7670 4405 50  0000 L CNN
 F 2 "" H 7500 4300 50  0001 C CNN
 F 3 "~" H 7490 4450 50  0001 C CNN
+F 4 "Speaker, board mount" H 7500 4500 50  0001 C CNN "Comment"
+F 5 "CEM-1212S" H 7500 4500 50  0001 C CNN "PartNo"
 	1    7500 4500
 	1    0    0    -1  
 $EndComp

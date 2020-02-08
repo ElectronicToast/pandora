@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-07"
+Date "2020-02-08"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -79,8 +79,6 @@ F 6 " 1N4148W-7-F" H 3500 3200 50  0001 C CNN "PartNo"
 	1    3500 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 3200 3000 0    50   ~ 0
-FIND FOOTPRINTS
 Text Label 3000 3200 0    50   ~ 0
 KPD_OUT1
 Text Label 3000 3600 0    50   ~ 0
@@ -109,17 +107,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 2900 50  0
 F 3 "~" H 4500 2900 50  0001 C CNN
 F 4 "0603" H 4500 2900 50  0001 C CNN "Package"
 	1    4500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push_45deg SW?
-U 1 1 5E5F0417
-P 4400 3300
-F 0 "SW?" H 4050 3350 50  0000 C CNN
-F 1 "Button" H 4100 3250 50  0000 C CNN
-F 2 "" H 4400 3300 50  0001 C CNN
-F 3 "~" H 4400 3300 50  0001 C CNN
-	1    4400 3300
 	1    0    0    -1  
 $EndComp
 Text Notes 4400 3500 0    50   ~ 0
@@ -196,10 +183,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5F8266
 P 5200 3300
-F 0 "SW?" H 4850 3350 50  0000 C CNN
-F 1 "Button" H 4900 3250 50  0000 C CNN
+F 0 "SW?" H 4900 3350 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3250 50  0001 C CNN
 F 2 "" H 5200 3300 50  0001 C CNN
-F 3 "~" H 5200 3300 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3300 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3300 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 5200 3300 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 5200 3300 50  0001 C CNN "PartNo"
 	1    5200 3300
 	1    0    0    -1  
 $EndComp
@@ -207,10 +197,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5F91DB
 P 6000 3300
-F 0 "SW?" H 5650 3350 50  0000 C CNN
-F 1 "Button" H 5700 3250 50  0000 C CNN
+F 0 "SW?" H 5700 3350 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3250 50  0001 C CNN
 F 2 "" H 6000 3300 50  0001 C CNN
-F 3 "~" H 6000 3300 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3300 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3300 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6000 3300 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6000 3300 50  0001 C CNN "PartNo"
 	1    6000 3300
 	1    0    0    -1  
 $EndComp
@@ -218,10 +211,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5F91E5
 P 6800 3300
-F 0 "SW?" H 6450 3350 50  0000 C CNN
-F 1 "Button" H 6500 3250 50  0000 C CNN
+F 0 "SW?" H 6500 3350 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3250 50  0001 C CNN
 F 2 "" H 6800 3300 50  0001 C CNN
-F 3 "~" H 6800 3300 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3300 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3300 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6800 3300 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6800 3300 50  0001 C CNN "PartNo"
 	1    6800 3300
 	1    0    0    -1  
 $EndComp
@@ -259,10 +255,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FC09B
 P 4400 3700
-F 0 "SW?" H 4050 3750 50  0000 C CNN
-F 1 "Button" H 4100 3650 50  0000 C CNN
+F 0 "SW?" H 4100 3750 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3650 50  0001 C CNN
 F 2 "" H 4400 3700 50  0001 C CNN
-F 3 "~" H 4400 3700 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3700 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3700 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 4400 3700 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 4400 3700 50  0001 C CNN "PartNo"
 	1    4400 3700
 	1    0    0    -1  
 $EndComp
@@ -270,10 +269,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FC0A5
 P 5200 3700
-F 0 "SW?" H 4850 3750 50  0000 C CNN
-F 1 "Button" H 4900 3650 50  0000 C CNN
+F 0 "SW?" H 4900 3750 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3650 50  0001 C CNN
 F 2 "" H 5200 3700 50  0001 C CNN
-F 3 "~" H 5200 3700 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3700 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3700 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 5200 3700 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 5200 3700 50  0001 C CNN "PartNo"
 	1    5200 3700
 	1    0    0    -1  
 $EndComp
@@ -281,10 +283,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FC0AF
 P 6000 3700
-F 0 "SW?" H 5650 3750 50  0000 C CNN
-F 1 "Button" H 5700 3650 50  0000 C CNN
+F 0 "SW?" H 5700 3750 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3650 50  0001 C CNN
 F 2 "" H 6000 3700 50  0001 C CNN
-F 3 "~" H 6000 3700 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3700 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3700 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6000 3700 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6000 3700 50  0001 C CNN "PartNo"
 	1    6000 3700
 	1    0    0    -1  
 $EndComp
@@ -292,10 +297,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FC0B9
 P 6800 3700
-F 0 "SW?" H 6450 3750 50  0000 C CNN
-F 1 "Button" H 6500 3650 50  0000 C CNN
+F 0 "SW?" H 6500 3750 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3650 50  0001 C CNN
 F 2 "" H 6800 3700 50  0001 C CNN
-F 3 "~" H 6800 3700 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3700 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3700 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6800 3700 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6800 3700 50  0001 C CNN "PartNo"
 	1    6800 3700
 	1    0    0    -1  
 $EndComp
@@ -303,10 +311,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FFCAB
 P 4400 4100
-F 0 "SW?" H 4050 4150 50  0000 C CNN
-F 1 "Button" H 4100 4050 50  0000 C CNN
+F 0 "SW?" H 4100 4150 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4050 50  0001 C CNN
 F 2 "" H 4400 4100 50  0001 C CNN
-F 3 "~" H 4400 4100 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4100 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4100 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 4400 4100 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 4400 4100 50  0001 C CNN "PartNo"
 	1    4400 4100
 	1    0    0    -1  
 $EndComp
@@ -314,10 +325,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FFCB1
 P 5200 4100
-F 0 "SW?" H 4850 4150 50  0000 C CNN
-F 1 "Button" H 4900 4050 50  0000 C CNN
+F 0 "SW?" H 4900 4150 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4050 50  0001 C CNN
 F 2 "" H 5200 4100 50  0001 C CNN
-F 3 "~" H 5200 4100 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4100 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4100 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 5200 4100 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 5200 4100 50  0001 C CNN "PartNo"
 	1    5200 4100
 	1    0    0    -1  
 $EndComp
@@ -325,10 +339,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FFCB7
 P 6000 4100
-F 0 "SW?" H 5650 4150 50  0000 C CNN
-F 1 "Button" H 5700 4050 50  0000 C CNN
+F 0 "SW?" H 5700 4150 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4050 50  0001 C CNN
 F 2 "" H 6000 4100 50  0001 C CNN
-F 3 "~" H 6000 4100 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4100 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4100 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6000 4100 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6000 4100 50  0001 C CNN "PartNo"
 	1    6000 4100
 	1    0    0    -1  
 $EndComp
@@ -336,10 +353,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E5FFCBD
 P 6800 4100
-F 0 "SW?" H 6450 4150 50  0000 C CNN
-F 1 "Button" H 6500 4050 50  0000 C CNN
+F 0 "SW?" H 6500 4150 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4050 50  0001 C CNN
 F 2 "" H 6800 4100 50  0001 C CNN
-F 3 "~" H 6800 4100 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4100 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4100 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6800 4100 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6800 4100 50  0001 C CNN "PartNo"
 	1    6800 4100
 	1    0    0    -1  
 $EndComp
@@ -347,10 +367,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E600C2F
 P 4400 4500
-F 0 "SW?" H 4050 4550 50  0000 C CNN
-F 1 "Button" H 4100 4450 50  0000 C CNN
+F 0 "SW?" H 4100 4550 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4450 50  0001 C CNN
 F 2 "" H 4400 4500 50  0001 C CNN
-F 3 "~" H 4400 4500 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4500 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4500 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 4400 4500 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 4400 4500 50  0001 C CNN "PartNo"
 	1    4400 4500
 	1    0    0    -1  
 $EndComp
@@ -358,10 +381,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E600C35
 P 5200 4500
-F 0 "SW?" H 4850 4550 50  0000 C CNN
-F 1 "Button" H 4900 4450 50  0000 C CNN
+F 0 "SW?" H 4900 4550 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4450 50  0001 C CNN
 F 2 "" H 5200 4500 50  0001 C CNN
-F 3 "~" H 5200 4500 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4500 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4500 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 5200 4500 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 5200 4500 50  0001 C CNN "PartNo"
 	1    5200 4500
 	1    0    0    -1  
 $EndComp
@@ -369,10 +395,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E600C3B
 P 6000 4500
-F 0 "SW?" H 5650 4550 50  0000 C CNN
-F 1 "Button" H 5700 4450 50  0000 C CNN
+F 0 "SW?" H 5700 4550 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4450 50  0001 C CNN
 F 2 "" H 6000 4500 50  0001 C CNN
-F 3 "~" H 6000 4500 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4500 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4500 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6000 4500 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6000 4500 50  0001 C CNN "PartNo"
 	1    6000 4500
 	1    0    0    -1  
 $EndComp
@@ -380,10 +409,13 @@ $Comp
 L Switch:SW_Push_45deg SW?
 U 1 1 5E600C41
 P 6800 4500
-F 0 "SW?" H 6450 4550 50  0000 C CNN
-F 1 "Button" H 6500 4450 50  0000 C CNN
+F 0 "SW?" H 6500 4550 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4450 50  0001 C CNN
 F 2 "" H 6800 4500 50  0001 C CNN
-F 3 "~" H 6800 4500 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4500 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4500 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 6800 4500 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 6800 4500 50  0001 C CNN "PartNo"
 	1    6800 4500
 	1    0    0    -1  
 $EndComp
@@ -445,12 +477,7 @@ Wire Wire Line
 	3000 5200 6100 5200
 Wire Wire Line
 	3000 5300 6900 5300
-Connection ~ 4500 3400
-Wire Wire Line
-	4500 3400 4500 3000
 Connection ~ 4500 3800
-Wire Wire Line
-	4500 3800 4500 3400
 Connection ~ 4500 4200
 Wire Wire Line
 	4500 4200 4500 3800
@@ -493,11 +520,6 @@ Connection ~ 6900 4200
 Wire Wire Line
 	6900 4200 6900 4600
 Connection ~ 6900 4600
-Wire Wire Line
-	3600 3200 4300 3200
-Connection ~ 4300 3200
-Wire Wire Line
-	4300 3200 5100 3200
 Connection ~ 5100 3200
 Wire Wire Line
 	5100 3200 5900 3200
@@ -622,15 +644,51 @@ Wire Wire Line
 Wire Notes Line
 	2700 2300 7400 2300
 Wire Notes Line
-	7400 2300 7400 5600
+	7400 2300 7400 5800
 Wire Notes Line
-	7400 5600 2700 5600
+	7400 5800 2700 5800
 Wire Notes Line
-	2700 5600 2700 2300
-Wire Bus Line
-	1400 1000 1400 1700
+	2700 5800 2700 2300
 Text Notes 3200 4700 0    50   ~ 0
 1N4148W-7-F
 Text Notes 3200 4800 0    50   ~ 0
 SOD-123
+Text Notes 8900 5000 0    50   ~ 0
+PTS645 S K 50 SMTR92 LFS
+Text Notes 8300 5000 0    50   ~ 0
+BUTTONS
+Text Notes 8300 5600 0    50   ~ 0
+NUMERIC\nA, B\nD-PAD
+Text Notes 8900 5600 0    50   ~ 0
+BLACK\nRED\nBLUE
+Text Notes 8300 5300 0    50   ~ 0
+CAP COLOR
+Connection ~ 4300 3200
+Wire Wire Line
+	3600 3200 4300 3200
+Wire Wire Line
+	4500 3800 4500 3400
+Connection ~ 4500 3400
+Wire Wire Line
+	4300 3200 5100 3200
+Wire Wire Line
+	4500 3400 4500 3000
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 5E5F0417
+P 4400 3300
+F 0 "SW?" H 4100 3350 50  0000 C CNN
+F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3250 50  0001 C CNN
+F 2 "" H 4400 3300 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3300 50  0001 C CNN
+F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3300 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_6mm" H 4400 3300 50  0001 C CNN "Package"
+F 6 "PTS645SK50SMTR92LFS" H 4400 3300 50  0001 C CNN "PartNo"
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 5100 0    50   ~ 0
+6mm SMT
+Wire Bus Line
+	1400 1000 1400 1700
 $EndSCHEMATC

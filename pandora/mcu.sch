@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-07"
+Date "2020-02-08"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -390,6 +390,7 @@ F 0 "Y?" V 6654 2988 50  0000 L CNN
 F 1 "32.768kHz" V 6750 3000 50  0000 L CNN
 F 2 "" H 6700 2900 50  0001 C CNN
 F 3 "~" H 6700 2900 50  0001 C CNN
+F 4 "NC26" H 6700 2900 50  0001 C CNN "Package"
 	1    6700 2900
 	0    1    1    0   
 $EndComp
@@ -401,6 +402,7 @@ F 0 "Y?" V 6854 3444 50  0000 L CNN
 F 1 "FA-238_48M" V 6945 3444 50  0000 L CNN
 F 2 "" H 6900 3300 50  0001 C CNN
 F 3 "~" H 6900 3300 50  0001 C CNN
+F 4 "FA-238" H 6900 3300 50  0001 C CNN "Package"
 	1    6900 3300
 	0    1    1    0   
 $EndComp
@@ -563,7 +565,7 @@ F 1 "22uF" V 7150 2150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7100 2000 50  0001 C CNN
 F 3 "~" H 7100 2000 50  0001 C CNN
 F 4 "1206" H 7100 2000 50  0001 C CNN "Package"
-F 5 "16V" H 7100 2000 50  0001 C CNN "Comment"
+F 5 "" H 7100 2000 50  0001 C CNN "Comment"
 	1    7100 2000
 	0    1    1    0   
 $EndComp
@@ -616,8 +618,6 @@ Text Label 4500 6500 0    50   ~ 0
 JTAG_~RESET
 Wire Wire Line
 	2600 6700 2700 6700
-Text Notes 2800 7000 0    50   ~ 0
-FIND FOOTPRINT
 $Comp
 L Device:L_Small L?
 U 1 1 5E42F1B3
@@ -627,6 +627,7 @@ F 1 "6.8uH" V 9094 1600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 1600 50  0001 C CNN
 F 3 "~" H 9000 1600 50  0001 C CNN
 F 4 "0603" H 9000 1600 50  0001 C CNN "Package"
+F 5 "MCU analog filter inductor" H 9000 1600 50  0001 C CNN "Comment"
 	1    9000 1600
 	0    -1   -1   0   
 $EndComp
@@ -641,7 +642,7 @@ F 1 "22uF" H 9392 1755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9300 1800 50  0001 C CNN
 F 3 "~" H 9300 1800 50  0001 C CNN
 F 4 "1206" H 9300 1800 50  0001 C CNN "Package"
-F 5 "16V" H 9300 1800 50  0001 C CNN "Comment"
+F 5 "" H 9300 1800 50  0001 C CNN "Comment"
 	1    9300 1800
 	1    0    0    -1  
 $EndComp
@@ -953,8 +954,6 @@ Connection ~ 7700 2400
 Wire Wire Line
 	7700 2100 7700 2000
 Connection ~ 7700 2100
-Text Notes 2800 6900 0    50   ~ 0
-SPEC SWITCH
 $Comp
 L pandora:GNDD #PWR?
 U 1 1 5E48B06C
@@ -1191,9 +1190,12 @@ L Switch:SW_Push SW?
 U 1 1 5E3AAA5E
 P 2900 6700
 F 0 "SW?" H 2900 6985 50  0000 C CNN
-F 1 "SW_Push" H 2900 6894 50  0000 C CNN
+F 1 "PTS 647 SK38 SMTR2 LFS" H 2900 6894 50  0000 C CNN
 F 2 "" H 2900 6900 50  0001 C CNN
-F 3 "~" H 2900 6900 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS647/documents/datasheet.pdf" H 2900 6900 50  0001 C CNN
+F 4 "Reset button" H 2900 6700 50  0001 C CNN "Comment"
+F 5 "Tact_Push_SMD_4.5mm" H 2900 6700 50  0001 C CNN "Package"
+F 6 "PTS647SK38SMTR2LFS" H 2900 6700 50  0001 C CNN "PartNo"
 	1    2900 6700
 	1    0    0    -1  
 $EndComp
@@ -1206,7 +1208,7 @@ Wire Wire Line
 	3200 6200 3400 6200
 Text Notes 4000 5600 0    100  ~ 20
 RESET
-Text Notes 2600 7400 0    50   ~ 0
+Text Notes 3400 7400 0    50   ~ 0
 2.32V RESET THRESH
 Wire Notes Line
 	2300 5700 2300 7600
@@ -1238,4 +1240,6 @@ Wire Bus Line
 	1300 2200 1300 2900
 Wire Bus Line
 	1300 3700 1300 4400
+Text Notes 2700 7200 0    50   ~ 0
+4.5mm SMT\nBLACK CAP
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-07"
+Date "2020-02-08"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -291,7 +291,7 @@ F 0 "C?" H 9492 5546 50  0000 L CNN
 F 1 "22uF" H 9492 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9400 5500 50  0001 C CNN
 F 3 "~" H 9400 5500 50  0001 C CNN
-F 4 "0603" H 9400 5500 50  0001 C CNN "Package"
+F 4 "1206" H 9400 5500 50  0001 C CNN "Package"
 	1    9400 5500
 	1    0    0    -1  
 $EndComp
@@ -356,6 +356,7 @@ F 2 "" H 9500 3100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/L/documents/datasheet.pdf" H 9500 3100 50  0001 C CNN
 F 4 " L102021ML04Q" H 9500 3100 50  0001 C CNN "PartNo"
 F 5 "Power select slide switch" H 9500 3100 50  0001 C CNN "Comment"
+F 6 "CnK_ L102021ML04Q" H 9500 3100 50  0001 C CNN "Package"
 	1    9500 3100
 	-1   0    0    -1  
 $EndComp
@@ -1194,7 +1195,7 @@ F 0 "C?" H 992 6646 50  0000 L CNN
 F 1 "22uF" H 992 6555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 900 6600 50  0001 C CNN
 F 3 "~" H 900 6600 50  0001 C CNN
-F 4 "0603" H 900 6600 50  0001 C CNN "Package"
+F 4 "1206" H 900 6600 50  0001 C CNN "Package"
 	1    900  6600
 	1    0    0    -1  
 $EndComp
@@ -1228,7 +1229,7 @@ F 0 "C?" H 6792 1546 50  0000 L CNN
 F 1 "22uF" H 6792 1455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6700 1500 50  0001 C CNN
 F 3 "~" H 6700 1500 50  0001 C CNN
-F 4 "0603" H 6700 1500 50  0001 C CNN "Package"
+F 4 "1206" H 6700 1500 50  0001 C CNN "Package"
 	1    6700 1500
 	1    0    0    -1  
 $EndComp
@@ -1245,7 +1246,7 @@ F 0 "C?" H 10592 3346 50  0000 L CNN
 F 1 "22uF" H 10592 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10500 3300 50  0001 C CNN
 F 3 "~" H 10500 3300 50  0001 C CNN
-F 4 "0603" H 10500 3300 50  0001 C CNN "Package"
+F 4 "1206" H 10500 3300 50  0001 C CNN "Package"
 	1    10500 3300
 	1    0    0    -1  
 $EndComp
