@@ -12,6 +12,12 @@ K Supervisor Reset
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf
 $ENDCMP
 #
+$CMP Antenna
+D Antenna
+K antenna
+F ~
+$ENDCMP
+#
 $CMP CC2652R
 D Texas Instruments CC2652RSimpleLink™ Multiprotocol2.4 GHz WirelessMCU
 K SimpleLink, Multiprotocol
