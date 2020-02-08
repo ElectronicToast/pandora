@@ -107,15 +107,15 @@ L Device:Speaker LS?
 U 1 1 5E36C762
 P 7500 4500
 AR Path="/5E64A3EA/5E36C762" Ref="LS?"  Part="1" 
-AR Path="/5E341789/5E36C762" Ref="LS?"  Part="1" 
-F 0 "LS?" H 7670 4496 50  0000 L CNN
-F 1 "Speaker" H 7670 4405 50  0000 L CNN
+AR Path="/5E341789/5E36C762" Ref="SPK?"  Part="1" 
+F 0 "SPK?" H 7670 4496 50  0000 L CNN
+F 1 "CEM-1212S" H 7670 4405 50  0000 L CNN
 F 2 "" H 7500 4300 50  0001 C CNN
 F 3 "~" H 7490 4450 50  0001 C CNN
 	1    7500 4500
 	1    0    0    -1  
 $EndComp
-Text Notes 7400 5100 0    50   ~ 0
+Text Notes 7400 5000 0    50   ~ 0
 SPEC AND\nFIND FOOTPRINT
 $Comp
 L Device:R_Small_US R?
@@ -557,7 +557,9 @@ Wire Notes Line
 Wire Notes Line
 	8500 3500 3500 3500
 Text Notes 6900 4300 0    50   ~ 0
-1210\n1/4W
+1210\n1/2W
+Text Notes 7400 5300 0    50   ~ 0
+THT\nREPLACE WITH EXT\nSPEAKER IF DESIRED
 Wire Bus Line
 	1400 1200 1400 1400
 Wire Bus Line
