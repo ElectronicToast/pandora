@@ -18,6 +18,12 @@ K antenna
 F ~
 $ENDCMP
 #
+$CMP Antenna_GND
+D Antenna
+K antenna
+F ~
+$ENDCMP
+#
 $CMP CC2652R
 D Texas Instruments CC2652RSimpleLink™ Multiprotocol2.4 GHz WirelessMCU
 K SimpleLink, Multiprotocol
