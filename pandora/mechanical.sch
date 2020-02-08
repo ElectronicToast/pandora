@@ -24,6 +24,8 @@ F 1 "M3" H 5300 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5200 4300 50  0001 C CNN
 F 3 "~" H 5200 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 5200 4300 50  0001 C CNN "Package"
+F 5 "M3 mounting hole; board corners" H 5200 4300 50  0001 C CNN "Comment"
+F 6 "N/A" H 5200 4300 50  0001 C CNN "PartNo"
 	1    5200 4300
 	1    0    0    -1  
 $EndComp
@@ -36,6 +38,8 @@ F 1 "M3" H 5700 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 4300 50  0001 C CNN
 F 3 "~" H 5600 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 5600 4300 50  0001 C CNN "Package"
+F 5 "M3 mounting hole; board corners" H 5600 4300 50  0001 C CNN "Comment"
+F 6 "N/A" H 5600 4300 50  0001 C CNN "PartNo"
 	1    5600 4300
 	1    0    0    -1  
 $EndComp
@@ -48,6 +52,8 @@ F 1 "M3" H 6100 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 4300 50  0001 C CNN
 F 3 "~" H 6000 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 6000 4300 50  0001 C CNN "Package"
+F 5 "M3 mounting hole; board corners" H 6000 4300 50  0001 C CNN "Comment"
+F 6 "N/A" H 6000 4300 50  0001 C CNN "PartNo"
 	1    6000 4300
 	1    0    0    -1  
 $EndComp
@@ -60,6 +66,8 @@ F 1 "M3" H 6500 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6400 4300 50  0001 C CNN
 F 3 "~" H 6400 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 6400 4300 50  0001 C CNN "Package"
+F 5 "M3 mounting hole; board corners" H 6400 4300 50  0001 C CNN "Comment"
+F 6 "N/A" H 6400 4300 50  0001 C CNN "PartNo"
 	1    6400 4300
 	1    0    0    -1  
 $EndComp

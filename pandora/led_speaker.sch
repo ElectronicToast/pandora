@@ -413,7 +413,8 @@ F 0 "JP?" V 5650 4950 50  0000 L CNN
 F 1 "SJ" V 5750 5025 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 5800 4900 50  0001 C CNN
 F 3 "~" H 5800 4900 50  0001 C CNN
-F 4 "SMD_PAD" H 5800 4900 50  0001 C CNN "Package"
+F 4 "SMD_PAD_SJ3" H 5800 4900 50  0001 C CNN "Package"
+F 5 "Solder jumper, 3 pad" H 5800 4900 50  0001 C CNN "Comment"
 	1    5800 4900
 	0    -1   -1   0   
 $EndComp
@@ -452,7 +453,8 @@ F 0 "JP?" V 5850 5250 50  0000 L CNN
 F 1 "SJ" V 5950 5325 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 6000 5200 50  0001 C CNN
 F 3 "~" H 6000 5200 50  0001 C CNN
-F 4 "SMD_PAD" H 6000 5200 50  0001 C CNN "Package"
+F 4 "SMD_PAD_SJ3" H 6000 5200 50  0001 C CNN "Package"
+F 5 "Solder jumper, 3 pad" H 6000 5200 50  0001 C CNN "Comment"
 	1    6000 5200
 	0    -1   -1   0   
 $EndComp
@@ -464,7 +466,8 @@ F 0 "JP?" V 6050 5550 50  0000 L CNN
 F 1 "SJ" V 6150 5625 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 6200 5500 50  0001 C CNN
 F 3 "~" H 6200 5500 50  0001 C CNN
-F 4 "SMD_PAD" H 6200 5500 50  0001 C CNN "Package"
+F 4 "SMD_PAD_SJ3" H 6200 5500 50  0001 C CNN "Package"
+F 5 "Solder jumper, 3 pad" H 6200 5500 50  0001 C CNN "Comment"
 	1    6200 5500
 	0    -1   -1   0   
 $EndComp

@@ -71,8 +71,11 @@ U 1 1 5E5EE14A
 P 3500 3200
 F 0 "D?" H 3600 3300 50  0000 C CNN
 F 1 "1N4148" H 3700 3100 50  0000 C CNN
-F 2 "" V 3500 3200 50  0001 C CNN
-F 3 "~" V 3500 3200 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3500 3200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3200 50  0001 C CNN
+F 4 "Alternatively use SOD-323 version" H 3500 3200 50  0001 C CNN "Comment"
+F 5 "SOD-123" H 3500 3200 50  0001 C CNN "Package"
+F 6 " 1N4148W-7-F" H 3500 3200 50  0001 C CNN "PartNo"
 	1    3500 3200
 	1    0    0    -1  
 $EndComp
@@ -578,8 +581,11 @@ U 1 1 5E363CCE
 P 3500 3600
 F 0 "D?" H 3600 3700 50  0000 C CNN
 F 1 "1N4148" H 3700 3500 50  0000 C CNN
-F 2 "" V 3500 3600 50  0001 C CNN
-F 3 "~" V 3500 3600 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3500 3600 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3600 50  0001 C CNN
+F 4 "Alternatively use SOD-323 version" H 3500 3600 50  0001 C CNN "Comment"
+F 5 "SOD-123" H 3500 3600 50  0001 C CNN "Package"
+F 6 " 1N4148W-7-F" H 3500 3600 50  0001 C CNN "PartNo"
 	1    3500 3600
 	1    0    0    -1  
 $EndComp
@@ -589,8 +595,11 @@ U 1 1 5E36401C
 P 3500 4000
 F 0 "D?" H 3600 4100 50  0000 C CNN
 F 1 "1N4148" H 3700 3900 50  0000 C CNN
-F 2 "" V 3500 4000 50  0001 C CNN
-F 3 "~" V 3500 4000 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3500 4000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4000 50  0001 C CNN
+F 4 "Alternatively use SOD-323 version" H 3500 4000 50  0001 C CNN "Comment"
+F 5 "SOD-123" H 3500 4000 50  0001 C CNN "Package"
+F 6 " 1N4148W-7-F" H 3500 4000 50  0001 C CNN "PartNo"
 	1    3500 4000
 	1    0    0    -1  
 $EndComp
@@ -600,8 +609,11 @@ U 1 1 5E364306
 P 3500 4400
 F 0 "D?" H 3600 4500 50  0000 C CNN
 F 1 "1N4148" H 3700 4300 50  0000 C CNN
-F 2 "" V 3500 4400 50  0001 C CNN
-F 3 "~" V 3500 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3500 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4400 50  0001 C CNN
+F 4 "Alternatively use SOD-323 version" H 3500 4400 50  0001 C CNN "Comment"
+F 5 "SOD-123" H 3500 4400 50  0001 C CNN "Package"
+F 6 " 1N4148W-7-F" H 3500 4400 50  0001 C CNN "PartNo"
 	1    3500 4400
 	1    0    0    -1  
 $EndComp
@@ -617,4 +629,8 @@ Wire Notes Line
 	2700 5600 2700 2300
 Wire Bus Line
 	1400 1000 1400 1700
+Text Notes 3200 4700 0    50   ~ 0
+1N4148W-7-F
+Text Notes 3200 4800 0    50   ~ 0
+SOD-123
 $EndSCHEMATC

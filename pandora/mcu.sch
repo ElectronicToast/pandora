@@ -257,23 +257,6 @@ Text Label 6400 4000 0    50   ~ 0
 JTAG_TMS
 Text Label 6400 4100 0    50   ~ 0
 JTAG_TCK
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E3664BB
-P 7000 4200
-F 0 "R?" H 7068 4246 50  0000 L CNN
-F 1 "10k" H 7068 4155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4200 50  0001 C CNN
-F 3 "~" H 7000 4200 50  0001 C CNN
-F 4 "0603" H 7000 4200 50  0001 C CNN "Package"
-	1    7000 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 4300 7000 4400
-Wire Wire Line
-	7000 4400 6400 4400
-Connection ~ 7000 4400
 Text Label 4400 4000 0    50   ~ 0
 SPK
 Wire Wire Line
@@ -393,10 +376,8 @@ Entry Wire Line
 	1300 1800 1400 1900
 Wire Bus Line
 	1300 1700 1300 1800
-Text Label 7100 4400 0    50   ~ 0
+Text Label 6400 4400 0    50   ~ 0
 ~RESET
-Wire Wire Line
-	7400 4400 7000 4400
 Wire Wire Line
 	6500 2800 6700 2800
 Wire Wire Line
@@ -676,22 +657,6 @@ Text Label 6400 2600 0    50   ~ 0
 DCDC_SW
 Wire Wire Line
 	6800 2600 6400 2600
-$Comp
-L Device:C_Small C?
-U 1 1 5E46B44B
-P 7000 4600
-AR Path="/5E2BAD17/5E46B44B" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E46B44B" Ref="C?"  Part="1" 
-F 0 "C?" H 7092 4646 50  0000 L CNN
-F 1 "0.1uF" H 7092 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4600 50  0001 C CNN
-F 3 "~" H 7000 4600 50  0001 C CNN
-F 4 "0603" H 7000 4600 50  0001 C CNN "Package"
-	1    7000 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 4500 7000 4400
 Text HLabel 1200 5900 0    50   Input ~ 0
 IMU_SPI
 Wire Bus Line
@@ -845,7 +810,8 @@ F 0 "JP?" H 4050 3250 50  0000 C CNN
 F 1 "SJ" H 3650 3250 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3850 3200 50  0001 C CNN
 F 3 "~" H 3850 3200 50  0001 C CNN
-F 4 "SMD_PAD" H 3850 3200 50  0001 C CNN "Package"
+F 4 "SMD_PAD_SJ2" H 3850 3200 50  0001 C CNN "Package"
+F 5 "Solder jumper, 4 pad" H 3850 3200 50  0001 C CNN "Comment"
 	1    3850 3200
 	-1   0    0    -1  
 $EndComp
@@ -857,7 +823,8 @@ F 0 "JP?" H 4050 3350 50  0000 C CNN
 F 1 "SJ" H 3650 3350 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3850 3300 50  0001 C CNN
 F 3 "~" H 3850 3300 50  0001 C CNN
-F 4 "SMD_PAD" H 3850 3300 50  0001 C CNN "Package"
+F 4 "SMD_PAD_SJ2" H 3850 3300 50  0001 C CNN "Package"
+F 5 "Solder jumper, 4 pad" H 3850 3300 50  0001 C CNN "Comment"
 	1    3850 3300
 	-1   0    0    -1  
 $EndComp
@@ -906,17 +873,6 @@ Text Notes 8900 1700 0    50   ~ 0
 0603
 Text Notes 8700 1300 0    50   ~ 0
 ANALOG POWER
-$Comp
-L pandora:GNDD #PWR?
-U 1 1 5E46D68E
-P 7000 4700
-F 0 "#PWR?" H 7000 4450 50  0001 C CNN
-F 1 "GNDD" H 7005 4527 50  0000 C CNN
-F 2 "" H 7000 4700 50  0001 C CNN
-F 3 "" H 7000 4700 50  0001 C CNN
-	1    7000 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L pandora:GNDD #PWR?
 U 1 1 5E46DDF4
@@ -1026,17 +982,6 @@ F 3 "" H 6500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pandora:VMCU #PWR?
-U 1 1 5E5C8C17
-P 7000 4100
-F 0 "#PWR?" H 7000 3950 50  0001 C CNN
-F 1 "VMCU" H 7015 4273 50  0000 C CNN
-F 2 "" H 7000 4100 50  0001 C CNN
-F 3 "" H 7000 4100 50  0001 C CNN
-	1    7000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xGxx:74LVC1G08 U?
 U 1 1 5E5EF797
 P 5500 6600
@@ -1046,6 +991,7 @@ F 2 "" H 5500 6600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5500 6600 50  0001 C CNN
 F 4 "SOT-23-5" H 5500 6600 50  0001 C CNN "Package"
 F 5 "SN74LVC1G08DBV" H 5500 6600 50  0001 C CNN "PartNo"
+F 6 "Auxiliary battery boost converter" H 5500 6600 50  0001 C CNN "Comment"
 	1    5500 6600
 	1    0    0    -1  
 $EndComp
@@ -1153,6 +1099,9 @@ F 0 "U?" H 4000 6950 50  0000 L CNN
 F 1 "ADM811ZARTZ" H 4000 6450 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-143" H 4000 6400 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf" H 3550 6000 50  0001 C CNN
+F 4 "Reset supervisor" H 3900 6700 50  0001 C CNN "Comment"
+F 5 "SOT-143" H 3900 6700 50  0001 C CNN "Package"
+F 6 "ADM811ZARTZ" H 3900 6700 50  0001 C CNN "PartNo"
 	1    3900 6700
 	1    0    0    -1  
 $EndComp
@@ -1275,6 +1224,8 @@ Wire Notes Line
 	10200 5200 10200 1000
 Wire Notes Line
 	10200 1000 2800 1000
+Wire Wire Line
+	6400 4400 6700 4400
 Wire Bus Line
 	1300 4600 1300 4800
 Wire Bus Line

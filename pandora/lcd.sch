@@ -244,6 +244,7 @@ F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 7900 3700 50  0001
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 7900 3700 50  0001 C CNN
 F 4 "Bourns_TC33" H 7900 3700 50  0001 C CNN "Package"
 F 5 "TC33X-2-103E" H 7900 3700 50  0001 C CNN "PartNo"
+F 6 "LCD contrast potentiometer" H 7900 3700 50  0001 C CNN "Comment"
 	1    7900 3700
 	1    0    0    -1  
 $EndComp

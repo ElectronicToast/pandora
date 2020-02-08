@@ -66,6 +66,7 @@ F 1 "Conn_ARM_JTAG_SWD_10" H 4357 4355 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4800 4400 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4450 3150 50  0001 C CNN
 F 4 "50mil_02x05" H 4800 4400 50  0001 C CNN "Package"
+F 5 "JTAG debug header" H 4800 4400 50  0001 C CNN "Comment"
 	1    4800 4400
 	1    0    0    -1  
 $EndComp
@@ -92,28 +93,30 @@ FTSH-105-01-F-DV-K
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5E5EB752
-P 4400 1800
-F 0 "J?" H 4480 1842 50  0000 L CNN
-F 1 "TX3" H 4480 1751 50  0000 L CNN
-F 2 "" H 4400 1800 50  0001 C CNN
-F 3 "~" H 4400 1800 50  0001 C CNN
-	1    4400 1800
+P 3900 2000
+F 0 "J?" H 3980 2042 50  0000 L CNN
+F 1 "TX3" H 3980 1951 50  0000 L CNN
+F 2 "" H 3900 2000 50  0001 C CNN
+F 3 "~" H 3900 2000 50  0001 C CNN
+F 4 "156mil 3-pin power connector" H 3900 2000 50  0001 C CNN "Comment"
+F 5 "156mil_01x03" H 3900 2000 50  0001 C CNN "Package"
+	1    3900 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1800 4000 1800
+	3700 2000 3500 2000
 Wire Wire Line
-	4000 1800 4000 1600
+	3500 2000 3500 1800
 Wire Wire Line
-	4200 1700 4100 1700
+	3700 1900 3600 1900
 Wire Wire Line
-	4100 1700 4100 1900
+	3600 1900 3600 2100
 Wire Wire Line
-	4200 1900 4100 1900
-Connection ~ 4100 1900
+	3700 2100 3600 2100
+Connection ~ 3600 2100
 Wire Wire Line
-	4100 1900 4100 2000
-Text Notes 4500 2000 0    50   ~ 0
+	3600 2100 3600 2200
+Text Notes 4000 2200 0    50   ~ 0
 MAKE FOOTPRINT
 Entry Wire Line
 	1400 1500 1500 1600
@@ -125,7 +128,7 @@ Wire Wire Line
 	5300 4100 5800 4100
 Text Label 1500 1600 0    50   ~ 0
 JTAG_~RESET
-Text Notes 4200 1100 0    100  ~ 20
+Text Notes 4300 1100 0    100  ~ 20
 POWER
 Text Notes 4400 3300 0    100  ~ 20
 JTAG
@@ -138,6 +141,7 @@ F 1 "LCD_Adafruit_16x02_Neg_RGB" H 9000 5000 50  0000 C CNN
 F 2 "pandora:LCD_Adafruit_16x02_Neg_RGB" H 8320 3280 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf" H 8800 3900 50  0001 C CNN
 F 4 "LCD_18" H 8300 4200 50  0001 C CNN "Package"
+F 5 "LCD, negative, LCD backlight" H 8300 4200 50  0001 C CNN "Comment"
 	1    8300 4200
 	1    0    0    -1  
 $EndComp
@@ -442,33 +446,33 @@ F 3 "" H 7800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	3700 1200 3700 2400
+	3200 1200 3200 2900
 Wire Notes Line
-	3700 2400 5300 2400
+	3200 2900 6600 2900
 Wire Notes Line
-	5300 2400 5300 1200
+	6600 2900 6600 1200
 Wire Notes Line
-	5300 1200 3700 1200
+	6600 1200 3200 1200
 $Comp
 L pandora:VIN #PWR?
 U 1 1 5E570885
-P 4000 1600
-F 0 "#PWR?" H 4000 1450 50  0001 C CNN
-F 1 "VIN" H 4015 1773 50  0000 C CNN
-F 2 "" H 4000 1600 50  0001 C CNN
-F 3 "" H 4000 1600 50  0001 C CNN
-	1    4000 1600
+P 3500 1800
+F 0 "#PWR?" H 3500 1650 50  0001 C CNN
+F 1 "VIN" H 3515 1973 50  0000 C CNN
+F 2 "" H 3500 1800 50  0001 C CNN
+F 3 "" H 3500 1800 50  0001 C CNN
+	1    3500 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L pandora:GNDIN #PWR?
 U 1 1 5E570C91
-P 4100 2000
-F 0 "#PWR?" H 4100 1750 50  0001 C CNN
-F 1 "GNDIN" H 4105 1827 50  0000 C CNN
-F 2 "" H 4100 2000 50  0001 C CNN
-F 3 "" H 4100 2000 50  0001 C CNN
-	1    4100 2000
+P 3600 2200
+F 0 "#PWR?" H 3600 1950 50  0001 C CNN
+F 1 "GNDIN" H 3605 2027 50  0000 C CNN
+F 2 "" H 3600 2200 50  0001 C CNN
+F 3 "" H 3600 2200 50  0001 C CNN
+	1    3600 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -510,6 +514,77 @@ Wire Notes Line
 	10200 5500 10200 3000
 Wire Notes Line
 	10200 3000 7000 3000
+Text Notes 3500 1400 0    50   ~ 0
+MAIN POWER IN
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E4FF305
+P 5400 1900
+F 0 "J?" H 5480 1892 50  0000 L CNN
+F 1 "JST-PH_2" H 5480 1801 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 5400 1900 50  0001 C CNN
+F 3 "~" H 5400 1900 50  0001 C CNN
+F 4 "JST PH LiPo connector" H 5400 1900 50  0001 C CNN "Comment"
+F 5 "JST-PH_2_SMD_RghtAngle" H 5400 1900 50  0001 C CNN "Package"
+	1    5400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VBAT #PWR?
+U 1 1 5E4FF97C
+P 5000 1800
+F 0 "#PWR?" H 5000 1650 50  0001 C CNN
+F 1 "VBAT" H 5015 1973 50  0000 C CNN
+F 2 "" H 5000 1800 50  0001 C CNN
+F 3 "" H 5000 1800 50  0001 C CNN
+	1    5000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E4FFFFB
+P 5100 2400
+F 0 "#PWR?" H 5100 2150 50  0001 C CNN
+F 1 "GNDBAT" H 5105 2227 50  0000 C CNN
+F 2 "" H 5100 2400 50  0001 C CNN
+F 3 "" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2400 5100 2300
+Wire Wire Line
+	5100 2000 5200 2000
+Wire Wire Line
+	5200 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 1800
+Text Notes 5700 1900 0    50   ~ 0
+CHECK\nPINOUT
+Text Notes 4900 1400 0    50   ~ 0
+AUXILIARY BATTERY
+Text Notes 5100 1500 0    50   ~ 0
+1S LiPo
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E517664
+P 5400 2200
+F 0 "J?" H 5480 2192 50  0000 L CNN
+F 1 "PinHeader_100mil_01x02" H 5480 2101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 2200 50  0001 C CNN
+F 3 "~" H 5400 2200 50  0001 C CNN
+F 4 "Alternate auxiliary battery connector" H 5400 2200 50  0001 C CNN "Comment"
+F 5 "100mil_01x02" H 5400 2200 50  0001 C CNN "Package"
+	1    5400 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2200 5000 2200
+Wire Wire Line
+	5000 2200 5000 1900
+Connection ~ 5000 1900
+Wire Wire Line
+	5200 2300 5100 2300
 Wire Bus Line
 	1400 3500 1400 3700
 Wire Bus Line
@@ -518,4 +593,7 @@ Wire Bus Line
 	1400 1100 1400 1500
 Wire Bus Line
 	1400 2300 1400 3000
+Connection ~ 5100 2300
+Wire Wire Line
+	5100 2300 5100 2000
 $EndSCHEMATC
