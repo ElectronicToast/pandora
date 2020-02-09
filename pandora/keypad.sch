@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-08"
+Date "2020-02-09"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -13,58 +13,6 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text HLabel 1300 1000 0    50   Input ~ 0
-KEYPAD
-Entry Wire Line
-	1400 1000 1500 1100
-Entry Wire Line
-	1400 1100 1500 1200
-Entry Wire Line
-	1400 1200 1500 1300
-Entry Wire Line
-	1400 1300 1500 1400
-Entry Wire Line
-	1400 1400 1500 1500
-Entry Wire Line
-	1400 1500 1500 1600
-Entry Wire Line
-	1400 1600 1500 1700
-Entry Wire Line
-	1400 1700 1500 1800
-Text Label 1500 1100 0    50   ~ 0
-KPD_OUT1
-Text Label 1500 1200 0    50   ~ 0
-KPD_OUT2
-Text Label 1500 1300 0    50   ~ 0
-KPD_OUT3
-Text Label 1500 1400 0    50   ~ 0
-KPD_OUT4
-Text Label 1500 1500 0    50   ~ 0
-KPD_IN1
-Text Label 1500 1600 0    50   ~ 0
-KPD_IN2
-Text Label 1500 1700 0    50   ~ 0
-KPD_IN3
-Text Label 1500 1800 0    50   ~ 0
-KPD_IN4
-Wire Bus Line
-	1300 1000 1400 1000
-Wire Wire Line
-	1900 1100 1500 1100
-Wire Wire Line
-	1900 1200 1500 1200
-Wire Wire Line
-	1900 1300 1500 1300
-Wire Wire Line
-	1900 1400 1500 1400
-Wire Wire Line
-	1900 1500 1500 1500
-Wire Wire Line
-	1900 1600 1500 1600
-Wire Wire Line
-	1900 1700 1500 1700
-Wire Wire Line
-	1900 1800 1500 1800
 $Comp
 L Device:D_Small_ALT D3
 U 1 1 5E5EE14A
@@ -100,8 +48,8 @@ L Device:R_Small_US R?
 U 1 1 5E5F01A6
 P 4500 2900
 AR Path="/5E2B9A47/5E5F01A6" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E5F01A6" Ref="R8"  Part="1" 
-F 0 "R8" H 4568 2946 50  0000 L CNN
+AR Path="/5E2BAC7C/5E5F01A6" Ref="R6"  Part="1" 
+F 0 "R6" H 4568 2946 50  0000 L CNN
 F 1 "10k" H 4568 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 2900 50  0001 C CNN
 F 3 "~" H 4500 2900 50  0001 C CNN
@@ -180,10 +128,10 @@ Wire Notes Line
 Wire Notes Line
 	10200 4050 9850 3700
 $Comp
-L Switch:SW_Push_45deg SW7
+L Switch:SW_Push_45deg SW6
 U 1 1 5E5F8266
 P 5200 3300
-F 0 "SW7" H 4900 3350 50  0000 C CNN
+F 0 "SW6" H 4900 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3250 50  0001 C CNN
 F 2 "" H 5200 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3300 50  0001 C CNN
@@ -194,10 +142,10 @@ F 6 "PTS645SK50SMTR92LFS" H 5200 3300 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW11
+L Switch:SW_Push_45deg SW10
 U 1 1 5E5F91DB
 P 6000 3300
-F 0 "SW11" H 5700 3350 50  0000 C CNN
+F 0 "SW10" H 5700 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3250 50  0001 C CNN
 F 2 "" H 6000 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3300 50  0001 C CNN
@@ -208,10 +156,10 @@ F 6 "PTS645SK50SMTR92LFS" H 6000 3300 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW15
+L Switch:SW_Push_45deg SW14
 U 1 1 5E5F91E5
 P 6800 3300
-F 0 "SW15" H 6500 3350 50  0000 C CNN
+F 0 "SW14" H 6500 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3250 50  0001 C CNN
 F 2 "" H 6800 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3300 50  0001 C CNN
@@ -252,10 +200,10 @@ L
 Text Notes 4400 4700 0    50   ~ 0
 R
 $Comp
-L Switch:SW_Push_45deg SW4
+L Switch:SW_Push_45deg SW3
 U 1 1 5E5FC09B
 P 4400 3700
-F 0 "SW4" H 4100 3750 50  0000 C CNN
+F 0 "SW3" H 4100 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3650 50  0001 C CNN
 F 2 "" H 4400 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3700 50  0001 C CNN
@@ -266,10 +214,10 @@ F 6 "PTS645SK50SMTR92LFS" H 4400 3700 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW8
+L Switch:SW_Push_45deg SW7
 U 1 1 5E5FC0A5
 P 5200 3700
-F 0 "SW8" H 4900 3750 50  0000 C CNN
+F 0 "SW7" H 4900 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3650 50  0001 C CNN
 F 2 "" H 5200 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3700 50  0001 C CNN
@@ -280,10 +228,10 @@ F 6 "PTS645SK50SMTR92LFS" H 5200 3700 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW12
+L Switch:SW_Push_45deg SW11
 U 1 1 5E5FC0AF
 P 6000 3700
-F 0 "SW12" H 5700 3750 50  0000 C CNN
+F 0 "SW11" H 5700 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3650 50  0001 C CNN
 F 2 "" H 6000 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3700 50  0001 C CNN
@@ -294,10 +242,10 @@ F 6 "PTS645SK50SMTR92LFS" H 6000 3700 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW16
+L Switch:SW_Push_45deg SW15
 U 1 1 5E5FC0B9
 P 6800 3700
-F 0 "SW16" H 6500 3750 50  0000 C CNN
+F 0 "SW15" H 6500 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3650 50  0001 C CNN
 F 2 "" H 6800 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3700 50  0001 C CNN
@@ -308,10 +256,10 @@ F 6 "PTS645SK50SMTR92LFS" H 6800 3700 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW5
+L Switch:SW_Push_45deg SW4
 U 1 1 5E5FFCAB
 P 4400 4100
-F 0 "SW5" H 4100 4150 50  0000 C CNN
+F 0 "SW4" H 4100 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4050 50  0001 C CNN
 F 2 "" H 4400 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4100 50  0001 C CNN
@@ -322,10 +270,10 @@ F 6 "PTS645SK50SMTR92LFS" H 4400 4100 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW9
+L Switch:SW_Push_45deg SW8
 U 1 1 5E5FFCB1
 P 5200 4100
-F 0 "SW9" H 4900 4150 50  0000 C CNN
+F 0 "SW8" H 4900 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4050 50  0001 C CNN
 F 2 "" H 5200 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4100 50  0001 C CNN
@@ -336,10 +284,10 @@ F 6 "PTS645SK50SMTR92LFS" H 5200 4100 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW13
+L Switch:SW_Push_45deg SW12
 U 1 1 5E5FFCB7
 P 6000 4100
-F 0 "SW13" H 5700 4150 50  0000 C CNN
+F 0 "SW12" H 5700 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4050 50  0001 C CNN
 F 2 "" H 6000 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4100 50  0001 C CNN
@@ -350,10 +298,10 @@ F 6 "PTS645SK50SMTR92LFS" H 6000 4100 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW17
+L Switch:SW_Push_45deg SW16
 U 1 1 5E5FFCBD
 P 6800 4100
-F 0 "SW17" H 6500 4150 50  0000 C CNN
+F 0 "SW16" H 6500 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4050 50  0001 C CNN
 F 2 "" H 6800 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4100 50  0001 C CNN
@@ -364,10 +312,10 @@ F 6 "PTS645SK50SMTR92LFS" H 6800 4100 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW6
+L Switch:SW_Push_45deg SW5
 U 1 1 5E600C2F
 P 4400 4500
-F 0 "SW6" H 4100 4550 50  0000 C CNN
+F 0 "SW5" H 4100 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4450 50  0001 C CNN
 F 2 "" H 4400 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4500 50  0001 C CNN
@@ -378,10 +326,10 @@ F 6 "PTS645SK50SMTR92LFS" H 4400 4500 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW10
+L Switch:SW_Push_45deg SW9
 U 1 1 5E600C35
 P 5200 4500
-F 0 "SW10" H 4900 4550 50  0000 C CNN
+F 0 "SW9" H 4900 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4450 50  0001 C CNN
 F 2 "" H 5200 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4500 50  0001 C CNN
@@ -392,10 +340,10 @@ F 6 "PTS645SK50SMTR92LFS" H 5200 4500 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW14
+L Switch:SW_Push_45deg SW13
 U 1 1 5E600C3B
 P 6000 4500
-F 0 "SW14" H 5700 4550 50  0000 C CNN
+F 0 "SW13" H 5700 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4450 50  0001 C CNN
 F 2 "" H 6000 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4500 50  0001 C CNN
@@ -406,10 +354,10 @@ F 6 "PTS645SK50SMTR92LFS" H 6000 4500 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW18
+L Switch:SW_Push_45deg SW17
 U 1 1 5E600C41
 P 6800 4500
-F 0 "SW18" H 6500 4550 50  0000 C CNN
+F 0 "SW17" H 6500 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4450 50  0001 C CNN
 F 2 "" H 6800 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4500 50  0001 C CNN
@@ -424,8 +372,8 @@ L Device:R_Small_US R?
 U 1 1 5E602614
 P 5300 2900
 AR Path="/5E2B9A47/5E602614" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E602614" Ref="R9"  Part="1" 
-F 0 "R9" H 5368 2946 50  0000 L CNN
+AR Path="/5E2BAC7C/5E602614" Ref="R7"  Part="1" 
+F 0 "R7" H 5368 2946 50  0000 L CNN
 F 1 "10k" H 5368 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 2900 50  0001 C CNN
 F 3 "~" H 5300 2900 50  0001 C CNN
@@ -438,8 +386,8 @@ L Device:R_Small_US R?
 U 1 1 5E602B6F
 P 6100 2900
 AR Path="/5E2B9A47/5E602B6F" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E602B6F" Ref="R10"  Part="1" 
-F 0 "R10" H 6168 2946 50  0000 L CNN
+AR Path="/5E2BAC7C/5E602B6F" Ref="R8"  Part="1" 
+F 0 "R8" H 6168 2946 50  0000 L CNN
 F 1 "10k" H 6168 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2900 50  0001 C CNN
 F 3 "~" H 6100 2900 50  0001 C CNN
@@ -452,8 +400,8 @@ L Device:R_Small_US R?
 U 1 1 5E602F17
 P 6900 2900
 AR Path="/5E2B9A47/5E602F17" Ref="R?"  Part="1" 
-AR Path="/5E2BAC7C/5E602F17" Ref="R11"  Part="1" 
-F 0 "R11" H 6968 2946 50  0000 L CNN
+AR Path="/5E2BAC7C/5E602F17" Ref="R9"  Part="1" 
+F 0 "R9" H 6968 2946 50  0000 L CNN
 F 1 "10k" H 6968 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 2900 50  0001 C CNN
 F 3 "~" H 6900 2900 50  0001 C CNN
@@ -560,10 +508,10 @@ Connection ~ 5900 4400
 Wire Wire Line
 	5900 4400 6700 4400
 $Comp
-L power:+3V3 #PWR053
+L power:+3V3 #PWR037
 U 1 1 5E631F86
 P 5700 2600
-F 0 "#PWR053" H 5700 2450 50  0001 C CNN
+F 0 "#PWR037" H 5700 2450 50  0001 C CNN
 F 1 "+3V3" H 5715 2773 50  0000 C CNN
 F 2 "" H 5700 2600 50  0001 C CNN
 F 3 "" H 5700 2600 50  0001 C CNN
@@ -674,10 +622,10 @@ Wire Wire Line
 Wire Wire Line
 	4500 3400 4500 3000
 $Comp
-L Switch:SW_Push_45deg SW3
+L Switch:SW_Push_45deg SW2
 U 1 1 5E5F0417
 P 4400 3300
-F 0 "SW3" H 4100 3350 50  0000 C CNN
+F 0 "SW2" H 4100 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3250 50  0001 C CNN
 F 2 "" H 4400 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3300 50  0001 C CNN
@@ -689,6 +637,64 @@ F 6 "PTS645SK50SMTR92LFS" H 4400 3300 50  0001 C CNN "PartNo"
 $EndComp
 Text Notes 8900 5100 0    50   ~ 0
 6mm SMT
+Text HLabel 1400 900  0    50   Input ~ 0
+KPD_OUT[1..4]
+Entry Wire Line
+	1500 900  1600 1000
+Entry Wire Line
+	1500 1000 1600 1100
+Entry Wire Line
+	1500 1100 1600 1200
+Entry Wire Line
+	1500 1200 1600 1300
+Entry Wire Line
+	1500 1400 1600 1500
+Entry Wire Line
+	1500 1500 1600 1600
+Entry Wire Line
+	1500 1600 1600 1700
+Entry Wire Line
+	1500 1700 1600 1800
+Text Label 1600 1000 0    50   ~ 0
+KPD_OUT1
+Text Label 1600 1100 0    50   ~ 0
+KPD_OUT2
+Text Label 1600 1200 0    50   ~ 0
+KPD_OUT3
+Text Label 1600 1300 0    50   ~ 0
+KPD_OUT4
+Text Label 1600 1500 0    50   ~ 0
+KPD_IN1
+Text Label 1600 1600 0    50   ~ 0
+KPD_IN2
+Text Label 1600 1700 0    50   ~ 0
+KPD_IN3
+Text Label 1600 1800 0    50   ~ 0
+KPD_IN4
 Wire Bus Line
-	1400 1000 1400 1700
+	1400 900  1500 900 
+Wire Wire Line
+	2000 1000 1600 1000
+Wire Wire Line
+	2000 1100 1600 1100
+Wire Wire Line
+	2000 1200 1600 1200
+Wire Wire Line
+	2000 1300 1600 1300
+Wire Wire Line
+	2000 1500 1600 1500
+Wire Wire Line
+	2000 1600 1600 1600
+Wire Wire Line
+	2000 1700 1600 1700
+Wire Wire Line
+	2000 1800 1600 1800
+Wire Bus Line
+	1500 1400 1400 1400
+Text HLabel 1400 1400 0    50   Input ~ 0
+KPD_IN[1..4]
+Wire Bus Line
+	1500 900  1500 1200
+Wire Bus Line
+	1500 1400 1500 1700
 $EndSCHEMATC

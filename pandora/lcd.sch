@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 11 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-08"
+Date "2020-02-09"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -13,109 +13,63 @@ Comment2 "B.S. EE 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
-Text HLabel 1200 1400 0    50   Input ~ 0
-LCD_CTRL
 Entry Wire Line
-	1300 1600 1400 1700
+	1700 3300 1800 3400
 Entry Wire Line
-	1300 1800 1400 1900
+	1700 3400 1800 3500
 Entry Wire Line
-	1300 1900 1400 2000
+	1700 3500 1800 3600
 Entry Wire Line
-	1300 2000 1400 2100
+	1700 3600 1800 3700
 Entry Wire Line
-	1300 2100 1400 2200
+	1700 3700 1800 3800
 Entry Wire Line
-	1300 2200 1400 2300
+	1700 3800 1800 3900
 Entry Wire Line
-	1300 2300 1400 2400
+	1700 3900 1800 4000
 Entry Wire Line
-	1300 2400 1400 2500
-Entry Wire Line
-	1300 2500 1400 2600
-Text Label 1400 1600 0    50   ~ 0
-LCD_RW
-Text Label 1400 1900 0    50   ~ 0
-LCD_DB0
-Wire Bus Line
-	1200 1400 1300 1400
-Wire Wire Line
-	1800 1900 1400 1900
-Text Label 1400 1500 0    50   ~ 0
-LCD_E
-Text Label 1400 1700 0    50   ~ 0
-LCD_RS
-Entry Wire Line
-	1300 1400 1400 1500
-Entry Wire Line
-	1300 1500 1400 1600
-Entry Wire Line
-	1300 3300 1400 3400
-Entry Wire Line
-	1300 3500 1400 3600
-Entry Wire Line
-	1300 3600 1400 3700
-Entry Wire Line
-	1300 3700 1400 3800
-Entry Wire Line
-	1300 3800 1400 3900
-Entry Wire Line
-	1300 3900 1400 4000
-Entry Wire Line
-	1300 4000 1400 4100
-Entry Wire Line
-	1300 4100 1400 4200
-Entry Wire Line
-	1300 4200 1400 4300
-Text Label 1400 3300 0    50   ~ 0
+	1700 4000 1800 4100
+Text Label 1800 3100 0    50   ~ 0
 LCD_OUT_RW
-Wire Bus Line
-	1200 3100 1300 3100
-Text Label 1400 3200 0    50   ~ 0
+Text Label 1800 3000 0    50   ~ 0
 LCD_OUT_E
-Text Label 1400 3400 0    50   ~ 0
+Text Label 1800 3200 0    50   ~ 0
 LCD_OUT_RS
-Entry Wire Line
-	1300 3100 1400 3200
-Entry Wire Line
-	1300 3200 1400 3300
-Text Label 1400 3800 0    50   ~ 0
+Text Label 1800 3600 0    50   ~ 0
 LCD_OUT_DB2
-Text Label 1400 3900 0    50   ~ 0
+Text Label 1800 3700 0    50   ~ 0
 LCD_OUT_DB3
-Text Label 1400 4000 0    50   ~ 0
+Text Label 1800 3800 0    50   ~ 0
 LCD_OUT_DB4
-Text Label 1400 4100 0    50   ~ 0
+Text Label 1800 3900 0    50   ~ 0
 LCD_OUT_DB5
-Text Label 1400 4200 0    50   ~ 0
+Text Label 1800 4000 0    50   ~ 0
 LCD_OUT_DB6
-Text Label 1400 4300 0    50   ~ 0
+Text Label 1800 4100 0    50   ~ 0
 LCD_OUT_DB7
-Text Label 1400 3600 0    50   ~ 0
+Text Label 1800 3400 0    50   ~ 0
 LCD_OUT_DB0
 Wire Wire Line
-	2000 3200 1400 3200
+	2400 3600 1800 3600
 Wire Wire Line
-	2000 3800 1400 3800
+	2400 3700 1800 3700
 Wire Wire Line
-	2000 3900 1400 3900
+	2400 3800 1800 3800
 Wire Wire Line
-	2000 4000 1400 4000
+	2400 3900 1800 3900
 Wire Wire Line
-	2000 4100 1400 4100
+	2400 4000 1800 4000
 Wire Wire Line
-	2000 4200 1400 4200
+	2400 4100 1800 4100
 Wire Wire Line
-	2000 4300 1400 4300
-Wire Wire Line
-	2000 3600 1400 3600
+	2400 3400 1800 3400
 $Comp
 L Device:C_Small C?
 U 1 1 5E641A3F
 P 5200 3000
 AR Path="/5E2B9A47/5E641A3F" Ref="C?"  Part="1" 
-AR Path="/5E2BACD0/5E641A3F" Ref="C35"  Part="1" 
-F 0 "C35" V 5150 3100 50  0000 C CNN
+AR Path="/5E2BACD0/5E641A3F" Ref="C32"  Part="1" 
+F 0 "C32" V 5150 3100 50  0000 C CNN
 F 1 "0.1uF" V 5250 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 3000 50  0001 C CNN
 F 3 "~" H 5200 3000 50  0001 C CNN
@@ -204,31 +158,15 @@ Text Label 3800 4300 0    50   ~ 0
 LCD_RW
 Wire Wire Line
 	3800 4300 4400 4300
-Text Notes 1200 1300 0    50   ~ 0
+Text Notes 1600 1100 0    50   ~ 0
 LCD to MCU
-Text Notes 1200 3000 0    50   ~ 0
+Text Notes 1600 2800 0    50   ~ 0
 LCD connector
-Wire Wire Line
-	2000 3200 2000 1500
-Wire Wire Line
-	1400 1500 2000 1500
-Wire Wire Line
-	2100 1600 2100 3300
-Wire Wire Line
-	1400 1600 2100 1600
-Wire Wire Line
-	1400 3300 2100 3300
-Wire Wire Line
-	2200 3400 2200 1700
-Wire Wire Line
-	1400 1700 2200 1700
-Wire Wire Line
-	1400 3400 2200 3400
 Wire Wire Line
 	4300 4700 4300 4400
 Wire Wire Line
 	4300 4400 4400 4400
-Text Label 1400 4500 0    50   ~ 0
+Text Label 1800 4300 0    50   ~ 0
 LCD_V0
 Text Label 8200 3700 0    50   ~ 0
 LCD_V0
@@ -255,10 +193,10 @@ VERIFY FOOTPRINT
 Text Notes 7300 2900 0    100  ~ 20
 CONTRAST ADJUST
 $Comp
-L power:+5V #PWR058
+L power:+5V #PWR073
 U 1 1 5E3D1159
 P 7900 3400
-F 0 "#PWR058" H 7900 3250 50  0001 C CNN
+F 0 "#PWR073" H 7900 3250 50  0001 C CNN
 F 1 "+5V" H 7915 3573 50  0000 C CNN
 F 2 "" H 7900 3400 50  0001 C CNN
 F 3 "" H 7900 3400 50  0001 C CNN
@@ -268,53 +206,19 @@ $EndComp
 Wire Wire Line
 	7900 3550 7900 3400
 Wire Bus Line
-	1200 3500 1300 3500
-Wire Bus Line
-	1300 1800 1200 1800
-Text HLabel 1200 1800 0    50   Input ~ 0
-LCD_DB
+	1600 3300 1700 3300
 Wire Wire Line
-	1200 4500 1700 4500
-Text HLabel 1200 4500 0    50   Input ~ 0
+	1600 4300 2100 4300
+Text HLabel 1600 4300 0    50   Input ~ 0
 LCD_OUT_CNTR
-Text HLabel 1200 3500 0    50   Input ~ 0
-LCD_OUT_DB
-Text HLabel 1200 3100 0    50   Input ~ 0
-LCD_OUT_CTRL
+Text HLabel 1600 3300 0    50   Input ~ 0
+LCD_OUT_DB[0..7]
 Wire Wire Line
 	8050 3700 8500 3700
 Wire Wire Line
-	2000 3700 1400 3700
-Text Label 1400 3700 0    50   ~ 0
+	2400 3500 1800 3500
+Text Label 1800 3500 0    50   ~ 0
 LCD_OUT_DB1
-Wire Wire Line
-	1800 2600 1400 2600
-Wire Wire Line
-	1800 2500 1400 2500
-Wire Wire Line
-	1800 2400 1400 2400
-Wire Wire Line
-	1800 2300 1400 2300
-Wire Wire Line
-	1800 2200 1400 2200
-Wire Wire Line
-	1800 2100 1400 2100
-Wire Wire Line
-	1800 2000 1400 2000
-Text Label 1400 2600 0    50   ~ 0
-LCD_DB7
-Text Label 1400 2500 0    50   ~ 0
-LCD_DB6
-Text Label 1400 2400 0    50   ~ 0
-LCD_DB5
-Text Label 1400 2300 0    50   ~ 0
-LCD_DB4
-Text Label 1400 2200 0    50   ~ 0
-LCD_DB3
-Text Label 1400 2100 0    50   ~ 0
-LCD_DB2
-Text Label 1400 2000 0    50   ~ 0
-LCD_DB1
 Text Label 3800 3400 0    50   ~ 0
 LCD_OUT_DB0
 Wire Wire Line
@@ -324,10 +228,10 @@ LCD_DB0
 Wire Wire Line
 	5800 3400 5400 3400
 $Comp
-L power:+3V3 #PWR055
+L power:+3V3 #PWR070
 U 1 1 5E37D61D
 P 4900 2900
-F 0 "#PWR055" H 4900 2750 50  0001 C CNN
+F 0 "#PWR070" H 4900 2750 50  0001 C CNN
 F 1 "+3V3" H 4915 3073 50  0000 C CNN
 F 2 "" H 4900 2900 50  0001 C CNN
 F 3 "" H 4900 2900 50  0001 C CNN
@@ -337,10 +241,10 @@ $EndComp
 Wire Wire Line
 	7900 4000 7900 3850
 $Comp
-L pandora:GNDD #PWR054
+L pandora:GNDD #PWR069
 U 1 1 5E5597D8
 P 4300 4700
-F 0 "#PWR054" H 4300 4450 50  0001 C CNN
+F 0 "#PWR069" H 4300 4450 50  0001 C CNN
 F 1 "GNDD" H 4305 4527 50  0000 C CNN
 F 2 "" H 4300 4700 50  0001 C CNN
 F 3 "" H 4300 4700 50  0001 C CNN
@@ -348,10 +252,10 @@ F 3 "" H 4300 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pandora:GNDD #PWR056
+L pandora:GNDD #PWR071
 U 1 1 5E559AB9
 P 4900 4700
-F 0 "#PWR056" H 4900 4450 50  0001 C CNN
+F 0 "#PWR071" H 4900 4450 50  0001 C CNN
 F 1 "GNDD" H 4905 4527 50  0000 C CNN
 F 2 "" H 4900 4700 50  0001 C CNN
 F 3 "" H 4900 4700 50  0001 C CNN
@@ -359,10 +263,10 @@ F 3 "" H 4900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pandora:GNDD #PWR059
+L pandora:GNDD #PWR074
 U 1 1 5E559CD1
 P 7900 4000
-F 0 "#PWR059" H 7900 3750 50  0001 C CNN
+F 0 "#PWR074" H 7900 3750 50  0001 C CNN
 F 1 "GNDD" H 7905 3827 50  0000 C CNN
 F 2 "" H 7900 4000 50  0001 C CNN
 F 3 "" H 7900 4000 50  0001 C CNN
@@ -370,10 +274,10 @@ F 3 "" H 7900 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pandora:GNDD #PWR057
+L pandora:GNDD #PWR072
 U 1 1 5E55A7AA
 P 5600 3000
-F 0 "#PWR057" H 5600 2750 50  0001 C CNN
+F 0 "#PWR072" H 5600 2750 50  0001 C CNN
 F 1 "GNDD" H 5605 2827 50  0000 C CNN
 F 2 "" H 5600 3000 50  0001 C CNN
 F 3 "" H 5600 3000 50  0001 C CNN
@@ -398,12 +302,96 @@ Wire Notes Line
 	8800 3000 7200 3000
 Text Notes 8000 3900 0    50   ~ 0
 TC33X-2-103E
+Entry Wire Line
+	1700 1600 1800 1700
+Entry Wire Line
+	1700 1700 1800 1800
+Entry Wire Line
+	1700 1800 1800 1900
+Entry Wire Line
+	1700 1900 1800 2000
+Entry Wire Line
+	1700 2000 1800 2100
+Entry Wire Line
+	1700 2100 1800 2200
+Entry Wire Line
+	1700 2200 1800 2300
+Entry Wire Line
+	1700 2300 1800 2400
+Text Label 1800 1800 0    50   ~ 0
+LCD_DB1
+Text Label 1800 1900 0    50   ~ 0
+LCD_DB2
+Text Label 1800 2000 0    50   ~ 0
+LCD_DB3
+Text Label 1800 2100 0    50   ~ 0
+LCD_DB4
+Text Label 1800 2200 0    50   ~ 0
+LCD_DB5
+Text Label 1800 2300 0    50   ~ 0
+LCD_DB6
+Text Label 1800 2400 0    50   ~ 0
+LCD_DB7
+Text Label 1800 1700 0    50   ~ 0
+LCD_DB0
+Wire Wire Line
+	2200 1800 1800 1800
+Wire Wire Line
+	2200 1900 1800 1900
+Wire Wire Line
+	2200 2000 1800 2000
+Wire Wire Line
+	2200 2100 1800 2100
+Wire Wire Line
+	2200 2200 1800 2200
+Wire Wire Line
+	2200 2300 1800 2300
+Wire Wire Line
+	2200 2400 1800 2400
+Wire Wire Line
+	2200 1700 1800 1700
+Text Label 1800 1500 0    50   ~ 0
+LCD_RS
+Text HLabel 1600 1600 0    50   Input ~ 0
+LCD_DB[0..7]
 Wire Bus Line
-	1300 3100 1300 3300
+	1700 1600 1600 1600
+Text Label 1800 1300 0    50   ~ 0
+LCD_E
+Text Label 1800 1400 0    50   ~ 0
+LCD_RW
+Text HLabel 1600 1300 0    50   Input ~ 0
+LCD_E
+Text HLabel 1600 1400 0    50   Input ~ 0
+LCD_RW
+Text HLabel 1600 1500 0    50   Input ~ 0
+LCD_RS
+Text HLabel 1600 3000 0    50   Input ~ 0
+LCD_OUT_E
+Text HLabel 1600 3100 0    50   Input ~ 0
+LCD_OUT_RW
+Text HLabel 1600 3200 0    50   Input ~ 0
+LCD_OUT_RS
+Wire Wire Line
+	1600 3000 2400 3000
+Wire Wire Line
+	1600 3100 2500 3100
+Wire Wire Line
+	1600 3200 2600 3200
+Wire Wire Line
+	2400 3000 2400 1300
+Wire Wire Line
+	1600 1300 2400 1300
+Wire Wire Line
+	2500 1400 2500 3100
+Wire Wire Line
+	1600 1400 2500 1400
+Wire Wire Line
+	2600 3200 2600 1500
+Wire Wire Line
+	1600 1500 2600 1500
 Wire Bus Line
-	1300 1400 1300 1600
+	1700 3300 1700 4000
 Wire Bus Line
-	1300 1800 1300 2500
-Wire Bus Line
-	1300 3500 1300 4200
+	1700 1600 1700 2300
 $EndSCHEMATC
