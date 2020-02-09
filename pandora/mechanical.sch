@@ -16,10 +16,10 @@ $EndDescr
 Text Notes 5100 3800 0    100  ~ 20
 MOUNTING HOLES
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5E3B7A7B
 P 5200 4300
-F 0 "H?" H 5300 4346 50  0000 L CNN
+F 0 "H1" H 5300 4346 50  0000 L CNN
 F 1 "M3" H 5300 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5200 4300 50  0001 C CNN
 F 3 "~" H 5200 4300 50  0001 C CNN
@@ -30,10 +30,10 @@ F 6 "N/A" H 5200 4300 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5E3B7BAB
 P 5600 4300
-F 0 "H?" H 5700 4346 50  0000 L CNN
+F 0 "H2" H 5700 4346 50  0000 L CNN
 F 1 "M3" H 5700 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 4300 50  0001 C CNN
 F 3 "~" H 5600 4300 50  0001 C CNN
@@ -44,10 +44,10 @@ F 6 "N/A" H 5600 4300 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5E3B7F3C
 P 6000 4300
-F 0 "H?" H 6100 4346 50  0000 L CNN
+F 0 "H3" H 6100 4346 50  0000 L CNN
 F 1 "M3" H 6100 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 4300 50  0001 C CNN
 F 3 "~" H 6000 4300 50  0001 C CNN
@@ -58,10 +58,10 @@ F 6 "N/A" H 6000 4300 50  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5E3B81C5
 P 6400 4300
-F 0 "H?" H 6500 4346 50  0000 L CNN
+F 0 "H4" H 6500 4346 50  0000 L CNN
 F 1 "M3" H 6500 4255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6400 4300 50  0001 C CNN
 F 3 "~" H 6400 4300 50  0001 C CNN
