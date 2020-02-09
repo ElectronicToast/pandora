@@ -1,4 +1,4 @@
-update=2/7/2020 6:08:44 PM
+update=2/8/2020 5:50:02 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Users/Ray/Documents/GitHub/pandora/templates/pandora-sheet.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=../doc/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
