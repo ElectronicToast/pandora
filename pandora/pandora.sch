@@ -291,6 +291,6 @@ Wire Bus Line
 	7900 3100 8900 3100
 Text Notes 8100 3300 0    50   ~ 0
 Contrast Adjust
-Text Notes 7800 1300 0    50   ~ 10
+Text Notes 7800 1400 0    50   ~ 10
 JTAG Debug / Reset
 $EndSCHEMATC
