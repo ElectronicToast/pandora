@@ -93,7 +93,7 @@ Wire Wire Line
 Connection ~ 12100 6000
 Wire Wire Line
 	11400 5900 11400 6000
-Text Notes 3800 7900 0    100  ~ 20
+Text Notes 4600 8000 0    100  ~ 20
 BATTERY BOOST CONVERTER
 Text Notes 13200 3000 0    100  ~ 20
 POWER SELECT
@@ -393,211 +393,38 @@ Wire Notes Line
 	13300 4200 14300 4200
 Text Notes 10100 2800 0    50   ~ 0
 ALTERNATE PART\nS3JBHR5G \nSMB
-Text Notes 2900 9200 0    50   ~ 0
-0805
-Wire Wire Line
-	4700 8900 4600 8900
-Wire Wire Line
-	4600 8900 4600 8500
-Wire Wire Line
-	4600 8500 4900 8500
-Wire Wire Line
-	5300 8900 5400 8900
-Wire Wire Line
-	5400 8900 5400 8500
-Wire Wire Line
-	5100 8500 5400 8500
-Connection ~ 5400 8500
-Text Notes 5800 8400 0    50   ~ 0
-CHECK\nFOOTPRINT
-Wire Wire Line
-	5500 8500 5400 8500
-Wire Wire Line
-	5700 8500 5800 8500
-Wire Wire Line
-	5800 8500 5800 8700
-Wire Wire Line
-	5800 8900 5800 9000
-Wire Wire Line
-	5800 9000 5300 9000
-Connection ~ 5800 9000
-Wire Wire Line
-	5800 9000 5800 9100
-Wire Wire Line
-	5000 9300 5000 9500
-Wire Wire Line
-	5800 9500 5800 9300
-$Comp
-L pandora:GNDBAT #PWR?
-U 1 1 5E47F25D
-P 5000 9500
-F 0 "#PWR?" H 5000 9250 50  0001 C CNN
-F 1 "GNDBAT" H 5005 9327 50  0000 C CNN
-F 2 "" H 5000 9500 50  0001 C CNN
-F 3 "" H 5000 9500 50  0001 C CNN
-	1    5000 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pandora:GNDBAT #PWR?
-U 1 1 5E480BB7
-P 5800 9500
-F 0 "#PWR?" H 5800 9250 50  0001 C CNN
-F 1 "GNDBAT" H 5805 9327 50  0000 C CNN
-F 2 "" H 5800 9500 50  0001 C CNN
-F 3 "" H 5800 9500 50  0001 C CNN
-	1    5800 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pandora:GNDBAT #PWR?
-U 1 1 5E4810B2
-P 2800 9500
-F 0 "#PWR?" H 2800 9250 50  0001 C CNN
-F 1 "GNDBAT" H 2805 9327 50  0000 C CNN
-F 2 "" H 2800 9500 50  0001 C CNN
-F 3 "" H 2800 9500 50  0001 C CNN
-	1    2800 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 9500 2800 9100
-Wire Wire Line
-	2800 8900 2800 8500
-Connection ~ 4600 8500
-Wire Wire Line
-	6200 8600 6200 8500
-Wire Wire Line
-	6200 8500 5800 8500
-Connection ~ 5800 8500
-Wire Wire Line
-	6200 8800 6200 9000
-Wire Wire Line
-	6200 9000 5800 9000
-Wire Wire Line
-	6600 8900 6600 8500
-Wire Wire Line
-	6600 8500 6200 8500
-Connection ~ 6200 8500
-$Comp
-L pandora:GNDBAT #PWR?
-U 1 1 5E4AB6A1
-P 6600 9500
-F 0 "#PWR?" H 6600 9250 50  0001 C CNN
-F 1 "GNDBAT" H 6605 9327 50  0000 C CNN
-F 2 "" H 6600 9500 50  0001 C CNN
-F 3 "" H 6600 9500 50  0001 C CNN
-	1    6600 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 9500 6600 9100
-Wire Wire Line
-	7300 8500 6600 8500
-Connection ~ 6600 8500
-Text Label 7600 8500 0    50   ~ 0
+Text Label 9100 8600 0    50   ~ 0
 VBOOST
 Wire Wire Line
-	7900 8500 7500 8500
-Text Notes 4800 8200 0    50   ~ 0
- CR43-1R
-Text Notes 4400 8400 0    50   ~ 0
-MAKE\nFOOTPRINT
-Wire Wire Line
-	2000 8500 2800 8500
-Wire Wire Line
-	3700 9100 3700 9000
-Wire Wire Line
-	3700 9000 3600 9000
-$Comp
-L pandora:GNDBAT #PWR?
-U 1 1 5E4EF9AD
-P 3700 9500
-F 0 "#PWR?" H 3700 9250 50  0001 C CNN
-F 1 "GNDBAT" H 3705 9327 50  0000 C CNN
-F 2 "" H 3700 9500 50  0001 C CNN
-F 3 "" H 3700 9500 50  0001 C CNN
-	1    3700 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 9500 3700 9300
-Connection ~ 2800 8500
+	9400 8600 9000 8600
 Wire Notes Line
-	3300 8700 3300 9400
+	2500 8100 2500 10400
 Wire Notes Line
-	3300 9400 4100 9400
+	8600 10400 8600 8100
 Wire Notes Line
-	4100 9400 4100 8700
-Wire Notes Line
-	4100 8700 3300 8700
-Text Notes 3300 8700 0    50   ~ 0
-SOFT START FILTER
-Wire Notes Line
-	2500 8000 2500 9900
-Wire Notes Line
-	2500 9900 7100 9900
-Wire Notes Line
-	7100 9900 7100 8000
-Wire Notes Line
-	7100 8000 2500 8000
-Wire Wire Line
-	3400 9000 3200 9000
-Wire Wire Line
-	2800 8500 3200 8500
-Wire Wire Line
-	3200 8500 4600 8500
-Connection ~ 3200 8500
-Wire Wire Line
-	3200 9000 3200 8500
-Wire Wire Line
-	4550 9000 4700 9000
-$Comp
-L pandora:GNDBAT #PWR?
-U 1 1 5E59F120
-P 4400 9500
-F 0 "#PWR?" H 4400 9250 50  0001 C CNN
-F 1 "GNDBAT" H 4405 9327 50  0000 C CNN
-F 2 "" H 4400 9500 50  0001 C CNN
-F 3 "" H 4400 9500 50  0001 C CNN
-	1    4400 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 9500 4400 9200
-Wire Wire Line
-	4400 8800 4200 8800
-Wire Wire Line
-	4200 8800 4200 9000
-Wire Wire Line
-	4200 9000 3700 9000
-Connection ~ 3700 9000
-Text Notes 4500 9500 0    50   ~ 0
-GND\nTO\nDISABLE\nSOFT\nSTART
-Text Notes 2100 9200 0    50   ~ 0
-1206
+	8600 8100 2500 8100
+Text Notes 3000 9300 0    50   ~ 0
+0805
 $Comp
 L pandora:GNDBAT #PWR?
 U 1 1 5E5BCB63
-P 2000 9500
-F 0 "#PWR?" H 2000 9250 50  0001 C CNN
-F 1 "GNDBAT" H 2005 9327 50  0000 C CNN
-F 2 "" H 2000 9500 50  0001 C CNN
-F 3 "" H 2000 9500 50  0001 C CNN
-	1    2000 9500
+P 2900 9600
+F 0 "#PWR?" H 2900 9350 50  0001 C CNN
+F 1 "GNDBAT" H 2905 9427 50  0000 C CNN
+F 2 "" H 2900 9600 50  0001 C CNN
+F 3 "" H 2900 9600 50  0001 C CNN
+	1    2900 9600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 9100 2000 9500
+	2900 9200 2900 9600
 Wire Wire Line
-	2000 8500 2000 8900
+	2900 8600 2900 9000
 Text Notes 13400 4400 0    50   ~ 0
 LOOK AT ALTERNATIVES\nMAKE FOOTPRINTS
 Text Notes 9300 2100 0    50   ~ 0
 1206
 Text Notes 11100 2100 0    50   ~ 0
-1206
-Text Notes 6700 9200 0    50   ~ 0
 1206
 Wire Wire Line
 	14800 4200 14800 4000
@@ -711,8 +538,6 @@ Text Notes 14700 4600 0    50   ~ 0
 BUS\nCAP
 Text Notes 13700 6900 0    50   ~ 0
 BUS\nCAP
-Text Notes 3400 10000 0    50   ~ 0
-CONSIDER ALTERNATIVE; SAMPLE NOT AVAILABLE FROM ANALOG DEVICES
 Wire Wire Line
 	5800 6100 4000 6100
 Text Notes 5900 6600 0    50   ~ 0
@@ -830,12 +655,11 @@ Wire Wire Line
 Connection ~ 2000 5600
 Text Label 9300 6100 0    50   ~ 0
 VLV
-Connection ~ 2000 8500
 Text Notes 4200 6300 0    50   ~ 0
 CHARGING
 Text Notes 4300 6800 0    50   ~ 0
 CHARGE\nDONE
-Text Notes 4000 6000 0    50   ~ 0
+Text Notes 4000 5800 0    50   ~ 0
 SOT-23-5
 Wire Notes Line
 	2500 5400 2500 7200
@@ -928,9 +752,7 @@ Wire Wire Line
 Connection ~ 6800 5600
 Wire Wire Line
 	6800 5600 4700 5600
-Wire Wire Line
-	1800 8500 2000 8500
-Text Label 1800 8500 0    50   ~ 0
+Text Label 1800 8600 0    50   ~ 0
 VLV
 Wire Wire Line
 	7300 6100 5800 6100
@@ -945,6 +767,7 @@ F 1 "MCP1702T-3302" H 12600 6151 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 12600 6225 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 12600 6000 50  0001 C CNN
 F 4 "SOT-89-3" H 12600 6000 50  0001 C CNN "Package"
+F 5 "5V LDO from main power" H 12600 6000 50  0001 C CNN "Comment"
 	1    12600 6000
 	1    0    0    -1  
 $EndComp
@@ -1054,7 +877,7 @@ P 11400 4000
 AR Path="/5E2B9A47/5E423A39" Ref="R?"  Part="1" 
 AR Path="/5E2BABF8/5E423A39" Ref="R?"  Part="1" 
 F 0 "R?" H 11468 4046 50  0000 L CNN
-F 1 "365" H 11468 3955 50  0000 L CNN
+F 1 "3.6k" H 11468 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 4000 50  0001 C CNN
 F 3 "~" H 11400 4000 50  0001 C CNN
 F 4 "0603" H 11400 4000 50  0001 C CNN "Package"
@@ -1068,7 +891,7 @@ P 11800 3800
 AR Path="/5E2B9A47/5E4233DD" Ref="R?"  Part="1" 
 AR Path="/5E2BABF8/5E4233DD" Ref="R?"  Part="1" 
 F 0 "R?" H 11868 3846 50  0000 L CNN
-F 1 "121" H 11868 3755 50  0000 L CNN
+F 1 "1.2k" H 11868 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11800 3800 50  0001 C CNN
 F 3 "~" H 11800 3800 50  0001 C CNN
 F 4 "0603" H 11800 3800 50  0001 C CNN "Package"
@@ -1084,6 +907,7 @@ F 1 "LM1086CS-ADJ" H 11400 3751 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 11400 3850 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf" H 11400 3600 50  0001 C CNN
 F 4 "TO-263" H 11400 3600 50  0001 C CNN "Package"
+F 5 "3V3 LDO" H 11400 3600 50  0001 C CNN "Comment"
 	1    11400 3600
 	1    0    0    -1  
 $EndComp
@@ -1174,190 +998,30 @@ F 6 "25V" H 9700 3800 50  0001 C CNN "Comment"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pandora:LT1935 U?
-U 1 1 5E4550CE
-P 5000 9000
-F 0 "U?" H 5000 9367 50  0000 C CNN
-F 1 "LT1935" H 5000 9276 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5100 8750 50  0001 L CIN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1935f.pdf" H 4800 9300 50  0001 C CNN
-F 4 "SOT-23-5" H 5000 9000 50  0001 C CNN "Package"
-F 5 "LT1935ES5" H 5000 9000 50  0001 C CNN "PartNo"
-	1    5000 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E455AF2
-P 2800 9000
-AR Path="/5E2BAD17/5E455AF2" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E455AF2" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E455AF2" Ref="C?"  Part="1" 
-F 0 "C?" H 2892 9046 50  0000 L CNN
-F 1 "4.7uF" H 2892 8955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 9000 50  0001 C CNN
-F 3 "~" H 2800 9000 50  0001 C CNN
-F 4 "0603" H 2800 9000 50  0001 C CNN "Package"
-	1    2800 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L?
-U 1 1 5E45A80A
-P 5000 8500
-AR Path="/5E2B9A47/5E45A80A" Ref="L?"  Part="1" 
-AR Path="/5E2BABF8/5E45A80A" Ref="L?"  Part="1" 
-F 0 "L?" V 5185 8500 50  0000 C CNN
-F 1 "1.8uH" V 5094 8500 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 8500 50  0001 C CNN
-F 3 "~" H 5000 8500 50  0001 C CNN
-F 4 " CR43-1R" H 5000 8500 50  0001 C CNN "Package"
-F 5 "Power inductor for boost converter" H 5000 8500 50  0001 C CNN "Comment"
-	1    5000 8500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Schottky_Small D?
-U 1 1 5E46289D
-P 5600 8500
-F 0 "D?" H 5600 8295 50  0000 C CNN
-F 1 "MBRM120" H 5600 8386 50  0000 C CNN
-F 2 "Diode_SMD:D_Powermite_AK" V 5600 8500 50  0001 C CNN
-F 3 "~" V 5600 8500 50  0001 C CNN
-F 4 "Powermite_457−04" H 5600 8500 50  0001 C CNN "Package"
-F 5 "MBRM120LT1G" H 5600 8500 50  0001 C CNN "PartNo"
-	1    5600 8500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E46B03A
-P 5800 9200
-AR Path="/5E2B9A47/5E46B03A" Ref="R?"  Part="1" 
-AR Path="/5E2BABF8/5E46B03A" Ref="R?"  Part="1" 
-F 0 "R?" H 5868 9246 50  0000 L CNN
-F 1 "10k" H 5868 9155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 9200 50  0001 C CNN
-F 3 "~" H 5800 9200 50  0001 C CNN
-F 4 "0603" H 5800 9200 50  0001 C CNN "Package"
-	1    5800 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E469DA1
-P 5800 8800
-AR Path="/5E2B9A47/5E469DA1" Ref="R?"  Part="1" 
-AR Path="/5E2BABF8/5E469DA1" Ref="R?"  Part="1" 
-F 0 "R?" H 5868 8846 50  0000 L CNN
-F 1 "29.4k" H 5868 8755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 8800 50  0001 C CNN
-F 3 "~" H 5800 8800 50  0001 C CNN
-F 4 "0603" H 5800 8800 50  0001 C CNN "Package"
-	1    5800 8800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5E4947C5
-P 7400 8500
-F 0 "FB?" V 7163 8500 50  0000 C CNN
-F 1 "1206_2A" V 7254 8500 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7330 8500 50  0001 C CNN
-F 3 "~" H 7400 8500 50  0001 C CNN
-F 4 "0603" H 7400 8500 50  0001 C CNN "Package"
-	1    7400 8500
+P 8900 8600
+F 0 "FB?" V 8663 8600 50  0000 C CNN
+F 1 "1206_2A" V 8754 8600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8830 8600 50  0001 C CNN
+F 3 "~" H 8900 8600 50  0001 C CNN
+F 4 "0603" H 8900 8600 50  0001 C CNN "Package"
+	1    8900 8600
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E49C2E7
-P 6200 8700
-AR Path="/5E2BAD17/5E49C2E7" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E49C2E7" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E49C2E7" Ref="C?"  Part="1" 
-F 0 "C?" H 6292 8746 50  0000 L CNN
-F 1 "150pF" H 6292 8655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 8700 50  0001 C CNN
-F 3 "~" H 6200 8700 50  0001 C CNN
-F 4 "0603" H 6200 8700 50  0001 C CNN "Package"
-	1    6200 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E4A60ED
-P 6600 9000
-AR Path="/5E2BAD17/5E4A60ED" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E4A60ED" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E4A60ED" Ref="C?"  Part="1" 
-F 0 "C?" H 6692 9046 50  0000 L CNN
-F 1 "20uF" H 6692 8955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6600 9000 50  0001 C CNN
-F 3 "~" H 6600 9000 50  0001 C CNN
-F 4 "0603" H 6600 9000 50  0001 C CNN "Package"
-	1    6600 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E4DEFC6
-P 3700 9200
-AR Path="/5E2BAD17/5E4DEFC6" Ref="C?"  Part="1" 
-AR Path="/5E2B9A47/5E4DEFC6" Ref="C?"  Part="1" 
-AR Path="/5E2BABF8/5E4DEFC6" Ref="C?"  Part="1" 
-F 0 "C?" H 3792 9246 50  0000 L CNN
-F 1 "220nF" H 3792 9155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3700 9200 50  0001 C CNN
-F 3 "~" H 3700 9200 50  0001 C CNN
-F 4 "0603" H 3700 9200 50  0001 C CNN "Package"
-	1    3700 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E4C9345
-P 3500 9000
-AR Path="/5E64A3EA/5E4C9345" Ref="R?"  Part="1" 
-AR Path="/5E2BAD17/5E4C9345" Ref="R?"  Part="1" 
-AR Path="/5E2B9A47/5E4C9345" Ref="R?"  Part="1" 
-AR Path="/5E2BABF8/5E4C9345" Ref="R?"  Part="1" 
-F 0 "R?" V 3295 9000 50  0000 C CNN
-F 1 "10k" V 3386 9000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 9000 50  0001 C CNN
-F 3 "~" H 3500 9000 50  0001 C CNN
-F 4 "0603" H 3500 9000 50  0001 C CNN "Package"
-	1    3500 9000
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 5E5840B0
-P 4400 9000
-AR Path="/5E341789/5E5840B0" Ref="JP?"  Part="1" 
-AR Path="/5E2BABF8/5E5840B0" Ref="JP?"  Part="1" 
-F 0 "JP?" V 4250 9050 50  0000 L CNN
-F 1 "SJ" V 4350 9125 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 4400 9000 50  0001 C CNN
-F 3 "~" H 4400 9000 50  0001 C CNN
-F 4 "SMD_PAD_SJ3" H 4400 9000 50  0001 C CNN "Package"
-F 5 "Solder jumper, 3 pad" H 4400 9000 50  0001 C CNN "Comment"
-	1    4400 9000
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5E687B3D
-P 2000 9000
+P 2900 9100
 AR Path="/5E2BAD17/5E687B3D" Ref="C?"  Part="1" 
 AR Path="/5E2B9A47/5E687B3D" Ref="C?"  Part="1" 
 AR Path="/5E2BABF8/5E687B3D" Ref="C?"  Part="1" 
-F 0 "C?" H 2092 9046 50  0000 L CNN
-F 1 "22uF" H 2092 8955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2000 9000 50  0001 C CNN
-F 3 "~" H 2000 9000 50  0001 C CNN
-F 4 "1206" H 2000 9000 50  0001 C CNN "Package"
-	1    2000 9000
+F 0 "C?" H 2992 9146 50  0000 L CNN
+F 1 "4.7uF" H 2992 9055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 9100 50  0001 C CNN
+F 3 "~" H 2900 9100 50  0001 C CNN
+F 4 "0805" H 2900 9100 50  0001 C CNN "Package"
+	1    2900 9100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1414,6 +1078,7 @@ F 1 "MCP1702T-3302" H 12600 8351 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 12600 8425 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 12600 8200 50  0001 C CNN
 F 4 "SOT-89-3" H 12600 8200 50  0001 C CNN "Package"
+F 5 "5V LDO from main power" H 12600 8200 50  0001 C CNN "Comment"
 	1    12600 8200
 	1    0    0    -1  
 $EndComp
@@ -1494,6 +1159,8 @@ F 0 "U?" H 3800 6600 50  0000 C CNN
 F 1 "MCP73831-2-OT" H 4100 6500 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3650 5950 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 3450 6150 50  0001 C CNN
+F 4 "SOT-23-5" H 3600 6200 50  0001 C CNN "Package"
+F 5 "MCP73831-2ACI-OT" H 3600 6200 50  0001 C CNN "PartNo"
 	1    3600 6200
 	1    0    0    -1  
 $EndComp
@@ -1559,7 +1226,7 @@ P 8000 5800
 F 0 "D?" V 8050 5650 50  0000 C CNN
 F 1 "MBRM120" V 7950 5500 50  0000 C CNN
 F 2 "Diode_SMD:D_Powermite_AK" V 8000 5800 50  0001 C CNN
-F 3 "~" V 8000 5800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBRM120L-D.PDF" V 8000 5800 50  0001 C CNN
 F 4 "Powermite_457−04" H 8000 5800 50  0001 C CNN "Package"
 F 5 "MBRM120LT1G" H 8000 5800 50  0001 C CNN "PartNo"
 	1    8000 5800
@@ -1658,6 +1325,7 @@ F 1 "Net-Tie_2" H 3900 3390 50  0001 C CNN
 F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 3900 3300 50  0001 C CNN
 F 3 "~" H 3900 3300 50  0001 C CNN
 F 4 "N/A" H 3900 3300 50  0001 C CNN "Package"
+F 5 "N/A" H 3900 3300 50  0001 C CNN "PartNo"
 	1    3900 3300
 	1    0    0    -1  
 $EndComp
@@ -1838,4 +1506,243 @@ Wire Notes Line
 	5400 3700 5400 1300
 Wire Notes Line
 	2500 1300 2500 3700
+$Comp
+L Device:L_Small L?
+U 1 1 5E45A80A
+P 6500 8600
+AR Path="/5E2B9A47/5E45A80A" Ref="L?"  Part="1" 
+AR Path="/5E2BABF8/5E45A80A" Ref="L?"  Part="1" 
+F 0 "L?" V 6685 8600 50  0000 C CNN
+F 1 "4.7uH" V 6594 8600 50  0000 C CNN
+F 2 "" H 6500 8600 50  0001 C CNN
+F 3 "~" H 6500 8600 50  0001 C CNN
+F 4 "" H 6500 8600 50  0001 C CNN "Package"
+F 5 "Power inductor for boost converter" H 6500 8600 50  0001 C CNN "Comment"
+	1    6500 8600
+	0    -1   -1   0   
+$EndComp
+Text Notes 5900 8500 0    50   ~ 0
+MAKE\nFOOTPRINT
+Text Notes 6300 8300 0    50   ~ 0
+SPEC INDUCTOR
+Wire Wire Line
+	6600 8600 7000 8600
+Wire Wire Line
+	6900 9000 7000 9000
+Wire Wire Line
+	7000 9000 7000 8600
+Wire Wire Line
+	6100 9000 6000 9000
+Wire Wire Line
+	6000 9000 6000 8600
+Connection ~ 6000 8600
+Wire Wire Line
+	6000 8600 6400 8600
+Wire Wire Line
+	6900 9200 7300 9200
+Wire Wire Line
+	7300 9200 7300 8600
+Wire Wire Line
+	7300 8600 8100 8600
+Wire Wire Line
+	1800 8600 2900 8600
+Text Notes 8200 9300 0    50   ~ 0
+1206
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E8511C3
+P 8100 9600
+F 0 "#PWR?" H 8100 9350 50  0001 C CNN
+F 1 "GNDBAT" H 8105 9427 50  0000 C CNN
+F 2 "" H 8100 9600 50  0001 C CNN
+F 3 "" H 8100 9600 50  0001 C CNN
+	1    8100 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 9200 8100 9600
+$Comp
+L Device:C_Small C?
+U 1 1 5E8511CC
+P 8100 9100
+AR Path="/5E2BAD17/5E8511CC" Ref="C?"  Part="1" 
+AR Path="/5E2B9A47/5E8511CC" Ref="C?"  Part="1" 
+AR Path="/5E2BABF8/5E8511CC" Ref="C?"  Part="1" 
+F 0 "C?" H 8192 9146 50  0000 L CNN
+F 1 "10uF" H 8192 9055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8100 9100 50  0001 C CNN
+F 3 "~" H 8100 9100 50  0001 C CNN
+F 4 "1206" H 8100 9100 50  0001 C CNN "Package"
+	1    8100 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E857949
+P 6500 9600
+F 0 "#PWR?" H 6500 9350 50  0001 C CNN
+F 1 "GNDBAT" H 6505 9427 50  0000 C CNN
+F 2 "" H 6500 9600 50  0001 C CNN
+F 3 "" H 6500 9600 50  0001 C CNN
+	1    6500 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 9600 6500 9600
+Connection ~ 6500 9600
+Wire Wire Line
+	6500 9600 6600 9600
+$Comp
+L pandora:MCP1642D-50 U?
+U 1 1 5E8359D7
+P 6500 9100
+F 0 "U?" H 6500 9467 50  0000 C CNN
+F 1 "MCP1642D-50" H 6500 9376 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 6650 8650 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005253A.pdf" H 6250 9550 50  0001 C CNN
+F 4 "Auxiliary battery boost converter" H 6500 9100 50  0001 C CNN "Comment"
+F 5 "MSOP-8" H 6500 9100 50  0001 C CNN "Package"
+F 6 "MCP1642D-50I/MS" H 6500 9100 50  0001 C CNN "PartNo"
+	1    6500 9100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 9200
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E86D451
+P 5100 9200
+F 0 "R?" H 5032 9154 50  0000 R CNN
+F 1 "10k" H 5032 9245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 9200 50  0001 C CNN
+F 3 "~" H 5100 9200 50  0001 C CNN
+F 4 "0603" H 5100 9200 50  0001 C CNN "Package"
+	1    5100 9200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 9400 5100 9300
+Wire Wire Line
+	5100 9100 5100 8600
+Wire Wire Line
+	8100 9000 8100 8600
+Connection ~ 8100 8600
+Wire Wire Line
+	8100 8600 8800 8600
+Text Notes 5900 10000 0    50   ~ 0
+BYPASS CURRENT LIMIT: 800 mA
+Connection ~ 2900 8600
+Wire Wire Line
+	2900 8600 5100 8600
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5E89576F
+P 5000 9700
+F 0 "Q?" H 5204 9746 50  0000 L CNN
+F 1 "BSS138" H 5204 9655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5200 9625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5000 9700 50  0001 L CNN
+F 4 "Aux battery boost converter bypass enable" H 5000 9700 50  0001 C CNN "Comment"
+F 5 "SOT-23" H 5000 9700 50  0001 C CNN "Package"
+F 6 "BSS138" H 5000 9700 50  0001 C CNN "PartNo"
+	1    5000 9700
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 9900 0    50   ~ 0
+SOT-23
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E8A17AB
+P 4600 9900
+F 0 "R?" H 4532 9854 50  0000 R CNN
+F 1 "100k" H 4532 9945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 9900 50  0001 C CNN
+F 3 "~" H 4600 9900 50  0001 C CNN
+F 4 "0603" H 4600 9900 50  0001 C CNN "Package"
+	1    4600 9900
+	-1   0    0    1   
+$EndComp
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E8A1E1D
+P 5100 10000
+F 0 "#PWR?" H 5100 9750 50  0001 C CNN
+F 1 "GNDBAT" H 5105 9827 50  0000 C CNN
+F 2 "" H 5100 10000 50  0001 C CNN
+F 3 "" H 5100 10000 50  0001 C CNN
+	1    5100 10000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2500 10400 8600 10400
+Wire Wire Line
+	5100 10000 5100 9900
+$Comp
+L pandora:GNDBAT #PWR?
+U 1 1 5E8B8537
+P 4600 10000
+F 0 "#PWR?" H 4600 9750 50  0001 C CNN
+F 1 "GNDBAT" H 4605 9827 50  0000 C CNN
+F 2 "" H 4600 10000 50  0001 C CNN
+F 3 "" H 4600 10000 50  0001 C CNN
+	1    4600 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 9800 4600 9700
+Wire Wire Line
+	4600 9700 4800 9700
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E8DAE14
+P 4300 9700
+F 0 "R?" V 4095 9700 50  0000 C CNN
+F 1 "100" V 4186 9700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 9700 50  0001 C CNN
+F 3 "~" H 4300 9700 50  0001 C CNN
+F 4 "0603" H 4300 9700 50  0001 C CNN "Package"
+	1    4300 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 9700 4600 9700
+Connection ~ 4600 9700
+$Comp
+L pandora:VCHG #PWR?
+U 1 1 5E8E383D
+P 3600 9500
+F 0 "#PWR?" H 3600 9350 50  0001 C CNN
+F 1 "VCHG" H 3615 9673 50  0000 C CNN
+F 2 "" H 3600 9500 50  0001 C CNN
+F 3 "" H 3600 9500 50  0001 C CNN
+	1    3600 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 9500 3600 9700
+Wire Wire Line
+	3600 9700 4200 9700
+Wire Wire Line
+	5100 9400 5100 9500
+Connection ~ 5100 9400
+Connection ~ 5100 8600
+Wire Wire Line
+	5100 8600 6000 8600
+Wire Wire Line
+	5100 9400 6100 9400
+Text Notes 4200 8900 0    50   ~ 10
+ACTIVE LOW BYPASS\nWHEN CHARGING
+Text Notes 1800 5200 0    50   ~ 0
+MUST BE 5V
+Text Notes 6900 6700 0    50   ~ 0
+PULLDOWN TO\nENABLE PFET
+Text Notes 8100 5600 0    50   ~ 0
+1 A
+Wire Notes Line
+	4000 9000 4000 10300
+Wire Notes Line
+	4000 10300 5600 10300
+Wire Notes Line
+	5600 10300 5600 9000
+Wire Notes Line
+	5600 9000 4000 9000
 $EndSCHEMATC
