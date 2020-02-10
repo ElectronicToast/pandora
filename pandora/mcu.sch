@@ -345,6 +345,7 @@ F 1 "32.768kHz" V 6750 3000 50  0000 L CNN
 F 2 "" H 6700 2900 50  0001 C CNN
 F 3 "~" H 6700 2900 50  0001 C CNN
 F 4 "NC26" H 6700 2900 50  0001 C CNN "Package"
+F 5 "Low frequency clock crystal" H 6700 2900 50  0001 C CNN "Comment"
 	1    6700 2900
 	0    1    1    0   
 $EndComp
@@ -357,6 +358,7 @@ F 1 "FA-238_48M" V 6945 3444 50  0000 L CNN
 F 2 "" H 6900 3300 50  0001 C CNN
 F 3 "~" H 6900 3300 50  0001 C CNN
 F 4 "FA-238" H 6900 3300 50  0001 C CNN "Package"
+F 5 "High frequency clock crystal" H 6900 3300 50  0001 C CNN "Comment"
 	1    6900 3300
 	0    1    1    0   
 $EndComp
@@ -866,7 +868,7 @@ U 1 1 5E5EF797
 P 5500 6600
 F 0 "U?" H 5700 6750 50  0000 C CNN
 F 1 "74LVC1G08" H 5850 6500 50  0000 C CNN
-F 2 "" H 5500 6600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5500 6600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5500 6600 50  0001 C CNN
 F 4 "SOT-23-5" H 5500 6600 50  0001 C CNN "Package"
 F 5 "SN74LVC1G08DBV" H 5500 6600 50  0001 C CNN "PartNo"

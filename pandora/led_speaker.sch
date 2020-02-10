@@ -216,6 +216,7 @@ F 1 "ULN2003D" H 4600 5076 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4650 3950 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4700 4300 50  0001 C CNN
 F 4 "SOIC-16" H 4600 4500 50  0001 C CNN "Package"
+F 5 "Peripheral low side switch" H 4600 4500 50  0001 C CNN "Comment"
 	1    4600 4500
 	1    0    0    -1  
 $EndComp

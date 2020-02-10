@@ -84,7 +84,7 @@ P 4900 3900
 F 0 "U?" H 5050 3200 50  0000 C CNN
 F 1 "74LCX245" H 5200 3100 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4900 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 4900 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/149/74LCX245-21038.pdf" H 4900 3900 50  0001 C CNN
 F 4 "SOIC-20W" H 4900 3900 50  0001 C CNN "Package"
 	1    4900 3900
 	1    0    0    -1  

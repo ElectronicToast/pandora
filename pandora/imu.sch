@@ -197,6 +197,7 @@ F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5500 3000 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
 F 4 "QFN-24" H 5500 4000 50  0001 C CNN "Package"
+F 5 "9-DOF IMU" H 5500 4000 50  0001 C CNN "Comment"
 	1    5500 4000
 	1    0    0    -1  
 $EndComp
