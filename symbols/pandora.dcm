@@ -108,6 +108,12 @@ K Step-Up Boost DC-DC Regulator Adjustable
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1935f.pdf
 $ENDCMP
 #
+$CMP MCP1642D-50
+D Synchronous Boost Regulator, Fixed Output 5.0V, PWM True Disconnect, MSOP-8
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005253A.pdf
+$ENDCMP
+#
 $CMP MCP1702
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
 K regulator linear ldo
