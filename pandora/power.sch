@@ -1043,6 +1043,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3750 6650 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 3550 6850 50  0001 C CNN
 F 4 "SOT-23-5" H 3700 6900 50  0001 C CNN "Package"
 F 5 "MCP73831-2ACI-OT" H 3700 6900 50  0001 C CNN "PartNo"
+F 6 "Battery charger" H 3700 6900 50  0001 C CNN "Comment"
 	1    3700 6900
 	1    0    0    -1  
 $EndComp

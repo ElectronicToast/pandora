@@ -133,7 +133,7 @@ U 1 1 5E5F8266
 P 5200 3300
 F 0 "SW7" H 4900 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3250 50  0001 C CNN
-F 2 "" H 5200 3300 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 5200 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3300 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 3300 50  0001 C CNN "Package"
@@ -147,7 +147,7 @@ U 1 1 5E5F91DB
 P 6000 3300
 F 0 "SW11" H 5700 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3250 50  0001 C CNN
-F 2 "" H 6000 3300 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6000 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3300 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 3300 50  0001 C CNN "Package"
@@ -161,7 +161,7 @@ U 1 1 5E5F91E5
 P 6800 3300
 F 0 "SW15" H 6500 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3250 50  0001 C CNN
-F 2 "" H 6800 3300 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6800 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3300 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 3300 50  0001 C CNN "Package"
@@ -205,7 +205,7 @@ U 1 1 5E5FC09B
 P 4400 3700
 F 0 "SW4" H 4100 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3650 50  0001 C CNN
-F 2 "" H 4400 3700 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 4400 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3700 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 3700 50  0001 C CNN "Package"
@@ -219,7 +219,7 @@ U 1 1 5E5FC0A5
 P 5200 3700
 F 0 "SW8" H 4900 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3650 50  0001 C CNN
-F 2 "" H 5200 3700 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 5200 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3700 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 3700 50  0001 C CNN "Package"
@@ -233,7 +233,7 @@ U 1 1 5E5FC0AF
 P 6000 3700
 F 0 "SW12" H 5700 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3650 50  0001 C CNN
-F 2 "" H 6000 3700 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6000 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3700 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 3700 50  0001 C CNN "Package"
@@ -247,7 +247,7 @@ U 1 1 5E5FC0B9
 P 6800 3700
 F 0 "SW16" H 6500 3750 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3650 50  0001 C CNN
-F 2 "" H 6800 3700 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6800 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3700 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 3700 50  0001 C CNN "Package"
@@ -261,7 +261,7 @@ U 1 1 5E5FFCAB
 P 4400 4100
 F 0 "SW5" H 4100 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4050 50  0001 C CNN
-F 2 "" H 4400 4100 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 4400 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4100 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 4100 50  0001 C CNN "Package"
@@ -275,7 +275,7 @@ U 1 1 5E5FFCB1
 P 5200 4100
 F 0 "SW9" H 4900 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4050 50  0001 C CNN
-F 2 "" H 5200 4100 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 5200 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4100 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 4100 50  0001 C CNN "Package"
@@ -289,7 +289,7 @@ U 1 1 5E5FFCB7
 P 6000 4100
 F 0 "SW13" H 5700 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4050 50  0001 C CNN
-F 2 "" H 6000 4100 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6000 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4100 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 4100 50  0001 C CNN "Package"
@@ -303,7 +303,7 @@ U 1 1 5E5FFCBD
 P 6800 4100
 F 0 "SW17" H 6500 4150 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4050 50  0001 C CNN
-F 2 "" H 6800 4100 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6800 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4100 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 4100 50  0001 C CNN "Package"
@@ -317,7 +317,7 @@ U 1 1 5E600C2F
 P 4400 4500
 F 0 "SW6" H 4100 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4450 50  0001 C CNN
-F 2 "" H 4400 4500 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 4400 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4500 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 4500 50  0001 C CNN "Package"
@@ -331,7 +331,7 @@ U 1 1 5E600C35
 P 5200 4500
 F 0 "SW10" H 4900 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4450 50  0001 C CNN
-F 2 "" H 5200 4500 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 5200 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4500 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 4500 50  0001 C CNN "Package"
@@ -345,7 +345,7 @@ U 1 1 5E600C3B
 P 6000 4500
 F 0 "SW14" H 5700 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4450 50  0001 C CNN
-F 2 "" H 6000 4500 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6000 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4500 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 4500 50  0001 C CNN "Package"
@@ -359,7 +359,7 @@ U 1 1 5E600C41
 P 6800 4500
 F 0 "SW18" H 6500 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4450 50  0001 C CNN
-F 2 "" H 6800 4500 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 6800 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4500 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 4500 50  0001 C CNN "Package"
@@ -627,7 +627,7 @@ U 1 1 5E5F0417
 P 4400 3300
 F 0 "SW3" H 4100 3350 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3250 50  0001 C CNN
-F 2 "" H 4400 3300 50  0001 C CNN
+F 2 "pandora:PTS645_SMT_12" H 4400 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3300 50  0001 C CNN
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 3300 50  0001 C CNN "Package"
