@@ -30,3 +30,6 @@ _autosave-*
 sym-lib-table
 fp-lib-table
 fp-info-cache
+
+# Local library files
+.local
