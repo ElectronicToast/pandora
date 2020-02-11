@@ -980,7 +980,7 @@ U 1 1 5E3ECACE
 P 3900 6700
 F 0 "U10" H 4000 6950 50  0000 L CNN
 F 1 "ADM811ZARTZ" H 4000 6450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 4000 6400 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 4000 6400 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf" H 3550 6000 50  0001 C CNN
 F 4 "Reset supervisor" H 3900 6700 50  0001 C CNN "Comment"
 F 5 "SOT-143" H 3900 6700 50  0001 C CNN "Package"
@@ -1194,12 +1194,14 @@ Wire Wire Line
 	1200 6200 1800 6200
 Wire Wire Line
 	1200 6100 1800 6100
+Wire Wire Line
+	8300 1600 8900 1600
 Wire Bus Line
 	1300 2100 1300 2400
 Wire Bus Line
 	1300 2600 1300 2900
 Wire Bus Line
 	1300 3700 1300 4400
-Wire Wire Line
-	8300 1600 8900 1600
+Text Notes 8900 1900 0    50   ~ 0
+SPEC
 $EndSCHEMATC
