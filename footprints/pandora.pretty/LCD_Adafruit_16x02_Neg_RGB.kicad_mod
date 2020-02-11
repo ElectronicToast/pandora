@@ -1,4 +1,6 @@
-(module LCD_Adafruit_16x02_Neg_RGB (layer F.Cu) (tedit 5E352077)
+(module LCD_Adafruit_16x02_Neg_RGB (layer F.Cu) (tedit 5E428F30)
+  (descr "RGB backlight negative LCD 16x2, top row")
+  (tags "LCD RGB")
   (fp_text reference REF** (at 63.5 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
