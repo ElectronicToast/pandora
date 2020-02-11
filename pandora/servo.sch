@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -22,6 +22,7 @@ F 1 "0.1uF" H 7492 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 3600 50  0001 C CNN
 F 3 "~" H 7400 3600 50  0001 C CNN
 F 4 "0603" H 7400 3600 50  0001 C CNN "Package"
+F 5 "In House" H 7400 3600 50  0001 C CNN "Supplier"
 	1    7400 3600
 	1    0    0    -1  
 $EndComp
@@ -36,6 +37,7 @@ F 1 "150k" V 4486 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 4400 50  0001 C CNN
 F 3 "~" H 4600 4400 50  0001 C CNN
 F 4 "0603" H 4600 4400 50  0001 C CNN "Package"
+F 5 "In House" H 4600 4400 50  0001 C CNN "Supplier"
 	1    4600 4400
 	0    1    1    0   
 $EndComp
@@ -50,6 +52,7 @@ F 1 "120k" V 5286 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5400 5100 50  0001 C CNN
 F 3 "~" H 5400 5100 50  0001 C CNN
 F 4 "0603" H 5400 5100 50  0001 C CNN "Package"
+F 5 "In House" H 5400 5100 50  0001 C CNN "Supplier"
 	1    5400 5100
 	0    1    1    0   
 $EndComp
@@ -66,6 +69,7 @@ F 1 "1uF" H 7092 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 3600 50  0001 C CNN
 F 3 "~" H 7000 3600 50  0001 C CNN
 F 4 "0603" H 7000 3600 50  0001 C CNN "Package"
+F 5 "In House" H 7000 3600 50  0001 C CNN "Supplier"
 	1    7000 3600
 	1    0    0    -1  
 $EndComp
@@ -79,6 +83,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5400 4100 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5500 4500 50  0001 C CNN
 F 4 "SOT-23-5" H 5500 4300 50  0001 C CNN "Package"
 F 5 "Servo feedback opamp" H 5500 4300 50  0001 C CNN "Comment"
+F 6 "MCP6001RT-I/OT" H 5500 4300 50  0001 C CNN "PartNo"
+F 7 "In House" H 5500 4300 50  0001 C CNN "Supplier"
 	1    5500 4300
 	1    0    0    -1  
 $EndComp
@@ -172,6 +178,7 @@ F 1 "150k" H 4468 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 3400 50  0001 C CNN
 F 3 "~" H 4400 3400 50  0001 C CNN
 F 4 "0603" H 4400 3400 50  0001 C CNN "Package"
+F 5 "In House" H 4400 3400 50  0001 C CNN "Supplier"
 	1    4400 3400
 	1    0    0    -1  
 $EndComp
@@ -186,6 +193,7 @@ F 1 "160k" H 4468 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 3800 50  0001 C CNN
 F 3 "~" H 4400 3800 50  0001 C CNN
 F 4 "0603" H 4400 3800 50  0001 C CNN "Package"
+F 5 "In House" H 4400 3800 50  0001 C CNN "Supplier"
 	1    4400 3800
 	1    0    0    -1  
 $EndComp

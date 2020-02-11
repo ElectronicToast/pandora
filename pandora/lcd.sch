@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -74,6 +74,7 @@ F 1 "0.1uF" V 5250 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 3000 50  0001 C CNN
 F 3 "~" H 5200 3000 50  0001 C CNN
 F 4 "0603" H 5200 3000 50  0001 C CNN "Package"
+F 5 "In House" H 5200 3000 50  0001 C CNN "Supplier"
 	1    5200 3000
 	0    1    1    0   
 $EndComp
@@ -86,6 +87,9 @@ F 1 "74LCX245" H 5200 3100 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4900 3900 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/149/74LCX245-21038.pdf" H 4900 3900 50  0001 C CNN
 F 4 "SOIC-20W" H 4900 3900 50  0001 C CNN "Package"
+F 5 "LCD level shifter" H 4900 3900 50  0001 C CNN "Comment"
+F 6 "74LCX245WM" H 4900 3900 50  0001 C CNN "PartNo"
+F 7 "In House" H 4900 3900 50  0001 C CNN "Supplier"
 	1    4900 3900
 	1    0    0    -1  
 $EndComp
@@ -183,6 +187,8 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 7900 3700 50  00
 F 4 "Bourns_TC33" H 7900 3700 50  0001 C CNN "Package"
 F 5 "TC33X-2-103E" H 7900 3700 50  0001 C CNN "PartNo"
 F 6 "LCD contrast potentiometer" H 7900 3700 50  0001 C CNN "Comment"
+F 7 "Digi-Key" H 7900 3700 50  0001 C CNN "Supplier"
+F 8 "TC33X-103ECT-ND" H 7900 3700 50  0001 C CNN "SupplierPartNo"
 	1    7900 3700
 	1    0    0    -1  
 $EndComp

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -26,6 +26,7 @@ F 3 "~" H 5200 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 5200 4300 50  0001 C CNN "Package"
 F 5 "M3 mounting hole; board corners" H 5200 4300 50  0001 C CNN "Comment"
 F 6 "N/A" H 5200 4300 50  0001 C CNN "PartNo"
+F 7 "N/A" H 5200 4300 50  0001 C CNN "Supplier"
 	1    5200 4300
 	1    0    0    -1  
 $EndComp
@@ -40,6 +41,7 @@ F 3 "~" H 5600 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 5600 4300 50  0001 C CNN "Package"
 F 5 "M3 mounting hole; board corners" H 5600 4300 50  0001 C CNN "Comment"
 F 6 "N/A" H 5600 4300 50  0001 C CNN "PartNo"
+F 7 "N/A" H 5600 4300 50  0001 C CNN "Supplier"
 	1    5600 4300
 	1    0    0    -1  
 $EndComp
@@ -54,6 +56,7 @@ F 3 "~" H 6000 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 6000 4300 50  0001 C CNN "Package"
 F 5 "M3 mounting hole; board corners" H 6000 4300 50  0001 C CNN "Comment"
 F 6 "N/A" H 6000 4300 50  0001 C CNN "PartNo"
+F 7 "N/A" H 6000 4300 50  0001 C CNN "Supplier"
 	1    6000 4300
 	1    0    0    -1  
 $EndComp
@@ -68,6 +71,7 @@ F 3 "~" H 6400 4300 50  0001 C CNN
 F 4 "HOLE_M3" H 6400 4300 50  0001 C CNN "Package"
 F 5 "M3 mounting hole; board corners" H 6400 4300 50  0001 C CNN "Comment"
 F 6 "N/A" H 6400 4300 50  0001 C CNN "PartNo"
+F 7 "N/A" H 6400 4300 50  0001 C CNN "Supplier"
 	1    6400 4300
 	1    0    0    -1  
 $EndComp

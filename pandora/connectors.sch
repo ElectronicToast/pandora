@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -39,6 +39,8 @@ F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4900 4100
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4550 2850 50  0001 C CNN
 F 4 "50mil_02x05" H 4900 4100 50  0001 C CNN "Package"
 F 5 "JTAG debug header" H 4900 4100 50  0001 C CNN "Comment"
+F 6 "FTSH-105-0.1-F-DV-K" H 4900 4100 50  0001 C CNN "PartNo"
+F 7 "In House" H 4900 4100 50  0001 C CNN "Supplier"
 	1    4900 4100
 	1    0    0    -1  
 $EndComp
@@ -72,6 +74,7 @@ F 2 "" H 3900 1800 50  0001 C CNN
 F 3 "~" H 3900 1800 50  0001 C CNN
 F 4 "156mil 3-pin power connector" H 3900 1800 50  0001 C CNN "Comment"
 F 5 "156mil_01x03" H 3900 1800 50  0001 C CNN "Package"
+F 6 "In House" H 3900 1800 50  0001 C CNN "Supplier"
 	1    3900 1800
 	1    0    0    -1  
 $EndComp
@@ -108,6 +111,8 @@ F 2 "pandora:LCD_Adafruit_16x02_Neg_RGB" H 8420 2980 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf" H 8900 3600 50  0001 C CNN
 F 4 "LCD_18" H 8400 3900 50  0001 C CNN "Package"
 F 5 "LCD, negative, LCD backlight" H 8400 3900 50  0001 C CNN "Comment"
+F 6 "399" H 8400 3900 50  0001 C CNN "PartNo"
+F 7 "In House" H 8400 3900 50  0001 C CNN "Supplier"
 	1    8400 3900
 	1    0    0    -1  
 $EndComp
@@ -206,6 +211,7 @@ F 1 "0" V 9050 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 3700 50  0001 C CNN
 F 3 "~" H 9100 3700 50  0001 C CNN
 F 4 "0603" H 9100 3700 50  0001 C CNN "Package"
+F 5 "In House" H 9100 3700 50  0001 C CNN "Supplier"
 	1    9100 3700
 	0    1    1    0   
 $EndComp
@@ -218,6 +224,7 @@ F 1 "0" V 9050 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 3800 50  0001 C CNN
 F 3 "~" H 9100 3800 50  0001 C CNN
 F 4 "0603" H 9100 3800 50  0001 C CNN "Package"
+F 5 "In House" H 9100 3800 50  0001 C CNN "Supplier"
 	1    9100 3800
 	0    1    1    0   
 $EndComp
@@ -230,6 +237,7 @@ F 1 "0" V 9050 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 3900 50  0001 C CNN
 F 3 "~" H 9100 3900 50  0001 C CNN
 F 4 "0603" H 9100 3900 50  0001 C CNN "Package"
+F 5 "In House" H 9100 3900 50  0001 C CNN "Supplier"
 	1    9100 3900
 	0    1    1    0   
 $EndComp
@@ -267,6 +275,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8700 1600 50 
 F 3 "~" H 8700 1600 50  0001 C CNN
 F 4 "Servo connector" H 8700 1600 50  0001 C CNN "Comment"
 F 5 "100mil_01x04" H 8700 1600 50  0001 C CNN "Package"
+F 6 "In House" H 8700 1600 50  0001 C CNN "Supplier"
 	1    8700 1600
 	1    0    0    -1  
 $EndComp
@@ -394,6 +403,7 @@ F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 5400 1700 5
 F 3 "~" H 5400 1700 50  0001 C CNN
 F 4 "JST PH auxiliary LiPo connector" H 5400 1700 50  0001 C CNN "Comment"
 F 5 "JST-PH_2_SMD_RghtAngle" H 5400 1700 50  0001 C CNN "Package"
+F 6 "In House" H 5400 1700 50  0001 C CNN "Supplier"
 	1    5400 1700
 	1    0    0    -1  
 $EndComp
@@ -560,6 +570,7 @@ F 3 "~" H 4350 6450 50  0001 C CNN
 F 4 "5V battery charge connector" H 4200 6500 50  0001 C CNN "Comment"
 F 5 "Molex_ 0675031020" H 4200 6500 50  0001 C CNN "Package"
 F 6 " 0675031020" H 4200 6500 50  0001 C CNN "PartNo"
+F 7 "In House" H 4200 6500 50  0001 C CNN "Supplier"
 	1    4200 6500
 	1    0    0    -1  
 $EndComp
@@ -621,9 +632,11 @@ F 0 "F1" H 4900 6485 50  0000 C CNN
 F 1 " 0ZCJ0075FF2E" H 4900 6394 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4900 6300 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" H 4900 6300 50  0001 C CNN
-F 4 "Charging input fuse" H 4900 6300 50  0001 C CNN "Comment"
-F 5 " 0ZCJ0075FF2E" H 4900 6300 50  0001 C CNN "PartNo"
+F 4 "Charging input fuse, 750mA hold" H 4900 6300 50  0001 C CNN "Comment"
+F 5 "0ZCJ0075FF2E" H 4900 6300 50  0001 C CNN "PartNo"
 F 6 "1206" H 4900 6300 50  0001 C CNN "Package"
+F 7 "Digi-Key" H 4900 6300 50  0001 C CNN "Supplier"
+F 8 "507-1804-1-ND" H 4900 6300 50  0001 C CNN "SupplierPartNo"
 	1    4900 6300
 	1    0    0    -1  
 $EndComp

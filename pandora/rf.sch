@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -27,6 +27,8 @@ F 2 "" H 8600 3200 50  0001 C CNN
 F 3 "~" H 8600 3200 50  0001 C CNN
 F 4 "PCB antenna" H 8600 3200 50  0001 C CNN "Comment"
 F 5 "N/A" H 8600 3200 50  0001 C CNN "PartNo"
+F 6 "ANT_PCB" H 8600 3200 50  0001 C CNN "Package"
+F 7 "N/A" H 8600 3200 50  0001 C CNN "Supplier"
 	1    8600 3200
 	1    0    0    -1  
 $EndComp
@@ -55,6 +57,7 @@ F 2 "" H 8700 4500 50  0001 C CNN
 F 3 " ~" H 8700 4500 50  0001 C CNN
 F 4 "External antenna connector" H 8700 4500 50  0001 C CNN "Comment"
 F 5 "SMA_SMD_RightAngle" H 8700 4500 50  0001 C CNN "Package"
+F 6 "In House" H 8700 4500 50  0001 C CNN "Supplier"
 	1    8700 4500
 	1    0    0    -1  
 $EndComp
@@ -81,6 +84,7 @@ F 2 "Inductor_SMD:L_0402_1005Metric" H 4900 4000 50  0001 C CNN
 F 3 "~" H 4900 4000 50  0001 C CNN
 F 4 "0402" H 4900 4000 50  0001 C CNN "Package"
 F 5 "" H 4900 4000 50  0001 C CNN "Comment"
+F 6 "In House" H 4900 4000 50  0001 C CNN "Supplier"
 	1    4900 4000
 	0    -1   -1   0   
 $EndComp
@@ -93,6 +97,7 @@ F 1 "1pF" H 3192 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3100 4500 50  0001 C CNN
 F 3 "~" H 3100 4500 50  0001 C CNN
 F 4 "0402" H 3100 4500 50  0001 C CNN "Package"
+F 5 "In House" H 3100 4500 50  0001 C CNN "Supplier"
 	1    3100 4500
 	1    0    0    -1  
 $EndComp
@@ -108,6 +113,7 @@ F 2 "Inductor_SMD:L_0402_1005Metric" H 3500 4300 50  0001 C CNN
 F 3 "~" H 3500 4300 50  0001 C CNN
 F 4 "0402" H 3500 4300 50  0001 C CNN "Package"
 F 5 "" H 3500 4300 50  0001 C CNN "Comment"
+F 6 "In House" H 3500 4300 50  0001 C CNN "Supplier"
 	1    3500 4300
 	0    -1   -1   0   
 $EndComp
@@ -156,6 +162,7 @@ F 1 "1pF" V 3362 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 3700 50  0001 C CNN
 F 3 "~" H 3500 3700 50  0001 C CNN
 F 4 "0402" H 3500 3700 50  0001 C CNN "Package"
+F 5 "In House" H 3500 3700 50  0001 C CNN "Supplier"
 	1    3500 3700
 	0    1    1    0   
 $EndComp
@@ -171,6 +178,7 @@ F 1 "2.4nH" H 3148 3455 50  0000 L CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 3100 3500 50  0001 C CNN
 F 3 "~" H 3100 3500 50  0001 C CNN
 F 4 "0402" H 3100 3500 50  0001 C CNN "Package"
+F 5 "In House" H 3100 3500 50  0001 C CNN "Supplier"
 	1    3100 3500
 	1    0    0    -1  
 $EndComp
@@ -183,6 +191,7 @@ F 1 "12pF" H 3192 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3100 3200 50  0001 C CNN
 F 3 "~" H 3100 3200 50  0001 C CNN
 F 4 "0402" H 3100 3200 50  0001 C CNN "Package"
+F 5 "In House" H 3100 3200 50  0001 C CNN "Supplier"
 	1    3100 3200
 	1    0    0    -1  
 $EndComp
@@ -233,6 +242,7 @@ F 1 "1pF" H 5192 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5100 4200 50  0001 C CNN
 F 3 "~" H 5100 4200 50  0001 C CNN
 F 4 "0402" H 5100 4200 50  0001 C CNN "Package"
+F 5 "In House" H 5100 4200 50  0001 C CNN "Supplier"
 	1    5100 4200
 	1    0    0    -1  
 $EndComp
@@ -248,6 +258,7 @@ F 2 "Inductor_SMD:L_0402_1005Metric" H 5300 4000 50  0001 C CNN
 F 3 "~" H 5300 4000 50  0001 C CNN
 F 4 "0402" H 5300 4000 50  0001 C CNN "Package"
 F 5 "" H 5300 4000 50  0001 C CNN "Comment"
+F 6 "In House" H 5300 4000 50  0001 C CNN "Supplier"
 	1    5300 4000
 	0    -1   -1   0   
 $EndComp
@@ -279,8 +290,9 @@ F 0 "C32" H 6600 4300 50  0000 C CNN
 F 1 "12pF" H 6600 4209 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 4100 50  0001 C CNN
 F 3 "~" H 6600 4100 50  0001 C CNN
-F 4 "Capacitor - antenna select" H 6600 4000 50  0001 C CNN "Comment"
-F 5 "0402-2way" H 6600 4000 50  0001 C CNN "Package"
+F 4 "" H 6600 4000 50  0001 C CNN "Comment"
+F 5 "0402" H 6600 4000 50  0001 C CNN "Package"
+F 6 "In House" H 6600 4000 50  0001 C CNN "Supplier"
 	1    6600 4000
 	1    0    0    -1  
 $EndComp
@@ -293,6 +305,7 @@ F 1 "1.8pF" V 8062 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8200 3500 50  0001 C CNN
 F 3 "~" H 8200 3500 50  0001 C CNN
 F 4 "0402" H 8200 3500 50  0001 C CNN "Package"
+F 5 "In House" H 8200 3500 50  0001 C CNN "Supplier"
 	1    8200 3500
 	0    1    1    0   
 $EndComp

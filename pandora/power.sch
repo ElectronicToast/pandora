@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -665,6 +665,8 @@ F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 12600 6225 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 12600 6000 50  0001 C CNN
 F 4 "SOT-89-3" H 12600 6000 50  0001 C CNN "Package"
 F 5 "5V LDO from main power" H 12600 6000 50  0001 C CNN "Comment"
+F 6 "MCP1702T-3302" H 12600 6000 50  0001 C CNN "PartNo"
+F 7 "In House" H 12600 6000 50  0001 C CNN "Supplier"
 	1    12600 6000
 	1    0    0    -1  
 $EndComp
@@ -680,6 +682,7 @@ F 1 "1uF" H 12192 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12100 6200 50  0001 C CNN
 F 3 "~" H 12100 6200 50  0001 C CNN
 F 4 "0603" H 12100 6200 50  0001 C CNN "Package"
+F 5 "In House" H 12100 6200 50  0001 C CNN "Supplier"
 	1    12100 6200
 	1    0    0    -1  
 $EndComp
@@ -695,6 +698,7 @@ F 1 "1uF" H 13192 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13100 6200 50  0001 C CNN
 F 3 "~" H 13100 6200 50  0001 C CNN
 F 4 "0603" H 13100 6200 50  0001 C CNN "Package"
+F 5 "In House" H 13100 6200 50  0001 C CNN "Supplier"
 	1    13100 6200
 	1    0    0    -1  
 $EndComp
@@ -707,6 +711,7 @@ F 1 "0603_500mA" V 14154 6000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14230 6000 50  0001 C CNN
 F 3 "~" H 14300 6000 50  0001 C CNN
 F 4 "0603" H 14300 6000 50  0001 C CNN "Package"
+F 5 "Digi-Key" H 14300 6000 50  0001 C CNN "Supplier"
 	1    14300 6000
 	0    1    1    0   
 $EndComp
@@ -722,6 +727,7 @@ F 1 "22uF" H 13892 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13800 6200 50  0001 C CNN
 F 3 "~" H 13800 6200 50  0001 C CNN
 F 4 "1206" H 13800 6200 50  0001 C CNN "Package"
+F 5 "In House" H 13800 6200 50  0001 C CNN "Supplier"
 	1    13800 6200
 	1    0    0    -1  
 $EndComp
@@ -736,6 +742,8 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/L/documents/datasheet.p
 F 4 " L102021ML04Q" H 13800 3700 50  0001 C CNN "PartNo"
 F 5 "SPDT slide switch, 4A" H 13800 3700 50  0001 C CNN "Comment"
 F 6 "CnK_ L102021ML04Q" H 13800 3700 50  0001 C CNN "Package"
+F 7 "Digi-Key" H 13800 3700 50  0001 C CNN "Supplier"
+F 8 "KC5102-ND" H 13800 3700 50  0001 C CNN "SupplierPartNo"
 	1    13800 3700
 	-1   0    0    -1  
 $EndComp
@@ -747,9 +755,11 @@ F 0 "C12" H 10891 3846 50  0000 L CNN
 F 1 "10uF" H 10891 3755 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7132-28_AVX-C_Pad2.72x3.50mm_HandSolder" H 10800 3800 50  0001 C CNN
 F 3 "http://datasheets.avx.com/trj.pdf" H 10800 3800 50  0001 C CNN
-F 4 " TRJC106K035R0600" H 10800 3800 50  0001 C CNN "PartNo"
+F 4 "TRJC106K035R0600" H 10800 3800 50  0001 C CNN "PartNo"
 F 5 "2312" H 10800 3800 50  0001 C CNN "Package"
 F 6 "35V" H 10800 3800 50  0001 C CNN "Comment"
+F 7 "Digi-Key" H 10800 3800 50  0001 C CNN "Supplier"
+F 8 "478-7582-1-ND" H 10800 3800 50  0001 C CNN "SupplierPartNo"
 	1    10800 3800
 	1    0    0    -1  
 $EndComp
@@ -761,9 +771,11 @@ F 0 "C17" H 12391 3846 50  0000 L CNN
 F 1 "10uF" H 12391 3755 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7132-28_AVX-C_Pad2.72x3.50mm_HandSolder" H 12300 3800 50  0001 C CNN
 F 3 "http://datasheets.avx.com/trj.pdf" H 12300 3800 50  0001 C CNN
-F 4 " TRJC106K035R0600" H 12300 3800 50  0001 C CNN "PartNo"
+F 4 "TRJC106K035R0600" H 12300 3800 50  0001 C CNN "PartNo"
 F 5 "2312" H 12300 3800 50  0001 C CNN "Package"
 F 6 "35V" H 12300 3800 50  0001 C CNN "Comment"
+F 7 "Digi-Key" H 12300 3800 50  0001 C CNN "Supplier"
+F 8 "478-7582-1-ND" H 12300 3800 50  0001 C CNN "SupplierPartNo"
 	1    12300 3800
 	1    0    0    -1  
 $EndComp
@@ -778,6 +790,7 @@ F 1 "3.6k" H 11468 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 4000 50  0001 C CNN
 F 3 "~" H 11400 4000 50  0001 C CNN
 F 4 "0603" H 11400 4000 50  0001 C CNN "Package"
+F 5 "In House" H 11400 4000 50  0001 C CNN "Supplier"
 	1    11400 4000
 	1    0    0    -1  
 $EndComp
@@ -792,6 +805,7 @@ F 1 "1.2k" H 11868 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11800 3800 50  0001 C CNN
 F 3 "~" H 11800 3800 50  0001 C CNN
 F 4 "0603" H 11800 3800 50  0001 C CNN "Package"
+F 5 "In House" H 11800 3800 50  0001 C CNN "Supplier"
 	1    11800 3800
 	1    0    0    -1  
 $EndComp
@@ -805,6 +819,8 @@ F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 11400 3850 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf" H 11400 3600 50  0001 C CNN
 F 4 "TO-263" H 11400 3600 50  0001 C CNN "Package"
 F 5 "3V3 LDO" H 11400 3600 50  0001 C CNN "Comment"
+F 6 "LM1086CS-ADJ" H 11400 3600 50  0001 C CNN "PartNo"
+F 7 "In House" H 11400 3600 50  0001 C CNN "Supplier"
 	1    11400 3600
 	1    0    0    -1  
 $EndComp
@@ -820,6 +836,7 @@ F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" V 10500 1700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N5400-D.PDF" V 10500 1700 50  0001 C CNN
 F 4 "DO-15 / AXIAL 267−05" H 10500 1700 50  0001 C CNN "Package"
 F 5 "3A, alternatively use SMB package" H 10500 1700 50  0001 C CNN "Comment"
+F 6 "Digi-Key" H 10500 1700 50  0001 C CNN "Supplier"
 	1    10500 1700
 	-1   0    0    1   
 $EndComp
@@ -835,6 +852,7 @@ F 1 "0.1uF" H 11592 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11500 1900 50  0001 C CNN
 F 3 "~" H 11500 1900 50  0001 C CNN
 F 4 "0603" H 11500 1900 50  0001 C CNN "Package"
+F 5 "In House" H 11500 1900 50  0001 C CNN "Supplier"
 	1    11500 1900
 	1    0    0    -1  
 $EndComp
@@ -850,6 +868,7 @@ F 1 "1uF" H 8892 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 1900 50  0001 C CNN
 F 3 "~" H 8800 1900 50  0001 C CNN
 F 4 "0603" H 8800 1900 50  0001 C CNN "Package"
+F 5 "In House" H 8800 1900 50  0001 C CNN "Supplier"
 	1    8800 1900
 	1    0    0    -1  
 $EndComp
@@ -865,6 +884,7 @@ F 1 "0.1uF" H 8492 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 1900 50  0001 C CNN
 F 3 "~" H 8400 1900 50  0001 C CNN
 F 4 "0603" H 8400 1900 50  0001 C CNN "Package"
+F 5 "In House" H 8400 1900 50  0001 C CNN "Supplier"
 	1    8400 1900
 	1    0    0    -1  
 $EndComp
@@ -877,6 +897,7 @@ F 1 "2512_3A" V 9954 3600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10030 3600 50  0001 C CNN
 F 3 "~" H 10100 3600 50  0001 C CNN
 F 4 "0603" H 10100 3600 50  0001 C CNN "Package"
+F 5 "Digi-Key" H 10100 3600 50  0001 C CNN "Supplier"
 	1    10100 3600
 	0    1    1    0   
 $EndComp
@@ -888,9 +909,11 @@ F 0 "C11" H 9791 3846 50  0000 L CNN
 F 1 "47uF" H 9791 3755 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 9791 3709 50  0001 L CNN
 F 3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" H 9700 3800 50  0001 C CNN
-F 4 " T491D476M025AT" H 9700 3800 50  0001 C CNN "PartNo"
+F 4 "T491D476M025AT" H 9700 3800 50  0001 C CNN "PartNo"
 F 5 "2917" H 9700 3800 50  0001 C CNN "Package"
 F 6 "25V" H 9700 3800 50  0001 C CNN "Comment"
+F 7 "Digi-Key" H 9700 3800 50  0001 C CNN "Supplier"
+F 8 "399-3797-1-ND" H 9700 3800 50  0001 C CNN "SupplierPartNo"
 	1    9700 3800
 	1    0    0    -1  
 $EndComp
@@ -903,6 +926,7 @@ F 1 "1206_2A" V 8554 9500 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8630 9500 50  0001 C CNN
 F 3 "~" H 8700 9500 50  0001 C CNN
 F 4 "0603" H 8700 9500 50  0001 C CNN "Package"
+F 5 "Digi-Key" H 8700 9500 50  0001 C CNN "Supplier"
 	1    8700 9500
 	0    1    1    0   
 $EndComp
@@ -918,6 +942,7 @@ F 1 "4.7uF" H 3492 9755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 9800 50  0001 C CNN
 F 3 "~" H 3400 9800 50  0001 C CNN
 F 4 "0805" H 3400 9800 50  0001 C CNN "Package"
+F 5 "In House" H 3400 9800 50  0001 C CNN "Supplier"
 	1    3400 9800
 	1    0    0    -1  
 $EndComp
@@ -933,6 +958,7 @@ F 1 "10uF" H 9292 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9200 1900 50  0001 C CNN
 F 3 "~" H 9200 1900 50  0001 C CNN
 F 4 "0603" H 9200 1900 50  0001 C CNN "Package"
+F 5 "In House" H 9200 1900 50  0001 C CNN "Supplier"
 	1    9200 1900
 	1    0    0    -1  
 $EndComp
@@ -948,6 +974,7 @@ F 1 "22uF" H 11092 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 11000 1900 50  0001 C CNN
 F 3 "~" H 11000 1900 50  0001 C CNN
 F 4 "1206" H 11000 1900 50  0001 C CNN "Package"
+F 5 "In House" H 11000 1900 50  0001 C CNN "Supplier"
 	1    11000 1900
 	1    0    0    -1  
 $EndComp
@@ -963,6 +990,7 @@ F 1 "22uF" H 14892 3855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14800 3900 50  0001 C CNN
 F 3 "~" H 14800 3900 50  0001 C CNN
 F 4 "1206" H 14800 3900 50  0001 C CNN "Package"
+F 5 "In House" H 14800 3900 50  0001 C CNN "Supplier"
 	1    14800 3900
 	1    0    0    -1  
 $EndComp
@@ -976,6 +1004,8 @@ F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 12600 8425 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 12600 8200 50  0001 C CNN
 F 4 "SOT-89-3" H 12600 8200 50  0001 C CNN "Package"
 F 5 "5V LDO from main power" H 12600 8200 50  0001 C CNN "Comment"
+F 6 "MCP1702T-3302" H 12600 8200 50  0001 C CNN "PartNo"
+F 7 "In House" H 12600 8200 50  0001 C CNN "Supplier"
 	1    12600 8200
 	1    0    0    -1  
 $EndComp
@@ -991,6 +1021,7 @@ F 1 "1uF" H 12192 8355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12100 8400 50  0001 C CNN
 F 3 "~" H 12100 8400 50  0001 C CNN
 F 4 "0603" H 12100 8400 50  0001 C CNN "Package"
+F 5 "In House" H 12100 8400 50  0001 C CNN "Supplier"
 	1    12100 8400
 	1    0    0    -1  
 $EndComp
@@ -1006,6 +1037,7 @@ F 1 "1uF" H 13192 8355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13100 8400 50  0001 C CNN
 F 3 "~" H 13100 8400 50  0001 C CNN
 F 4 "0603" H 13100 8400 50  0001 C CNN "Package"
+F 5 "In House" H 13100 8400 50  0001 C CNN "Supplier"
 	1    13100 8400
 	1    0    0    -1  
 $EndComp
@@ -1018,6 +1050,7 @@ F 1 "1k" V 4450 7250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 7100 50  0001 C CNN
 F 3 "~" H 4500 7100 50  0001 C CNN
 F 4 "0603" H 4500 7100 50  0001 C CNN "Package"
+F 5 "In House" H 4500 7100 50  0001 C CNN "Supplier"
 	1    4500 7100
 	0    1    1    0   
 $EndComp
@@ -1030,6 +1063,7 @@ F 1 "10k" H 3132 7345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 7300 50  0001 C CNN
 F 3 "~" H 3200 7300 50  0001 C CNN
 F 4 "0603" H 3200 7300 50  0001 C CNN "Package"
+F 5 "In House" H 3200 7300 50  0001 C CNN "Supplier"
 	1    3200 7300
 	-1   0    0    1   
 $EndComp
@@ -1044,6 +1078,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 3550 6850 
 F 4 "SOT-23-5" H 3700 6900 50  0001 C CNN "Package"
 F 5 "MCP73831-2ACI-OT" H 3700 6900 50  0001 C CNN "PartNo"
 F 6 "Battery charger" H 3700 6900 50  0001 C CNN "Comment"
+F 7 "Microchip" H 3700 6900 50  0001 C CNN "Supplier"
 	1    3700 6900
 	1    0    0    -1  
 $EndComp
@@ -1058,6 +1093,7 @@ F 1 "ORANGE" V 4755 6932 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4800 7000 50  0001 C CNN
 F 3 "~" V 4800 7000 50  0001 C CNN
 F 4 "0805" H 4800 7000 50  0001 C CNN "Package"
+F 5 "In House" H 4800 7000 50  0001 C CNN "Supplier"
 	1    4800 7000
 	0    -1   -1   0   
 $EndComp
@@ -1072,6 +1108,7 @@ F 1 "GREEN" V 4755 7332 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4800 7400 50  0001 C CNN
 F 3 "~" V 4800 7400 50  0001 C CNN
 F 4 "0805" H 4800 7400 50  0001 C CNN "Package"
+F 5 "In House" H 4800 7400 50  0001 C CNN "Supplier"
 	1    4800 7400
 	0    -1   -1   0   
 $EndComp
@@ -1084,6 +1121,7 @@ F 1 "1k" V 4450 7450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 7300 50  0001 C CNN
 F 3 "~" H 4500 7300 50  0001 C CNN
 F 4 "0603" H 4500 7300 50  0001 C CNN "Package"
+F 5 "In House" H 4500 7300 50  0001 C CNN "Supplier"
 	1    4500 7300
 	0    1    1    0   
 $EndComp
@@ -1093,10 +1131,12 @@ U 1 1 5E62F879
 P 8200 6500
 F 0 "D3" V 8250 6350 50  0000 C CNN
 F 1 " PMEG10020ELRX" V 8150 6100 50  0000 C CNN
-F 2 "" V 8200 6500 50  0001 C CNN
+F 2 "pandora:D_SOD-123W" V 8200 6500 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf" V 8200 6500 50  0001 C CNN
 F 4 "SOD-123W" H 8200 6500 50  0001 C CNN "Package"
-F 5 " PMEG10020ELRX" H 8200 6500 50  0001 C CNN "PartNo"
+F 5 "PMEG10020ELRX" H 8200 6500 50  0001 C CNN "PartNo"
+F 6 "Digi-Key" H 8200 6500 50  0001 C CNN "Supplier"
+F 7 "1727-2396-1-ND" H 8200 6500 50  0001 C CNN "SupplierPartNo"
 	1    8200 6500
 	0    -1   -1   0   
 $EndComp
@@ -1111,6 +1151,8 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMP1045U.pdf" H 7700 6700 50  0001
 F 4 "Load sharing P-MOSFET" H 7700 6700 50  0001 C CNN "Comment"
 F 5 "SOT-23" H 7700 6700 50  0001 C CNN "Package"
 F 6 "DMP1045U-7" H 7700 6700 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 7700 6700 50  0001 C CNN "Supplier"
+F 8 "DMP1045U-7DICT-ND" H 7700 6700 50  0001 C CNN "SupplierPartNo"
 	1    7700 6700
 	0    -1   1    0   
 $EndComp
@@ -1123,6 +1165,7 @@ F 1 "10k" H 6932 7145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 7100 50  0001 C CNN
 F 3 "~" H 7000 7100 50  0001 C CNN
 F 4 "0603" H 7000 7100 50  0001 C CNN "Package"
+F 5 "In House" H 7000 7100 50  0001 C CNN "Supplier"
 	1    7000 7100
 	-1   0    0    1   
 $EndComp
@@ -1179,6 +1222,7 @@ F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 2400 50  0001 C CNN
 F 3 "~" H 4400 2400 50  0001 C CNN
 F 4 "N/A" H 4400 2400 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 2400 50  0001 C CNN "PartNo"
+F 6 "N/A" H 4400 2400 50  0001 C CNN "Supplier"
 	1    4400 2400
 	1    0    0    -1  
 $EndComp
@@ -1310,6 +1354,8 @@ F 3 "https://www.we-online.com/catalog/datasheet/74438356047.pdf" H 5700 9100 50
 F 4 "Wuerth_MAPI-4020" H 5700 9100 50  0001 C CNN "Package"
 F 5 "Power inductor for boost converter" H 5700 9100 50  0001 C CNN "Comment"
 F 6 "74438356047" H 5700 9100 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 5700 9100 50  0001 C CNN "Supplier"
+F 8 "732-8234-1-ND" H 5700 9100 50  0001 C CNN "SupplierPartNo"
 	1    5700 9100
 	0    -1   -1   0   
 $EndComp
@@ -1360,6 +1406,7 @@ F 1 "10uF" H 7992 9755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7900 9800 50  0001 C CNN
 F 3 "~" H 7900 9800 50  0001 C CNN
 F 4 "1206" H 7900 9800 50  0001 C CNN "Package"
+F 5 "In House" H 7900 9800 50  0001 C CNN "Supplier"
 	1    7900 9800
 	1    0    0    -1  
 $EndComp
@@ -1390,6 +1437,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005253A.pdf" H 5450 10050
 F 4 "Auxiliary battery boost converter" H 5700 9600 50  0001 C CNN "Comment"
 F 5 "MSOP-8" H 5700 9600 50  0001 C CNN "Package"
 F 6 "MCP1642D-50I/MS" H 5700 9600 50  0001 C CNN "PartNo"
+F 7 "Microchip" H 5700 9600 50  0001 C CNN "Supplier"
 	1    5700 9600
 	1    0    0    -1  
 $EndComp
@@ -1450,6 +1498,7 @@ F 1 "10k" H 4632 9745 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 9700 50  0001 C CNN
 F 3 "~" H 4700 9700 50  0001 C CNN
 F 4 "0603" H 4700 9700 50  0001 C CNN "Package"
+F 5 "In House" H 4700 9700 50  0001 C CNN "Supplier"
 	1    4700 9700
 	-1   0    0    1   
 $EndComp
@@ -1465,6 +1514,7 @@ F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 2700 50  0001 C CNN
 F 3 "~" H 4400 2700 50  0001 C CNN
 F 4 "N/A" H 4400 2700 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 2700 50  0001 C CNN "PartNo"
+F 6 "N/A" H 4400 2700 50  0001 C CNN "Supplier"
 	1    4400 2700
 	1    0    0    -1  
 $EndComp
@@ -1478,6 +1528,7 @@ F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3000 50  0001 C CNN
 F 3 "~" H 4400 3000 50  0001 C CNN
 F 4 "N/A" H 4400 3000 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 3000 50  0001 C CNN "PartNo"
+F 6 "N/A" H 4400 3000 50  0001 C CNN "Supplier"
 	1    4400 3000
 	1    0    0    -1  
 $EndComp
@@ -1491,6 +1542,7 @@ F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3300 50  0001 C CNN
 F 3 "~" H 4400 3300 50  0001 C CNN
 F 4 "N/A" H 4400 3300 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 3300 50  0001 C CNN "PartNo"
+F 6 "N/A" H 4400 3300 50  0001 C CNN "Supplier"
 	1    4400 3300
 	1    0    0    -1  
 $EndComp
@@ -1504,6 +1556,7 @@ F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3600 50  0001 C CNN
 F 3 "~" H 4400 3600 50  0001 C CNN
 F 4 "N/A" H 4400 3600 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 3600 50  0001 C CNN "PartNo"
+F 6 "N/A" H 4400 3600 50  0001 C CNN "Supplier"
 	1    4400 3600
 	1    0    0    -1  
 $EndComp
@@ -1548,6 +1601,7 @@ F 1 "10uF" H 7592 9755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7500 9800 50  0001 C CNN
 F 3 "~" H 7500 9800 50  0001 C CNN
 F 4 "1206" H 7500 9800 50  0001 C CNN "Package"
+F 5 "In House" H 7500 9800 50  0001 C CNN "Supplier"
 	1    7500 9800
 	1    0    0    -1  
 $EndComp
@@ -1573,6 +1627,7 @@ F 1 "1uF" H 7192 9755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 9800 50  0001 C CNN
 F 3 "~" H 7100 9800 50  0001 C CNN
 F 4 "0603" H 7100 9800 50  0001 C CNN "Package"
+F 5 "In House" H 7100 9800 50  0001 C CNN "Supplier"
 	1    7100 9800
 	1    0    0    -1  
 $EndComp
@@ -1606,6 +1661,7 @@ F 1 "0.1uF" H 6792 9755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 9800 50  0001 C CNN
 F 3 "~" H 6700 9800 50  0001 C CNN
 F 4 "0603" H 6700 9800 50  0001 C CNN "Package"
+F 5 "In House" H 6700 9800 50  0001 C CNN "Supplier"
 	1    6700 9800
 	1    0    0    -1  
 $EndComp
@@ -1702,6 +1758,7 @@ F 1 "4.7uF" H 2492 7055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 7100 50  0001 C CNN
 F 3 "~" H 2400 7100 50  0001 C CNN
 F 4 "0805" H 2400 7100 50  0001 C CNN "Package"
+F 5 "In House" H 2400 7100 50  0001 C CNN "Supplier"
 	1    2400 7100
 	1    0    0    -1  
 $EndComp
@@ -1719,6 +1776,7 @@ F 1 "4.7uF" H 5492 7055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 7100 50  0001 C CNN
 F 3 "~" H 5400 7100 50  0001 C CNN
 F 4 "0805" H 5400 7100 50  0001 C CNN "Package"
+F 5 "In House" H 5400 7100 50  0001 C CNN "Supplier"
 	1    5400 7100
 	1    0    0    -1  
 $EndComp
@@ -1745,6 +1803,8 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/L/documents/datasheet.p
 F 4 " L102021ML04Q" H 5400 5300 50  0001 C CNN "PartNo"
 F 5 "SPDT slide switch, 4A" H 5400 5300 50  0001 C CNN "Comment"
 F 6 "CnK_ L102021ML04Q" H 5400 5300 50  0001 C CNN "Package"
+F 7 "Digi-Key" H 5400 5300 50  0001 C CNN "Supplier"
+F 8 "KC5102-ND" H 5400 5300 50  0001 C CNN "SupplierPartNo"
 	1    5400 5300
 	-1   0    0    -1  
 $EndComp

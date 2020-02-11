@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -22,6 +22,7 @@ F 1 "RED" V 4155 1932 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4200 2000 50  0001 C CNN
 F 3 "~" V 4200 2000 50  0001 C CNN
 F 4 "0805" H 4200 2000 50  0001 C CNN "Package"
+F 5 "In House" H 4200 2000 50  0001 C CNN "Supplier"
 	1    4200 2000
 	0    -1   -1   0   
 $EndComp
@@ -36,6 +37,7 @@ F 1 "2.2k" H 4268 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 2400 50  0001 C CNN
 F 3 "~" H 4200 2400 50  0001 C CNN
 F 4 "0603" H 4200 2400 50  0001 C CNN "Package"
+F 5 "In House" H 4200 2400 50  0001 C CNN "Supplier"
 	1    4200 2400
 	1    0    0    -1  
 $EndComp
@@ -58,6 +60,7 @@ F 1 "GREEN" V 4855 1932 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4900 2000 50  0001 C CNN
 F 3 "~" V 4900 2000 50  0001 C CNN
 F 4 "0805" H 4900 2000 50  0001 C CNN "Package"
+F 5 "In House" H 4900 2000 50  0001 C CNN "Supplier"
 	1    4900 2000
 	0    -1   -1   0   
 $EndComp
@@ -72,6 +75,7 @@ F 1 "1k" H 4968 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 2400 50  0001 C CNN
 F 3 "~" H 4900 2400 50  0001 C CNN
 F 4 "0603" H 4900 2400 50  0001 C CNN "Package"
+F 5 "In House" H 4900 2400 50  0001 C CNN "Supplier"
 	1    4900 2400
 	1    0    0    -1  
 $EndComp
@@ -114,6 +118,8 @@ F 2 "pandora:DBX-01PN" H 7500 4300 50  0001 C CNN
 F 3 "~" H 7490 4450 50  0001 C CNN
 F 4 "Speaker, board mount" H 7500 4500 50  0001 C CNN "Comment"
 F 5 "DBX-01PN" H 7500 4500 50  0001 C CNN "PartNo"
+F 6 "DBX-01PN" H 7500 4500 50  0001 C CNN "Package"
+F 7 "In House" H 7500 4500 50  0001 C CNN "Supplier"
 	1    7500 4500
 	1    0    0    -1  
 $EndComp
@@ -128,6 +134,7 @@ F 1 "10" H 7132 4345 50  0000 R CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7200 4300 50  0001 C CNN
 F 3 "~" H 7200 4300 50  0001 C CNN
 F 4 "0603" H 7200 4300 50  0001 C CNN "Package"
+F 5 "In House" H 7200 4300 50  0001 C CNN "Supplier"
 	1    7200 4300
 	-1   0    0    1   
 $EndComp
@@ -162,6 +169,7 @@ F 1 "0.1uF" V 5350 4250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 4100 50  0001 C CNN
 F 3 "~" H 5300 4100 50  0001 C CNN
 F 4 "0603" H 5300 4100 50  0001 C CNN "Package"
+F 5 "In House" H 5300 4100 50  0001 C CNN "Supplier"
 	1    5300 4100
 	0    1    1    0   
 $EndComp
@@ -215,6 +223,8 @@ F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4650 3950 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4700 4300 50  0001 C CNN
 F 4 "SOIC-16" H 4600 4500 50  0001 C CNN "Package"
 F 5 "Peripheral low side switch" H 4600 4500 50  0001 C CNN "Comment"
+F 6 "ULN2003D" H 4600 4500 50  0001 C CNN "PartNo"
+F 7 "In House" H 4600 4500 50  0001 C CNN "Supplier"
 	1    4600 4500
 	1    0    0    -1  
 $EndComp
@@ -254,6 +264,7 @@ F 1 "BLUE" V 6155 1932 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6200 2000 50  0001 C CNN
 F 3 "~" V 6200 2000 50  0001 C CNN
 F 4 "0805" H 6200 2000 50  0001 C CNN "Package"
+F 5 "In House" H 6200 2000 50  0001 C CNN "Supplier"
 	1    6200 2000
 	0    -1   -1   0   
 $EndComp
@@ -268,6 +279,7 @@ F 1 "270" H 6268 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 2400 50  0001 C CNN
 F 3 "~" H 6200 2400 50  0001 C CNN
 F 4 "0603" H 6200 2400 50  0001 C CNN "Package"
+F 5 "In House" H 6200 2400 50  0001 C CNN "Supplier"
 	1    6200 2400
 	1    0    0    -1  
 $EndComp
@@ -319,6 +331,7 @@ F 1 "BLUE" V 7155 1932 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7200 2000 50  0001 C CNN
 F 3 "~" V 7200 2000 50  0001 C CNN
 F 4 "0805" H 7200 2000 50  0001 C CNN "Package"
+F 5 "In House" H 7200 2000 50  0001 C CNN "Supplier"
 	1    7200 2000
 	0    -1   -1   0   
 $EndComp
@@ -333,6 +346,7 @@ F 1 "270" H 7268 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 2400 50  0001 C CNN
 F 3 "~" H 7200 2400 50  0001 C CNN
 F 4 "0603" H 7200 2400 50  0001 C CNN "Package"
+F 5 "In House" H 7200 2400 50  0001 C CNN "Supplier"
 	1    7200 2400
 	1    0    0    -1  
 $EndComp
@@ -349,6 +363,7 @@ F 3 "~" H 5800 4900 50  0001 C CNN
 F 4 "SMD_PAD_SJ3" H 5800 4900 50  0001 C CNN "Package"
 F 5 "Solder jumper, 3 pad" H 5800 4900 50  0001 C CNN "Comment"
 F 6 "N/A" H 5800 4900 50  0001 C CNN "PartNo"
+F 7 "N/A" H 5800 4900 50  0001 C CNN "Supplier"
 	1    5800 4900
 	0    -1   -1   0   
 $EndComp
@@ -390,6 +405,7 @@ F 3 "~" H 6000 5200 50  0001 C CNN
 F 4 "SMD_PAD_SJ3" H 6000 5200 50  0001 C CNN "Package"
 F 5 "Solder jumper, 3 pad" H 6000 5200 50  0001 C CNN "Comment"
 F 6 "N/A" H 6000 5200 50  0001 C CNN "PartNo"
+F 7 "N/A" H 6000 5200 50  0001 C CNN "Supplier"
 	1    6000 5200
 	0    -1   -1   0   
 $EndComp
@@ -404,6 +420,7 @@ F 3 "~" H 6200 5500 50  0001 C CNN
 F 4 "SMD_PAD_SJ3" H 6200 5500 50  0001 C CNN "Package"
 F 5 "Solder jumper, 3 pad" H 6200 5500 50  0001 C CNN "Comment"
 F 6 "N/A" H 6200 5500 50  0001 C CNN "PartNo"
+F 7 "N/A" H 6200 5500 50  0001 C CNN "Supplier"
 	1    6200 5500
 	0    -1   -1   0   
 $EndComp

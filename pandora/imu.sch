@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -70,6 +70,7 @@ F 1 "0.1uF" V 5950 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3000 50  0001 C CNN
 F 3 "~" H 5900 3000 50  0001 C CNN
 F 4 "0603" H 5900 3000 50  0001 C CNN "Package"
+F 5 "In House" H 5900 3000 50  0001 C CNN "Supplier"
 	1    5900 3000
 	0    1    1    0   
 $EndComp
@@ -84,6 +85,7 @@ F 1 "10nF" V 5050 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 3000 50  0001 C CNN
 F 3 "~" H 5000 3000 50  0001 C CNN
 F 4 "0603" H 5000 3000 50  0001 C CNN "Package"
+F 5 "In House" H 5000 3000 50  0001 C CNN "Supplier"
 	1    5000 3000
 	0    1    1    0   
 $EndComp
@@ -98,6 +100,7 @@ F 1 "0.1uF" V 6650 4350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 4200 50  0001 C CNN
 F 3 "~" H 6600 4200 50  0001 C CNN
 F 4 "0603" H 6600 4200 50  0001 C CNN "Package"
+F 5 "In House" H 6600 4200 50  0001 C CNN "Supplier"
 	1    6600 4200
 	0    1    1    0   
 $EndComp
@@ -196,8 +199,10 @@ F 0 "U7" H 5700 3200 50  0000 C CNN
 F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5500 3000 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
-F 4 "QFN-24" H 5500 4000 50  0001 C CNN "Package"
+F 4 "QFN-24-EP" H 5500 4000 50  0001 C CNN "Package"
 F 5 "9-DOF IMU" H 5500 4000 50  0001 C CNN "Comment"
+F 6 "MPU-9250" H 5500 4000 50  0001 C CNN "PartNo"
+F 7 "In House" H 5500 4000 50  0001 C CNN "Supplier"
 	1    5500 4000
 	1    0    0    -1  
 $EndComp

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-10"
+Date "2020-02-11"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -19,11 +19,12 @@ U 1 1 5E5EE14A
 P 3500 3200
 F 0 "D5" H 3600 3300 50  0000 C CNN
 F 1 "1N4148" H 3700 3100 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 3500 3200 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 3200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3200 50  0001 C CNN
-F 4 "Alternatively use SOD-323 version" H 3500 3200 50  0001 C CNN "Comment"
-F 5 "SOD-123" H 3500 3200 50  0001 C CNN "Package"
-F 6 " 1N4148W-7-F" H 3500 3200 50  0001 C CNN "PartNo"
+F 4 "" H 3500 3200 50  0001 C CNN "Comment"
+F 5 "SOD-323" H 3500 3200 50  0001 C CNN "Package"
+F 6 "" H 3500 3200 50  0001 C CNN "PartNo"
+F 7 "In House" H 3500 3200 50  0001 C CNN "Supplier"
 	1    3500 3200
 	1    0    0    -1  
 $EndComp
@@ -54,6 +55,7 @@ F 1 "10k" H 4568 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 2900 50  0001 C CNN
 F 3 "~" H 4500 2900 50  0001 C CNN
 F 4 "0603" H 4500 2900 50  0001 C CNN "Package"
+F 5 "In House" H 4500 2900 50  0001 C CNN "Supplier"
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
@@ -138,6 +140,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 3300 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 5200 3300 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 5200 3300 50  0001 C CNN "Supplier"
 	1    5200 3300
 	1    0    0    -1  
 $EndComp
@@ -152,6 +155,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 3300 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6000 3300 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6000 3300 50  0001 C CNN "Supplier"
 	1    6000 3300
 	1    0    0    -1  
 $EndComp
@@ -166,6 +170,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 3300 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6800 3300 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6800 3300 50  0001 C CNN "Supplier"
 	1    6800 3300
 	1    0    0    -1  
 $EndComp
@@ -210,6 +215,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 3700 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 4400 3700 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 4400 3700 50  0001 C CNN "Supplier"
 	1    4400 3700
 	1    0    0    -1  
 $EndComp
@@ -224,6 +230,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 3700 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 5200 3700 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 5200 3700 50  0001 C CNN "Supplier"
 	1    5200 3700
 	1    0    0    -1  
 $EndComp
@@ -238,6 +245,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 3700 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6000 3700 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6000 3700 50  0001 C CNN "Supplier"
 	1    6000 3700
 	1    0    0    -1  
 $EndComp
@@ -252,6 +260,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 3700 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6800 3700 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6800 3700 50  0001 C CNN "Supplier"
 	1    6800 3700
 	1    0    0    -1  
 $EndComp
@@ -266,6 +275,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 4100 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 4400 4100 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 4400 4100 50  0001 C CNN "Supplier"
 	1    4400 4100
 	1    0    0    -1  
 $EndComp
@@ -280,6 +290,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 4100 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 5200 4100 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 5200 4100 50  0001 C CNN "Supplier"
 	1    5200 4100
 	1    0    0    -1  
 $EndComp
@@ -294,6 +305,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 4100 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6000 4100 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6000 4100 50  0001 C CNN "Supplier"
 	1    6000 4100
 	1    0    0    -1  
 $EndComp
@@ -308,6 +320,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 4100 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6800 4100 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6800 4100 50  0001 C CNN "Supplier"
 	1    6800 4100
 	1    0    0    -1  
 $EndComp
@@ -322,6 +335,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 4500 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 4400 4500 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 4400 4500 50  0001 C CNN "Supplier"
 	1    4400 4500
 	1    0    0    -1  
 $EndComp
@@ -336,6 +350,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 4500 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 5200 4500 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 5200 4500 50  0001 C CNN "Supplier"
 	1    5200 4500
 	1    0    0    -1  
 $EndComp
@@ -350,6 +365,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 4500 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6000 4500 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6000 4500 50  0001 C CNN "Supplier"
 	1    6000 4500
 	1    0    0    -1  
 $EndComp
@@ -364,6 +380,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 4500 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 6800 4500 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 6800 4500 50  0001 C CNN "Supplier"
 	1    6800 4500
 	1    0    0    -1  
 $EndComp
@@ -378,6 +395,7 @@ F 1 "10k" H 5368 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 2900 50  0001 C CNN
 F 3 "~" H 5300 2900 50  0001 C CNN
 F 4 "0603" H 5300 2900 50  0001 C CNN "Package"
+F 5 "In House" H 5300 2900 50  0001 C CNN "Supplier"
 	1    5300 2900
 	1    0    0    -1  
 $EndComp
@@ -392,6 +410,7 @@ F 1 "10k" H 6168 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2900 50  0001 C CNN
 F 3 "~" H 6100 2900 50  0001 C CNN
 F 4 "0603" H 6100 2900 50  0001 C CNN "Package"
+F 5 "In House" H 6100 2900 50  0001 C CNN "Supplier"
 	1    6100 2900
 	1    0    0    -1  
 $EndComp
@@ -406,6 +425,7 @@ F 1 "10k" H 6968 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 2900 50  0001 C CNN
 F 3 "~" H 6900 2900 50  0001 C CNN
 F 4 "0603" H 6900 2900 50  0001 C CNN "Package"
+F 5 "In House" H 6900 2900 50  0001 C CNN "Supplier"
 	1    6900 2900
 	1    0    0    -1  
 $EndComp
@@ -551,11 +571,12 @@ U 1 1 5E363CCE
 P 3500 3600
 F 0 "D6" H 3600 3700 50  0000 C CNN
 F 1 "1N4148" H 3700 3500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 3500 3600 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 3600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3600 50  0001 C CNN
-F 4 "Alternatively use SOD-323 version" H 3500 3600 50  0001 C CNN "Comment"
-F 5 "SOD-123" H 3500 3600 50  0001 C CNN "Package"
-F 6 " 1N4148W-7-F" H 3500 3600 50  0001 C CNN "PartNo"
+F 4 "" H 3500 3600 50  0001 C CNN "Comment"
+F 5 "SOD-323" H 3500 3600 50  0001 C CNN "Package"
+F 6 "" H 3500 3600 50  0001 C CNN "PartNo"
+F 7 "In House" H 3500 3600 50  0001 C CNN "Supplier"
 	1    3500 3600
 	1    0    0    -1  
 $EndComp
@@ -565,11 +586,12 @@ U 1 1 5E36401C
 P 3500 4000
 F 0 "D7" H 3600 4100 50  0000 C CNN
 F 1 "1N4148" H 3700 3900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 3500 4000 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 4000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4000 50  0001 C CNN
-F 4 "Alternatively use SOD-323 version" H 3500 4000 50  0001 C CNN "Comment"
-F 5 "SOD-123" H 3500 4000 50  0001 C CNN "Package"
-F 6 " 1N4148W-7-F" H 3500 4000 50  0001 C CNN "PartNo"
+F 4 "" H 3500 4000 50  0001 C CNN "Comment"
+F 5 "SOD-323" H 3500 4000 50  0001 C CNN "Package"
+F 6 "" H 3500 4000 50  0001 C CNN "PartNo"
+F 7 "In House" H 3500 4000 50  0001 C CNN "Supplier"
 	1    3500 4000
 	1    0    0    -1  
 $EndComp
@@ -579,11 +601,12 @@ U 1 1 5E364306
 P 3500 4400
 F 0 "D8" H 3600 4500 50  0000 C CNN
 F 1 "1N4148" H 3700 4300 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 3500 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 4400 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4400 50  0001 C CNN
-F 4 "Alternatively use SOD-323 version" H 3500 4400 50  0001 C CNN "Comment"
-F 5 "SOD-123" H 3500 4400 50  0001 C CNN "Package"
-F 6 " 1N4148W-7-F" H 3500 4400 50  0001 C CNN "PartNo"
+F 4 "" H 3500 4400 50  0001 C CNN "Comment"
+F 5 "SOD-323" H 3500 4400 50  0001 C CNN "Package"
+F 6 "" H 3500 4400 50  0001 C CNN "PartNo"
+F 7 "In House" H 3500 4400 50  0001 C CNN "Supplier"
 	1    3500 4400
 	1    0    0    -1  
 $EndComp
@@ -597,10 +620,8 @@ Wire Notes Line
 	7400 5800 2700 5800
 Wire Notes Line
 	2700 5800 2700 2300
-Text Notes 3200 4700 0    50   ~ 0
-1N4148W-7-F
-Text Notes 3200 4800 0    50   ~ 0
-SOD-123
+Text Notes 3300 4700 0    50   ~ 0
+SOD-323
 Text Notes 8900 5000 0    50   ~ 0
 PTS645 S K 50 SMTR92 LFS
 Text Notes 8300 5000 0    50   ~ 0
@@ -632,6 +653,7 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/data
 F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 3300 50  0001 C CNN "Package"
 F 6 "PTS645SK50SMTR92LFS" H 4400 3300 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 4400 3300 50  0001 C CNN "Supplier"
 	1    4400 3300
 	1    0    0    -1  
 $EndComp
