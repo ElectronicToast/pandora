@@ -110,15 +110,13 @@ AR Path="/5E64A3EA/5E36C762" Ref="SPK?"  Part="1"
 AR Path="/5E341789/5E36C762" Ref="SPK1"  Part="1" 
 F 0 "SPK1" H 7670 4496 50  0000 L CNN
 F 1 "DBX-01PN" H 7670 4405 50  0000 L CNN
-F 2 "" H 7500 4300 50  0001 C CNN
+F 2 "pandora:DBX-01PN" H 7500 4300 50  0001 C CNN
 F 3 "~" H 7490 4450 50  0001 C CNN
 F 4 "Speaker, board mount" H 7500 4500 50  0001 C CNN "Comment"
 F 5 "DBX-01PN" H 7500 4500 50  0001 C CNN "PartNo"
 	1    7500 4500
 	1    0    0    -1  
 $EndComp
-Text Notes 7400 5000 0    50   ~ 0
-SPEC AND\nFIND FOOTPRINT
 $Comp
 L Device:R_Small_US R?
 U 1 1 5E36C790
@@ -499,7 +497,7 @@ Wire Notes Line
 	8500 3500 3500 3500
 Text Notes 6900 4300 0    50   ~ 0
 1210\n1/2W
-Text Notes 7400 5300 0    50   ~ 0
+Text Notes 7400 5100 0    50   ~ 0
 THT\nREPLACE WITH EXT\nSPEAKER IF DESIRED
 Text Label 1500 1300 0    50   ~ 0
 LCD_BL_R
