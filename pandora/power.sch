@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-09"
+Date "2020-02-10"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -1319,14 +1319,14 @@ $EndComp
 $Comp
 L Device:Net-Tie_2 NT1
 U 1 1 5E3BF957
-P 4400 3300
-F 0 "NT1" H 4400 3400 50  0000 C CNN
-F 1 "Net-Tie_2" H 4400 3390 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3300 50  0001 C CNN
-F 3 "~" H 4400 3300 50  0001 C CNN
-F 4 "N/A" H 4400 3300 50  0001 C CNN "Package"
-F 5 "N/A" H 4400 3300 50  0001 C CNN "PartNo"
-	1    4400 3300
+P 4400 2400
+F 0 "NT1" H 4400 2500 50  0000 C CNN
+F 1 "Net-Tie_2" H 4400 2490 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 2400 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+F 4 "N/A" H 4400 2400 50  0001 C CNN "Package"
+F 5 "N/A" H 4400 2400 50  0001 C CNN "PartNo"
+	1    4400 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1389,46 +1389,10 @@ Text Notes 5400 3100 0    50   ~ 0
 RF
 Text Notes 4200 1700 0    50   ~ 0
 1S LiPo\n3V - 4.2V
-$Comp
-L Device:Ferrite_Bead_Small FB2
-U 1 1 5E43B04F
-P 4400 2700
-F 0 "FB2" V 4250 2900 50  0000 C CNN
-F 1 "0603_500mA" V 4350 3050 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4330 2700 50  0001 C CNN
-F 3 "~" H 4400 2700 50  0001 C CNN
-F 4 "0603" H 4400 2700 50  0001 C CNN "Package"
-	1    4400 2700
-	0    1    1    0   
-$EndComp
 Wire Notes Line
-	2500 3700 6300 3700
-Text Notes 3200 1200 0    100  ~ 20
+	2500 4000 6300 4000
+Text Notes 3700 1200 0    100  ~ 20
 POWER LAYOUT
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5E490048
-P 4400 2400
-F 0 "FB1" V 4250 2600 50  0000 C CNN
-F 1 "1206_3A" V 4350 2700 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4330 2400 50  0001 C CNN
-F 3 "~" H 4400 2400 50  0001 C CNN
-F 4 "0603" H 4400 2400 50  0001 C CNN "Package"
-	1    4400 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB3
-U 1 1 5E491EE3
-P 4400 3000
-F 0 "FB3" V 4250 3200 50  0000 C CNN
-F 1 "0603_500mA" V 4350 3350 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4330 3000 50  0001 C CNN
-F 3 "~" H 4400 3000 50  0001 C CNN
-F 4 "0603" H 4400 3000 50  0001 C CNN "Package"
-	1    4400 3000
-	0    1    1    0   
-$EndComp
 Text Notes 4700 1700 0    50   ~ 10
 Auxiliary\nBattery
 Text Notes 3300 1700 0    50   ~ 10
@@ -1465,23 +1429,21 @@ Wire Wire Line
 $Comp
 L pandora:GNDBAT #PWR07
 U 1 1 5E493330
-P 3400 3300
-F 0 "#PWR07" H 3400 3050 50  0001 C CNN
-F 1 "GNDBAT" H 3405 3127 50  0000 C CNN
-F 2 "" H 3400 3300 50  0001 C CNN
-F 3 "" H 3400 3300 50  0001 C CNN
-	1    3400 3300
+P 4800 3600
+F 0 "#PWR07" H 4800 3350 50  0001 C CNN
+F 1 "GNDBAT" H 4805 3427 50  0000 C CNN
+F 2 "" H 4800 3600 50  0001 C CNN
+F 3 "" H 4800 3600 50  0001 C CNN
+	1    4800 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 3300 4100 3300
 Connection ~ 4100 3300
 Wire Notes Line
 	6300 1300 2500 1300
 Wire Notes Line
-	6300 3700 6300 1300
+	6300 4000 6300 1300
 Wire Notes Line
-	2500 1300 2500 3700
+	2500 1300 2500 4000
 $Comp
 L Device:L_Small L?
 U 1 1 5E45A80A
@@ -1753,4 +1715,64 @@ F 4 "0603" H 5100 9200 50  0001 C CNN "Package"
 $EndComp
 Wire Wire Line
 	5100 9400 6100 9400
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 5E42B0E8
+P 4400 2700
+F 0 "NT2" H 4400 2800 50  0000 C CNN
+F 1 "Net-Tie_2" H 4400 2790 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 2700 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+F 4 "N/A" H 4400 2700 50  0001 C CNN "Package"
+F 5 "N/A" H 4400 2700 50  0001 C CNN "PartNo"
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT3
+U 1 1 5E42B458
+P 4400 3000
+F 0 "NT3" H 4400 3100 50  0000 C CNN
+F 1 "Net-Tie_2" H 4400 3090 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3000 50  0001 C CNN
+F 3 "~" H 4400 3000 50  0001 C CNN
+F 4 "N/A" H 4400 3000 50  0001 C CNN "Package"
+F 5 "N/A" H 4400 3000 50  0001 C CNN "PartNo"
+	1    4400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT4
+U 1 1 5E42B6BD
+P 4400 3300
+F 0 "NT4" H 4400 3400 50  0000 C CNN
+F 1 "Net-Tie_2" H 4400 3390 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+F 4 "N/A" H 4400 3300 50  0001 C CNN "Package"
+F 5 "N/A" H 4400 3300 50  0001 C CNN "PartNo"
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT?
+U 1 1 5E42BB61
+P 4400 3600
+F 0 "NT?" H 4400 3700 50  0000 C CNN
+F 1 "Net-Tie_2" H 4400 3690 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4400 3600 50  0001 C CNN
+F 3 "~" H 4400 3600 50  0001 C CNN
+F 4 "N/A" H 4400 3600 50  0001 C CNN "Package"
+F 5 "N/A" H 4400 3600 50  0001 C CNN "PartNo"
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3600 4800 3600
+Wire Wire Line
+	4300 3600 4100 3600
+Wire Wire Line
+	4100 3600 4100 3300
+Text Notes 5200 3700 0    50   ~ 0
+AUXILIARY BATTERY
 $EndSCHEMATC
