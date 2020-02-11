@@ -1304,17 +1304,14 @@ AR Path="/5E2B9A47/5E45A80A" Ref="L?"  Part="1"
 AR Path="/5E2BABF8/5E45A80A" Ref="L1"  Part="1" 
 F 0 "L1" V 5885 9100 50  0000 C CNN
 F 1 "4.7uH" V 5794 9100 50  0000 C CNN
-F 2 "" H 5700 9100 50  0001 C CNN
-F 3 "~" H 5700 9100 50  0001 C CNN
-F 4 "" H 5700 9100 50  0001 C CNN "Package"
+F 2 "Inductor_SMD:L_Wuerth_MAPI-4020" H 5700 9100 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/74438356047.pdf" H 5700 9100 50  0001 C CNN
+F 4 "Wuerth_MAPI-4020" H 5700 9100 50  0001 C CNN "Package"
 F 5 "Power inductor for boost converter" H 5700 9100 50  0001 C CNN "Comment"
+F 6 "74438356047" H 5700 9100 50  0001 C CNN "PartNo"
 	1    5700 9100
 	0    -1   -1   0   
 $EndComp
-Text Notes 5100 9000 0    50   ~ 0
-MAKE\nFOOTPRINT
-Text Notes 5500 8800 0    50   ~ 0
-SPEC INDUCTOR
 Wire Wire Line
 	5800 9100 6200 9100
 Wire Wire Line
@@ -1773,4 +1770,8 @@ Wire Wire Line
 	5600 5300 6200 5300
 Wire Wire Line
 	6200 5300 6200 6800
+Text Notes 13400 4600 0    50   ~ 0
+CONSIDER REPLACING WITH\nSOLDER JUMPER
+Text Notes 5100 9000 0    50   ~ 0
+CHECK\nFOOTPRINT
 $EndSCHEMATC
