@@ -134,13 +134,14 @@ L Switch:SW_Push_45deg SW7
 U 1 1 5E5F8266
 P 5200 3300
 F 0 "SW7" H 4900 3350 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3250 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 4900 3250 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 5200 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3300 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3300 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 5200 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 3300 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 5200 3300 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 5200 3300 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 5200 3300 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 5200 3300 50  0001 C CNN "SupplierPartNo"
 	1    5200 3300
 	1    0    0    -1  
 $EndComp
@@ -149,13 +150,14 @@ L Switch:SW_Push_45deg SW11
 U 1 1 5E5F91DB
 P 6000 3300
 F 0 "SW11" H 5700 3350 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3250 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 5700 3250 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6000 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3300 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3300 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 6000 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 3300 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6000 3300 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 6000 3300 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6000 3300 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 6000 3300 50  0001 C CNN "SupplierPartNo"
 	1    6000 3300
 	1    0    0    -1  
 $EndComp
@@ -164,13 +166,14 @@ L Switch:SW_Push_45deg SW15
 U 1 1 5E5F91E5
 P 6800 3300
 F 0 "SW15" H 6500 3350 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3250 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 6500 3250 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6800 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3300 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3300 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 6800 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 3300 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6800 3300 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 6800 3300 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6800 3300 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 6800 3300 50  0001 C CNN "SupplierPartNo"
 	1    6800 3300
 	1    0    0    -1  
 $EndComp
@@ -209,13 +212,14 @@ L Switch:SW_Push_45deg SW4
 U 1 1 5E5FC09B
 P 4400 3700
 F 0 "SW4" H 4100 3750 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3650 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 4100 3650 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 4400 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3700 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3700 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 4400 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 3700 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 4400 3700 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 4400 3700 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 4400 3700 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 4400 3700 50  0001 C CNN "SupplierPartNo"
 	1    4400 3700
 	1    0    0    -1  
 $EndComp
@@ -224,13 +228,14 @@ L Switch:SW_Push_45deg SW8
 U 1 1 5E5FC0A5
 P 5200 3700
 F 0 "SW8" H 4900 3750 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 3650 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 4900 3650 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 5200 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3700 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 3700 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 5200 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 3700 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 5200 3700 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 5200 3700 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 5200 3700 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 5200 3700 50  0001 C CNN "SupplierPartNo"
 	1    5200 3700
 	1    0    0    -1  
 $EndComp
@@ -239,13 +244,14 @@ L Switch:SW_Push_45deg SW12
 U 1 1 5E5FC0AF
 P 6000 3700
 F 0 "SW12" H 5700 3750 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 3650 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 5700 3650 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6000 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3700 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 3700 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 6000 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 3700 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6000 3700 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 6000 3700 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6000 3700 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 6000 3700 50  0001 C CNN "SupplierPartNo"
 	1    6000 3700
 	1    0    0    -1  
 $EndComp
@@ -254,13 +260,14 @@ L Switch:SW_Push_45deg SW16
 U 1 1 5E5FC0B9
 P 6800 3700
 F 0 "SW16" H 6500 3750 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 3650 50  0001 C CNN
+F 1 "PTS645-S-M-43-SMTR92-LFS" H 6500 3650 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6800 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3700 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 3700 50  0001 C CNN "Comment"
+F 4 "Keypad button, blue" H 6800 3700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 3700 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6800 3700 50  0001 C CNN "PartNo"
+F 6 "PTS645SM43SMTR92 LFS" H 6800 3700 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6800 3700 50  0001 C CNN "Supplier"
+F 8 "CKN9112CT-ND" H 6800 3700 50  0001 C CNN "SupplierPartNo"
 	1    6800 3700
 	1    0    0    -1  
 $EndComp
@@ -269,13 +276,14 @@ L Switch:SW_Push_45deg SW5
 U 1 1 5E5FFCAB
 P 4400 4100
 F 0 "SW5" H 4100 4150 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4050 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 4100 4050 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 4400 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4100 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4100 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 4400 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 4100 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 4400 4100 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 4400 4100 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 4400 4100 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 4400 4100 50  0001 C CNN "SupplierPartNo"
 	1    4400 4100
 	1    0    0    -1  
 $EndComp
@@ -284,13 +292,14 @@ L Switch:SW_Push_45deg SW9
 U 1 1 5E5FFCB1
 P 5200 4100
 F 0 "SW9" H 4900 4150 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4050 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 4900 4050 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 5200 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4100 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4100 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 5200 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 4100 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 5200 4100 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 5200 4100 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 5200 4100 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 5200 4100 50  0001 C CNN "SupplierPartNo"
 	1    5200 4100
 	1    0    0    -1  
 $EndComp
@@ -299,13 +308,14 @@ L Switch:SW_Push_45deg SW13
 U 1 1 5E5FFCB7
 P 6000 4100
 F 0 "SW13" H 5700 4150 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4050 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 5700 4050 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6000 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4100 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4100 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 6000 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 4100 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6000 4100 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 6000 4100 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6000 4100 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 6000 4100 50  0001 C CNN "SupplierPartNo"
 	1    6000 4100
 	1    0    0    -1  
 $EndComp
@@ -314,13 +324,14 @@ L Switch:SW_Push_45deg SW17
 U 1 1 5E5FFCBD
 P 6800 4100
 F 0 "SW17" H 6500 4150 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4050 50  0001 C CNN
+F 1 "PTS645-S-M-43-SMTR92-LFS" H 6500 4050 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6800 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4100 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4100 50  0001 C CNN "Comment"
+F 4 "Keypad button, blue" H 6800 4100 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 4100 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6800 4100 50  0001 C CNN "PartNo"
+F 6 "PTS645SM43SMTR92 LFS" H 6800 4100 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6800 4100 50  0001 C CNN "Supplier"
+F 8 "CKN9112CT-ND" H 6800 4100 50  0001 C CNN "SupplierPartNo"
 	1    6800 4100
 	1    0    0    -1  
 $EndComp
@@ -332,10 +343,11 @@ F 0 "SW6" H 4100 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4450 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 4400 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4500 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 4500 50  0001 C CNN "Comment"
+F 4 "Keypad button, red" H 4400 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 4500 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 4400 4500 50  0001 C CNN "PartNo"
+F 6 "PTS645SK50SMTR92 LFS" H 4400 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 4400 4500 50  0001 C CNN "Supplier"
+F 8 "CKN9087CT-ND" H 4400 4500 50  0001 C CNN "SupplierPartNo"
 	1    4400 4500
 	1    0    0    -1  
 $EndComp
@@ -347,10 +359,11 @@ F 0 "SW10" H 4900 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4450 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 5200 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4500 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 5200 4500 50  0001 C CNN "Comment"
+F 4 "Keypad button, red" H 5200 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 5200 4500 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 5200 4500 50  0001 C CNN "PartNo"
+F 6 "PTS645SK50SMTR92 LFS" H 5200 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 5200 4500 50  0001 C CNN "Supplier"
+F 8 "CKN9087CT-ND" H 5200 4500 50  0001 C CNN "SupplierPartNo"
 	1    5200 4500
 	1    0    0    -1  
 $EndComp
@@ -362,10 +375,11 @@ F 0 "SW14" H 5700 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4450 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6000 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4500 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6000 4500 50  0001 C CNN "Comment"
+F 4 "Keypad button, red" H 6000 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6000 4500 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6000 4500 50  0001 C CNN "PartNo"
+F 6 "PTS645SK50SMTR92 LFS" H 6000 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6000 4500 50  0001 C CNN "Supplier"
+F 8 "CKN9087CT-ND" H 6000 4500 50  0001 C CNN "SupplierPartNo"
 	1    6000 4500
 	1    0    0    -1  
 $EndComp
@@ -377,10 +391,11 @@ F 0 "SW18" H 6500 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 6500 4450 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 6800 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4500 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 6800 4500 50  0001 C CNN "Comment"
+F 4 "Keypad button, red" H 6800 4500 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 6800 4500 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 6800 4500 50  0001 C CNN "PartNo"
+F 6 "PTS645SK50SMTR92 LFS" H 6800 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 6800 4500 50  0001 C CNN "Supplier"
+F 8 "CKN9087CT-ND" H 6800 4500 50  0001 C CNN "SupplierPartNo"
 	1    6800 4500
 	1    0    0    -1  
 $EndComp
@@ -623,13 +638,13 @@ Wire Notes Line
 Text Notes 3300 4700 0    50   ~ 0
 SOD-323
 Text Notes 8900 5000 0    50   ~ 0
-PTS645 S K 50 SMTR92 LFS
+PTS645 S x 50 SMTR92 LFS
 Text Notes 8300 5000 0    50   ~ 0
 BUTTONS
 Text Notes 8300 5600 0    50   ~ 0
 NUMERIC\nA, B\nD-PAD
 Text Notes 8900 5600 0    50   ~ 0
-BLACK\nRED\nBLUE
+BLACK\nBLUE\nRED
 Text Notes 8300 5300 0    50   ~ 0
 CAP COLOR
 Connection ~ 4300 3200
@@ -647,13 +662,14 @@ L Switch:SW_Push_45deg SW3
 U 1 1 5E5F0417
 P 4400 3300
 F 0 "SW3" H 4100 3350 50  0000 C CNN
-F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 3250 50  0001 C CNN
+F 1 "PTS645-S-H-50-SMTR92-LFS" H 4100 3250 50  0001 C CNN
 F 2 "pandora:PTS645_SMT_12" H 4400 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3300 50  0001 C CNN
-F 4 "Keypad button, 10 black 2 red 4 blue" H 4400 3300 50  0001 C CNN "Comment"
+F 4 "Keypad button, black" H 4400 3300 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_6mm" H 4400 3300 50  0001 C CNN "Package"
-F 6 "PTS645SK50SMTR92LFS" H 4400 3300 50  0001 C CNN "PartNo"
+F 6 "PTS645SH50SMTR92 LFS" H 4400 3300 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 4400 3300 50  0001 C CNN "Supplier"
+F 8 "CKN9085CT-ND" H 4400 3300 50  0001 C CNN "SupplierPartNo"
 	1    4400 3300
 	1    0    0    -1  
 $EndComp

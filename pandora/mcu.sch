@@ -1098,7 +1098,7 @@ F 2 "" H 2900 6900 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS647/documents/datasheet.pdf" H 2900 6900 50  0001 C CNN
 F 4 "Reset button" H 2900 6700 50  0001 C CNN "Comment"
 F 5 "Tact_Push_SMD_4.5mm" H 2900 6700 50  0001 C CNN "Package"
-F 6 "PTS647SK38SMTR2LFS" H 2900 6700 50  0001 C CNN "PartNo"
+F 6 "PTS647SK38SMTR2 LFS" H 2900 6700 50  0001 C CNN "PartNo"
 F 7 "In House" H 2900 6700 50  0001 C CNN "Supplier"
 	1    2900 6700
 	1    0    0    -1  
