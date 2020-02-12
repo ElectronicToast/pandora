@@ -597,11 +597,13 @@ U 1 1 5E42F1B3
 P 9000 1600
 F 0 "L6" V 9185 1600 50  0000 C CNN
 F 1 "6.8uH" V 9094 1600 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 1600 50  0001 C CNN
-F 3 "~" H 9000 1600 50  0001 C CNN
-F 4 "0603" H 9000 1600 50  0001 C CNN "Package"
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 1600 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_decoupling_mlz2012_en.pdf" H 9000 1600 50  0001 C CNN
+F 4 "0805" H 9000 1600 50  0001 C CNN "Package"
 F 5 "MCU analog filter inductor" H 9000 1600 50  0001 C CNN "Comment"
 F 6 "Digi-Key" H 9000 1600 50  0001 C CNN "Supplier"
+F 7 "MLZ2012N6R8LTD25" H 9000 1600 50  0001 C CNN "PartNo"
+F 8 "445-16384-1-ND" H 9000 1600 50  0001 C CNN "SupplierPartNo"
 	1    9000 1600
 	0    -1   -1   0   
 $EndComp
@@ -800,7 +802,7 @@ VMCUA
 Wire Wire Line
 	7100 1400 6800 1400
 Text Notes 8900 1700 0    50   ~ 0
-0603
+0805
 Text Notes 8700 1300 0    50   ~ 0
 ANALOG POWER
 $Comp
