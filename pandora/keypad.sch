@@ -130,10 +130,10 @@ Wire Notes Line
 Wire Notes Line
 	10200 4050 9850 3700
 $Comp
-L Switch:SW_Push_45deg SW7
+L Switch:SW_Push_45deg SW4
 U 1 1 5E5F8266
 P 5200 3300
-F 0 "SW7" H 4900 3350 50  0000 C CNN
+F 0 "SW4" H 4900 3350 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 4900 3250 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 5200 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 3300 50  0001 C CNN
@@ -146,10 +146,10 @@ F 8 "CKN9085CT-ND" H 5200 3300 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW11
+L Switch:SW_Push_45deg SW5
 U 1 1 5E5F91DB
 P 6000 3300
-F 0 "SW11" H 5700 3350 50  0000 C CNN
+F 0 "SW5" H 5700 3350 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 5700 3250 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 6000 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3300 50  0001 C CNN
@@ -162,10 +162,10 @@ F 8 "CKN9085CT-ND" H 6000 3300 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW15
+L Switch:SW_Push_45deg SW6
 U 1 1 5E5F91E5
 P 6800 3300
-F 0 "SW15" H 6500 3350 50  0000 C CNN
+F 0 "SW6" H 6500 3350 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 6500 3250 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 6800 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3300 50  0001 C CNN
@@ -208,10 +208,10 @@ L
 Text Notes 4400 4700 0    50   ~ 0
 R
 $Comp
-L Switch:SW_Push_45deg SW4
+L Switch:SW_Push_45deg SW7
 U 1 1 5E5FC09B
 P 4400 3700
-F 0 "SW4" H 4100 3750 50  0000 C CNN
+F 0 "SW7" H 4100 3750 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 4100 3650 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 4400 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 3700 50  0001 C CNN
@@ -240,10 +240,10 @@ F 8 "CKN9085CT-ND" H 5200 3700 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW12
+L Switch:SW_Push_45deg SW9
 U 1 1 5E5FC0AF
 P 6000 3700
-F 0 "SW12" H 5700 3750 50  0000 C CNN
+F 0 "SW9" H 5700 3750 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 5700 3650 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 6000 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 3700 50  0001 C CNN
@@ -256,10 +256,10 @@ F 8 "CKN9085CT-ND" H 6000 3700 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW16
+L Switch:SW_Push_45deg SW10
 U 1 1 5E5FC0B9
 P 6800 3700
-F 0 "SW16" H 6500 3750 50  0000 C CNN
+F 0 "SW10" H 6500 3750 50  0000 C CNN
 F 1 "PTS645-S-M-43-SMTR92-LFS" H 6500 3650 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 6800 3700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 3700 50  0001 C CNN
@@ -272,10 +272,10 @@ F 8 "CKN9112CT-ND" H 6800 3700 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW5
+L Switch:SW_Push_45deg SW11
 U 1 1 5E5FFCAB
 P 4400 4100
-F 0 "SW5" H 4100 4150 50  0000 C CNN
+F 0 "SW11" H 4100 4150 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 4100 4050 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 4400 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4100 50  0001 C CNN
@@ -288,10 +288,10 @@ F 8 "CKN9085CT-ND" H 4400 4100 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW9
+L Switch:SW_Push_45deg SW12
 U 1 1 5E5FFCB1
 P 5200 4100
-F 0 "SW9" H 4900 4150 50  0000 C CNN
+F 0 "SW12" H 4900 4150 50  0000 C CNN
 F 1 "PTS645-S-H-50-SMTR92-LFS" H 4900 4050 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 5200 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4100 50  0001 C CNN
@@ -320,10 +320,10 @@ F 8 "CKN9085CT-ND" H 6000 4100 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW17
+L Switch:SW_Push_45deg SW14
 U 1 1 5E5FFCBD
 P 6800 4100
-F 0 "SW17" H 6500 4150 50  0000 C CNN
+F 0 "SW14" H 6500 4150 50  0000 C CNN
 F 1 "PTS645-S-M-43-SMTR92-LFS" H 6500 4050 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 6800 4100 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6800 4100 50  0001 C CNN
@@ -336,10 +336,10 @@ F 8 "CKN9112CT-ND" H 6800 4100 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW6
+L Switch:SW_Push_45deg SW15
 U 1 1 5E600C2F
 P 4400 4500
-F 0 "SW6" H 4100 4550 50  0000 C CNN
+F 0 "SW15" H 4100 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4100 4450 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 4400 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 4400 4500 50  0001 C CNN
@@ -352,10 +352,10 @@ F 8 "CKN9087CT-ND" H 4400 4500 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW10
+L Switch:SW_Push_45deg SW16
 U 1 1 5E600C35
 P 5200 4500
-F 0 "SW10" H 4900 4550 50  0000 C CNN
+F 0 "SW16" H 4900 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 4900 4450 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 5200 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 5200 4500 50  0001 C CNN
@@ -368,10 +368,10 @@ F 8 "CKN9087CT-ND" H 5200 4500 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_45deg SW14
+L Switch:SW_Push_45deg SW17
 U 1 1 5E600C3B
 P 6000 4500
-F 0 "SW14" H 5700 4550 50  0000 C CNN
+F 0 "SW17" H 5700 4550 50  0000 C CNN
 F 1 "PTS645-S-K-50-SMTR92-LFS" H 5700 4450 50  0001 C CNN
 F 2 "pandora:SW_Push_PTS645_SMT" H 6000 4500 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf" H 6000 4500 50  0001 C CNN
