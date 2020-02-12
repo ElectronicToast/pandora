@@ -23,6 +23,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 3600 50  
 F 3 "~" H 7400 3600 50  0001 C CNN
 F 4 "0603" H 7400 3600 50  0001 C CNN "Package"
 F 5 "In House" H 7400 3600 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7400 3600 50  0001 C CNN "SupplierPartNo"
 	1    7400 3600
 	1    0    0    -1  
 $EndComp
@@ -38,6 +39,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 4400 50  0
 F 3 "~" H 4600 4400 50  0001 C CNN
 F 4 "0603" H 4600 4400 50  0001 C CNN "Package"
 F 5 "In House" H 4600 4400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4600 4400 50  0001 C CNN "SupplierPartNo"
 	1    4600 4400
 	0    1    1    0   
 $EndComp
@@ -53,6 +55,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5400 5100 50  0
 F 3 "~" H 5400 5100 50  0001 C CNN
 F 4 "0603" H 5400 5100 50  0001 C CNN "Package"
 F 5 "In House" H 5400 5100 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5400 5100 50  0001 C CNN "SupplierPartNo"
 	1    5400 5100
 	0    1    1    0   
 $EndComp
@@ -70,6 +73,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 3600 50  
 F 3 "~" H 7000 3600 50  0001 C CNN
 F 4 "0603" H 7000 3600 50  0001 C CNN "Package"
 F 5 "In House" H 7000 3600 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7000 3600 50  0001 C CNN "SupplierPartNo"
 	1    7000 3600
 	1    0    0    -1  
 $EndComp
@@ -85,6 +89,7 @@ F 4 "SOT-23-5" H 5500 4300 50  0001 C CNN "Package"
 F 5 "Servo feedback opamp" H 5500 4300 50  0001 C CNN "Comment"
 F 6 "MCP6001RT-I/OT" H 5500 4300 50  0001 C CNN "PartNo"
 F 7 "In House" H 5500 4300 50  0001 C CNN "Supplier"
+F 8 "MCP6001RT-I/OT" H 5500 4300 50  0001 C CNN "SupplierPartNo"
 	1    5500 4300
 	1    0    0    -1  
 $EndComp
@@ -179,6 +184,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 3400 50  0
 F 3 "~" H 4400 3400 50  0001 C CNN
 F 4 "0603" H 4400 3400 50  0001 C CNN "Package"
 F 5 "In House" H 4400 3400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4400 3400 50  0001 C CNN "SupplierPartNo"
 	1    4400 3400
 	1    0    0    -1  
 $EndComp
@@ -194,6 +200,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 3800 50  0
 F 3 "~" H 4400 3800 50  0001 C CNN
 F 4 "0603" H 4400 3800 50  0001 C CNN "Package"
 F 5 "In House" H 4400 3800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4400 3800 50  0001 C CNN "SupplierPartNo"
 	1    4400 3800
 	1    0    0    -1  
 $EndComp

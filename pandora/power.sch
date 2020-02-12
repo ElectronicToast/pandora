@@ -667,6 +667,7 @@ F 4 "SOT-89-3" H 12600 6000 50  0001 C CNN "Package"
 F 5 "5V LDO from main power" H 12600 6000 50  0001 C CNN "Comment"
 F 6 "MCP1702T-3302" H 12600 6000 50  0001 C CNN "PartNo"
 F 7 "In House" H 12600 6000 50  0001 C CNN "Supplier"
+F 8 "MCP1702T-3302" H 12600 6000 50  0001 C CNN "SupplierPartNo"
 	1    12600 6000
 	1    0    0    -1  
 $EndComp
@@ -683,6 +684,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12100 6200 50 
 F 3 "~" H 12100 6200 50  0001 C CNN
 F 4 "0603" H 12100 6200 50  0001 C CNN "Package"
 F 5 "In House" H 12100 6200 50  0001 C CNN "Supplier"
+F 6 "N/A" H 12100 6200 50  0001 C CNN "SupplierPartNo"
 	1    12100 6200
 	1    0    0    -1  
 $EndComp
@@ -699,6 +701,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13100 6200 50 
 F 3 "~" H 13100 6200 50  0001 C CNN
 F 4 "0603" H 13100 6200 50  0001 C CNN "Package"
 F 5 "In House" H 13100 6200 50  0001 C CNN "Supplier"
+F 6 "N/A" H 13100 6200 50  0001 C CNN "SupplierPartNo"
 	1    13100 6200
 	1    0    0    -1  
 $EndComp
@@ -728,6 +731,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13800 6200 50 
 F 3 "~" H 13800 6200 50  0001 C CNN
 F 4 "1206" H 13800 6200 50  0001 C CNN "Package"
 F 5 "In House" H 13800 6200 50  0001 C CNN "Supplier"
+F 6 "N/A" H 13800 6200 50  0001 C CNN "SupplierPartNo"
 	1    13800 6200
 	1    0    0    -1  
 $EndComp
@@ -791,6 +795,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 4000 50  
 F 3 "~" H 11400 4000 50  0001 C CNN
 F 4 "0603" H 11400 4000 50  0001 C CNN "Package"
 F 5 "In House" H 11400 4000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 11400 4000 50  0001 C CNN "SupplierPartNo"
 	1    11400 4000
 	1    0    0    -1  
 $EndComp
@@ -806,6 +811,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11800 3800 50  
 F 3 "~" H 11800 3800 50  0001 C CNN
 F 4 "0603" H 11800 3800 50  0001 C CNN "Package"
 F 5 "In House" H 11800 3800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 11800 3800 50  0001 C CNN "SupplierPartNo"
 	1    11800 3800
 	1    0    0    -1  
 $EndComp
@@ -821,6 +827,7 @@ F 4 "TO-263" H 11400 3600 50  0001 C CNN "Package"
 F 5 "3V3 LDO" H 11400 3600 50  0001 C CNN "Comment"
 F 6 "LM1086CS-ADJ" H 11400 3600 50  0001 C CNN "PartNo"
 F 7 "In House" H 11400 3600 50  0001 C CNN "Supplier"
+F 8 "LM1086CS-ADJ" H 11400 3600 50  0001 C CNN "SupplierPartNo"
 	1    11400 3600
 	1    0    0    -1  
 $EndComp
@@ -853,6 +860,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11500 1900 50 
 F 3 "~" H 11500 1900 50  0001 C CNN
 F 4 "0603" H 11500 1900 50  0001 C CNN "Package"
 F 5 "In House" H 11500 1900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 11500 1900 50  0001 C CNN "SupplierPartNo"
 	1    11500 1900
 	1    0    0    -1  
 $EndComp
@@ -869,6 +877,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 1900 50  
 F 3 "~" H 8800 1900 50  0001 C CNN
 F 4 "0603" H 8800 1900 50  0001 C CNN "Package"
 F 5 "In House" H 8800 1900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 8800 1900 50  0001 C CNN "SupplierPartNo"
 	1    8800 1900
 	1    0    0    -1  
 $EndComp
@@ -885,6 +894,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 1900 50  
 F 3 "~" H 8400 1900 50  0001 C CNN
 F 4 "0603" H 8400 1900 50  0001 C CNN "Package"
 F 5 "In House" H 8400 1900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 8400 1900 50  0001 C CNN "SupplierPartNo"
 	1    8400 1900
 	1    0    0    -1  
 $EndComp
@@ -943,6 +953,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 9800 50  
 F 3 "~" H 3400 9800 50  0001 C CNN
 F 4 "0805" H 3400 9800 50  0001 C CNN "Package"
 F 5 "In House" H 3400 9800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 3400 9800 50  0001 C CNN "SupplierPartNo"
 	1    3400 9800
 	1    0    0    -1  
 $EndComp
@@ -957,8 +968,9 @@ F 0 "C3" H 9292 1946 50  0000 L CNN
 F 1 "10uF" H 9292 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9200 1900 50  0001 C CNN
 F 3 "~" H 9200 1900 50  0001 C CNN
-F 4 "0603" H 9200 1900 50  0001 C CNN "Package"
+F 4 "1206" H 9200 1900 50  0001 C CNN "Package"
 F 5 "In House" H 9200 1900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 9200 1900 50  0001 C CNN "SupplierPartNo"
 	1    9200 1900
 	1    0    0    -1  
 $EndComp
@@ -975,6 +987,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 11000 1900 50 
 F 3 "~" H 11000 1900 50  0001 C CNN
 F 4 "1206" H 11000 1900 50  0001 C CNN "Package"
 F 5 "In House" H 11000 1900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 11000 1900 50  0001 C CNN "SupplierPartNo"
 	1    11000 1900
 	1    0    0    -1  
 $EndComp
@@ -991,6 +1004,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14800 3900 50 
 F 3 "~" H 14800 3900 50  0001 C CNN
 F 4 "1206" H 14800 3900 50  0001 C CNN "Package"
 F 5 "In House" H 14800 3900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 14800 3900 50  0001 C CNN "SupplierPartNo"
 	1    14800 3900
 	1    0    0    -1  
 $EndComp
@@ -1006,6 +1020,7 @@ F 4 "SOT-89-3" H 12600 8200 50  0001 C CNN "Package"
 F 5 "5V LDO from main power" H 12600 8200 50  0001 C CNN "Comment"
 F 6 "MCP1702T-3302" H 12600 8200 50  0001 C CNN "PartNo"
 F 7 "In House" H 12600 8200 50  0001 C CNN "Supplier"
+F 8 "MCP1702T-3302" H 12600 8200 50  0001 C CNN "SupplierPartNo"
 	1    12600 8200
 	1    0    0    -1  
 $EndComp
@@ -1022,6 +1037,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12100 8400 50 
 F 3 "~" H 12100 8400 50  0001 C CNN
 F 4 "0603" H 12100 8400 50  0001 C CNN "Package"
 F 5 "In House" H 12100 8400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 12100 8400 50  0001 C CNN "SupplierPartNo"
 	1    12100 8400
 	1    0    0    -1  
 $EndComp
@@ -1038,6 +1054,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13100 8400 50 
 F 3 "~" H 13100 8400 50  0001 C CNN
 F 4 "0603" H 13100 8400 50  0001 C CNN "Package"
 F 5 "In House" H 13100 8400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 13100 8400 50  0001 C CNN "SupplierPartNo"
 	1    13100 8400
 	1    0    0    -1  
 $EndComp
@@ -1051,6 +1068,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 7100 50  0
 F 3 "~" H 4500 7100 50  0001 C CNN
 F 4 "0603" H 4500 7100 50  0001 C CNN "Package"
 F 5 "In House" H 4500 7100 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4500 7100 50  0001 C CNN "SupplierPartNo"
 	1    4500 7100
 	0    1    1    0   
 $EndComp
@@ -1064,6 +1082,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 7300 50  0
 F 3 "~" H 3200 7300 50  0001 C CNN
 F 4 "0603" H 3200 7300 50  0001 C CNN "Package"
 F 5 "In House" H 3200 7300 50  0001 C CNN "Supplier"
+F 6 "N/A" H 3200 7300 50  0001 C CNN "SupplierPartNo"
 	1    3200 7300
 	-1   0    0    1   
 $EndComp
@@ -1079,6 +1098,7 @@ F 4 "SOT-23-5" H 3700 6900 50  0001 C CNN "Package"
 F 5 "MCP73831-2ACI-OT" H 3700 6900 50  0001 C CNN "PartNo"
 F 6 "Battery charger" H 3700 6900 50  0001 C CNN "Comment"
 F 7 "Microchip" H 3700 6900 50  0001 C CNN "Supplier"
+F 8 "MCP73831-2ACI-OT" H 3700 6900 50  0001 C CNN "SupplierPartNo"
 	1    3700 6900
 	1    0    0    -1  
 $EndComp
@@ -1094,6 +1114,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4800 7000 50  0001
 F 3 "~" V 4800 7000 50  0001 C CNN
 F 4 "0805" H 4800 7000 50  0001 C CNN "Package"
 F 5 "In House" H 4800 7000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4800 7000 50  0001 C CNN "SupplierPartNo"
 	1    4800 7000
 	0    -1   -1   0   
 $EndComp
@@ -1109,6 +1130,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4800 7400 50  0001
 F 3 "~" V 4800 7400 50  0001 C CNN
 F 4 "0805" H 4800 7400 50  0001 C CNN "Package"
 F 5 "In House" H 4800 7400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4800 7400 50  0001 C CNN "SupplierPartNo"
 	1    4800 7400
 	0    -1   -1   0   
 $EndComp
@@ -1122,6 +1144,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 7300 50  0
 F 3 "~" H 4500 7300 50  0001 C CNN
 F 4 "0603" H 4500 7300 50  0001 C CNN "Package"
 F 5 "In House" H 4500 7300 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4500 7300 50  0001 C CNN "SupplierPartNo"
 	1    4500 7300
 	0    1    1    0   
 $EndComp
@@ -1166,6 +1189,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 7100 50  0
 F 3 "~" H 7000 7100 50  0001 C CNN
 F 4 "0603" H 7000 7100 50  0001 C CNN "Package"
 F 5 "In House" H 7000 7100 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7000 7100 50  0001 C CNN "SupplierPartNo"
 	1    7000 7100
 	-1   0    0    1   
 $EndComp
@@ -1223,6 +1247,7 @@ F 3 "~" H 4400 2400 50  0001 C CNN
 F 4 "N/A" H 4400 2400 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 2400 50  0001 C CNN "PartNo"
 F 6 "N/A" H 4400 2400 50  0001 C CNN "Supplier"
+F 7 "N/A" H 4400 2400 50  0001 C CNN "SupplierPartNo"
 	1    4400 2400
 	1    0    0    -1  
 $EndComp
@@ -1407,6 +1432,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7900 9800 50  
 F 3 "~" H 7900 9800 50  0001 C CNN
 F 4 "1206" H 7900 9800 50  0001 C CNN "Package"
 F 5 "In House" H 7900 9800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7900 9800 50  0001 C CNN "SupplierPartNo"
 	1    7900 9800
 	1    0    0    -1  
 $EndComp
@@ -1438,6 +1464,7 @@ F 4 "Auxiliary battery boost converter" H 5700 9600 50  0001 C CNN "Comment"
 F 5 "MSOP-8" H 5700 9600 50  0001 C CNN "Package"
 F 6 "MCP1642D-50I/MS" H 5700 9600 50  0001 C CNN "PartNo"
 F 7 "Microchip" H 5700 9600 50  0001 C CNN "Supplier"
+F 8 "MCP1642D-50I/MS" H 5700 9600 50  0001 C CNN "SupplierPartNo"
 	1    5700 9600
 	1    0    0    -1  
 $EndComp
@@ -1499,6 +1526,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 9700 50  0
 F 3 "~" H 4700 9700 50  0001 C CNN
 F 4 "0603" H 4700 9700 50  0001 C CNN "Package"
 F 5 "In House" H 4700 9700 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4700 9700 50  0001 C CNN "SupplierPartNo"
 	1    4700 9700
 	-1   0    0    1   
 $EndComp
@@ -1515,6 +1543,7 @@ F 3 "~" H 4400 2700 50  0001 C CNN
 F 4 "N/A" H 4400 2700 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 2700 50  0001 C CNN "PartNo"
 F 6 "N/A" H 4400 2700 50  0001 C CNN "Supplier"
+F 7 "N/A" H 4400 2700 50  0001 C CNN "SupplierPartNo"
 	1    4400 2700
 	1    0    0    -1  
 $EndComp
@@ -1529,6 +1558,7 @@ F 3 "~" H 4400 3000 50  0001 C CNN
 F 4 "N/A" H 4400 3000 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 3000 50  0001 C CNN "PartNo"
 F 6 "N/A" H 4400 3000 50  0001 C CNN "Supplier"
+F 7 "N/A" H 4400 3000 50  0001 C CNN "SupplierPartNo"
 	1    4400 3000
 	1    0    0    -1  
 $EndComp
@@ -1543,6 +1573,7 @@ F 3 "~" H 4400 3300 50  0001 C CNN
 F 4 "N/A" H 4400 3300 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 3300 50  0001 C CNN "PartNo"
 F 6 "N/A" H 4400 3300 50  0001 C CNN "Supplier"
+F 7 "N/A" H 4400 3300 50  0001 C CNN "SupplierPartNo"
 	1    4400 3300
 	1    0    0    -1  
 $EndComp
@@ -1557,6 +1588,7 @@ F 3 "~" H 4400 3600 50  0001 C CNN
 F 4 "N/A" H 4400 3600 50  0001 C CNN "Package"
 F 5 "N/A" H 4400 3600 50  0001 C CNN "PartNo"
 F 6 "N/A" H 4400 3600 50  0001 C CNN "Supplier"
+F 7 "N/A" H 4400 3600 50  0001 C CNN "SupplierPartNo"
 	1    4400 3600
 	1    0    0    -1  
 $EndComp
@@ -1602,6 +1634,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7500 9800 50  
 F 3 "~" H 7500 9800 50  0001 C CNN
 F 4 "1206" H 7500 9800 50  0001 C CNN "Package"
 F 5 "In House" H 7500 9800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7500 9800 50  0001 C CNN "SupplierPartNo"
 	1    7500 9800
 	1    0    0    -1  
 $EndComp
@@ -1628,6 +1661,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 9800 50  
 F 3 "~" H 7100 9800 50  0001 C CNN
 F 4 "0603" H 7100 9800 50  0001 C CNN "Package"
 F 5 "In House" H 7100 9800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7100 9800 50  0001 C CNN "SupplierPartNo"
 	1    7100 9800
 	1    0    0    -1  
 $EndComp
@@ -1662,6 +1696,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 9800 50  
 F 3 "~" H 6700 9800 50  0001 C CNN
 F 4 "0603" H 6700 9800 50  0001 C CNN "Package"
 F 5 "In House" H 6700 9800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 6700 9800 50  0001 C CNN "SupplierPartNo"
 	1    6700 9800
 	1    0    0    -1  
 $EndComp
@@ -1759,6 +1794,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 7100 50  
 F 3 "~" H 2400 7100 50  0001 C CNN
 F 4 "0805" H 2400 7100 50  0001 C CNN "Package"
 F 5 "In House" H 2400 7100 50  0001 C CNN "Supplier"
+F 6 "N/A" H 2400 7100 50  0001 C CNN "SupplierPartNo"
 	1    2400 7100
 	1    0    0    -1  
 $EndComp
@@ -1777,6 +1813,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 7100 50  
 F 3 "~" H 5400 7100 50  0001 C CNN
 F 4 "0805" H 5400 7100 50  0001 C CNN "Package"
 F 5 "In House" H 5400 7100 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5400 7100 50  0001 C CNN "SupplierPartNo"
 	1    5400 7100
 	1    0    0    -1  
 $EndComp

@@ -71,6 +71,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3000 50  
 F 3 "~" H 5900 3000 50  0001 C CNN
 F 4 "0603" H 5900 3000 50  0001 C CNN "Package"
 F 5 "In House" H 5900 3000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5900 3000 50  0001 C CNN "SupplierPartNo"
 	1    5900 3000
 	0    1    1    0   
 $EndComp
@@ -86,6 +87,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 3000 50  
 F 3 "~" H 5000 3000 50  0001 C CNN
 F 4 "0603" H 5000 3000 50  0001 C CNN "Package"
 F 5 "In House" H 5000 3000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5000 3000 50  0001 C CNN "SupplierPartNo"
 	1    5000 3000
 	0    1    1    0   
 $EndComp
@@ -101,6 +103,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 4200 50  
 F 3 "~" H 6600 4200 50  0001 C CNN
 F 4 "0603" H 6600 4200 50  0001 C CNN "Package"
 F 5 "In House" H 6600 4200 50  0001 C CNN "Supplier"
+F 6 "N/A" H 6600 4200 50  0001 C CNN "SupplierPartNo"
 	1    6600 4200
 	0    1    1    0   
 $EndComp
@@ -203,6 +206,7 @@ F 4 "QFN-24-EP" H 5500 4000 50  0001 C CNN "Package"
 F 5 "9-DOF IMU" H 5500 4000 50  0001 C CNN "Comment"
 F 6 "MPU-9250" H 5500 4000 50  0001 C CNN "PartNo"
 F 7 "In House" H 5500 4000 50  0001 C CNN "Supplier"
+F 8 "MPU-9250" H 5500 4000 50  0001 C CNN "SupplierPartNo"
 	1    5500 4000
 	1    0    0    -1  
 $EndComp

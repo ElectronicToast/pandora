@@ -41,6 +41,7 @@ F 4 "50mil_02x05" H 4900 4100 50  0001 C CNN "Package"
 F 5 "JTAG debug header" H 4900 4100 50  0001 C CNN "Comment"
 F 6 "FTSH-105-0.1-F-DV-K" H 4900 4100 50  0001 C CNN "PartNo"
 F 7 "In House" H 4900 4100 50  0001 C CNN "Supplier"
+F 8 "N/A" H 4900 4100 50  0001 C CNN "SupplierPartNo"
 	1    4900 4100
 	1    0    0    -1  
 $EndComp
@@ -75,6 +76,7 @@ F 3 "~" H 3900 1800 50  0001 C CNN
 F 4 "156mil 3-pin power connector" H 3900 1800 50  0001 C CNN "Comment"
 F 5 "156mil_01x03" H 3900 1800 50  0001 C CNN "Package"
 F 6 "In House" H 3900 1800 50  0001 C CNN "Supplier"
+F 7 "N/A" H 3900 1800 50  0001 C CNN "SupplierPartNo"
 	1    3900 1800
 	1    0    0    -1  
 $EndComp
@@ -113,6 +115,7 @@ F 4 "LCD_18" H 8400 3900 50  0001 C CNN "Package"
 F 5 "LCD, negative, LCD backlight" H 8400 3900 50  0001 C CNN "Comment"
 F 6 "399" H 8400 3900 50  0001 C CNN "PartNo"
 F 7 "In House" H 8400 3900 50  0001 C CNN "Supplier"
+F 8 "Adafruit_399" H 8400 3900 50  0001 C CNN "SupplierPartNo"
 	1    8400 3900
 	1    0    0    -1  
 $EndComp
@@ -212,6 +215,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 3700 50  0
 F 3 "~" H 9100 3700 50  0001 C CNN
 F 4 "0603" H 9100 3700 50  0001 C CNN "Package"
 F 5 "In House" H 9100 3700 50  0001 C CNN "Supplier"
+F 6 "N/A" H 9100 3700 50  0001 C CNN "SupplierPartNo"
 	1    9100 3700
 	0    1    1    0   
 $EndComp
@@ -225,6 +229,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 3800 50  0
 F 3 "~" H 9100 3800 50  0001 C CNN
 F 4 "0603" H 9100 3800 50  0001 C CNN "Package"
 F 5 "In House" H 9100 3800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 9100 3800 50  0001 C CNN "SupplierPartNo"
 	1    9100 3800
 	0    1    1    0   
 $EndComp
@@ -238,6 +243,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 3900 50  0
 F 3 "~" H 9100 3900 50  0001 C CNN
 F 4 "0603" H 9100 3900 50  0001 C CNN "Package"
 F 5 "In House" H 9100 3900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 9100 3900 50  0001 C CNN "SupplierPartNo"
 	1    9100 3900
 	0    1    1    0   
 $EndComp
@@ -276,6 +282,7 @@ F 3 "~" H 8700 1600 50  0001 C CNN
 F 4 "Servo connector" H 8700 1600 50  0001 C CNN "Comment"
 F 5 "100mil_01x04" H 8700 1600 50  0001 C CNN "Package"
 F 6 "In House" H 8700 1600 50  0001 C CNN "Supplier"
+F 7 "N/A" H 8700 1600 50  0001 C CNN "SupplierPartNo"
 	1    8700 1600
 	1    0    0    -1  
 $EndComp
@@ -404,6 +411,7 @@ F 3 "~" H 5400 1700 50  0001 C CNN
 F 4 "JST PH auxiliary LiPo connector" H 5400 1700 50  0001 C CNN "Comment"
 F 5 "JST-PH_2_SMD_RghtAngle" H 5400 1700 50  0001 C CNN "Package"
 F 6 "In House" H 5400 1700 50  0001 C CNN "Supplier"
+F 7 "N/A" H 5400 1700 50  0001 C CNN "SupplierPartNo"
 	1    5400 1700
 	1    0    0    -1  
 $EndComp
@@ -571,6 +579,7 @@ F 4 "5V battery charge connector" H 4200 6500 50  0001 C CNN "Comment"
 F 5 "Molex_ 0675031020" H 4200 6500 50  0001 C CNN "Package"
 F 6 " 0675031020" H 4200 6500 50  0001 C CNN "PartNo"
 F 7 "In House" H 4200 6500 50  0001 C CNN "Supplier"
+F 8 "N/A" H 4200 6500 50  0001 C CNN "SupplierPartNo"
 	1    4200 6500
 	1    0    0    -1  
 $EndComp

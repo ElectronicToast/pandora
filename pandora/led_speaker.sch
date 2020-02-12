@@ -23,6 +23,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4200 2000 50  0001
 F 3 "~" V 4200 2000 50  0001 C CNN
 F 4 "0805" H 4200 2000 50  0001 C CNN "Package"
 F 5 "In House" H 4200 2000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4200 2000 50  0001 C CNN "SupplierPartNo"
 	1    4200 2000
 	0    -1   -1   0   
 $EndComp
@@ -38,6 +39,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 2400 50  0
 F 3 "~" H 4200 2400 50  0001 C CNN
 F 4 "0603" H 4200 2400 50  0001 C CNN "Package"
 F 5 "In House" H 4200 2400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4200 2400 50  0001 C CNN "SupplierPartNo"
 	1    4200 2400
 	1    0    0    -1  
 $EndComp
@@ -61,6 +63,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4900 2000 50  0001
 F 3 "~" V 4900 2000 50  0001 C CNN
 F 4 "0805" H 4900 2000 50  0001 C CNN "Package"
 F 5 "In House" H 4900 2000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4900 2000 50  0001 C CNN "SupplierPartNo"
 	1    4900 2000
 	0    -1   -1   0   
 $EndComp
@@ -76,6 +79,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 2400 50  0
 F 3 "~" H 4900 2400 50  0001 C CNN
 F 4 "0603" H 4900 2400 50  0001 C CNN "Package"
 F 5 "In House" H 4900 2400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4900 2400 50  0001 C CNN "SupplierPartNo"
 	1    4900 2400
 	1    0    0    -1  
 $EndComp
@@ -120,6 +124,7 @@ F 4 "Speaker, board mount" H 7500 4500 50  0001 C CNN "Comment"
 F 5 "DBX-01PN" H 7500 4500 50  0001 C CNN "PartNo"
 F 6 "DBX-01PN" H 7500 4500 50  0001 C CNN "Package"
 F 7 "In House" H 7500 4500 50  0001 C CNN "Supplier"
+F 8 "DBX-01PN" H 7500 4500 50  0001 C CNN "SupplierPartNo"
 	1    7500 4500
 	1    0    0    -1  
 $EndComp
@@ -135,6 +140,7 @@ F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7200 4300 50  0
 F 3 "~" H 7200 4300 50  0001 C CNN
 F 4 "0603" H 7200 4300 50  0001 C CNN "Package"
 F 5 "In House" H 7200 4300 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7200 4300 50  0001 C CNN "SupplierPartNo"
 	1    7200 4300
 	-1   0    0    1   
 $EndComp
@@ -170,6 +176,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 4100 50  
 F 3 "~" H 5300 4100 50  0001 C CNN
 F 4 "0603" H 5300 4100 50  0001 C CNN "Package"
 F 5 "In House" H 5300 4100 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5300 4100 50  0001 C CNN "SupplierPartNo"
 	1    5300 4100
 	0    1    1    0   
 $EndComp
@@ -225,6 +232,7 @@ F 4 "SOIC-16" H 4600 4500 50  0001 C CNN "Package"
 F 5 "Peripheral low side switch" H 4600 4500 50  0001 C CNN "Comment"
 F 6 "ULN2003D" H 4600 4500 50  0001 C CNN "PartNo"
 F 7 "In House" H 4600 4500 50  0001 C CNN "Supplier"
+F 8 "ULN2003D" H 4600 4500 50  0001 C CNN "SupplierPartNo"
 	1    4600 4500
 	1    0    0    -1  
 $EndComp
@@ -265,6 +273,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6200 2000 50  0001
 F 3 "~" V 6200 2000 50  0001 C CNN
 F 4 "0805" H 6200 2000 50  0001 C CNN "Package"
 F 5 "In House" H 6200 2000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 6200 2000 50  0001 C CNN "SupplierPartNo"
 	1    6200 2000
 	0    -1   -1   0   
 $EndComp
@@ -280,6 +289,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 2400 50  0
 F 3 "~" H 6200 2400 50  0001 C CNN
 F 4 "0603" H 6200 2400 50  0001 C CNN "Package"
 F 5 "In House" H 6200 2400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 6200 2400 50  0001 C CNN "SupplierPartNo"
 	1    6200 2400
 	1    0    0    -1  
 $EndComp
@@ -332,6 +342,7 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7200 2000 50  0001
 F 3 "~" V 7200 2000 50  0001 C CNN
 F 4 "0805" H 7200 2000 50  0001 C CNN "Package"
 F 5 "In House" H 7200 2000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7200 2000 50  0001 C CNN "SupplierPartNo"
 	1    7200 2000
 	0    -1   -1   0   
 $EndComp
@@ -347,6 +358,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 2400 50  0
 F 3 "~" H 7200 2400 50  0001 C CNN
 F 4 "0603" H 7200 2400 50  0001 C CNN "Package"
 F 5 "In House" H 7200 2400 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7200 2400 50  0001 C CNN "SupplierPartNo"
 	1    7200 2400
 	1    0    0    -1  
 $EndComp
@@ -364,6 +376,7 @@ F 4 "SMD_PAD_SJ3" H 5800 4900 50  0001 C CNN "Package"
 F 5 "Solder jumper, 3 pad" H 5800 4900 50  0001 C CNN "Comment"
 F 6 "N/A" H 5800 4900 50  0001 C CNN "PartNo"
 F 7 "N/A" H 5800 4900 50  0001 C CNN "Supplier"
+F 8 "N/A" H 5800 4900 50  0001 C CNN "SupplierPartNo"
 	1    5800 4900
 	0    -1   -1   0   
 $EndComp
@@ -406,6 +419,7 @@ F 4 "SMD_PAD_SJ3" H 6000 5200 50  0001 C CNN "Package"
 F 5 "Solder jumper, 3 pad" H 6000 5200 50  0001 C CNN "Comment"
 F 6 "N/A" H 6000 5200 50  0001 C CNN "PartNo"
 F 7 "N/A" H 6000 5200 50  0001 C CNN "Supplier"
+F 8 "N/A" H 6000 5200 50  0001 C CNN "SupplierPartNo"
 	1    6000 5200
 	0    -1   -1   0   
 $EndComp
@@ -421,6 +435,7 @@ F 4 "SMD_PAD_SJ3" H 6200 5500 50  0001 C CNN "Package"
 F 5 "Solder jumper, 3 pad" H 6200 5500 50  0001 C CNN "Comment"
 F 6 "N/A" H 6200 5500 50  0001 C CNN "PartNo"
 F 7 "N/A" H 6200 5500 50  0001 C CNN "Supplier"
+F 8 "N/A" H 6200 5500 50  0001 C CNN "SupplierPartNo"
 	1    6200 5500
 	0    -1   -1   0   
 $EndComp

@@ -75,6 +75,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 3000 50  
 F 3 "~" H 5200 3000 50  0001 C CNN
 F 4 "0603" H 5200 3000 50  0001 C CNN "Package"
 F 5 "In House" H 5200 3000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5200 3000 50  0001 C CNN "SupplierPartNo"
 	1    5200 3000
 	0    1    1    0   
 $EndComp
@@ -90,6 +91,7 @@ F 4 "SOIC-20W" H 4900 3900 50  0001 C CNN "Package"
 F 5 "LCD level shifter" H 4900 3900 50  0001 C CNN "Comment"
 F 6 "74LCX245WM" H 4900 3900 50  0001 C CNN "PartNo"
 F 7 "In House" H 4900 3900 50  0001 C CNN "Supplier"
+F 8 "74LCX245WM" H 4900 3900 50  0001 C CNN "SupplierPartNo"
 	1    4900 3900
 	1    0    0    -1  
 $EndComp

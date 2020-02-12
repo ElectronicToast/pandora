@@ -25,6 +25,7 @@ F 4 "" H 3500 3200 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 3200 50  0001 C CNN "Package"
 F 6 "" H 3500 3200 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 3200 50  0001 C CNN "Supplier"
+F 8 "N/A" H 3500 3200 50  0001 C CNN "SupplierPartNo"
 	1    3500 3200
 	1    0    0    -1  
 $EndComp
@@ -56,6 +57,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 2900 50  0
 F 3 "~" H 4500 2900 50  0001 C CNN
 F 4 "0603" H 4500 2900 50  0001 C CNN "Package"
 F 5 "In House" H 4500 2900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 4500 2900 50  0001 C CNN "SupplierPartNo"
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
@@ -411,6 +413,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 2900 50  0
 F 3 "~" H 5300 2900 50  0001 C CNN
 F 4 "0603" H 5300 2900 50  0001 C CNN "Package"
 F 5 "In House" H 5300 2900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5300 2900 50  0001 C CNN "SupplierPartNo"
 	1    5300 2900
 	1    0    0    -1  
 $EndComp
@@ -426,6 +429,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2900 50  0
 F 3 "~" H 6100 2900 50  0001 C CNN
 F 4 "0603" H 6100 2900 50  0001 C CNN "Package"
 F 5 "In House" H 6100 2900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 6100 2900 50  0001 C CNN "SupplierPartNo"
 	1    6100 2900
 	1    0    0    -1  
 $EndComp
@@ -441,6 +445,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 2900 50  0
 F 3 "~" H 6900 2900 50  0001 C CNN
 F 4 "0603" H 6900 2900 50  0001 C CNN "Package"
 F 5 "In House" H 6900 2900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 6900 2900 50  0001 C CNN "SupplierPartNo"
 	1    6900 2900
 	1    0    0    -1  
 $EndComp
@@ -592,6 +597,7 @@ F 4 "" H 3500 3600 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 3600 50  0001 C CNN "Package"
 F 6 "" H 3500 3600 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 3600 50  0001 C CNN "Supplier"
+F 8 "N/A" H 3500 3600 50  0001 C CNN "SupplierPartNo"
 	1    3500 3600
 	1    0    0    -1  
 $EndComp
@@ -607,6 +613,7 @@ F 4 "" H 3500 4000 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 4000 50  0001 C CNN "Package"
 F 6 "" H 3500 4000 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 4000 50  0001 C CNN "Supplier"
+F 8 "N/A" H 3500 4000 50  0001 C CNN "SupplierPartNo"
 	1    3500 4000
 	1    0    0    -1  
 $EndComp
@@ -622,6 +629,7 @@ F 4 "" H 3500 4400 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 4400 50  0001 C CNN "Package"
 F 6 "" H 3500 4400 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 4400 50  0001 C CNN "Supplier"
+F 8 "N/A" H 3500 4400 50  0001 C CNN "SupplierPartNo"
 	1    3500 4400
 	1    0    0    -1  
 $EndComp
