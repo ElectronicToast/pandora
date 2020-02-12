@@ -1093,12 +1093,12 @@ L Switch:SW_Push SW19
 U 1 1 5E3AAA5E
 P 2900 6700
 F 0 "SW19" H 2900 6985 50  0000 C CNN
-F 1 "PTS 647 SK38 SMTR2 LFS" H 2900 6894 50  0000 C CNN
-F 2 "" H 2900 6900 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS647/documents/datasheet.pdf" H 2900 6900 50  0001 C CNN
+F 1 "PTS526-S-K-15-SMTR92-LFS" H 2900 6894 50  0000 C CNN
+F 2 "pandora:SW_Push_PTS526" H 2900 6900 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf" H 2900 6900 50  0001 C CNN
 F 4 "Reset button" H 2900 6700 50  0001 C CNN "Comment"
-F 5 "Tact_Push_SMD_4.5mm" H 2900 6700 50  0001 C CNN "Package"
-F 6 "PTS647SK38SMTR2 LFS" H 2900 6700 50  0001 C CNN "PartNo"
+F 5 "Tact_Push_SMD_PTS526" H 2900 6700 50  0001 C CNN "Package"
+F 6 "PTS526SK15SMTR92 LFS" H 2900 6700 50  0001 C CNN "PartNo"
 F 7 "In House" H 2900 6700 50  0001 C CNN "Supplier"
 	1    2900 6700
 	1    0    0    -1  
