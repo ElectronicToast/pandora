@@ -61,8 +61,6 @@ F 3 "" H 4900 3500 50  0001 C CNN
 	1    4900 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 3500 4400 0    50   ~ 0
-CHECK FOOTPRINT
 Text Notes 3500 4300 0    50   ~ 0
 FTSH-105-01-F-DV-K
 $Comp
@@ -657,8 +655,10 @@ Wire Wire Line
 	5000 1800 5200 1800
 Wire Wire Line
 	5000 1600 5000 1800
-Wire Bus Line
-	1600 2200 1600 2900
 Text Notes 4000 2300 0    50   ~ 0
 RIGHT ANGLE\nTE 640389-3
+Wire Bus Line
+	1600 2200 1600 2900
+Text Notes 3500 4500 0    50   ~ 0
+CHECK PINOUT
 $EndSCHEMATC
