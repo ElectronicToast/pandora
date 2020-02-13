@@ -664,7 +664,7 @@ F 1 "MCP1702T-3302" H 12600 6151 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 12600 6225 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 12600 6000 50  0001 C CNN
 F 4 "SOT-89-3" H 12600 6000 50  0001 C CNN "Package"
-F 5 "5V LDO from main power" H 12600 6000 50  0001 C CNN "Comment"
+F 5 "5V regulator from main power" H 12600 6000 50  0001 C CNN "Comment"
 F 6 "MCP1702T-3302" H 12600 6000 50  0001 C CNN "PartNo"
 F 7 "In House" H 12600 6000 50  0001 C CNN "Supplier"
 F 8 "MCP1702T-3302" H 12600 6000 50  0001 C CNN "SupplierPartNo"
@@ -1017,7 +1017,7 @@ F 1 "MCP1702T-3302" H 12600 8351 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 12600 8425 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 12600 8200 50  0001 C CNN
 F 4 "SOT-89-3" H 12600 8200 50  0001 C CNN "Package"
-F 5 "5V LDO from main power" H 12600 8200 50  0001 C CNN "Comment"
+F 5 "5V regulator from main power" H 12600 8200 50  0001 C CNN "Comment"
 F 6 "MCP1702T-3302" H 12600 8200 50  0001 C CNN "PartNo"
 F 7 "In House" H 12600 8200 50  0001 C CNN "Supplier"
 F 8 "MCP1702T-3302" H 12600 8200 50  0001 C CNN "SupplierPartNo"

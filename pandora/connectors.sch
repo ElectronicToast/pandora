@@ -405,11 +405,11 @@ L Connector_Generic:Conn_01x02 J3
 U 1 1 5E4FF305
 P 5400 1700
 F 0 "J3" H 5480 1692 50  0000 L CNN
-F 1 "JST-PH_2" H 5480 1601 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 5400 1700 50  0001 C CNN
+F 1 "JST-SH_2" H 5480 1601 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 5400 1700 50  0001 C CNN
 F 3 "~" H 5400 1700 50  0001 C CNN
-F 4 "JST PH auxiliary LiPo connector" H 5400 1700 50  0001 C CNN "Comment"
-F 5 "JST-PH_2_SMD_RghtAngle" H 5400 1700 50  0001 C CNN "Package"
+F 4 "JST SH auxiliary Li-ion connector" H 5400 1700 50  0001 C CNN "Comment"
+F 5 "JST-SH_SM_2_SMD_RghtAngle" H 5400 1700 50  0001 C CNN "Package"
 F 6 "In House" H 5400 1700 50  0001 C CNN "Supplier"
 F 7 "N/A" H 5400 1700 50  0001 C CNN "SupplierPartNo"
 	1    5400 1700
@@ -437,18 +437,12 @@ F 3 "" H 5100 2000 50  0001 C CNN
 	1    5100 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 1800 5200 1800
-Wire Wire Line
-	5200 1700 5000 1700
-Wire Wire Line
-	5000 1700 5000 1600
 Text Notes 5700 1700 0    50   ~ 0
 CHECK\nPINOUT
 Text Notes 4900 1200 0    50   ~ 0
 AUXILIARY BATTERY
 Text Notes 5100 1300 0    50   ~ 0
-1S LiPo
+1S Li-ion
 Text Label 1700 3400 0    50   ~ 0
 LCD_OUT_BL_R
 Text Label 1700 3500 0    50   ~ 0
@@ -631,8 +625,6 @@ Wire Wire Line
 	5000 6300 5400 6300
 Text Notes 4700 6500 0    50   ~ 0
 750mA HOLD\n1206
-Wire Wire Line
-	5100 1800 5100 2000
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5EA04B19
@@ -657,6 +649,14 @@ Wire Wire Line
 	8000 1600 8500 1600
 Wire Wire Line
 	7800 1500 7800 1600
+Wire Wire Line
+	5100 1700 5200 1700
+Wire Wire Line
+	5100 1700 5100 2000
+Wire Wire Line
+	5000 1800 5200 1800
+Wire Wire Line
+	5000 1600 5000 1800
 Wire Bus Line
 	1600 2200 1600 2900
 $EndSCHEMATC
