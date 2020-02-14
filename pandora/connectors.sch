@@ -35,7 +35,7 @@ U 1 1 5E4F5EDD
 P 4900 4100
 F 0 "J5" H 4457 4146 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 4457 4055 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4900 4100 50  0001 C CNN
+F 2 "pandora:PinHeader_2x05_P1.27mm_Vertical_SMD_Long" H 4900 4100 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4550 2850 50  0001 C CNN
 F 4 "50mil_02x05" H 4900 4100 50  0001 C CNN "Package"
 F 5 "JTAG debug header" H 4900 4100 50  0001 C CNN "Comment"
