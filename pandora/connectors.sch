@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
 Title "Pandora CC2652R Development Board"
-Date "2020-02-12"
+Date "2020-02-18"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -657,8 +657,261 @@ Wire Wire Line
 	5000 1600 5000 1800
 Text Notes 4000 2300 0    50   ~ 0
 RIGHT ANGLE\nTE 640389-3
-Wire Bus Line
-	1600 2200 1600 2900
 Text Notes 3500 4500 0    50   ~ 0
 CHECK PINOUT
+Text Notes 1500 5700 0    100  ~ 20
+TEST POINTS
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5E4CA8BE
+P 1200 6900
+F 0 "TP7" H 1258 6972 50  0000 L CNN
+F 1 "TestPoint" H 1258 6927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 1400 6900 50  0001 C CNN
+F 3 "~" H 1400 6900 50  0001 C CNN
+F 4 "Test point" H 1200 6900 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 1200 6900 50  0001 C CNN "Package"
+F 6 "TP" H 1200 6900 50  0001 C CNN "PartNo"
+F 7 "In House" H 1200 6900 50  0001 C CNN "Supplier"
+F 8 "TP" H 1200 6900 50  0001 C CNN "SupplierPartNo"
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VIN #PWR0112
+U 1 1 5E4CB827
+P 1500 6200
+F 0 "#PWR0112" H 1500 6050 50  0001 C CNN
+F 1 "VIN" H 1515 6373 50  0000 C CNN
+F 2 "" H 1500 6200 50  0001 C CNN
+F 3 "" H 1500 6200 50  0001 C CNN
+	1    1500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VBAT #PWR0113
+U 1 1 5E4CBDF0
+P 1800 6200
+F 0 "#PWR0113" H 1800 6050 50  0001 C CNN
+F 1 "VBAT" H 1815 6373 50  0000 C CNN
+F 2 "" H 1800 6200 50  0001 C CNN
+F 3 "" H 1800 6200 50  0001 C CNN
+	1    1800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 5E4CC4D5
+P 2400 6200
+F 0 "#PWR0115" H 2400 6050 50  0001 C CNN
+F 1 "+3V3" H 2415 6373 50  0000 C CNN
+F 2 "" H 2400 6200 50  0001 C CNN
+F 3 "" H 2400 6200 50  0001 C CNN
+	1    2400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5E4CCB3F
+P 2100 6200
+F 0 "#PWR0114" H 2100 6050 50  0001 C CNN
+F 1 "+5V" H 2115 6373 50  0000 C CNN
+F 2 "" H 2100 6200 50  0001 C CNN
+F 3 "" H 2100 6200 50  0001 C CNN
+	1    2100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VCHG #PWR0111
+U 1 1 5E4D7193
+P 1200 6200
+F 0 "#PWR0111" H 1200 6050 50  0001 C CNN
+F 1 "VCHG" H 1215 6373 50  0000 C CNN
+F 2 "" H 1200 6200 50  0001 C CNN
+F 3 "" H 1200 6200 50  0001 C CNN
+	1    1200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E4D7CBA
+P 1200 6200
+F 0 "TP1" H 1142 6272 50  0000 R CNN
+F 1 "TestPoint" H 1258 6227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 1400 6200 50  0001 C CNN
+F 3 "~" H 1400 6200 50  0001 C CNN
+F 4 "Test point" H 1200 6200 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 1200 6200 50  0001 C CNN "Package"
+F 6 "TP" H 1200 6200 50  0001 C CNN "PartNo"
+F 7 "In House" H 1200 6200 50  0001 C CNN "Supplier"
+F 8 "TP" H 1200 6200 50  0001 C CNN "SupplierPartNo"
+	1    1200 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E4D85CF
+P 1500 6200
+F 0 "TP2" H 1442 6272 50  0000 R CNN
+F 1 "TestPoint" H 1558 6227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 1700 6200 50  0001 C CNN
+F 3 "~" H 1700 6200 50  0001 C CNN
+F 4 "Test point" H 1500 6200 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 1500 6200 50  0001 C CNN "Package"
+F 6 "TP" H 1500 6200 50  0001 C CNN "PartNo"
+F 7 "In House" H 1500 6200 50  0001 C CNN "Supplier"
+F 8 "TP" H 1500 6200 50  0001 C CNN "SupplierPartNo"
+	1    1500 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E4DBB76
+P 1800 6200
+F 0 "TP3" H 1742 6272 50  0000 R CNN
+F 1 "TestPoint" H 1858 6227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2000 6200 50  0001 C CNN
+F 3 "~" H 2000 6200 50  0001 C CNN
+F 4 "Test point" H 1800 6200 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 1800 6200 50  0001 C CNN "Package"
+F 6 "TP" H 1800 6200 50  0001 C CNN "PartNo"
+F 7 "In House" H 1800 6200 50  0001 C CNN "Supplier"
+F 8 "TP" H 1800 6200 50  0001 C CNN "SupplierPartNo"
+	1    1800 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5E4DBE2D
+P 2400 6200
+F 0 "TP5" H 2342 6272 50  0000 R CNN
+F 1 "TestPoint" H 2458 6227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2600 6200 50  0001 C CNN
+F 3 "~" H 2600 6200 50  0001 C CNN
+F 4 "Test point" H 2400 6200 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 2400 6200 50  0001 C CNN "Package"
+F 6 "TP" H 2400 6200 50  0001 C CNN "PartNo"
+F 7 "In House" H 2400 6200 50  0001 C CNN "Supplier"
+F 8 "TP" H 2400 6200 50  0001 C CNN "SupplierPartNo"
+	1    2400 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5E4E14C2
+P 2100 6200
+F 0 "TP4" H 2042 6272 50  0000 R CNN
+F 1 "TestPoint" H 2158 6227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 6200 50  0001 C CNN
+F 3 "~" H 2300 6200 50  0001 C CNN
+F 4 "Test point" H 2100 6200 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 2100 6200 50  0001 C CNN "Package"
+F 6 "TP" H 2100 6200 50  0001 C CNN "PartNo"
+F 7 "In House" H 2100 6200 50  0001 C CNN "Supplier"
+F 8 "TP" H 2100 6200 50  0001 C CNN "SupplierPartNo"
+	1    2100 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3VA #PWR0116
+U 1 1 5E4E4A39
+P 2700 6200
+F 0 "#PWR0116" H 2700 6050 50  0001 C CNN
+F 1 "+3.3VA" H 2715 6373 50  0000 C CNN
+F 2 "" H 2700 6200 50  0001 C CNN
+F 3 "" H 2700 6200 50  0001 C CNN
+	1    2700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5E4E4FCC
+P 2700 6200
+F 0 "TP6" H 2642 6272 50  0000 R CNN
+F 1 "TestPoint" H 2758 6227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2900 6200 50  0001 C CNN
+F 3 "~" H 2900 6200 50  0001 C CNN
+F 4 "Test point" H 2700 6200 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 2700 6200 50  0001 C CNN "Package"
+F 6 "TP" H 2700 6200 50  0001 C CNN "PartNo"
+F 7 "In House" H 2700 6200 50  0001 C CNN "Supplier"
+F 8 "TP" H 2700 6200 50  0001 C CNN "SupplierPartNo"
+	1    2700 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pandora:GNDIN #PWR0117
+U 1 1 5E4ECC08
+P 1200 6900
+F 0 "#PWR0117" H 1200 6650 50  0001 C CNN
+F 1 "GNDIN" H 1205 6727 50  0000 C CNN
+F 2 "" H 1200 6900 50  0001 C CNN
+F 3 "" H 1200 6900 50  0001 C CNN
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:GNDD #PWR0118
+U 1 1 5E4EFED3
+P 2100 6900
+F 0 "#PWR0118" H 2100 6650 50  0001 C CNN
+F 1 "GNDD" H 2105 6727 50  0000 C CNN
+F 2 "" H 2100 6900 50  0001 C CNN
+F 3 "" H 2100 6900 50  0001 C CNN
+	1    2100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5E4F08D6
+P 2100 6900
+F 0 "TP8" H 2158 6972 50  0000 L CNN
+F 1 "TestPoint" H 2158 6927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 6900 50  0001 C CNN
+F 3 "~" H 2300 6900 50  0001 C CNN
+F 4 "Test point" H 2100 6900 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 2100 6900 50  0001 C CNN "Package"
+F 6 "TP" H 2100 6900 50  0001 C CNN "PartNo"
+F 7 "In House" H 2100 6900 50  0001 C CNN "Supplier"
+F 8 "TP" H 2100 6900 50  0001 C CNN "SupplierPartNo"
+	1    2100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0119
+U 1 1 5E4F368D
+P 2700 6900
+F 0 "#PWR0119" H 2700 6650 50  0001 C CNN
+F 1 "GNDA" H 2705 6727 50  0000 C CNN
+F 2 "" H 2700 6900 50  0001 C CNN
+F 3 "" H 2700 6900 50  0001 C CNN
+	1    2700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5E4F3B1C
+P 2700 6900
+F 0 "TP9" H 2758 6972 50  0000 L CNN
+F 1 "TestPoint" H 2758 6927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2900 6900 50  0001 C CNN
+F 3 "~" H 2900 6900 50  0001 C CNN
+F 4 "Test point" H 2700 6900 50  0001 C CNN "Comment"
+F 5 "Hole_62mil" H 2700 6900 50  0001 C CNN "Package"
+F 6 "TP" H 2700 6900 50  0001 C CNN "PartNo"
+F 7 "In House" H 2700 6900 50  0001 C CNN "Supplier"
+F 8 "TP" H 2700 6900 50  0001 C CNN "SupplierPartNo"
+	1    2700 6900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	900  5800 900  7300
+Wire Notes Line
+	900  7300 3100 7300
+Wire Notes Line
+	3100 7300 3100 5800
+Wire Notes Line
+	3100 5800 900  5800
+Wire Bus Line
+	1600 2200 1600 2900
 $EndSCHEMATC
