@@ -1010,10 +1010,10 @@ Connection ~ 9300 3900
 Wire Wire Line
 	9300 3900 8600 3900
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP6
 U 1 1 5E58735D
 P 4900 3350
-F 0 "JP?" V 4854 3418 50  0000 L CNN
+F 0 "JP6" V 4854 3418 50  0000 L CNN
 F 1 "SJ2_Bridged" V 4945 3418 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4900 3350 50  0001 C CNN
 F 3 "~" H 4900 3350 50  0001 C CNN
