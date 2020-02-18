@@ -113,131 +113,89 @@ Wire Wire Line
 $Comp
 L Device:Speaker SPK?
 U 1 1 5E36C762
-P 7900 4400
+P 7700 4400
 AR Path="/5E64A3EA/5E36C762" Ref="SPK?"  Part="1" 
 AR Path="/5E341789/5E36C762" Ref="SPK1"  Part="1" 
-F 0 "SPK1" H 8070 4396 50  0000 L CNN
-F 1 "DBX-01PN" H 8070 4305 50  0000 L CNN
-F 2 "pandora:DBX-01PN" H 7900 4200 50  0001 C CNN
-F 3 "~" H 7890 4350 50  0001 C CNN
-F 4 "Speaker, board mount" H 7900 4400 50  0001 C CNN "Comment"
-F 5 "DBX-01PN" H 7900 4400 50  0001 C CNN "PartNo"
-F 6 "DBX-01PN" H 7900 4400 50  0001 C CNN "Package"
-F 7 "In House" H 7900 4400 50  0001 C CNN "Supplier"
-F 8 "DBX-01PN" H 7900 4400 50  0001 C CNN "SupplierPartNo"
-	1    7900 4400
+F 0 "SPK1" H 7870 4396 50  0000 L CNN
+F 1 "DBX-01PN" H 7870 4305 50  0000 L CNN
+F 2 "pandora:DBX-01PN" H 7700 4200 50  0001 C CNN
+F 3 "~" H 7690 4350 50  0001 C CNN
+F 4 "Speaker, board mount" H 7700 4400 50  0001 C CNN "Comment"
+F 5 "DBX-01PN" H 7700 4400 50  0001 C CNN "PartNo"
+F 6 "DBX-01PN" H 7700 4400 50  0001 C CNN "Package"
+F 7 "In House" H 7700 4400 50  0001 C CNN "Supplier"
+F 8 "DBX-01PN" H 7700 4400 50  0001 C CNN "SupplierPartNo"
+	1    7700 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 5E36C790
-P 7600 4200
-AR Path="/5E64A3EA/5E36C790" Ref="R?"  Part="1" 
-AR Path="/5E341789/5E36C790" Ref="R23"  Part="1" 
-F 0 "R23" H 7532 4154 50  0000 R CNN
-F 1 "10" H 7532 4245 50  0000 R CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7600 4200 50  0001 C CNN
-F 3 "~" H 7600 4200 50  0001 C CNN
-F 4 "0603" H 7600 4200 50  0001 C CNN "Package"
-F 5 "In House" H 7600 4200 50  0001 C CNN "Supplier"
-F 6 "N/A" H 7600 4200 50  0001 C CNN "SupplierPartNo"
-	1    7600 4200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7600 4100 7600 4000
-Text Notes 4300 5000 0    50   ~ 0
+Text Notes 4500 5000 0    50   ~ 0
 SOIC-16
-$Comp
-L power:+5V #PWR067
-U 1 1 5E36E98E
-P 4700 3900
-F 0 "#PWR067" H 4700 3750 50  0001 C CNN
-F 1 "+5V" H 4715 4073 50  0000 C CNN
-F 2 "" H 4700 3900 50  0001 C CNN
-F 3 "" H 4700 3900 50  0001 C CNN
-	1    4700 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4600 4000 4700 4000
+	4800 4000 4900 4000
 Wire Wire Line
-	4700 4000 4700 3900
+	4900 4000 4900 3900
 $Comp
 L Device:C_Small C?
 U 1 1 5E37074C
-P 4900 4000
+P 5100 4000
 AR Path="/5E2B9A47/5E37074C" Ref="C?"  Part="1" 
 AR Path="/5E2BACD0/5E37074C" Ref="C?"  Part="1" 
 AR Path="/5E341789/5E37074C" Ref="C28"  Part="1" 
-F 0 "C28" V 4850 4100 50  0000 C CNN
-F 1 "0.1uF" V 4950 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 4000 50  0001 C CNN
-F 3 "~" H 4900 4000 50  0001 C CNN
-F 4 "0603" H 4900 4000 50  0001 C CNN "Package"
-F 5 "In House" H 4900 4000 50  0001 C CNN "Supplier"
-F 6 "N/A" H 4900 4000 50  0001 C CNN "SupplierPartNo"
-	1    4900 4000
+F 0 "C28" V 5050 4100 50  0000 C CNN
+F 1 "0.1uF" V 5150 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4000 50  0001 C CNN
+F 3 "~" H 5100 4000 50  0001 C CNN
+F 4 "0603" H 5100 4000 50  0001 C CNN "Package"
+F 5 "In House" H 5100 4000 50  0001 C CNN "Supplier"
+F 6 "N/A" H 5100 4000 50  0001 C CNN "SupplierPartNo"
+	1    5100 4000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 4000 5000 4000
+	5600 4000 5200 4000
 Wire Wire Line
-	4800 4000 4700 4000
-Connection ~ 4700 4000
-Text Label 3400 4200 0    50   ~ 0
+	5000 4000 4900 4000
+Connection ~ 4900 4000
+Text Label 3600 4200 0    50   ~ 0
 LCD_BL_R
 Wire Wire Line
-	3400 4200 3800 4200
-Text Label 3400 4300 0    50   ~ 0
+	3600 4200 4000 4200
+Text Label 3600 4300 0    50   ~ 0
 LCD_BL_G
-Text Label 3400 4400 0    50   ~ 0
+Text Label 3600 4400 0    50   ~ 0
 LCD_BL_B
 Wire Wire Line
-	3400 4300 3800 4300
+	3600 4300 4000 4300
 Wire Wire Line
-	3400 4400 3800 4400
-$Comp
-L power:+5V #PWR069
-U 1 1 5E37BA0F
-P 7600 4000
-F 0 "#PWR069" H 7600 3850 50  0001 C CNN
-F 1 "+5V" H 7615 4173 50  0000 C CNN
-F 2 "" H 7600 4000 50  0001 C CNN
-F 3 "" H 7600 4000 50  0001 C CNN
-	1    7600 4000
-	1    0    0    -1  
-$EndComp
+	3600 4400 4000 4400
 Wire Wire Line
-	7600 4300 7600 4400
+	7400 4400 7500 4400
 Wire Wire Line
-	7600 4400 7700 4400
-Wire Wire Line
-	7700 4500 4600 4500
-Text Label 3600 4500 0    50   ~ 0
+	7500 4500 4800 4500
+Text Label 3800 4500 0    50   ~ 0
 SPK
 Wire Wire Line
-	3600 4500 3800 4500
-Text Label 4600 4500 0    50   ~ 0
+	3800 4500 4000 4500
+Text Label 4800 4500 0    50   ~ 0
 SPK_DRV
 $Comp
 L Transistor_Array:ULN2003 U8
 U 1 1 5E36D574
-P 4200 4400
-F 0 "U8" H 4200 5067 50  0000 C CNN
-F 1 "ULN2003D" H 4200 4976 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4250 3850 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4300 4200 50  0001 C CNN
-F 4 "SOIC-16" H 4200 4400 50  0001 C CNN "Package"
-F 5 "Peripheral low side switch" H 4200 4400 50  0001 C CNN "Comment"
-F 6 "ULN2003D" H 4200 4400 50  0001 C CNN "PartNo"
-F 7 "In House" H 4200 4400 50  0001 C CNN "Supplier"
-F 8 "ULN2003D" H 4200 4400 50  0001 C CNN "SupplierPartNo"
-	1    4200 4400
+P 4400 4400
+F 0 "U8" H 4400 5067 50  0000 C CNN
+F 1 "ULN2003D" H 4400 4976 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4450 3850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4500 4200 50  0001 C CNN
+F 4 "SOIC-16" H 4400 4400 50  0001 C CNN "Package"
+F 5 "Peripheral low side switch" H 4400 4400 50  0001 C CNN "Comment"
+F 6 "ULN2003D" H 4400 4400 50  0001 C CNN "PartNo"
+F 7 "In House" H 4400 4400 50  0001 C CNN "Supplier"
+F 8 "ULN2003D" H 4400 4400 50  0001 C CNN "SupplierPartNo"
+	1    4400 4400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4600 4800
-NoConn ~ 3800 4800
+NoConn ~ 4800 4800
+NoConn ~ 4000 4800
 Text Notes 5300 3300 0    100  ~ 20
 LOW-SIDE DRIVER
 Wire Wire Line
@@ -293,22 +251,22 @@ F 6 "N/A" H 5400 2300 50  0001 C CNN "SupplierPartNo"
 	1    5400 2300
 	1    0    0    -1  
 $EndComp
-Text Label 3600 4600 0    50   ~ 0
+Text Label 3800 4600 0    50   ~ 0
 LED1
-Text Label 3600 4700 0    50   ~ 0
+Text Label 3800 4700 0    50   ~ 0
 LED2
 Wire Wire Line
-	3600 4600 3800 4600
+	3800 4600 4000 4600
 Wire Wire Line
-	3600 4700 3800 4700
-Text Label 4600 4600 0    50   ~ 0
+	3800 4700 4000 4700
+Text Label 4800 4600 0    50   ~ 0
 LED1_DRV
-Text Label 4600 4700 0    50   ~ 0
+Text Label 4800 4700 0    50   ~ 0
 LED2_DRV
 Wire Wire Line
-	5100 4600 4600 4600
+	5300 4600 4800 4600
 Wire Wire Line
-	5100 4700 4600 4700
+	5300 4700 4800 4700
 Text Label 5500 2500 0    50   ~ 0
 LED1_DRV
 Wire Wire Line
@@ -362,107 +320,19 @@ F 6 "N/A" H 6100 2300 50  0001 C CNN "SupplierPartNo"
 	1    6100 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP4
-U 1 1 5E3A35FB
-P 5400 4800
-F 0 "JP4" V 5250 4850 50  0000 L CNN
-F 1 "SJ3" V 5350 4925 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 5400 4800 50  0001 C CNN
-F 3 "~" H 5400 4800 50  0001 C CNN
-F 4 "SMD_PAD_SJ3" H 5400 4800 50  0001 C CNN "Package"
-F 5 "Solder jumper, 3 pad" H 5400 4800 50  0001 C CNN "Comment"
-F 6 "N/A" H 5400 4800 50  0001 C CNN "PartNo"
-F 7 "N/A" H 5400 4800 50  0001 C CNN "Supplier"
-F 8 "N/A" H 5400 4800 50  0001 C CNN "SupplierPartNo"
-	1    5400 4800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5400 5600 5600 5600
-Wire Wire Line
-	5400 5000 5400 5600
-Wire Wire Line
-	5600 5300 5600 5600
-Connection ~ 5600 5600
-Wire Wire Line
-	5600 5600 5800 5600
-Wire Wire Line
-	5950 5400 6600 5400
-Wire Wire Line
-	5750 5100 6600 5100
-Wire Wire Line
-	5550 4800 6600 4800
-Wire Wire Line
-	5400 4600 5400 4200
-Wire Wire Line
-	4600 4200 5400 4200
-Wire Wire Line
-	4600 4300 5600 4300
-Wire Wire Line
-	5800 4400 5800 5200
-Wire Wire Line
-	4600 4400 5800 4400
-Wire Wire Line
-	5600 4300 5600 4900
-$Comp
-L Jumper:SolderJumper_3_Open JP5
-U 1 1 5E3D2488
-P 5600 5100
-F 0 "JP5" V 5450 5150 50  0000 L CNN
-F 1 "SJ3" V 5550 5225 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 5600 5100 50  0001 C CNN
-F 3 "~" H 5600 5100 50  0001 C CNN
-F 4 "SMD_PAD_SJ3" H 5600 5100 50  0001 C CNN "Package"
-F 5 "Solder jumper, 3 pad" H 5600 5100 50  0001 C CNN "Comment"
-F 6 "N/A" H 5600 5100 50  0001 C CNN "PartNo"
-F 7 "N/A" H 5600 5100 50  0001 C CNN "Supplier"
-F 8 "N/A" H 5600 5100 50  0001 C CNN "SupplierPartNo"
-	1    5600 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP6
-U 1 1 5E3D27E8
-P 5800 5400
-F 0 "JP6" V 5650 5450 50  0000 L CNN
-F 1 "SJ3" V 5750 5525 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 5800 5400 50  0001 C CNN
-F 3 "~" H 5800 5400 50  0001 C CNN
-F 4 "SMD_PAD_SJ3" H 5800 5400 50  0001 C CNN "Package"
-F 5 "Solder jumper, 3 pad" H 5800 5400 50  0001 C CNN "Comment"
-F 6 "N/A" H 5800 5400 50  0001 C CNN "PartNo"
-F 7 "N/A" H 5800 5400 50  0001 C CNN "Supplier"
-F 8 "N/A" H 5800 5400 50  0001 C CNN "SupplierPartNo"
-	1    5800 5400
-	0    -1   -1   0   
-$EndComp
-Text Notes 3900 5400 0    50   ~ 0
+Text Notes 4100 5400 0    50   ~ 0
 CHECK FOOTPRINT
-$Comp
-L pandora:GNDD #PWR071
-U 1 1 5E4F5D28
-P 5600 5700
-F 0 "#PWR071" H 5600 5450 50  0001 C CNN
-F 1 "GNDD" H 5605 5527 50  0000 C CNN
-F 2 "" H 5600 5700 50  0001 C CNN
-F 3 "" H 5600 5700 50  0001 C CNN
-	1    5600 5700
-	1    0    0    -1  
-$EndComp
 $Comp
 L pandora:GNDD #PWR070
 U 1 1 5E4F6D73
-P 4200 5000
-F 0 "#PWR070" H 4200 4750 50  0001 C CNN
-F 1 "GNDD" H 4205 4827 50  0000 C CNN
-F 2 "" H 4200 5000 50  0001 C CNN
-F 3 "" H 4200 5000 50  0001 C CNN
-	1    4200 5000
+P 4400 5000
+F 0 "#PWR070" H 4400 4750 50  0001 C CNN
+F 1 "GNDD" H 4405 4827 50  0000 C CNN
+F 2 "" H 4400 5000 50  0001 C CNN
+F 3 "" H 4400 5000 50  0001 C CNN
+	1    4400 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 5700 5600 5600
 $Comp
 L pandora:GNDD #PWR066
 U 1 1 5E4F7E87
@@ -499,12 +369,12 @@ $EndComp
 $Comp
 L pandora:GNDD #PWR068
 U 1 1 5E4FB0DD
-P 5600 3900
-F 0 "#PWR068" H 5600 3650 50  0001 C CNN
-F 1 "GNDD" H 5605 3727 50  0000 C CNN
-F 2 "" H 5600 3900 50  0001 C CNN
-F 3 "" H 5600 3900 50  0001 C CNN
-	1    5600 3900
+P 5800 3900
+F 0 "#PWR068" H 5800 3650 50  0001 C CNN
+F 1 "GNDD" H 5805 3727 50  0000 C CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0001 C CNN
+	1    5800 3900
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -518,16 +388,14 @@ Wire Notes Line
 Text Notes 5600 1100 0    100  ~ 20
 INDICATORS
 Wire Notes Line
-	3100 3400 3100 6100
+	3100 3400 3100 5500
 Wire Notes Line
-	3100 6100 8900 6100
+	3100 5500 8900 5500
 Wire Notes Line
-	8900 6100 8900 3400
+	8900 5500 8900 3400
 Wire Notes Line
 	8900 3400 3100 3400
-Text Notes 7300 4200 0    50   ~ 0
-1210\n1/2W
-Text Notes 7800 5000 0    50   ~ 0
+Text Notes 7600 5000 0    50   ~ 0
 THT\nREPLACE WITH EXT\nSPEAKER IF DESIRED
 Text Label 1500 1300 0    50   ~ 0
 LCD_BL_R
@@ -577,11 +445,11 @@ Wire Wire Line
 	1300 1800 2100 1800
 Wire Wire Line
 	1300 1900 2100 1900
-Text Label 6000 4800 0    50   ~ 0
+Text Label 4800 4200 0    50   ~ 0
 LCD_OUT_BL_R
-Text Label 6000 5100 0    50   ~ 0
+Text Label 4800 4300 0    50   ~ 0
 LCD_OUT_BL_G
-Text Label 6000 5400 0    50   ~ 0
+Text Label 4800 4400 0    50   ~ 0
 LCD_OUT_BL_B
 Text Notes 3500 2800 0    50   ~ 0
 2 mA
@@ -590,73 +458,10 @@ Text Notes 4200 2800 0    50   ~ 0
 Text Notes 5400 2800 0    50   ~ 0
 5 mA
 Wire Wire Line
-	6000 4200 5400 4200
-Connection ~ 5400 4200
+	5600 4000 5600 3900
 Wire Wire Line
-	5400 4000 5400 3900
-Wire Wire Line
-	5400 3900 5600 3900
-Wire Wire Line
-	6000 4300 5600 4300
-Connection ~ 5600 4300
-Wire Wire Line
-	6000 4400 5800 4400
-Connection ~ 5800 4400
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5E49884E
-P 6150 4400
-AR Path="/5E2B9A47/5E49884E" Ref="JP?"  Part="1" 
-AR Path="/5E341789/5E49884E" Ref="JP3"  Part="1" 
-F 0 "JP3" H 6350 4450 50  0000 C CNN
-F 1 "SJ2" H 5950 4450 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6150 4400 50  0001 C CNN
-F 3 "~" H 6150 4400 50  0001 C CNN
-F 4 "SMD_PAD_SJ2" H 6150 4400 50  0001 C CNN "Package"
-F 5 "Solder jumper, 2 pad" H 6150 4400 50  0001 C CNN "Comment"
-F 6 "N/A" H 6150 4400 50  0001 C CNN "PartNo"
-F 7 "N/A" H 6150 4400 50  0001 C CNN "Supplier"
-F 8 "N/A" H 6150 4400 50  0001 C CNN "SupplierPartNo"
-	1    6150 4400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5E4978EC
-P 6150 4300
-AR Path="/5E2B9A47/5E4978EC" Ref="JP?"  Part="1" 
-AR Path="/5E341789/5E4978EC" Ref="JP2"  Part="1" 
-F 0 "JP2" H 6350 4350 50  0000 C CNN
-F 1 "SJ2" H 5950 4350 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6150 4300 50  0001 C CNN
-F 3 "~" H 6150 4300 50  0001 C CNN
-F 4 "SMD_PAD_SJ2" H 6150 4300 50  0001 C CNN "Package"
-F 5 "Solder jumper, 2 pad" H 6150 4300 50  0001 C CNN "Comment"
-F 6 "N/A" H 6150 4300 50  0001 C CNN "PartNo"
-F 7 "N/A" H 6150 4300 50  0001 C CNN "Supplier"
-F 8 "N/A" H 6150 4300 50  0001 C CNN "SupplierPartNo"
-	1    6150 4300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5E496797
-P 6150 4200
-AR Path="/5E2B9A47/5E496797" Ref="JP?"  Part="1" 
-AR Path="/5E341789/5E496797" Ref="JP1"  Part="1" 
-F 0 "JP1" H 6350 4250 50  0000 C CNN
-F 1 "SJ2" H 5950 4250 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6150 4200 50  0001 C CNN
-F 3 "~" H 6150 4200 50  0001 C CNN
-F 4 "SMD_PAD_SJ2" H 6150 4200 50  0001 C CNN "Package"
-F 5 "Solder jumper, 2 pad" H 6150 4200 50  0001 C CNN "Comment"
-F 6 "N/A" H 6150 4200 50  0001 C CNN "PartNo"
-F 7 "N/A" H 6150 4200 50  0001 C CNN "Supplier"
-F 8 "N/A" H 6150 4200 50  0001 C CNN "SupplierPartNo"
-	1    6150 4200
-	-1   0    0    -1  
-$EndComp
-Text Label 6500 4200 0    50   ~ 0
+	5600 3900 5800 3900
+Text Label 6200 4200 0    50   ~ 0
 LEDA_DRV
 Text Label 6200 2500 0    50   ~ 0
 LED2_DRV
@@ -827,20 +632,125 @@ Text Label 7100 2500 0    50   ~ 0
 LEDA_DRV
 Text Notes 7000 2800 0    50   ~ 0
 5 mA
-Text Label 6500 4300 0    50   ~ 0
+Text Label 6200 4300 0    50   ~ 0
 LEDB_DRV
-Text Label 6500 4400 0    50   ~ 0
+Text Label 6200 4400 0    50   ~ 0
 LEDC_DRV
 Wire Wire Line
-	6900 4200 6300 4200
+	6600 4200 6000 4200
 Wire Wire Line
-	6900 4300 6300 4300
+	6600 4300 6000 4300
 Wire Wire Line
-	6900 4400 6300 4400
-Text Notes 6400 3700 0    50   ~ 10
-AUXILIARY LEDS
-Text Notes 6300 4000 0    50   ~ 0
+	6600 4400 6000 4400
+Text Notes 6100 4000 0    50   ~ 0
 May use instead or in \naddition to backlight
-Text Notes 7700 3700 0    50   ~ 10
+$Comp
+L power:+5V #PWR067
+U 1 1 5E36E98E
+P 4900 3900
+F 0 "#PWR067" H 4900 3750 50  0001 C CNN
+F 1 "+5V" H 4915 4073 50  0000 C CNN
+F 2 "" H 4900 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0001 C CNN
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 7500 3700 0    50   ~ 10
 SPEAKER
+Text Notes 6200 3700 0    50   ~ 10
+AUXILIARY LEDS
+Wire Wire Line
+	7400 4300 7400 4400
+Text Notes 7100 4200 0    50   ~ 0
+1210\n1/2W
+$Comp
+L power:+5V #PWR069
+U 1 1 5E37BA0F
+P 7400 4000
+F 0 "#PWR069" H 7400 3850 50  0001 C CNN
+F 1 "+5V" H 7415 4173 50  0000 C CNN
+F 2 "" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0001 C CNN
+	1    7400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4100 7400 4000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E36C790
+P 7400 4200
+AR Path="/5E64A3EA/5E36C790" Ref="R?"  Part="1" 
+AR Path="/5E341789/5E36C790" Ref="R23"  Part="1" 
+F 0 "R23" H 7332 4154 50  0000 R CNN
+F 1 "10" H 7332 4245 50  0000 R CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7400 4200 50  0001 C CNN
+F 3 "~" H 7400 4200 50  0001 C CNN
+F 4 "1210" H 7400 4200 50  0001 C CNN "Package"
+F 5 "In House" H 7400 4200 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7400 4200 50  0001 C CNN "SupplierPartNo"
+F 7 "Speaker power resistor" H 7400 4200 50  0001 C CNN "Comment"
+	1    7400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5E49884E
+P 5850 4400
+AR Path="/5E2B9A47/5E49884E" Ref="JP?"  Part="1" 
+AR Path="/5E341789/5E49884E" Ref="JP3"  Part="1" 
+F 0 "JP3" H 6050 4450 50  0000 C CNN
+F 1 "SJ2" H 5650 4450 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5850 4400 50  0001 C CNN
+F 3 "~" H 5850 4400 50  0001 C CNN
+F 4 "SMD_PAD_SJ2" H 5850 4400 50  0001 C CNN "Package"
+F 5 "Solder jumper, 2 pad" H 5850 4400 50  0001 C CNN "Comment"
+F 6 "N/A" H 5850 4400 50  0001 C CNN "PartNo"
+F 7 "N/A" H 5850 4400 50  0001 C CNN "Supplier"
+F 8 "N/A" H 5850 4400 50  0001 C CNN "SupplierPartNo"
+	1    5850 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5E496797
+P 5850 4200
+AR Path="/5E2B9A47/5E496797" Ref="JP?"  Part="1" 
+AR Path="/5E341789/5E496797" Ref="JP1"  Part="1" 
+F 0 "JP1" H 6050 4250 50  0000 C CNN
+F 1 "SJ2" H 5650 4250 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5850 4200 50  0001 C CNN
+F 3 "~" H 5850 4200 50  0001 C CNN
+F 4 "SMD_PAD_SJ2" H 5850 4200 50  0001 C CNN "Package"
+F 5 "Solder jumper, 2 pad" H 5850 4200 50  0001 C CNN "Comment"
+F 6 "N/A" H 5850 4200 50  0001 C CNN "PartNo"
+F 7 "N/A" H 5850 4200 50  0001 C CNN "Supplier"
+F 8 "N/A" H 5850 4200 50  0001 C CNN "SupplierPartNo"
+	1    5850 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5E4978EC
+P 5850 4300
+AR Path="/5E2B9A47/5E4978EC" Ref="JP?"  Part="1" 
+AR Path="/5E341789/5E4978EC" Ref="JP2"  Part="1" 
+F 0 "JP2" H 6050 4350 50  0000 C CNN
+F 1 "SJ2" H 5650 4350 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5850 4300 50  0001 C CNN
+F 3 "~" H 5850 4300 50  0001 C CNN
+F 4 "SMD_PAD_SJ2" H 5850 4300 50  0001 C CNN "Package"
+F 5 "Solder jumper, 2 pad" H 5850 4300 50  0001 C CNN "Comment"
+F 6 "N/A" H 5850 4300 50  0001 C CNN "PartNo"
+F 7 "N/A" H 5850 4300 50  0001 C CNN "Supplier"
+F 8 "N/A" H 5850 4300 50  0001 C CNN "SupplierPartNo"
+	1    5850 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4200 5700 4200
+Wire Wire Line
+	4800 4400 5700 4400
+Wire Wire Line
+	4800 4300 5700 4300
 $EndSCHEMATC
