@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 8 12
 Title "Pandora CC2652R Development Board"
 Date "2020-02-18"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
-Comment2 "B.S. EE 2020"
-Comment3 "Ray Sun"
-Comment4 ""
+Comment2 "EE 110b"
+Comment3 "B.S. EE 2020"
+Comment4 "Ray Sun"
 $EndDescr
 Text Notes 5100 3800 0    100  ~ 20
 MOUNTING HOLES

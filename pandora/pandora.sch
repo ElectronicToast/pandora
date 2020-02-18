@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "Pandora CC2652R Development Board"
 Date "2020-02-18"
 Rev "A"
@@ -14,7 +14,7 @@ Comment3 "B.S. EE 2020"
 Comment4 "Ray Sun"
 $EndDescr
 $Sheet
-S 1100 6000 1000 1000
+S 1000 6000 1000 1000
 U 5E2BABF8
 F0 "power" 50
 F1 "power.sch" 50
@@ -69,7 +69,7 @@ F2 "RF_N" I R 1900 3500 50
 F3 "RF_P" I R 1900 3400 50 
 $EndSheet
 $Sheet
-S 2500 6000 1000 1000
+S 3400 6000 800  200 
 U 5E3404DD
 F0 "mechanical" 50
 F1 "mechanical.sch" 50
@@ -305,4 +305,10 @@ Text Notes 5200 7300 0    50   ~ 10
 LAST USED DESIGNATORS
 Text Notes 5000 7500 0    50   ~ 0
 AE1 C48 D15 F1 FB3 H4 J6 JP8 L6\nNT5 Q1 R28 RV1 SPK1 SW19 U13 Y2
+$Sheet
+S 2200 6000 1000 1000
+U 5E6C9F4A
+F0 "battery" 50
+F1 "battery.sch" 50
+$EndSheet
 $EndSCHEMATC
