@@ -131,6 +131,11 @@ D Power symbol creates a global label with name "VBAT"
 K power-flag battery
 $ENDCMP
 #
+$CMP VBOOST
+D Power symbol creates a global label with name "VBOOST"
+K power-flag boost
+$ENDCMP
+#
 $CMP VCHG
 D Power symbol creates a global label with name "VCHG"
 K power-flag
