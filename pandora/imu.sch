@@ -200,7 +200,7 @@ U 1 1 5E31F4A7
 P 5500 4000
 F 0 "U5" H 5700 3200 50  0000 C CNN
 F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
-F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5500 3000 50  0001 C CNN
+F 2 "pandora:MPU-9250_Wide" H 5500 3000 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
 F 4 "QFN-24-EP" H 5500 4000 50  0001 C CNN "Package"
 F 5 "9-DOF IMU" H 5500 4000 50  0001 C CNN "Comment"

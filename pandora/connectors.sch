@@ -597,7 +597,7 @@ U 1 1 5E4CA8BE
 P 1200 6900
 F 0 "TP7" H 1258 6972 50  0000 L CNN
 F 1 "TestPoint" H 1258 6927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 1400 6900 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 1400 6900 50  0001 C CNN
 F 3 "~" H 1400 6900 50  0001 C CNN
 F 4 "Test point" H 1200 6900 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 1200 6900 50  0001 C CNN "Package"
@@ -668,7 +668,7 @@ U 1 1 5E4D7CBA
 P 1200 6200
 F 0 "TP1" H 1142 6272 50  0000 R CNN
 F 1 "TestPoint" H 1258 6227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 1400 6200 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 1400 6200 50  0001 C CNN
 F 3 "~" H 1400 6200 50  0001 C CNN
 F 4 "Test point" H 1200 6200 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 1200 6200 50  0001 C CNN "Package"
@@ -684,7 +684,7 @@ U 1 1 5E4D85CF
 P 1500 6200
 F 0 "TP2" H 1442 6272 50  0000 R CNN
 F 1 "TestPoint" H 1558 6227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 1700 6200 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 1700 6200 50  0001 C CNN
 F 3 "~" H 1700 6200 50  0001 C CNN
 F 4 "Test point" H 1500 6200 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 1500 6200 50  0001 C CNN "Package"
@@ -700,7 +700,7 @@ U 1 1 5E4DBB76
 P 1800 6200
 F 0 "TP3" H 1742 6272 50  0000 R CNN
 F 1 "TestPoint" H 1858 6227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2000 6200 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 2000 6200 50  0001 C CNN
 F 3 "~" H 2000 6200 50  0001 C CNN
 F 4 "Test point" H 1800 6200 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 1800 6200 50  0001 C CNN "Package"
@@ -716,7 +716,7 @@ U 1 1 5E4DBE2D
 P 2400 6200
 F 0 "TP5" H 2342 6272 50  0000 R CNN
 F 1 "TestPoint" H 2458 6227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2600 6200 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 2600 6200 50  0001 C CNN
 F 3 "~" H 2600 6200 50  0001 C CNN
 F 4 "Test point" H 2400 6200 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 2400 6200 50  0001 C CNN "Package"
@@ -732,7 +732,7 @@ U 1 1 5E4E14C2
 P 2100 6200
 F 0 "TP4" H 2042 6272 50  0000 R CNN
 F 1 "TestPoint" H 2158 6227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 6200 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 2300 6200 50  0001 C CNN
 F 3 "~" H 2300 6200 50  0001 C CNN
 F 4 "Test point" H 2100 6200 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 2100 6200 50  0001 C CNN "Package"
@@ -759,7 +759,7 @@ U 1 1 5E4E4FCC
 P 2700 6200
 F 0 "TP6" H 2642 6272 50  0000 R CNN
 F 1 "TestPoint" H 2758 6227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2900 6200 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 2900 6200 50  0001 C CNN
 F 3 "~" H 2900 6200 50  0001 C CNN
 F 4 "Test point" H 2700 6200 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 2700 6200 50  0001 C CNN "Package"
@@ -797,7 +797,7 @@ U 1 1 5E4F08D6
 P 2100 6900
 F 0 "TP8" H 2158 6972 50  0000 L CNN
 F 1 "TestPoint" H 2158 6927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 6900 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 2300 6900 50  0001 C CNN
 F 3 "~" H 2300 6900 50  0001 C CNN
 F 4 "Test point" H 2100 6900 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 2100 6900 50  0001 C CNN "Package"
@@ -824,7 +824,7 @@ U 1 1 5E4F3B1C
 P 2700 6900
 F 0 "TP9" H 2758 6972 50  0000 L CNN
 F 1 "TestPoint" H 2758 6927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2900 6900 50  0001 C CNN
+F 2 "pandora:TestPoint_62-80mil" H 2900 6900 50  0001 C CNN
 F 3 "~" H 2900 6900 50  0001 C CNN
 F 4 "Test point" H 2700 6900 50  0001 C CNN "Comment"
 F 5 "Hole_62mil" H 2700 6900 50  0001 C CNN "Package"
@@ -1004,8 +1004,6 @@ Wire Wire Line
 	9000 3800 8600 3800
 Wire Wire Line
 	9300 4000 9300 3900
-Wire Bus Line
-	1600 2200 1600 2900
 Connection ~ 9300 3900
 Wire Wire Line
 	9300 3900 8600 3900
@@ -1025,4 +1023,8 @@ F 8 "N/A" H 4900 3350 50  0001 C CNN "SupplierPartNo"
 	1    4900 3350
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	1600 2200 1600 2900
+Text Notes 1400 6600 0    50   ~ 0
+CHECK PHYSICAL TP DIAMETER
 $EndSCHEMATC

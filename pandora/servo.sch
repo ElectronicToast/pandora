@@ -14,17 +14,17 @@ Comment3 "B.S. EE 2020"
 Comment4 "Ray Sun"
 $EndDescr
 $Comp
-L Device:C_Small C17
+L Device:C_Small C16
 U 1 1 5E3DF409
-P 7400 3600
-F 0 "C17" H 7492 3646 50  0000 L CNN
-F 1 "0.1uF" H 7492 3555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 3600 50  0001 C CNN
-F 3 "~" H 7400 3600 50  0001 C CNN
-F 4 "0603" H 7400 3600 50  0001 C CNN "Package"
-F 5 "In House" H 7400 3600 50  0001 C CNN "Supplier"
-F 6 "N/A" H 7400 3600 50  0001 C CNN "SupplierPartNo"
-	1    7400 3600
+P 7000 3600
+F 0 "C16" H 7092 3646 50  0000 L CNN
+F 1 "0.1uF" H 7092 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 3600 50  0001 C CNN
+F 3 "~" H 7000 3600 50  0001 C CNN
+F 4 "0603" H 7000 3600 50  0001 C CNN "Package"
+F 5 "In House" H 7000 3600 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7000 3600 50  0001 C CNN "SupplierPartNo"
+	1    7000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -64,17 +64,17 @@ AIN
 Wire Wire Line
 	4000 4400 4500 4400
 $Comp
-L Device:C_Small C16
+L Device:C_Small C17
 U 1 1 5E479AEB
-P 7000 3600
-F 0 "C16" H 7092 3646 50  0000 L CNN
-F 1 "1uF" H 7092 3555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 3600 50  0001 C CNN
-F 3 "~" H 7000 3600 50  0001 C CNN
-F 4 "0603" H 7000 3600 50  0001 C CNN "Package"
-F 5 "In House" H 7000 3600 50  0001 C CNN "Supplier"
-F 6 "N/A" H 7000 3600 50  0001 C CNN "SupplierPartNo"
-	1    7000 3600
+P 7400 3600
+F 0 "C17" H 7492 3646 50  0000 L CNN
+F 1 "1uF" H 7492 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 3600 50  0001 C CNN
+F 3 "~" H 7400 3600 50  0001 C CNN
+F 4 "0603" H 7400 3600 50  0001 C CNN "Package"
+F 5 "In House" H 7400 3600 50  0001 C CNN "Supplier"
+F 6 "N/A" H 7400 3600 50  0001 C CNN "SupplierPartNo"
+	1    7400 3600
 	1    0    0    -1  
 $EndComp
 $Comp
