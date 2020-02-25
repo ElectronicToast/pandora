@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-18"
+Date "2020-02-25"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -19,7 +19,7 @@ U 1 1 5E5EE14A
 P 3500 3200
 F 0 "D2" H 3600 3300 50  0000 C CNN
 F 1 "1N4148" H 3700 3100 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 3200 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 3200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3200 50  0001 C CNN
 F 4 "" H 3500 3200 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 3200 50  0001 C CNN "Package"
@@ -591,7 +591,7 @@ U 1 1 5E363CCE
 P 3500 3600
 F 0 "D3" H 3600 3700 50  0000 C CNN
 F 1 "1N4148" H 3700 3500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 3600 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 3600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3600 50  0001 C CNN
 F 4 "" H 3500 3600 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 3600 50  0001 C CNN "Package"
@@ -607,7 +607,7 @@ U 1 1 5E36401C
 P 3500 4000
 F 0 "D4" H 3600 4100 50  0000 C CNN
 F 1 "1N4148" H 3700 3900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 4000 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 4000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4000 50  0001 C CNN
 F 4 "" H 3500 4000 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 4000 50  0001 C CNN "Package"
@@ -623,7 +623,7 @@ U 1 1 5E364306
 P 3500 4400
 F 0 "D5" H 3600 4500 50  0000 C CNN
 F 1 "1N4148" H 3700 4300 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 4400 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4400 50  0001 C CNN
 F 4 "" H 3500 4400 50  0001 C CNN "Comment"
 F 5 "SOD-323" H 3500 4400 50  0001 C CNN "Package"
@@ -643,8 +643,8 @@ Wire Notes Line
 	7400 5800 2700 5800
 Wire Notes Line
 	2700 5800 2700 2300
-Text Notes 3300 4700 0    50   ~ 0
-SOD-323
+Text Notes 3400 4700 0    50   ~ 0
+1206
 Text Notes 8900 5000 0    50   ~ 0
 PTS645 S x 50 SMTR92 LFS
 Text Notes 8300 5000 0    50   ~ 0
