@@ -185,10 +185,6 @@ F 3 "" H 10300 4300 50  0001 C CNN
 	1    10300 4300
 	1    0    0    -1  
 $EndComp
-Text Notes 7300 2700 0    50   ~ 0
-DO-15
-Wire Notes Line
-	7100 1900 7100 3100
 Wire Wire Line
 	6200 2300 6200 2400
 $Comp
@@ -270,8 +266,6 @@ Text Notes 7000 5500 0    50   ~ 0
 RECOMMENDED\nVALUES\nMAY REPLACE
 Wire Notes Line
 	9000 5000 10000 5000
-Text Notes 7100 3100 0    50   ~ 0
-ALTERNATE PART\nS3JBHR5G \nSMB
 Text Notes 9100 5200 0    50   ~ 0
 LOOK AT ALTERNATIVES\nMAKE FOOTPRINTS
 Text Notes 6300 2700 0    50   ~ 0
@@ -559,22 +553,6 @@ F 7 "In House" H 7100 4400 50  0001 C CNN "Supplier"
 F 8 "LM1086CS-ADJ" H 7100 4400 50  0001 C CNN "SupplierPartNo"
 	1    7100 4400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small_ALT D?
-U 1 1 5E4FE83C
-P 7500 2300
-AR Path="/5E2BAC38/5E4FE83C" Ref="D?"  Part="1" 
-AR Path="/5E2BABF8/5E4FE83C" Ref="D1"  Part="1" 
-F 0 "D1" H 7500 2095 50  0000 C CNN
-F 1 "1N5408" H 7500 2186 50  0000 C CNN
-F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" V 7500 2300 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/1N5400-D.PDF" V 7500 2300 50  0001 C CNN
-F 4 "DO-15 / AXIAL 267−05" H 7500 2300 50  0001 C CNN "Package"
-F 5 "3A, alternatively use SMB package" H 7500 2300 50  0001 C CNN "Comment"
-F 6 "Digi-Key" H 7500 2300 50  0001 C CNN "Supplier"
-	1    7500 2300
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -1042,11 +1020,7 @@ Text Notes 9200 4900 0    50   ~ 0
 Text Notes 7700 1800 0    100  ~ 20
 SERVO POWER
 Wire Notes Line
-	9600 1900 7100 1900
-Wire Notes Line
 	9600 3100 9600 1900
-Wire Notes Line
-	7100 3100 9600 3100
 Wire Wire Line
 	8800 2200 8800 2300
 $Comp
@@ -1063,13 +1037,8 @@ $EndComp
 Connection ~ 8800 2300
 Wire Wire Line
 	8800 2400 8800 2300
-Connection ~ 8000 2300
-Wire Wire Line
-	7600 2300 8000 2300
 Wire Wire Line
 	8000 2300 8000 2400
-Text Notes 8000 2200 0    50   ~ 0
-7.2V MAX
 Wire Wire Line
 	8000 2300 8400 2300
 Wire Wire Line
@@ -1167,8 +1136,6 @@ Wire Wire Line
 	6700 3400 6700 2300
 Connection ~ 5400 4400
 Connection ~ 6700 2300
-Wire Wire Line
-	6700 2300 7400 2300
 $Comp
 L pandora:VBOOST #PWR013
 U 1 1 5E7A8922
@@ -1182,4 +1149,37 @@ F 3 "" H 8700 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 4300 8700 4600
+Text Notes 7300 2600 0    50   ~ 0
+SMB
+Wire Notes Line
+	7100 3100 9600 3100
+Wire Notes Line
+	9600 1900 7100 1900
+Wire Notes Line
+	7100 1900 7100 3100
+Text Notes 8000 2200 0    50   ~ 0
+7.2V MAX
+Connection ~ 8000 2300
+Wire Wire Line
+	7600 2300 8000 2300
+Wire Wire Line
+	6700 2300 7400 2300
+$Comp
+L Device:D_Small_ALT D?
+U 1 1 5E4FE83C
+P 7500 2300
+AR Path="/5E2BAC38/5E4FE83C" Ref="D?"  Part="1" 
+AR Path="/5E2BABF8/5E4FE83C" Ref="D1"  Part="1" 
+F 0 "D1" H 7500 2095 50  0000 C CNN
+F 1 "S3JBHR5G" H 7500 2186 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" V 7500 2300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N5400-D.PDF" V 7500 2300 50  0001 C CNN
+F 4 "SMB" H 7500 2300 50  0001 C CNN "Package"
+F 5 "3A" H 7500 2300 50  0001 C CNN "Comment"
+F 6 "Digi-Key" H 7500 2300 50  0001 C CNN "Supplier"
+F 7 "S3JBHR5G" H 7500 2300 50  0001 C CNN "PartNo"
+F 8 "S3JBHR5GCT-ND" H 7500 2300 50  0001 C CNN "SupplierPartNo"
+	1    7500 2300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
