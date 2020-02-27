@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-25"
+Date "2020-02-27"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -435,9 +435,11 @@ P 3800 4700
 F 0 "FB2" V 3563 4700 50  0000 C CNN
 F 1 "0603_500mA" V 3654 4700 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 4700 50  0001 C CNN
-F 3 "~" H 3800 4700 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP1608HS391-T%20%20&u=M" H 3800 4700 50  0001 C CNN
 F 4 "0603" H 3800 4700 50  0001 C CNN "Package"
 F 5 "Digi-Key" H 3800 4700 50  0001 C CNN "Supplier"
+F 6 "BKP1608HS391-T" H 3800 4700 50  0001 C CNN "PartNo"
+F 7 "587-1927-1-ND" H 3800 4700 50  0001 C CNN "SupplierPartNo"
 	1    3800 4700
 	0    1    1    0   
 $EndComp
@@ -457,22 +459,6 @@ F 5 "In House" H 3400 4900 50  0001 C CNN "Supplier"
 F 6 "N/A" H 3400 4900 50  0001 C CNN "SupplierPartNo"
 	1    3400 4900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPDT SW1
-U 1 1 5E46A822
-P 9500 4500
-F 0 "SW1" H 9500 4785 50  0000 C CNN
-F 1 " L102021ML04Q" H 9500 4694 50  0000 C CNN
-F 2 "" H 9500 4500 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/L/documents/datasheet.pdf" H 9500 4500 50  0001 C CNN
-F 4 " L102021ML04Q" H 9500 4500 50  0001 C CNN "PartNo"
-F 5 "SPDT slide switch, 4A" H 9500 4500 50  0001 C CNN "Comment"
-F 6 "CnK_ L102021ML04Q" H 9500 4500 50  0001 C CNN "Package"
-F 7 "Digi-Key" H 9500 4500 50  0001 C CNN "Supplier"
-F 8 "KC5102-ND" H 9500 4500 50  0001 C CNN "SupplierPartNo"
-	1    9500 4500
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:CP1_Small C8
@@ -593,11 +579,13 @@ L Device:Ferrite_Bead_Small FB1
 U 1 1 5E460AA0
 P 5800 4400
 F 0 "FB1" V 5563 4400 50  0000 C CNN
-F 1 "2512_3A" V 5654 4400 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 4400 50  0001 C CNN
-F 3 "~" H 5800 4400 50  0001 C CNN
-F 4 "0603" H 5800 4400 50  0001 C CNN "Package"
+F 1 "1206_4A" V 5654 4400 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5730 4400 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP2125HS600-T%20%20&u=M" H 5800 4400 50  0001 C CNN
+F 4 "1206" H 5800 4400 50  0001 C CNN "Package"
 F 5 "Digi-Key" H 5800 4400 50  0001 C CNN "Supplier"
+F 6 "FBMJ3216HS800-T" H 5800 4400 50  0001 C CNN "PartNo"
+F 7 "587-1772-1-ND" H 5800 4400 50  0001 C CNN "SupplierPartNo"
 	1    5800 4400
 	0    1    1    0   
 $EndComp
@@ -1181,5 +1169,21 @@ F 7 "S3JBHR5G" H 7500 2300 50  0001 C CNN "PartNo"
 F 8 "S3JBHR5GCT-ND" H 7500 2300 50  0001 C CNN "SupplierPartNo"
 	1    7500 2300
 	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5E58622D
+P 9500 4500
+F 0 "SW1" H 9500 4785 50  0000 C CNN
+F 1 "GF-126-0317" H 9500 4694 50  0000 C CNN
+F 2 "pandora:GF-126-0317" H 9500 4500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf" H 9500 4500 50  0001 C CNN
+F 4 "Power switch" H 9500 4500 50  0001 C CNN "Comment"
+F 5 "GF-126-037" H 9500 4500 50  0001 C CNN "Package"
+F 6 "GF-126-037" H 9500 4500 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 9500 4500 50  0001 C CNN "Supplier"
+F 8 "CWI351-ND" H 9500 4500 50  0001 C CNN "SupplierPartNo"
+	1    9500 4500
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

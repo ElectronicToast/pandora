@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-25"
+Date "2020-02-27"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -200,7 +200,7 @@ U 1 1 5E31F4A7
 P 5500 4000
 F 0 "U5" H 5700 3200 50  0000 C CNN
 F 1 "MPU-9250" H 5850 3100 50  0000 C CNN
-F 2 "pandora:MPU-9250_Wide" H 5500 3000 50  0001 C CNN
+F 2 "pandora:MPU-9250" H 5500 3000 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5500 3850 50  0001 C CNN
 F 4 "QFN-24-EP" H 5500 4000 50  0001 C CNN "Package"
 F 5 "9-DOF IMU" H 5500 4000 50  0001 C CNN "Comment"

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-25"
+Date "2020-02-27"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -1023,8 +1023,8 @@ F 8 "N/A" H 4900 3350 50  0001 C CNN "SupplierPartNo"
 	1    4900 3350
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	1600 2200 1600 2900
 Text Notes 1400 6600 0    50   ~ 0
 CHECK PHYSICAL TP DIAMETER
+Wire Bus Line
+	1600 2200 1600 2900
 $EndSCHEMATC

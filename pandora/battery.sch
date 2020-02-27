@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-25"
+Date "2020-02-27"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -422,37 +422,17 @@ Connection ~ 3800 2500
 Connection ~ 2500 2500
 Wire Wire Line
 	2500 2500 3800 2500
-$Comp
-L Switch:SW_SPDT SW?
-U 1 1 5E6EB37F
-P 5500 1500
-AR Path="/5E2BABF8/5E6EB37F" Ref="SW?"  Part="1" 
-AR Path="/5E6C9F4A/5E6EB37F" Ref="SW19"  Part="1" 
-F 0 "SW19" H 5500 1785 50  0000 C CNN
-F 1 " L102021ML04Q" H 5500 1694 50  0000 C CNN
-F 2 "" H 5500 1500 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/L/documents/datasheet.pdf" H 5500 1500 50  0001 C CNN
-F 4 " L102021ML04Q" H 5500 1500 50  0001 C CNN "PartNo"
-F 5 "SPDT slide switch, 4A" H 5500 1500 50  0001 C CNN "Comment"
-F 6 "CnK_ L102021ML04Q" H 5500 1500 50  0001 C CNN "Package"
-F 7 "Digi-Key" H 5500 1500 50  0001 C CNN "Supplier"
-F 8 "KC5102-ND" H 5500 1500 50  0001 C CNN "SupplierPartNo"
-	1    5500 1500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 1300 4700 1400
 Wire Wire Line
 	4700 1400 5300 1400
 NoConn ~ 5300 1600
-Text Notes 5200 1800 0    50   ~ 0
-4A, RIGHT ANGLE
 Wire Notes Line
-	5100 1100 5100 1900
+	5100 1100 5100 1800
 Wire Notes Line
-	5100 1900 5900 1900
+	5100 1800 5900 1800
 Wire Notes Line
-	5900 1900 5900 1100
+	5900 1800 5900 1100
 Wire Notes Line
 	5900 1100 5100 1100
 Text Notes 4900 1000 0    100  ~ 20
@@ -704,11 +684,13 @@ L Device:Ferrite_Bead_Small FB3
 U 1 1 5E7371A7
 P 6800 5700
 F 0 "FB3" V 6563 5700 50  0000 C CNN
-F 1 "1206_2A" V 6654 5700 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6730 5700 50  0001 C CNN
-F 3 "~" H 6800 5700 50  0001 C CNN
-F 4 "0603" H 6800 5700 50  0001 C CNN "Package"
+F 1 "1206_4A" V 6654 5700 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6730 5700 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP2125HS600-T%20%20&u=M" H 6800 5700 50  0001 C CNN
+F 4 "1206" H 6800 5700 50  0001 C CNN "Package"
 F 5 "Digi-Key" H 6800 5700 50  0001 C CNN "Supplier"
+F 6 "FBMJ3216HS800-T" H 6800 5700 50  0001 C CNN "PartNo"
+F 7 "587-1772-1-ND" H 6800 5700 50  0001 C CNN "SupplierPartNo"
 	1    6800 5700
 	0    1    1    0   
 $EndComp
@@ -756,4 +738,22 @@ F 3 "" H 7300 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7300 5600 7300 5700
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 2 1 5E594F52
+P 5500 1500
+AR Path="/5E2BABF8/5E594F52" Ref="SW?"  Part="2" 
+AR Path="/5E6C9F4A/5E594F52" Ref="SW1"  Part="2" 
+F 0 "SW1" H 5500 1175 50  0000 C CNN
+F 1 "GF-126-0317" H 5500 1266 50  0000 C CNN
+F 2 "pandora:GF-126-0317" H 5500 1500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf" H 5500 1500 50  0001 C CNN
+F 4 "Power switch" H 5500 1500 50  0001 C CNN "Comment"
+F 5 "GF-126-037" H 5500 1500 50  0001 C CNN "Package"
+F 6 "GF-126-037" H 5500 1500 50  0001 C CNN "PartNo"
+F 7 "Digi-Key" H 5500 1500 50  0001 C CNN "Supplier"
+F 8 "CWI351-ND" H 5500 1500 50  0001 C CNN "SupplierPartNo"
+	2    5500 1500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
