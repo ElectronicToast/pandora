@@ -23,7 +23,7 @@ U 1 1 5E42AA92
 P 8600 3200
 F 0 "AE1" H 8788 3189 50  0000 L CNN
 F 1 "SWRU120D" H 8788 3098 50  0000 L CNN
-F 2 "pandora:Texas_SWRU120D_InvF_2.4GHz" H 8600 3200 50  0001 C CNN
+F 2 "pandora:Texas_SWRU120D_InvF_2.4GHz_Left" H 8600 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/an/swru120d/swru120d.pdf" H 8600 3200 50  0001 C CNN
 F 4 "PCB antenna" H 8600 3200 50  0001 C CNN "Comment"
 F 5 "N/A" H 8600 3200 50  0001 C CNN "PartNo"
@@ -293,21 +293,6 @@ $EndComp
 Wire Wire Line
 	5100 4400 5100 4300
 $Comp
-L pandora:Jumper_RF_3 C25
-U 1 1 5E44F8BF
-P 6600 4000
-F 0 "C25" H 6600 4300 50  0000 C CNN
-F 1 "12pF" H 6600 4209 50  0000 C CNN
-F 2 "pandora:0402_HandSoldering" H 6600 4100 50  0001 C CNN
-F 3 "~" H 6600 4100 50  0001 C CNN
-F 4 "" H 6600 4000 50  0001 C CNN "Comment"
-F 5 "0402" H 6600 4000 50  0001 C CNN "Package"
-F 6 "In House" H 6600 4000 50  0001 C CNN "Supplier"
-F 7 "N/A" H 6600 4000 50  0001 C CNN "SupplierPartNo"
-	1    6600 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C23
 U 1 1 5E451823
 P 8200 3500
@@ -383,4 +368,19 @@ Wire Wire Line
 	1200 1300 1600 1300
 Wire Wire Line
 	1200 1400 1600 1400
+$Comp
+L pandora:Jumper_RF_3 C25
+U 1 1 5E44F8BF
+P 6600 4000
+F 0 "C25" H 6600 4300 50  0000 C CNN
+F 1 "12pF" H 6600 4200 50  0000 C CNN
+F 2 "pandora:0402_Branch_HandSoldering" H 6600 4100 50  0001 C CNN
+F 3 "~" H 6600 4100 50  0001 C CNN
+F 4 "" H 6600 4000 50  0001 C CNN "Comment"
+F 5 "0402" H 6600 4000 50  0001 C CNN "Package"
+F 6 "In House" H 6600 4000 50  0001 C CNN "Supplier"
+F 7 "N/A" H 6600 4000 50  0001 C CNN "SupplierPartNo"
+	1    6600 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

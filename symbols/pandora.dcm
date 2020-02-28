@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74AHC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP ADM811
 D Power supply supervisor, Manual reset, Threshold 2.32-4.63V, SOT-143
 K Supervisor Reset

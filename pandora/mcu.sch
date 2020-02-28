@@ -364,7 +364,7 @@ U 1 1 5E4AE193
 P 6900 3300
 F 0 "Y2" V 6854 3444 50  0000 L CNN
 F 1 "FA-238_48M" V 6945 3444 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 6900 3300 50  0001 C CNN
+F 2 "pandora:FA-238" H 6900 3300 50  0001 C CNN
 F 3 "~" H 6900 3300 50  0001 C CNN
 F 4 "FA-238" H 6900 3300 50  0001 C CNN "Package"
 F 5 "High frequency clock crystal" H 6900 3300 50  0001 C CNN "Comment"
@@ -648,7 +648,7 @@ U 1 1 5E4E1A1F
 P 7600 3400
 F 0 "C41" V 7650 3300 50  0000 C CNN
 F 1 "12pF" V 7550 3250 50  0000 C CNN
-F 2 "pandora:0402_Branch_HandSoldering" H 7600 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 3400 50  0001 C CNN
 F 3 "~" H 7600 3400 50  0001 C CNN
 F 4 "0603" H 7600 3400 50  0001 C CNN "Package"
 F 5 "In House" H 7600 3400 50  0001 C CNN "Supplier"
@@ -662,7 +662,7 @@ U 1 1 5E4E1A29
 P 7600 3200
 F 0 "C40" V 7550 3300 50  0000 C CNN
 F 1 "12pF" V 7650 3350 50  0000 C CNN
-F 2 "pandora:0402_Branch_HandSoldering" H 7600 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 3200 50  0001 C CNN
 F 3 "~" H 7600 3200 50  0001 C CNN
 F 4 "0603" H 7600 3200 50  0001 C CNN "Package"
 F 5 "In House" H 7600 3200 50  0001 C CNN "Supplier"
@@ -899,7 +899,7 @@ F 3 "" H 6500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx:74LVC1G08 U9
+L pandora:74LVC1G08 U9
 U 1 1 5E5EF797
 P 5700 6600
 F 0 "U9" H 5900 6750 50  0000 C CNN
@@ -956,9 +956,6 @@ Wire Wire Line
 	5700 6100 5700 6200
 Wire Wire Line
 	5800 6200 5700 6200
-Connection ~ 5700 6200
-Wire Wire Line
-	5700 6200 5700 6500
 $Comp
 L pandora:GNDD #PWR081
 U 1 1 5E61FE5B
@@ -970,8 +967,6 @@ F 3 "" H 5700 6800 50  0001 C CNN
 	1    5700 6800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 6800 5700 6700
 Text Label 6000 6600 0    50   ~ 0
 ~RESET
 Wire Wire Line
@@ -1020,7 +1015,7 @@ U 1 1 5E3ECACE
 P 4100 6700
 F 0 "U10" H 4200 6950 50  0000 L CNN
 F 1 "ADM811ZARTZ" H 4200 6450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 4200 6400 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 4200 6400 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf" H 3750 6000 50  0001 C CNN
 F 4 "Reset supervisor" H 4100 6700 50  0001 C CNN "Comment"
 F 5 "SOT-143" H 4100 6700 50  0001 C CNN "Package"
@@ -1247,6 +1242,9 @@ Wire Wire Line
 Connection ~ 6700 3000
 Wire Wire Line
 	6700 3000 7500 3000
+Wire Wire Line
+	5700 6400 5700 6200
+Connection ~ 5700 6200
 Wire Bus Line
 	1300 2100 1300 2400
 Wire Bus Line
