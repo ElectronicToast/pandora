@@ -1,4 +1,4 @@
-update=02/27/20 15:42:21
+update=2/27/2020 10:43:15 PM
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=CPWG
+Clearance=0.127
+TrackWidth=0.508
+ViaDiameter=0.6096
+ViaDrill=0.3048
+uViaDiameter=0.6096
+uViaDrill=0.3048
+dPairWidth=0.254
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=HiPower
 Clearance=0.508
 TrackWidth=1.27
@@ -257,7 +268,7 @@ uViaDrill=0.3048
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=Medium
 Clearance=0.254
 TrackWidth=0.508
@@ -268,7 +279,7 @@ uViaDrill=0.3048
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=Power
 Clearance=0.254
 TrackWidth=0.762
@@ -279,7 +290,7 @@ uViaDrill=0.3048
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/5]
 Name=Tight
 Clearance=0.127
 TrackWidth=0.2032
