@@ -1,4 +1,4 @@
-update=2/27/2020 10:43:15 PM
+update=2/28/2020 1:42:56 AM
 version=1
 last_client=kicad
 [general]
@@ -44,10 +44,10 @@ ViaDrill1=0.3048
 dPairWidth1=0.254
 dPairGap1=0.254
 dPairViaGap1=0.25
-SilkLineWidth=0.12
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkLineWidth=0.254
+SilkTextSizeV=0.8128
+SilkTextSizeH=0.762
+SilkTextSizeThickness=0.1524
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -237,7 +237,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
+Clearance=0.2032
 TrackWidth=0.254
 ViaDiameter=0.6096
 ViaDrill=0.3048
@@ -292,7 +292,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=Tight
-Clearance=0.127
+Clearance=0.1524
 TrackWidth=0.2032
 ViaDiameter=0.6096
 ViaDrill=0.3048

@@ -195,11 +195,11 @@ Text Notes 5200 4300 0    50   ~ 0
 8
 Text Notes 6000 4300 0    50   ~ 0
 9
-Text Notes 6700 3500 0    50   ~ 0
-0
-Text Notes 6700 3900 0    50   ~ 0
-A
 Text Notes 6700 4300 0    50   ~ 0
+0
+Text Notes 6700 3500 0    50   ~ 0
+A
+Text Notes 6700 3900 0    50   ~ 0
 B
 Text Notes 6700 4700 0    50   ~ 0
 U

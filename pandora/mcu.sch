@@ -115,66 +115,66 @@ Wire Wire Line
 	1800 3800 1400 3800
 Text Label 1400 3600 0    50   ~ 0
 LCD_RS
-Text Label 4600 2500 0    50   ~ 0
+Text Label 4600 1700 0    50   ~ 0
 LCD_DB1
-Text Label 4600 2600 0    50   ~ 0
+Text Label 4600 1800 0    50   ~ 0
 LCD_DB2
-Text Label 4600 2700 0    50   ~ 0
+Text Label 4600 1900 0    50   ~ 0
 LCD_DB3
-Text Label 4600 2800 0    50   ~ 0
+Text Label 4600 2000 0    50   ~ 0
 LCD_DB4
-Text Label 4600 2900 0    50   ~ 0
+Text Label 4600 2100 0    50   ~ 0
 LCD_DB5
-Text Label 4600 3000 0    50   ~ 0
+Text Label 4600 2200 0    50   ~ 0
 LCD_DB6
-Text Label 4600 3100 0    50   ~ 0
+Text Label 4600 2300 0    50   ~ 0
 LCD_DB7
 Wire Wire Line
-	4600 2500 5000 2500
+	4600 1700 5000 1700
 Wire Wire Line
-	4600 2600 5000 2600
+	4600 1800 5000 1800
 Wire Wire Line
-	4600 2700 5000 2700
+	4600 1900 5000 1900
 Wire Wire Line
-	4600 2800 5000 2800
+	4600 2000 5000 2000
 Wire Wire Line
-	4600 2900 5000 2900
+	4600 2100 5000 2100
 Wire Wire Line
-	4600 3000 5000 3000
+	4600 2200 5000 2200
 Wire Wire Line
-	4600 3100 5000 3100
-Text Label 4400 2000 0    50   ~ 0
+	4600 2300 5000 2300
+Text Label 4400 2800 0    50   ~ 0
 KPD_OUT1
-Text Label 4400 2100 0    50   ~ 0
+Text Label 4400 2900 0    50   ~ 0
 KPD_OUT2
-Text Label 4400 2200 0    50   ~ 0
+Text Label 4400 3000 0    50   ~ 0
 KPD_OUT3
-Text Label 4400 2300 0    50   ~ 0
+Text Label 4400 3100 0    50   ~ 0
 KPD_OUT4
 Wire Wire Line
-	5000 2000 4400 2000
+	5000 2800 4400 2800
 Wire Wire Line
-	5000 2100 4400 2100
+	5000 2900 4400 2900
 Wire Wire Line
-	5000 2200 4400 2200
+	5000 3000 4400 3000
 Wire Wire Line
-	5000 2300 4400 2300
-Text Label 4400 1600 0    50   ~ 0
+	5000 3100 4400 3100
+Text Label 4400 2400 0    50   ~ 0
 KPD_IN1
-Text Label 4400 1700 0    50   ~ 0
+Text Label 4400 2500 0    50   ~ 0
 KPD_IN2
-Text Label 4400 1800 0    50   ~ 0
+Text Label 4400 2600 0    50   ~ 0
 KPD_IN3
-Text Label 4400 1900 0    50   ~ 0
+Text Label 4400 2700 0    50   ~ 0
 KPD_IN4
 Wire Wire Line
-	5000 1600 4400 1600
+	5000 2400 4400 2400
 Wire Wire Line
-	5000 1700 4400 1700
+	5000 2500 4400 2500
 Wire Wire Line
-	5000 1800 4400 1800
+	5000 2600 4400 2600
 Wire Wire Line
-	5000 1900 4400 1900
+	5000 2700 4400 2700
 Text HLabel 1200 5500 0    50   Input ~ 0
 SERVO_PWM
 Wire Wire Line
@@ -189,7 +189,7 @@ Wire Wire Line
 	5000 4100 4200 4100
 Wire Wire Line
 	5000 4200 4200 4200
-Text Label 4200 4300 0    50   ~ 0
+Text Label 4200 4100 0    50   ~ 0
 IMU_MISO
 Text Label 4200 4400 0    50   ~ 0
 IMU_~CS
@@ -736,7 +736,7 @@ Wire Wire Line
 	1800 5500 1200 5500
 Text Label 8300 1600 0    50   ~ 0
 DCDC_SW
-Text Label 4200 4100 0    50   ~ 0
+Text Label 4200 4300 0    50   ~ 0
 IMU_SCK
 Wire Wire Line
 	4200 4400 5000 4400
@@ -788,10 +788,10 @@ Text Label 1400 6900 0    50   ~ 0
 LED1
 Text Label 1400 7000 0    50   ~ 0
 LED2
-Text Label 4600 2400 0    50   ~ 0
+Text Label 4600 1600 0    50   ~ 0
 LCD_DB0
 Wire Wire Line
-	4600 2400 5000 2400
+	4600 1600 5000 1600
 Text Label 9400 1600 0    50   ~ 0
 VMCUA
 Wire Wire Line
