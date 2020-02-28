@@ -1174,8 +1174,8 @@ $Comp
 L Switch:SW_DPDT_x2 SW1
 U 1 1 5E58622D
 P 9500 4500
-F 0 "SW1" H 9500 4785 50  0000 C CNN
-F 1 "GF-126-0317" H 9500 4694 50  0000 C CNN
+F 0 "SW1" H 9500 4200 50  0000 C CNN
+F 1 "GF-126-0317" H 9500 4300 50  0000 C CNN
 F 2 "pandora:GF-126-0317" H 9500 4500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf" H 9500 4500 50  0001 C CNN
 F 4 "Power switch" H 9500 4500 50  0001 C CNN "Comment"
@@ -1184,6 +1184,6 @@ F 6 "GF-126-037" H 9500 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 9500 4500 50  0001 C CNN "Supplier"
 F 8 "CWI351-ND" H 9500 4500 50  0001 C CNN "SupplierPartNo"
 	1    9500 4500
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

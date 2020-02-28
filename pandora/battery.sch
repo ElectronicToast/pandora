@@ -744,8 +744,8 @@ U 2 1 5E594F52
 P 5500 1500
 AR Path="/5E2BABF8/5E594F52" Ref="SW?"  Part="2" 
 AR Path="/5E6C9F4A/5E594F52" Ref="SW1"  Part="2" 
-F 0 "SW1" H 5500 1175 50  0000 C CNN
-F 1 "GF-126-0317" H 5500 1266 50  0000 C CNN
+F 0 "SW1" H 5500 1800 50  0000 C CNN
+F 1 "GF-126-0317" H 5500 1700 50  0000 C CNN
 F 2 "pandora:GF-126-0317" H 5500 1500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf" H 5500 1500 50  0001 C CNN
 F 4 "Power switch" H 5500 1500 50  0001 C CNN "Comment"
@@ -754,6 +754,6 @@ F 6 "GF-126-037" H 5500 1500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 5500 1500 50  0001 C CNN "Supplier"
 F 8 "CWI351-ND" H 5500 1500 50  0001 C CNN "SupplierPartNo"
 	2    5500 1500
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

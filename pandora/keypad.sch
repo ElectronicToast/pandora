@@ -61,7 +61,7 @@ F 6 "N/A" H 4500 2900 50  0001 C CNN "SupplierPartNo"
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 4400 3500 0    50   ~ 0
+Text Notes 5200 3500 0    50   ~ 0
 1
 Text Notes 8700 2100 0    100  ~ 20
 KEYPAD LAYOUT
@@ -179,29 +179,29 @@ F 8 "CKN9085CT-ND" H 6800 3300 50  0001 C CNN "SupplierPartNo"
 	1    6800 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 5200 3500 0    50   ~ 0
-2
 Text Notes 6000 3500 0    50   ~ 0
-3
-Text Notes 4400 3900 0    50   ~ 0
-4
-Text Notes 5200 3900 0    50   ~ 0
-5
-Text Notes 6000 3900 0    50   ~ 0
-6
-Text Notes 4400 4300 0    50   ~ 0
-7
-Text Notes 5200 4300 0    50   ~ 0
-8
-Text Notes 6000 4300 0    50   ~ 0
-9
-Text Notes 6700 4300 0    50   ~ 0
-0
+2
 Text Notes 6700 3500 0    50   ~ 0
-A
+3
+Text Notes 5200 3900 0    50   ~ 0
+4
+Text Notes 6000 3900 0    50   ~ 0
+5
 Text Notes 6700 3900 0    50   ~ 0
+6
+Text Notes 5200 4300 0    50   ~ 0
+7
+Text Notes 6000 4300 0    50   ~ 0
+8
+Text Notes 6700 4300 0    50   ~ 0
+9
+Text Notes 4400 4300 0    50   ~ 0
+0
+Text Notes 4400 3500 0    50   ~ 0
+A
+Text Notes 4400 3900 0    50   ~ 0
 B
-Text Notes 6700 4700 0    50   ~ 0
+Text Notes 4700 4700 0    50   ~ 0
 U
 Text Notes 6000 4700 0    50   ~ 0
 D
