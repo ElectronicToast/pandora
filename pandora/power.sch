@@ -1171,11 +1171,13 @@ F 8 "S3JBHR5GCT-ND" H 7500 2300 50  0001 C CNN "SupplierPartNo"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW1
-U 1 1 5E58622D
+L Switch:SW_DPDT_x2 SW?
+U 2 1 5E5A51EE
 P 9500 4500
-F 0 "SW1" H 9500 4200 50  0000 C CNN
-F 1 "GF-126-0317" H 9500 4300 50  0000 C CNN
+AR Path="/5E2BABF8/5E5A51EE" Ref="SW?"  Part="2" 
+AR Path="/5E6C9F4A/5E5A51EE" Ref="SW?"  Part="2" 
+F 0 "SW?" H 9500 4800 50  0000 C CNN
+F 1 "GF-126-0317" H 9500 4700 50  0000 C CNN
 F 2 "pandora:GF-126-0317" H 9500 4500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf" H 9500 4500 50  0001 C CNN
 F 4 "Power switch" H 9500 4500 50  0001 C CNN "Comment"
@@ -1183,7 +1185,7 @@ F 5 "GF-126-037" H 9500 4500 50  0001 C CNN "Package"
 F 6 "GF-126-037" H 9500 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 9500 4500 50  0001 C CNN "Supplier"
 F 8 "CWI351-ND" H 9500 4500 50  0001 C CNN "SupplierPartNo"
-	1    9500 4500
-	-1   0    0    1   
+	2    9500 4500
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
