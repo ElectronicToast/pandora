@@ -1,4 +1,6 @@
-(module StitchVia_12mil (layer F.Cu) (tedit 5E58ABA8)
+(module StitchVia_12mil (layer F.Cu) (tedit 5E59AD5F)
+  (descr "Via for plane stitching, 12 mil hole")
+  (tags stitch)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.05 0.05) (thickness 0.01)))
   )
