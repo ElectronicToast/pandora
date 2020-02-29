@@ -384,7 +384,7 @@ U 1 1 5E3F1872
 P 2200 4700
 F 0 "U2" H 2200 4942 50  0000 C CNN
 F 1 "MCP1702T-3302" H 2200 4851 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 2200 4925 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2200 4925 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 2200 4700 50  0001 C CNN
 F 4 "SOT-89-3" H 2200 4700 50  0001 C CNN "Package"
 F 5 "5V regulator from main power" H 2200 4700 50  0001 C CNN "Comment"
@@ -645,7 +645,7 @@ U 1 1 5E4209E7
 P 2200 6500
 F 0 "U3" H 2200 6742 50  0000 C CNN
 F 1 "MCP1702T-3302" H 2200 6651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 2200 6725 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2200 6725 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 2200 6500 50  0001 C CNN
 F 4 "SOT-89-3" H 2200 6500 50  0001 C CNN "Package"
 F 5 "5V regulator from main power" H 2200 6500 50  0001 C CNN "Comment"
@@ -1171,12 +1171,12 @@ F 8 "S3JBHR5GCT-ND" H 7500 2300 50  0001 C CNN "SupplierPartNo"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW?
-U 2 1 5E5A51EE
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5E5A51EE
 P 9500 4500
-AR Path="/5E2BABF8/5E5A51EE" Ref="SW?"  Part="2" 
+AR Path="/5E2BABF8/5E5A51EE" Ref="SW1"  Part="1" 
 AR Path="/5E6C9F4A/5E5A51EE" Ref="SW?"  Part="2" 
-F 0 "SW?" H 9500 4800 50  0000 C CNN
+F 0 "SW1" H 9500 4800 50  0000 C CNN
 F 1 "GF-126-0317" H 9500 4700 50  0000 C CNN
 F 2 "pandora:GF-126-0317" H 9500 4500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf" H 9500 4500 50  0001 C CNN
@@ -1185,7 +1185,7 @@ F 5 "GF-126-037" H 9500 4500 50  0001 C CNN "Package"
 F 6 "GF-126-037" H 9500 4500 50  0001 C CNN "PartNo"
 F 7 "Digi-Key" H 9500 4500 50  0001 C CNN "Supplier"
 F 8 "CWI351-ND" H 9500 4500 50  0001 C CNN "SupplierPartNo"
-	2    9500 4500
+	1    9500 4500
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

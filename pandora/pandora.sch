@@ -213,11 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 1800 4000 1800
 Wire Wire Line
-	8900 1600 4000 1600
-Wire Wire Line
 	4000 1700 4000 1600
-Wire Wire Line
-	4000 1700 8900 1700
 Wire Wire Line
 	4000 1500 8900 1500
 Wire Wire Line
@@ -311,4 +307,8 @@ F1 "battery.sch" 50
 $EndSheet
 Text Notes 5000 7500 0    50   ~ 0
 AE1 C48 D15 F1 FB3 H4 J6 JP8 L6\nNT5 Q1 R28 RV1 SPK1 SW19 U13 Y2
+Wire Wire Line
+	8900 1600 4000 1600
+Wire Wire Line
+	4000 1700 8900 1700
 $EndSCHEMATC
