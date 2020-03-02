@@ -1,4 +1,4 @@
-update=2/28/2020 3:41:08 PM
+update=3/1/2020 5:54:36 PM
 version=1
 last_client=kicad
 [general]
@@ -57,7 +57,7 @@ CopperTextThickness=0.1524
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.0508
-CourtyardLineWidth=0.0508
+CourtyardLineWidth=0.05
 OthersLineWidth=0.254
 OthersTextSizeV=0.762
 OthersTextSizeH=0.8128
@@ -270,7 +270,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Medium
-Clearance=0.254
+Clearance=0.2032
 TrackWidth=0.508
 ViaDiameter=0.762
 ViaDrill=0.381
@@ -281,7 +281,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=Power
-Clearance=0.254
+Clearance=0.2032
 TrackWidth=0.762
 ViaDiameter=1.016
 ViaDrill=0.508

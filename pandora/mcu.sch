@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-27"
+Date "2020-03-01"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"

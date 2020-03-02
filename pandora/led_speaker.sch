@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "Pandora CC2652R Development Board"
-Date "2020-02-27"
+Date "2020-03-01"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -662,7 +662,7 @@ AUXILIARY LEDS
 Wire Wire Line
 	7400 4300 7400 4400
 Text Notes 7100 4200 0    50   ~ 0
-1210\n1/2W
+0805\n1/4W
 $Comp
 L power:+5V #PWR056
 U 1 1 5E37BA0F
@@ -684,9 +684,9 @@ AR Path="/5E64A3EA/5E36C790" Ref="R?"  Part="1"
 AR Path="/5E341789/5E36C790" Ref="R18"  Part="1" 
 F 0 "R18" H 7332 4154 50  0000 R CNN
 F 1 "10" H 7332 4245 50  0000 R CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7400 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 4200 50  0001 C CNN
 F 3 "~" H 7400 4200 50  0001 C CNN
-F 4 "1210" H 7400 4200 50  0001 C CNN "Package"
+F 4 "0805" H 7400 4200 50  0001 C CNN "Package"
 F 5 "In House" H 7400 4200 50  0001 C CNN "Supplier"
 F 6 "N/A" H 7400 4200 50  0001 C CNN "SupplierPartNo"
 F 7 "Speaker power resistor" H 7400 4200 50  0001 C CNN "Comment"
