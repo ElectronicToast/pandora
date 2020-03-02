@@ -1,4 +1,4 @@
-update=3/1/2020 6:19:46 PM
+update=3/2/2020 1:31:28 PM
 version=1
 last_client=kicad
 [general]
@@ -259,7 +259,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=HiPower
-Clearance=0.508
+Clearance=0.2032
 TrackWidth=1.27
 ViaDiameter=1.524
 ViaDrill=0.762
