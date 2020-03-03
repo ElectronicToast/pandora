@@ -188,8 +188,6 @@ Wire Notes Line
 	9300 4100 9300 2300
 Wire Notes Line
 	9300 2300 6700 2300
-Text Notes 8400 3000 0    50   ~ 0
-CHECK\nFOOTPRINT
 Wire Wire Line
 	7100 3700 7100 3400
 $Comp
@@ -368,8 +366,6 @@ Text Notes 7200 3800 0    50   ~ 0
 PULLDOWN TO\nENABLE PFET\nWHEN VCHG\nABSENT
 Text Notes 8400 2600 0    50   ~ 0
 2A, 770mV DROP\n40 nA LEAKAGE
-Text Notes 8200 3400 0    50   ~ 0
-IDEALLY USE SOMETHING\nLIKE A SMA OR\nSOMETHING COMMON
 $Comp
 L Device:C_Small C?
 U 1 1 5E6EB361
@@ -756,4 +752,8 @@ F 8 "CWI351-ND" H 5500 1500 50  0001 C CNN "SupplierPartNo"
 	2    5500 1500
 	-1   0    0    1   
 $EndComp
+Text Notes 8400 2900 0    50   ~ 0
+SOD-123W
+Text Notes 7600 3400 0    50   ~ 0
+SOT-23
 $EndSCHEMATC
