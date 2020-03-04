@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 12 12
 Title "Pandora CC2652R Development Board"
 Date "2020-03-01"
 Rev "A"
@@ -50,17 +50,6 @@ Wire Wire Line
 Connection ~ 4900 4700
 Wire Wire Line
 	4900 4800 4900 4700
-$Comp
-L power:+3V3 #PWR092
-U 1 1 5E5EAE31
-P 4900 3200
-F 0 "#PWR092" H 4900 3050 50  0001 C CNN
-F 1 "+3V3" H 4915 3373 50  0000 C CNN
-F 2 "" H 4900 3200 50  0001 C CNN
-F 3 "" H 4900 3200 50  0001 C CNN
-	1    4900 3200
-	1    0    0    -1  
-$EndComp
 Text Notes 3500 4300 0    50   ~ 0
 FTSH-105-01-F-DV-K
 $Comp
@@ -1027,4 +1016,15 @@ Text Notes 1400 6600 0    50   ~ 0
 CHECK PHYSICAL TP DIAMETER
 Wire Bus Line
 	1600 2200 1600 2900
+$Comp
+L power:+3V3 #PWR092
+U 1 1 5E5EAE31
+P 4900 3200
+F 0 "#PWR092" H 4900 3050 50  0001 C CNN
+F 1 "+3V3" H 4915 3373 50  0000 C CNN
+F 2 "" H 4900 3200 50  0001 C CNN
+F 3 "" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

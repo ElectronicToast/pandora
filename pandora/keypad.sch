@@ -201,13 +201,13 @@ Text Notes 4400 3500 0    50   ~ 0
 A
 Text Notes 4400 3900 0    50   ~ 0
 B
-Text Notes 4700 4700 0    50   ~ 0
-U
-Text Notes 6000 4700 0    50   ~ 0
-D
 Text Notes 5200 4700 0    50   ~ 0
-L
+U
+Text Notes 6800 4700 0    50   ~ 0
+D
 Text Notes 4400 4700 0    50   ~ 0
+L
+Text Notes 6000 4700 0    50   ~ 0
 R
 $Comp
 L Switch:SW_Push_45deg SW6
