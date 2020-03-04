@@ -312,18 +312,10 @@ Wire Wire Line
 	6800 4000 6400 4000
 Wire Wire Line
 	6800 4100 6400 4100
-Text Label 4200 3200 0    50   ~ 0
-JTAG_TDO
-Text Label 4200 3300 0    50   ~ 0
-JTAG_TDI
 Text Label 1400 1000 0    50   ~ 0
 JTAG_TMS
 Text Label 1400 900  0    50   ~ 0
 JTAG_TCK
-Text Label 1400 1200 0    50   ~ 0
-JTAG_TDI
-Text Label 1400 1100 0    50   ~ 0
-JTAG_TDO
 Text Label 6400 3600 0    50   ~ 0
 RF_P
 Text Label 6400 3700 0    50   ~ 0
@@ -1251,4 +1243,12 @@ Wire Bus Line
 	1300 2600 1300 2900
 Wire Bus Line
 	1300 3700 1300 4400
+Text Label 4200 3200 0    50   ~ 0
+JTAG_TDO
+Text Label 4200 3300 0    50   ~ 0
+JTAG_TDI
+Text Label 1400 1100 0    50   ~ 0
+JTAG_TDO
+Text Label 1400 1200 0    50   ~ 0
+JTAG_TDI
 $EndSCHEMATC
