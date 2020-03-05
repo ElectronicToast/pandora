@@ -302,11 +302,11 @@ Wire Wire Line
 	4600 3500 5000 3500
 Wire Wire Line
 	4600 3400 5000 3400
-Text Label 4600 3400 0    50   ~ 0
-LCD_RS
-Text Label 4600 3500 0    50   ~ 0
-LCD_RW
 Text Label 4600 3600 0    50   ~ 0
+LCD_RS
+Text Label 4600 3400 0    50   ~ 0
+LCD_RW
+Text Label 4600 3500 0    50   ~ 0
 LCD_E
 Wire Wire Line
 	6800 4000 6400 4000
@@ -690,18 +690,18 @@ Wire Wire Line
 	4600 4500 5000 4500
 Wire Wire Line
 	4600 4600 5000 4600
-Text Label 4600 3700 0    50   ~ 0
+Text Label 4600 3900 0    50   ~ 0
 LCD_BL_R
 Wire Wire Line
-	4600 3700 5000 3700
+	4600 3900 5000 3900
 Text Label 4600 3800 0    50   ~ 0
 LCD_BL_G
-Text Label 4600 3900 0    50   ~ 0
+Text Label 4600 3700 0    50   ~ 0
 LCD_BL_B
 Wire Wire Line
 	4600 3800 5000 3800
 Wire Wire Line
-	4600 3900 5000 3900
+	4600 3700 5000 3700
 Text Notes 900  6700 0    50   ~ 0
 General purpose LED
 Text Notes 1100 7300 0    50   ~ 0
@@ -764,9 +764,9 @@ F 8 "N/A" H 3850 3300 50  0001 C CNN "SupplierPartNo"
 	1    3850 3300
 	-1   0    0    -1  
 $EndComp
-Text Label 3300 3200 0    50   ~ 0
-LED1
 Text Label 3300 3300 0    50   ~ 0
+LED1
+Text Label 3300 3200 0    50   ~ 0
 LED2
 Wire Wire Line
 	3300 3200 3700 3200
@@ -1237,12 +1237,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 6400 5700 6200
 Connection ~ 5700 6200
-Wire Bus Line
-	1300 2100 1300 2400
-Wire Bus Line
-	1300 2600 1300 2900
-Wire Bus Line
-	1300 3700 1300 4400
 Text Label 4200 3200 0    50   ~ 0
 JTAG_TDO
 Text Label 4200 3300 0    50   ~ 0
@@ -1251,4 +1245,10 @@ Text Label 1400 1100 0    50   ~ 0
 JTAG_TDO
 Text Label 1400 1200 0    50   ~ 0
 JTAG_TDI
+Wire Bus Line
+	1300 2100 1300 2400
+Wire Bus Line
+	1300 2600 1300 2900
+Wire Bus Line
+	1300 3700 1300 4400
 $EndSCHEMATC
