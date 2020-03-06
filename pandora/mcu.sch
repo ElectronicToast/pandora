@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-01"
+Date "2020-03-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -492,9 +492,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 2400 7000 2400
 $Comp
-L pandora:CC2652R U8
+L pandora-rescue:CC2652R-pandora U8
 U 1 1 5E2BBC74
 P 5700 3100
+AR Path="/5E2BBC74" Ref="U8"  Part="1" 
+AR Path="/5E2B9A47/5E2BBC74" Ref="U8"  Part="1" 
 F 0 "U8" H 5700 4865 50  0000 C CNN
 F 1 "CC2652R" H 5700 4774 50  0000 C CNN
 F 2 "pandora:Texas_RGZ0048A" H 5700 3150 50  0001 C CNN

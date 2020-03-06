@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-01"
+Date "2020-03-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -283,7 +283,7 @@ F0 "battery" 50
 F1 "battery.sch" 50
 $EndSheet
 Text Notes 5000 7500 0    50   ~ 0
-AE1 C48 D15 F1 FB3 H4 J6 JP8 L6\nNT5 Q1 R28 RV1 SPK1 SW19 U13 Y2
+AE1 C50 D15 F1 FB3 H4 J6 JP9 L6\nNT5 Q1 R28 RV1 SPK1 SW19 U13 Y2
 $Sheet
 S 8900 1300 1000 4100
 U 5E2BAC38

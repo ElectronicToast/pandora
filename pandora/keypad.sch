@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-01"
+Date "2020-03-06"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -22,7 +22,7 @@ F 1 "1N4148" H 3700 3100 50  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 3200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3200 50  0001 C CNN
 F 4 "" H 3500 3200 50  0001 C CNN "Comment"
-F 5 "SOD-323" H 3500 3200 50  0001 C CNN "Package"
+F 5 "1206 / SOD-123" H 3500 3200 50  0001 C CNN "Package"
 F 6 "" H 3500 3200 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 3200 50  0001 C CNN "Supplier"
 F 8 "N/A" H 3500 3200 50  0001 C CNN "SupplierPartNo"
@@ -594,7 +594,7 @@ F 1 "1N4148" H 3700 3500 50  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 3600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 3600 50  0001 C CNN
 F 4 "" H 3500 3600 50  0001 C CNN "Comment"
-F 5 "SOD-323" H 3500 3600 50  0001 C CNN "Package"
+F 5 "1206 / SOD-123" H 3500 3600 50  0001 C CNN "Package"
 F 6 "" H 3500 3600 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 3600 50  0001 C CNN "Supplier"
 F 8 "N/A" H 3500 3600 50  0001 C CNN "SupplierPartNo"
@@ -610,7 +610,7 @@ F 1 "1N4148" H 3700 3900 50  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 4000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4000 50  0001 C CNN
 F 4 "" H 3500 4000 50  0001 C CNN "Comment"
-F 5 "SOD-323" H 3500 4000 50  0001 C CNN "Package"
+F 5 "1206 / SOD-123" H 3500 4000 50  0001 C CNN "Package"
 F 6 "" H 3500 4000 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 4000 50  0001 C CNN "Supplier"
 F 8 "N/A" H 3500 4000 50  0001 C CNN "SupplierPartNo"
@@ -626,7 +626,7 @@ F 1 "1N4148" H 3700 4300 50  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3500 4400 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" V 3500 4400 50  0001 C CNN
 F 4 "" H 3500 4400 50  0001 C CNN "Comment"
-F 5 "SOD-323" H 3500 4400 50  0001 C CNN "Package"
+F 5 "1206 / SOD-123" H 3500 4400 50  0001 C CNN "Package"
 F 6 "" H 3500 4400 50  0001 C CNN "PartNo"
 F 7 "In House" H 3500 4400 50  0001 C CNN "Supplier"
 F 8 "N/A" H 3500 4400 50  0001 C CNN "SupplierPartNo"
