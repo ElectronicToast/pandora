@@ -492,7 +492,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2400 7000 2400
 $Comp
-L pandora-rescue:CC2652R-pandora U8
+L pandora:CC2652R U8
 U 1 1 5E2BBC74
 P 5700 3100
 AR Path="/5E2BBC74" Ref="U8"  Part="1" 
