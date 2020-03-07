@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 12 12
 Title "Pandora CC2652R Development Board"
@@ -13,111 +13,34 @@ Comment2 "EE 110b"
 Comment3 "B.S. EE 2020"
 Comment4 "Ray Sun"
 $EndDescr
-Text Label 5400 4100 0    50   ~ 0
-JTAG_TMS
-Text Label 5400 4000 0    50   ~ 0
-JTAG_TCK
-Text Label 5400 4300 0    50   ~ 0
-JTAG_TDI
-Text Label 5400 4200 0    50   ~ 0
-JTAG_TDO
-Wire Wire Line
-	5800 4000 5400 4000
-Wire Wire Line
-	5800 4100 5400 4100
-Wire Wire Line
-	5800 4300 5400 4300
-Wire Wire Line
-	5800 4200 5400 4200
-$Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J5
-U 1 1 5E4F5EDD
-P 4900 4100
-F 0 "J5" H 4457 4146 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" H 4457 4055 50  0000 R CNN
-F 2 "pandora:PinHeader_2x05_P1.27mm_Vertical_SMD_Long" H 4900 4100 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4550 2850 50  0001 C CNN
-F 4 "50mil_02x05" H 4900 4100 50  0001 C CNN "Package"
-F 5 "JTAG debug header" H 4900 4100 50  0001 C CNN "Comment"
-F 6 "FTSH-105-0.1-F-DV-K" H 4900 4100 50  0001 C CNN "PartNo"
-F 7 "In House" H 4900 4100 50  0001 C CNN "Supplier"
-F 8 "N/A" H 4900 4100 50  0001 C CNN "SupplierPartNo"
-	1    4900 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 4700 4900 4700
-Connection ~ 4900 4700
-Wire Wire Line
-	4900 4800 4900 4700
-Text Notes 3500 4300 0    50   ~ 0
-FTSH-105-01-F-DV-K
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5E5EB752
-P 3900 1800
-F 0 "J4" H 3980 1842 50  0000 L CNN
-F 1 "TX3 / MTA-156-3" H 3980 1751 50  0000 L CNN
-F 2 "pandora:TE_640389-3" H 3900 1800 50  0001 C CNN
-F 3 "~" H 3900 1800 50  0001 C CNN
-F 4 "156mil 3-pin power connector" H 3900 1800 50  0001 C CNN "Comment"
-F 5 "156mil_01x03" H 3900 1800 50  0001 C CNN "Package"
-F 6 "In House" H 3900 1800 50  0001 C CNN "Supplier"
-F 7 "N/A" H 3900 1800 50  0001 C CNN "SupplierPartNo"
-	1    3900 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 1800 3500 1800
-Wire Wire Line
-	3500 1800 3500 1600
-Wire Wire Line
-	3700 1700 3600 1700
-Wire Wire Line
-	3600 1700 3600 1900
-Wire Wire Line
-	3700 1900 3600 1900
-Connection ~ 3600 1900
-Wire Wire Line
-	3600 1900 3600 2000
-Text Notes 4000 2000 0    50   ~ 0
-CHECK FOOTPRINT
-Text Label 5400 3800 0    50   ~ 0
-JTAG_~RESET
-Wire Wire Line
-	5400 3800 5900 3800
-Text Notes 4300 900  0    100  ~ 20
-POWER
-Text Notes 4500 2800 0    100  ~ 20
-JTAG
 $Comp
 L pandora:LCD_Adafruit_16x02_Neg_RGB U11
 U 1 1 5E35470F
-P 8200 3900
-F 0 "U11" H 8400 4800 50  0000 C CNN
-F 1 "LCD_Adafruit_16x02_Neg_RGB" H 8900 4700 50  0000 C CNN
-F 2 "pandora:LCD_Adafruit_16x02_Neg_RGB" H 8220 2980 50  0001 C CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf" H 8700 3600 50  0001 C CNN
-F 4 "LCD_18" H 8200 3900 50  0001 C CNN "Package"
-F 5 "LCD, negative, LCD backlight" H 8200 3900 50  0001 C CNN "Comment"
-F 6 "399" H 8200 3900 50  0001 C CNN "PartNo"
-F 7 "In House" H 8200 3900 50  0001 C CNN "Supplier"
-F 8 "Adafruit_399" H 8200 3900 50  0001 C CNN "SupplierPartNo"
-	1    8200 3900
+P 7600 3900
+F 0 "U11" H 7800 4800 50  0000 C CNN
+F 1 "LCD_Adafruit_16x02_Neg_RGB" H 8300 4700 50  0000 C CNN
+F 2 "pandora:LCD_Adafruit_16x02_Neg_RGB" H 7620 2980 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf" H 8100 3600 50  0001 C CNN
+F 4 "LCD_18" H 7600 3900 50  0001 C CNN "Package"
+F 5 "LCD, negative, LCD backlight" H 7600 3900 50  0001 C CNN "Comment"
+F 6 "399" H 7600 3900 50  0001 C CNN "PartNo"
+F 7 "In House" H 7600 3900 50  0001 C CNN "Supplier"
+F 8 "Adafruit_399" H 7600 3900 50  0001 C CNN "SupplierPartNo"
+	1    7600 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR091
 U 1 1 5E355102
-P 8200 3100
-F 0 "#PWR091" H 8200 2950 50  0001 C CNN
-F 1 "+5V" H 8215 3273 50  0000 C CNN
-F 2 "" H 8200 3100 50  0001 C CNN
-F 3 "" H 8200 3100 50  0001 C CNN
-	1    8200 3100
+P 7600 3100
+F 0 "#PWR091" H 7600 2950 50  0001 C CNN
+F 1 "+5V" H 7615 3273 50  0000 C CNN
+F 2 "" H 7600 3100 50  0001 C CNN
+F 3 "" H 7600 3100 50  0001 C CNN
+	1    7600 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 8400 2600 0    100  ~ 20
+Text Notes 7800 2600 0    100  ~ 20
 LCD
 Text Label 1700 3200 0    50   ~ 0
 LCD_V0
@@ -125,67 +48,67 @@ Wire Wire Line
 	1500 3200 2000 3200
 Text HLabel 1500 3200 0    50   Input ~ 0
 LCD_OUT_CNTR
-Text Label 7200 3900 0    50   ~ 0
+Text Label 6600 3900 0    50   ~ 0
 LCD_OUT_DB1
-Text Label 7200 4000 0    50   ~ 0
+Text Label 6600 4000 0    50   ~ 0
 LCD_OUT_DB2
-Text Label 7200 4100 0    50   ~ 0
+Text Label 6600 4100 0    50   ~ 0
 LCD_OUT_DB3
-Text Label 7200 4200 0    50   ~ 0
+Text Label 6600 4200 0    50   ~ 0
 LCD_OUT_DB4
-Text Label 7200 4300 0    50   ~ 0
+Text Label 6600 4300 0    50   ~ 0
 LCD_OUT_DB5
-Text Label 7200 4400 0    50   ~ 0
+Text Label 6600 4400 0    50   ~ 0
 LCD_OUT_DB6
-Text Label 7200 4500 0    50   ~ 0
+Text Label 6600 4500 0    50   ~ 0
 LCD_OUT_DB7
-Text Label 7200 3800 0    50   ~ 0
+Text Label 6600 3800 0    50   ~ 0
 LCD_OUT_DB0
 Wire Wire Line
-	7800 3900 7200 3900
+	7200 3900 6600 3900
 Wire Wire Line
-	7800 4000 7200 4000
+	7200 4000 6600 4000
 Wire Wire Line
-	7800 4100 7200 4100
+	7200 4100 6600 4100
 Wire Wire Line
-	7800 4200 7200 4200
+	7200 4200 6600 4200
 Wire Wire Line
-	7800 4300 7200 4300
+	7200 4300 6600 4300
 Wire Wire Line
-	7800 4400 7200 4400
+	7200 4400 6600 4400
 Wire Wire Line
-	7800 4500 7200 4500
+	7200 4500 6600 4500
 Wire Wire Line
-	7800 3800 7200 3800
+	7200 3800 6600 3800
 Wire Wire Line
-	7200 3500 7800 3500
+	6600 3500 7200 3500
 Wire Wire Line
-	7200 3300 7800 3300
+	6600 3300 7200 3300
 Wire Wire Line
-	7800 3400 7200 3400
-Text Label 7200 3500 0    50   ~ 0
+	7200 3400 6600 3400
+Text Label 6600 3500 0    50   ~ 0
 LCD_OUT_RS
-Text Label 7200 3300 0    50   ~ 0
+Text Label 6600 3300 0    50   ~ 0
 LCD_OUT_E
-Text Label 7200 3400 0    50   ~ 0
+Text Label 6600 3400 0    50   ~ 0
 LCD_OUT_RW
-Text Label 8700 3300 0    50   ~ 0
+Text Label 8100 3300 0    50   ~ 0
 LCD_V0
 Wire Wire Line
-	9000 3300 8600 3300
+	8400 3300 8000 3300
 $Comp
 L power:+5V #PWR093
 U 1 1 5E3CFEDF
-P 8700 3600
-F 0 "#PWR093" H 8700 3450 50  0001 C CNN
-F 1 "+5V" H 8715 3773 50  0000 C CNN
-F 2 "" H 8700 3600 50  0001 C CNN
-F 3 "" H 8700 3600 50  0001 C CNN
-	1    8700 3600
+P 8100 3600
+F 0 "#PWR093" H 8100 3450 50  0001 C CNN
+F 1 "+5V" H 8115 3773 50  0000 C CNN
+F 2 "" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 3600 8600 3600
+	8100 3600 8000 3600
 Text HLabel 1500 4100 0    50   Input ~ 0
 SERVO_PWM
 Text HLabel 1500 4200 0    50   Input ~ 0
@@ -201,169 +124,73 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5E41DA2E
-P 8700 1600
-F 0 "J2" H 8780 1592 50  0000 L CNN
-F 1 "PinHeader_100mil_01x04" H 8780 1501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8700 1600 50  0001 C CNN
-F 3 "~" H 8700 1600 50  0001 C CNN
-F 4 "Servo connector" H 8700 1600 50  0001 C CNN "Comment"
-F 5 "100mil_01x04" H 8700 1600 50  0001 C CNN "Package"
-F 6 "In House" H 8700 1600 50  0001 C CNN "Supplier"
-F 7 "N/A" H 8700 1600 50  0001 C CNN "SupplierPartNo"
-	1    8700 1600
+P 8100 1600
+F 0 "J2" H 8180 1592 50  0000 L CNN
+F 1 "PinHeader_100mil_01x04" H 8180 1501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8100 1600 50  0001 C CNN
+F 3 "~" H 8100 1600 50  0001 C CNN
+F 4 "Servo connector" H 8100 1600 50  0001 C CNN "Comment"
+F 5 "100mil_01x04" H 8100 1600 50  0001 C CNN "Package"
+F 6 "In House" H 8100 1600 50  0001 C CNN "Supplier"
+F 7 "N/A" H 8100 1600 50  0001 C CNN "SupplierPartNo"
+	1    8100 1600
 	1    0    0    -1  
 $EndComp
-Text Notes 8800 1900 0    50   ~ 0
+Text Notes 8200 1900 0    50   ~ 0
 MAKE FOOTPRINT
-Text Label 8100 1700 0    50   ~ 0
+Text Label 7500 1700 0    50   ~ 0
 SRV_PWM
 Wire Wire Line
-	8100 1700 8500 1700
-Text Label 8100 1800 0    50   ~ 0
+	7500 1700 7900 1700
+Text Label 7500 1800 0    50   ~ 0
 SRV_FDBK
 Wire Wire Line
-	8100 1800 8500 1800
-Text Notes 8300 900  0    100  ~ 20
+	7500 1800 7900 1800
+Text Notes 7700 900  0    100  ~ 20
 SERVO
-Text Notes 7900 5100 0    50   ~ 0
+Text Notes 7300 5100 0    50   ~ 0
 CHECK FOOTPRINT
-$Comp
-L pandora:GNDD #PWR096
-U 1 1 5E4FD13E
-P 4900 4800
-F 0 "#PWR096" H 4900 4550 50  0001 C CNN
-F 1 "GNDD" H 4905 4627 50  0000 C CNN
-F 2 "" H 4900 4800 50  0001 C CNN
-F 3 "" H 4900 4800 50  0001 C CNN
-	1    4900 4800
-	1    0    0    -1  
-$EndComp
 $Comp
 L pandora:GNDD #PWR095
 U 1 1 5E4FD5A9
-P 8200 4700
-F 0 "#PWR095" H 8200 4450 50  0001 C CNN
-F 1 "GNDD" H 8205 4527 50  0000 C CNN
-F 2 "" H 8200 4700 50  0001 C CNN
-F 3 "" H 8200 4700 50  0001 C CNN
-	1    8200 4700
+P 7600 4700
+F 0 "#PWR095" H 7600 4450 50  0001 C CNN
+F 1 "GNDD" H 7605 4527 50  0000 C CNN
+F 2 "" H 7600 4700 50  0001 C CNN
+F 3 "" H 7600 4700 50  0001 C CNN
+	1    7600 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L pandora:GNDSERVO #PWR088
 U 1 1 5E4FDC5F
-P 7800 1600
-F 0 "#PWR088" H 7800 1350 50  0001 C CNN
-F 1 "GNDSERVO" H 7805 1427 50  0000 C CNN
-F 2 "" H 7800 1600 50  0001 C CNN
-F 3 "" H 7800 1600 50  0001 C CNN
-	1    7800 1600
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	3200 1000 3200 2500
-Wire Notes Line
-	3200 2500 6300 2500
-Wire Notes Line
-	6300 2500 6300 1000
-Wire Notes Line
-	6300 1000 3200 1000
-$Comp
-L pandora:VIN #PWR086
-U 1 1 5E570885
-P 3500 1600
-F 0 "#PWR086" H 3500 1450 50  0001 C CNN
-F 1 "VIN" H 3515 1773 50  0000 C CNN
-F 2 "" H 3500 1600 50  0001 C CNN
-F 3 "" H 3500 1600 50  0001 C CNN
-	1    3500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L pandora:GNDIN #PWR089
-U 1 1 5E570C91
-P 3600 2000
-F 0 "#PWR089" H 3600 1750 50  0001 C CNN
-F 1 "GNDIN" H 3605 1827 50  0000 C CNN
-F 2 "" H 3600 2000 50  0001 C CNN
-F 3 "" H 3600 2000 50  0001 C CNN
-	1    3600 2000
+P 7200 1600
+F 0 "#PWR088" H 7200 1350 50  0001 C CNN
+F 1 "GNDSERVO" H 7205 1427 50  0000 C CNN
+F 2 "" H 7200 1600 50  0001 C CNN
+F 3 "" H 7200 1600 50  0001 C CNN
+	1    7200 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L pandora:VSERVO #PWR085
 U 1 1 5E571715
-P 8000 1400
-F 0 "#PWR085" H 8000 1250 50  0001 C CNN
-F 1 "VSERVO" H 8015 1573 50  0000 C CNN
-F 2 "" H 8000 1400 50  0001 C CNN
-F 3 "" H 8000 1400 50  0001 C CNN
-	1    8000 1400
+P 7400 1400
+F 0 "#PWR085" H 7400 1250 50  0001 C CNN
+F 1 "VSERVO" H 7415 1573 50  0000 C CNN
+F 2 "" H 7400 1400 50  0001 C CNN
+F 3 "" H 7400 1400 50  0001 C CNN
+	1    7400 1400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	7400 1000 7400 2100
+	6800 1000 6800 2100
 Wire Notes Line
-	7400 2100 9900 2100
+	6800 2100 9300 2100
 Wire Notes Line
-	9900 2100 9900 1000
+	9300 2100 9300 1000
 Wire Notes Line
-	9900 1000 7400 1000
-Wire Notes Line
-	3300 2900 3300 5200
-Wire Notes Line
-	3300 5200 6200 5200
-Wire Notes Line
-	6200 5200 6200 2900
-Wire Notes Line
-	6200 2900 3300 2900
-Wire Notes Line
-	6900 2700 6900 5200
-Text Notes 3500 1200 0    50   ~ 0
-MAIN POWER IN
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5E4FF305
-P 5400 1700
-F 0 "J3" H 5480 1692 50  0000 L CNN
-F 1 "JST-SH_2" H 5480 1601 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 5400 1700 50  0001 C CNN
-F 3 "~" H 5400 1700 50  0001 C CNN
-F 4 "JST SH auxiliary Li-ion connector" H 5400 1700 50  0001 C CNN "Comment"
-F 5 "JST-SH_SM_2_SMD_RghtAngle" H 5400 1700 50  0001 C CNN "Package"
-F 6 "In House" H 5400 1700 50  0001 C CNN "Supplier"
-F 7 "N/A" H 5400 1700 50  0001 C CNN "SupplierPartNo"
-	1    5400 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L pandora:VBAT #PWR087
-U 1 1 5E4FF97C
-P 5000 1600
-F 0 "#PWR087" H 5000 1450 50  0001 C CNN
-F 1 "VBAT" H 5015 1773 50  0000 C CNN
-F 2 "" H 5000 1600 50  0001 C CNN
-F 3 "" H 5000 1600 50  0001 C CNN
-	1    5000 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L pandora:GNDBAT #PWR090
-U 1 1 5E4FFFFB
-P 5100 2000
-F 0 "#PWR090" H 5100 1750 50  0001 C CNN
-F 1 "GNDBAT" H 5105 1827 50  0000 C CNN
-F 2 "" H 5100 2000 50  0001 C CNN
-F 3 "" H 5100 2000 50  0001 C CNN
-	1    5100 2000
-	1    0    0    -1  
-$EndComp
-Text Notes 5700 1700 0    50   ~ 0
-CHECK\nPINOUT
-Text Notes 4900 1200 0    50   ~ 0
-AUXILIARY BATTERY
-Text Notes 5000 1300 0    50   ~ 0
-1S Li-ion
+	9300 1000 6800 1000
 Text Label 1700 3400 0    50   ~ 0
 LCD_OUT_BL_R
 Text Label 1700 3500 0    50   ~ 0
@@ -559,25 +386,13 @@ F 8 "507-1804-1-ND" H 4900 6300 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 1500 8500 1500
+	7200 1500 7900 1500
 Wire Wire Line
-	8000 1400 8000 1600
+	7400 1400 7400 1600
 Wire Wire Line
-	8000 1600 8500 1600
+	7400 1600 7900 1600
 Wire Wire Line
-	7800 1500 7800 1600
-Wire Wire Line
-	5100 1700 5200 1700
-Wire Wire Line
-	5100 1700 5100 2000
-Wire Wire Line
-	5000 1800 5200 1800
-Wire Wire Line
-	5000 1600 5000 1800
-Text Notes 4000 2300 0    50   ~ 0
-RIGHT ANGLE\nTE 640389-3
-Text Notes 3500 4500 0    50   ~ 0
-CHECK PINOUT
+	7200 1500 7200 1600
 Text Notes 1500 5700 0    100  ~ 20
 TEST POINTS
 $Comp
@@ -835,81 +650,111 @@ Wire Notes Line
 	3600 7300 5700 7300
 Text Notes 1500 7300 0    50   ~ 0
 ADD MORE TP IF NEEDED
-Text Notes 3800 3400 0    50   ~ 0
-SHORT TO POWER TARGET\nFROM PROGRAMMER
 Wire Notes Line
-	10600 2700 6900 2700
-Wire Notes Line
-	10600 5200 10600 2700
-Wire Notes Line
-	6900 5200 10600 5200
+	10000 5200 10000 2700
 Wire Wire Line
-	9600 3900 10400 3900
+	9000 3900 9800 3900
 Wire Wire Line
-	9600 3800 10400 3800
+	9000 3800 9800 3800
 Wire Wire Line
-	9600 3700 10400 3700
+	9000 3700 9800 3700
 Wire Wire Line
-	9400 3900 9300 3900
+	8800 3900 8700 3900
 Wire Wire Line
-	9400 3800 9000 3800
+	8800 3800 8400 3800
 Wire Wire Line
-	9400 3700 8700 3700
+	8800 3700 8100 3700
 $Comp
 L Device:R_Small_US R23
 U 1 1 5E3D87BC
-P 9500 3900
-F 0 "R23" V 9450 3700 50  0000 C CNN
-F 1 "0" V 9450 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 3900 50  0001 C CNN
-F 3 "~" H 9500 3900 50  0001 C CNN
-F 4 "0603" H 9500 3900 50  0001 C CNN "Package"
-F 5 "In House" H 9500 3900 50  0001 C CNN "Supplier"
-F 6 "N/A" H 9500 3900 50  0001 C CNN "SupplierPartNo"
-	1    9500 3900
+P 8900 3900
+F 0 "R23" V 8850 3700 50  0000 C CNN
+F 1 "0" V 8850 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 3900 50  0001 C CNN
+F 3 "~" H 8900 3900 50  0001 C CNN
+F 4 "0603" H 8900 3900 50  0001 C CNN "Package"
+F 5 "In House" H 8900 3900 50  0001 C CNN "Supplier"
+F 6 "N/A" H 8900 3900 50  0001 C CNN "SupplierPartNo"
+	1    8900 3900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R22
 U 1 1 5E3D865C
-P 9500 3800
-F 0 "R22" V 9450 3600 50  0000 C CNN
-F 1 "0" V 9450 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 3800 50  0001 C CNN
-F 3 "~" H 9500 3800 50  0001 C CNN
-F 4 "0603" H 9500 3800 50  0001 C CNN "Package"
-F 5 "In House" H 9500 3800 50  0001 C CNN "Supplier"
-F 6 "N/A" H 9500 3800 50  0001 C CNN "SupplierPartNo"
-	1    9500 3800
+P 8900 3800
+F 0 "R22" V 8850 3600 50  0000 C CNN
+F 1 "0" V 8850 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 3800 50  0001 C CNN
+F 3 "~" H 8900 3800 50  0001 C CNN
+F 4 "0603" H 8900 3800 50  0001 C CNN "Package"
+F 5 "In House" H 8900 3800 50  0001 C CNN "Supplier"
+F 6 "N/A" H 8900 3800 50  0001 C CNN "SupplierPartNo"
+	1    8900 3800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R21
 U 1 1 5E3D2956
-P 9500 3700
-F 0 "R21" V 9450 3500 50  0000 C CNN
-F 1 "0" V 9450 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 3700 50  0001 C CNN
-F 3 "~" H 9500 3700 50  0001 C CNN
-F 4 "0603" H 9500 3700 50  0001 C CNN "Package"
-F 5 "In House" H 9500 3700 50  0001 C CNN "Supplier"
-F 6 "N/A" H 9500 3700 50  0001 C CNN "SupplierPartNo"
-	1    9500 3700
+P 8900 3700
+F 0 "R21" V 8850 3500 50  0000 C CNN
+F 1 "0" V 8850 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 3700 50  0001 C CNN
+F 3 "~" H 8900 3700 50  0001 C CNN
+F 4 "0603" H 8900 3700 50  0001 C CNN "Package"
+F 5 "In House" H 8900 3700 50  0001 C CNN "Supplier"
+F 6 "N/A" H 8900 3700 50  0001 C CNN "SupplierPartNo"
+	1    8900 3700
 	0    1    1    0   
 $EndComp
-Text Label 9800 3900 0    50   ~ 0
+Text Label 9200 3900 0    50   ~ 0
 LCD_OUT_BL_B
-Text Label 9800 3800 0    50   ~ 0
+Text Label 9200 3800 0    50   ~ 0
 LCD_OUT_BL_G
-Text Label 9800 3700 0    50   ~ 0
+Text Label 9200 3700 0    50   ~ 0
 LCD_OUT_BL_R
 $Comp
 L Jumper:SolderJumper_2_Open JP?
 U 1 1 5E5509AB
-P 8700 4150
+P 8100 4150
 AR Path="/5E2B9A47/5E5509AB" Ref="JP?"  Part="1" 
 AR Path="/5E2BAC38/5E5509AB" Ref="JP7"  Part="1" 
-F 0 "JP7" V 8650 4000 50  0000 C CNN
+F 0 "JP7" V 8050 4000 50  0000 C CNN
+F 1 "SJ2" V 8150 4000 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8100 4150 50  0001 C CNN
+F 3 "~" H 8100 4150 50  0001 C CNN
+F 4 "SMD_PAD_SJ2" H 8100 4150 50  0001 C CNN "Package"
+F 5 "Solder jumper, 2 pad" H 8100 4150 50  0001 C CNN "Comment"
+F 6 "N/A" H 8100 4150 50  0001 C CNN "PartNo"
+F 7 "N/A" H 8100 4150 50  0001 C CNN "Supplier"
+F 8 "N/A" H 8100 4150 50  0001 C CNN "SupplierPartNo"
+	1    8100 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5E552358
+P 8400 4150
+AR Path="/5E2B9A47/5E552358" Ref="JP?"  Part="1" 
+AR Path="/5E2BAC38/5E552358" Ref="JP8"  Part="1" 
+F 0 "JP8" V 8350 4000 50  0000 C CNN
+F 1 "SJ2" V 8450 4000 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8400 4150 50  0001 C CNN
+F 3 "~" H 8400 4150 50  0001 C CNN
+F 4 "SMD_PAD_SJ2" H 8400 4150 50  0001 C CNN "Package"
+F 5 "Solder jumper, 2 pad" H 8400 4150 50  0001 C CNN "Comment"
+F 6 "N/A" H 8400 4150 50  0001 C CNN "PartNo"
+F 7 "N/A" H 8400 4150 50  0001 C CNN "Supplier"
+F 8 "N/A" H 8400 4150 50  0001 C CNN "SupplierPartNo"
+	1    8400 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5E552F97
+P 8700 4150
+AR Path="/5E2B9A47/5E552F97" Ref="JP?"  Part="1" 
+AR Path="/5E2BAC38/5E552F97" Ref="JP9"  Part="1" 
+F 0 "JP9" V 8650 4000 50  0000 C CNN
 F 1 "SJ2" V 8750 4000 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8700 4150 50  0001 C CNN
 F 3 "~" H 8700 4150 50  0001 C CNN
@@ -922,109 +767,264 @@ F 8 "N/A" H 8700 4150 50  0001 C CNN "SupplierPartNo"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5E552358
-P 9000 4150
-AR Path="/5E2B9A47/5E552358" Ref="JP?"  Part="1" 
-AR Path="/5E2BAC38/5E552358" Ref="JP8"  Part="1" 
-F 0 "JP8" V 8950 4000 50  0000 C CNN
-F 1 "SJ2" V 9050 4000 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9000 4150 50  0001 C CNN
-F 3 "~" H 9000 4150 50  0001 C CNN
-F 4 "SMD_PAD_SJ2" H 9000 4150 50  0001 C CNN "Package"
-F 5 "Solder jumper, 2 pad" H 9000 4150 50  0001 C CNN "Comment"
-F 6 "N/A" H 9000 4150 50  0001 C CNN "PartNo"
-F 7 "N/A" H 9000 4150 50  0001 C CNN "Supplier"
-F 8 "N/A" H 9000 4150 50  0001 C CNN "SupplierPartNo"
-	1    9000 4150
-	0    -1   1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5E552F97
-P 9300 4150
-AR Path="/5E2B9A47/5E552F97" Ref="JP?"  Part="1" 
-AR Path="/5E2BAC38/5E552F97" Ref="JP9"  Part="1" 
-F 0 "JP9" V 9250 4000 50  0000 C CNN
-F 1 "SJ2" V 9350 4000 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9300 4150 50  0001 C CNN
-F 3 "~" H 9300 4150 50  0001 C CNN
-F 4 "SMD_PAD_SJ2" H 9300 4150 50  0001 C CNN "Package"
-F 5 "Solder jumper, 2 pad" H 9300 4150 50  0001 C CNN "Comment"
-F 6 "N/A" H 9300 4150 50  0001 C CNN "PartNo"
-F 7 "N/A" H 9300 4150 50  0001 C CNN "Supplier"
-F 8 "N/A" H 9300 4150 50  0001 C CNN "SupplierPartNo"
-	1    9300 4150
-	0    -1   1    0   
-$EndComp
-$Comp
 L pandora:GNDD #PWR094
 U 1 1 5E5685C7
-P 9000 4500
-F 0 "#PWR094" H 9000 4250 50  0001 C CNN
-F 1 "GNDD" H 9005 4327 50  0000 C CNN
-F 2 "" H 9000 4500 50  0001 C CNN
-F 3 "" H 9000 4500 50  0001 C CNN
-	1    9000 4500
+P 8400 4500
+F 0 "#PWR094" H 8400 4250 50  0001 C CNN
+F 1 "GNDD" H 8405 4327 50  0000 C CNN
+F 2 "" H 8400 4500 50  0001 C CNN
+F 3 "" H 8400 4500 50  0001 C CNN
+	1    8400 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 4500 9000 4400
+	8400 4500 8400 4400
+Wire Wire Line
+	8100 4300 8100 4400
+Wire Wire Line
+	8100 4400 8400 4400
+Connection ~ 8400 4400
+Wire Wire Line
+	8400 4400 8400 4300
 Wire Wire Line
 	8700 4300 8700 4400
 Wire Wire Line
-	8700 4400 9000 4400
-Connection ~ 9000 4400
+	8700 4400 8400 4400
 Wire Wire Line
-	9000 4400 9000 4300
+	8100 4000 8100 3700
+Connection ~ 8100 3700
 Wire Wire Line
-	9300 4300 9300 4400
+	8100 3700 8000 3700
 Wire Wire Line
-	9300 4400 9000 4400
+	8400 4000 8400 3800
+Connection ~ 8400 3800
 Wire Wire Line
-	8700 4000 8700 3700
-Connection ~ 8700 3700
+	8400 3800 8000 3800
 Wire Wire Line
-	8700 3700 8600 3700
+	8700 4000 8700 3900
+Connection ~ 8700 3900
 Wire Wire Line
-	9000 4000 9000 3800
-Connection ~ 9000 3800
-Wire Wire Line
-	9000 3800 8600 3800
-Wire Wire Line
-	9300 4000 9300 3900
-Connection ~ 9300 3900
-Wire Wire Line
-	9300 3900 8600 3900
-$Comp
-L Jumper:SolderJumper_2_Bridged JP6
-U 1 1 5E58735D
-P 4900 3350
-F 0 "JP6" V 4854 3418 50  0000 L CNN
-F 1 "SJ2_Bridged" V 4945 3418 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4900 3350 50  0001 C CNN
-F 3 "~" H 4900 3350 50  0001 C CNN
-F 4 "Solder jumper, 2 pad, bridged" H 4900 3350 50  0001 C CNN "Comment"
-F 5 "SMD_PAD_SJ2_Bridged" H 4900 3350 50  0001 C CNN "Package"
-F 6 "N/A" H 4900 3350 50  0001 C CNN "PartNo"
-F 7 "N/A" H 4900 3350 50  0001 C CNN "Supplier"
-F 8 "N/A" H 4900 3350 50  0001 C CNN "SupplierPartNo"
-	1    4900 3350
-	0    1    1    0   
-$EndComp
+	8700 3900 8000 3900
 Text Notes 1400 6600 0    50   ~ 0
 CHECK PHYSICAL TP DIAMETER
-Wire Bus Line
-	1600 2200 1600 2900
 $Comp
 L power:+3V3 #PWR092
 U 1 1 5E5EAE31
-P 4900 3200
-F 0 "#PWR092" H 4900 3050 50  0001 C CNN
-F 1 "+3V3" H 4915 3373 50  0000 C CNN
-F 2 "" H 4900 3200 50  0001 C CNN
-F 3 "" H 4900 3200 50  0001 C CNN
-	1    4900 3200
+P 4600 3200
+F 0 "#PWR092" H 4600 3050 50  0001 C CNN
+F 1 "+3V3" H 4615 3373 50  0000 C CNN
+F 2 "" H 4600 3200 50  0001 C CNN
+F 3 "" H 4600 3200 50  0001 C CNN
+	1    4600 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP6
+U 1 1 5E58735D
+P 4600 3350
+F 0 "JP6" V 4554 3418 50  0000 L CNN
+F 1 "SJ2_Bridged" V 4645 3418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4600 3350 50  0001 C CNN
+F 3 "~" H 4600 3350 50  0001 C CNN
+F 4 "Solder jumper, 2 pad, bridged" H 4600 3350 50  0001 C CNN "Comment"
+F 5 "SMD_PAD_SJ2_Bridged" H 4600 3350 50  0001 C CNN "Package"
+F 6 "N/A" H 4600 3350 50  0001 C CNN "PartNo"
+F 7 "N/A" H 4600 3350 50  0001 C CNN "Supplier"
+F 8 "N/A" H 4600 3350 50  0001 C CNN "SupplierPartNo"
+	1    4600 3350
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	6300 5200 10000 5200
+Wire Notes Line
+	10000 2700 6300 2700
+Text Notes 3500 3400 0    50   ~ 0
+SHORT TO POWER TARGET\nFROM PROGRAMMER
+Text Notes 3200 4500 0    50   ~ 0
+CHECK PINOUT
+Text Notes 3700 2300 0    50   ~ 0
+RIGHT ANGLE\nTE 640389-3
+Wire Wire Line
+	4700 1600 4700 1800
+Wire Wire Line
+	4700 1800 4900 1800
+Wire Wire Line
+	4800 1700 4800 2000
+Wire Wire Line
+	4800 1700 4900 1700
+Text Notes 4700 1300 0    50   ~ 0
+1S Li-ion
+Text Notes 4600 1200 0    50   ~ 0
+AUXILIARY BATTERY
+Text Notes 5400 1700 0    50   ~ 0
+CHECK\nPINOUT
+$Comp
+L pandora:GNDBAT #PWR090
+U 1 1 5E4FFFFB
+P 4800 2000
+F 0 "#PWR090" H 4800 1750 50  0001 C CNN
+F 1 "GNDBAT" H 4805 1827 50  0000 C CNN
+F 2 "" H 4800 2000 50  0001 C CNN
+F 3 "" H 4800 2000 50  0001 C CNN
+	1    4800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VBAT #PWR087
+U 1 1 5E4FF97C
+P 4700 1600
+F 0 "#PWR087" H 4700 1450 50  0001 C CNN
+F 1 "VBAT" H 4715 1773 50  0000 C CNN
+F 2 "" H 4700 1600 50  0001 C CNN
+F 3 "" H 4700 1600 50  0001 C CNN
+	1    4700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5E4FF305
+P 5100 1700
+F 0 "J3" H 5180 1692 50  0000 L CNN
+F 1 "JST-SH_2" H 5180 1601 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 5100 1700 50  0001 C CNN
+F 3 "~" H 5100 1700 50  0001 C CNN
+F 4 "JST SH auxiliary Li-ion connector" H 5100 1700 50  0001 C CNN "Comment"
+F 5 "JST-SH_SM_2_SMD_RghtAngle" H 5100 1700 50  0001 C CNN "Package"
+F 6 "In House" H 5100 1700 50  0001 C CNN "Supplier"
+F 7 "N/A" H 5100 1700 50  0001 C CNN "SupplierPartNo"
+	1    5100 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 1200 0    50   ~ 0
+MAIN POWER IN
+Wire Notes Line
+	6300 2700 6300 5200
+Wire Notes Line
+	5900 2900 3000 2900
+Wire Notes Line
+	5900 5200 5900 2900
+Wire Notes Line
+	3000 5200 5900 5200
+Wire Notes Line
+	3000 2900 3000 5200
+$Comp
+L pandora:GNDIN #PWR089
+U 1 1 5E570C91
+P 3300 2000
+F 0 "#PWR089" H 3300 1750 50  0001 C CNN
+F 1 "GNDIN" H 3305 1827 50  0000 C CNN
+F 2 "" H 3300 2000 50  0001 C CNN
+F 3 "" H 3300 2000 50  0001 C CNN
+	1    3300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pandora:VIN #PWR086
+U 1 1 5E570885
+P 3200 1600
+F 0 "#PWR086" H 3200 1450 50  0001 C CNN
+F 1 "VIN" H 3215 1773 50  0000 C CNN
+F 2 "" H 3200 1600 50  0001 C CNN
+F 3 "" H 3200 1600 50  0001 C CNN
+	1    3200 1600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6000 1000 2900 1000
+Wire Notes Line
+	6000 2500 6000 1000
+Wire Notes Line
+	2900 2500 6000 2500
+Wire Notes Line
+	2900 1000 2900 2500
+$Comp
+L pandora:GNDD #PWR096
+U 1 1 5E4FD13E
+P 4600 4800
+F 0 "#PWR096" H 4600 4550 50  0001 C CNN
+F 1 "GNDD" H 4605 4627 50  0000 C CNN
+F 2 "" H 4600 4800 50  0001 C CNN
+F 3 "" H 4600 4800 50  0001 C CNN
+	1    4600 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 2800 0    100  ~ 20
+JTAG
+Text Notes 4000 900  0    100  ~ 20
+POWER
+Wire Wire Line
+	5100 3800 5600 3800
+Text Label 5100 3800 0    50   ~ 0
+JTAG_~RESET
+Text Notes 3700 2000 0    50   ~ 0
+CHECK FOOTPRINT
+Wire Wire Line
+	3300 1900 3300 2000
+Connection ~ 3300 1900
+Wire Wire Line
+	3400 1900 3300 1900
+Wire Wire Line
+	3300 1700 3300 1900
+Wire Wire Line
+	3400 1700 3300 1700
+Wire Wire Line
+	3200 1800 3200 1600
+Wire Wire Line
+	3400 1800 3200 1800
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5E5EB752
+P 3600 1800
+F 0 "J4" H 3680 1842 50  0000 L CNN
+F 1 "TX3 / MTA-156-3" H 3680 1751 50  0000 L CNN
+F 2 "pandora:TE_640389-3" H 3600 1800 50  0001 C CNN
+F 3 "~" H 3600 1800 50  0001 C CNN
+F 4 "156mil 3-pin power connector" H 3600 1800 50  0001 C CNN "Comment"
+F 5 "156mil_01x03" H 3600 1800 50  0001 C CNN "Package"
+F 6 "In House" H 3600 1800 50  0001 C CNN "Supplier"
+F 7 "N/A" H 3600 1800 50  0001 C CNN "SupplierPartNo"
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 4300 0    50   ~ 0
+FTSH-105-01-F-DV-K
+Wire Wire Line
+	4600 4800 4600 4700
+Connection ~ 4600 4700
+Wire Wire Line
+	4500 4700 4600 4700
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J5
+U 1 1 5E4F5EDD
+P 4600 4100
+F 0 "J5" H 4157 4146 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 4157 4055 50  0000 R CNN
+F 2 "pandora:PinHeader_2x05_P1.27mm_Vertical_SMD_Long" H 4600 4100 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4250 2850 50  0001 C CNN
+F 4 "50mil_02x05" H 4600 4100 50  0001 C CNN "Package"
+F 5 "JTAG debug header" H 4600 4100 50  0001 C CNN "Comment"
+F 6 "FTSH-105-0.1-F-DV-K" H 4600 4100 50  0001 C CNN "PartNo"
+F 7 "In House" H 4600 4100 50  0001 C CNN "Supplier"
+F 8 "N/A" H 4600 4100 50  0001 C CNN "SupplierPartNo"
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4200 5100 4200
+Wire Wire Line
+	5500 4300 5100 4300
+Wire Wire Line
+	5500 4100 5100 4100
+Wire Wire Line
+	5500 4000 5100 4000
+Text Label 5100 4200 0    50   ~ 0
+JTAG_TDO
+Text Label 5100 4300 0    50   ~ 0
+JTAG_TDI
+Text Label 5100 4000 0    50   ~ 0
+JTAG_TCK
+Text Label 5100 4100 0    50   ~ 0
+JTAG_TMS
+Wire Bus Line
+	1600 2200 1600 2900
 $EndSCHEMATC

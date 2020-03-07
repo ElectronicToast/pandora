@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 7 12
 Title "Pandora CC2652R Development Board"
@@ -204,14 +204,14 @@ F 6 "N/A" H 3100 3200 50  0001 C CNN "SupplierPartNo"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4500 7100 4500 7400
+	3800 7200 3800 7500
 Wire Notes Line
-	4500 7400 6500 7400
+	3800 7500 5800 7500
 Wire Notes Line
-	6500 7400 6500 7100
+	5800 7500 5800 7200
 Wire Notes Line
-	6500 7100 4500 7100
-Text Notes 4600 7300 0    50   ~ 0
+	5800 7200 3800 7200
+Text Notes 3900 7400 0    50   ~ 0
 ALL PASSIVES 0402 UNLESS OTHERWISE NOTED
 Wire Wire Line
 	3100 3400 3100 3300
