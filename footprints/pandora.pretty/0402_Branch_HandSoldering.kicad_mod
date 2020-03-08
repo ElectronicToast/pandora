@@ -1,5 +1,5 @@
-(module 0402_Branch_HandSoldering (layer F.Cu) (tedit 5E45A704)
-  (descr "SMD 0402 (1005 Metric), square (rectangular)")
+(module 0402_Branch_HandSoldering (layer F.Cu) (tedit 5E65535A)
+  (descr "SMD 0402 (1005 Metric), square (rectangular), 2-way branch")
   (tags 0402)
   (attr smd)
   (fp_text reference REF** (at 0.5334 -2.2098) (layer F.SilkS)
