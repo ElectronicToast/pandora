@@ -1,5 +1,5 @@
-(module 0603_Branch (layer F.Cu) (tedit 5E65537F)
-  (descr "SMD 0402 (1005 Metric), square (rectangular), 2-way branch")
+(module 0603_Branch (layer F.Cu) (tedit 5E655A48)
+  (descr "SMD 0603 (1608 Metric), square (rectangular), 2-way branch")
   (tags 0603)
   (attr smd)
   (fp_text reference REF** (at 0.889 -3.175) (layer F.SilkS)

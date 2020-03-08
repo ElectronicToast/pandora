@@ -1,4 +1,4 @@
-update=3/7/2020 2:04:51 PM
+update=3/8/2020 2:05:49 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/Ray/Documents/GitHub/pandora/templates/pandora-sheet.kicad_wks
+PlotDirectoryName=../doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=C:/Users/Ray/Documents/GitHub/pandora/templates/pandora-sheet.kicad_wks
@@ -239,7 +249,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=CPWG
 Clearance=0.127
-TrackWidth=0.6096
+TrackWidth=1.143
 ViaDiameter=0.762
 ViaDrill=0.381
 uViaDiameter=0.6096
@@ -291,13 +301,3 @@ uViaDrill=0.3048
 dPairWidth=0.2032
 dPairGap=0.2032
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/Ray/Documents/GitHub/pandora/templates/pandora-sheet.kicad_wks
-PlotDirectoryName=../doc/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
