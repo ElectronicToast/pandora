@@ -1,4 +1,6 @@
-(module GF-126-0317 (layer F.Cu) (tedit 5E581195)
+(module GF-126-0317 (layer F.Cu) (tedit 5E659477)
+  (descr "Slide Switch DPDT Through Hole")
+  (tags switch)
   (fp_text reference REF** (at 0 7.112) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
