@@ -55,11 +55,12 @@ P 8700 4500
 F 0 "J1" H 8800 4475 50  0000 L CNN
 F 1 "SMA" H 8800 4384 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 8700 4500 50  0001 C CNN
-F 3 " ~" H 8700 4500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/732511153_sd.pdf" H 8700 4500 50  0001 C CNN
 F 4 "External antenna connector" H 8700 4500 50  0001 C CNN "Comment"
 F 5 "SMA_SMD_RightAngle" H 8700 4500 50  0001 C CNN "Package"
 F 6 "Molex" H 8700 4500 50  0001 C CNN "Supplier"
 F 7 "732511150" H 8700 4500 50  0001 C CNN "SupplierPartNo"
+F 8 "732511150" H 8700 4500 50  0001 C CNN "PartNo"
 	1    8700 4500
 	1    0    0    -1  
 $EndComp
