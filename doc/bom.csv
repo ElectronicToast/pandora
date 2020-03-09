@@ -3,16 +3,16 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
 ">  C1, C6, C16, C19-C21, C29-C32, C34, C36, C37, C43, C44, C48",0.1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,16
     C4,47uF,Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder,~,,805,,In House,N/A,1
     C7,47uF,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,https://content.kemet.com/datasheets/KEM_T2005_T491.pdf,25V,2917,T491D476M025AT,Digi-Key,399-3797-1-ND,1
-">  C8, C9",10uF,Capacitor_Tantalum_SMD:CP_EIA-7132-28_AVX-C_Pad2.72x3.50mm_HandSolder,http://datasheets.avx.com/trj.pdf,35V,2312,TRJC106K035R0600,Digi-Key,478-7582-1-ND,2
+">  C8, C9",10uF,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,http://datasheets.avx.com/trj.pdf,35V,2312,TRJC106K035R0600,Digi-Key,478-7582-1-ND,2
 ">  C10, C33, C35",22uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,,805,,In House,N/A,3
 ">  C2, C5, C11, C12, C14, C15, C17, C38, C49",1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,9
 ">  C3, C13, C50",10uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,,805,,In House,N/A,3
     C18,10nF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,1
-    C22,12pF,pandora:0402_HandSoldering,~,,402,,In House,N/A,1
-    C24,1.8pF,pandora:0402_HandSoldering,~,,402,,In House,N/A,1
-    C25,DNP,pandora:0402_HandSoldering,~,,402,,In House,N/A,1
-    C26,12pF,pandora:0402_Branch_HandSoldering,~,,402,,In House,N/A,1
-">  C23, C27, C28",1pF,pandora:0402_HandSoldering,~,,402,,In House,N/A,3
+    C22,12pF,pandora:0603,~,,603,,In House,N/A,1
+    C24,1.8pF,pandora:0603,~,,603,,In House,N/A,1
+    C25,DNP,pandora:0603,~,,603,,In House,N/A,1
+    C26,12pF,pandora:0603_Branch,~,,0603-2way,,In House,N/A,1
+">  C23, C27, C28",1pF,pandora:0603,~,,603,,In House,N/A,3
 ">  C39, C40",15pF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,2
 ">  C41, C42",12pF,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,2
 >  C45-C47,4.7uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,,805,,In House,N/A,3
@@ -26,7 +26,7 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
     F1, 0ZCJ0075FF2E,Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf,"Charging input fuse, 750mA hold",1206,0ZCJ0075FF2E,Digi-Key,507-1804-1-ND,1
 ">  FB1, FB3",1206_4A,Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP2125HS600-T%20%20&u=M,,1206,FBMJ3216HS800-T,Digi-Key,587-1772-1-ND,2
     FB2,0603_500mA,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP1608HS391-T%20%20&u=M,,603,BKP1608HS391-T,Digi-Key,587-1927-1-ND,1
->  H1-H6,#6,pandora:MountingHole_No6,~,"#6 mounting hole, NPTH",HOLE_156mil_NPTH,N/A,N/A,N/A,6
+>  H1-H7,#6,pandora:MountingHole_No6,~,"#6 mounting hole, NPTH",HOLE_156mil_NPTH,N/A,N/A,N/A,7
     J1,SMA,Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal, ~,External antenna connector,SMA_SMD_RightAngle,,Molex,732511150,1
     J2,PinHeader_100mil_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,Servo connector,100mil_01x04,,In House,N/A,1
     J3,JST-SH_2,Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,~,JST SH auxiliary Li-ion connector,JST-SH_SM_2_SMD_RghtAngle,,In House,N/A,1
@@ -35,8 +35,8 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
     J6,USB_B_Mini,pandora:USB_MiniB_KMBSMT5SS30,~,5V battery charge connector,KMBSMT5SS30,KMBSMT5SS30,In House,N/A,1
 ">  JP1-JP5, JP7-JP9",SJ2,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,~,"Solder jumper, 2 pad",SMD_PAD_SJ2,N/A,N/A,N/A,8
     JP6,SJ2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,"Solder jumper, 2 pad, bridged",SMD_PAD_SJ2_Bridged,N/A,N/A,N/A,1
-">  L2, L3",2nH,pandora:0402_HandSoldering,~,,402,,In House,N/A,2
-">  L1, L4",2.4nH,pandora:0402_HandSoldering,~,,402,,In House,N/A,2
+">  L2, L3",2nH,pandora:0603,~,,603,,In House,N/A,2
+">  L1, L4",2.4nH,pandora:0603,~,,603,,In House,N/A,2
     L5,6.8uH,Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_decoupling_mlz2012_en.pdf,MCU analog filter inductor,805,MLZ2012N6R8LTD25,Digi-Key,445-16384-1-ND,1
     L6,4.7uH,Inductor_SMD:L_Wuerth_MAPI-4020,https://www.we-online.com/catalog/datasheet/74438356047.pdf,Power inductor for boost converter,Wuerth_MAPI-4020,74438356047,Digi-Key,732-8234-1-ND,1
 >  NT1-NT5,Net-Tie_2,pandora:NetTie-2_SMD_50mil,~,,N/A,N/A,N/A,N/A,5
@@ -62,7 +62,7 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
 ">  SW2-SW8, SW10-SW12",PTS645-S-H-50-SMTR92-LFS,pandora:SW_Push_PTS645_SMT,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf,"Keypad button, black",Tact_Push_SMD_6mm,PTS645SH50SMTR92 LFS,Digi-Key,CKN9085CT-ND,10
 ">  SW9, SW13",PTS645-S-M-43-SMTR92-LFS,pandora:SW_Push_PTS645_SMT,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf,"Keypad button, blue",Tact_Push_SMD_6mm,PTS645SM43SMTR92 LFS,Digi-Key,CKN9112CT-ND,2
 >  SW14-SW17,PTS645-S-K-50-SMTR92-LFS,pandora:SW_Push_PTS645_SMT,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf,"Keypad button, red",Tact_Push_SMD_6mm,PTS645SK50SMTR92 LFS,Digi-Key,CKN9087CT-ND,4
-    SW18,PTS526-S-K-15-SMTR92-LFS,pandora:SW_Push_PTS526,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf,Reset button,Tact_Push_SMD_PTS526,PTS526SK15SMTR92 LFS,In House,PTS526SK15SMTR92 LFS,1
+    SW18,PTS526-S-K-15-SMTR92,pandora:SW_Push_PTS526,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf,Reset button,Tact_Push_SMD_PTS526,PTS526SK15SMTR92 LFS,In House,PTS526SK15SMTR92 LFS,1
 >  TP1-TP9,TestPoint,pandora:TestPoint_62-80mil,~,Test point,Hole_62mil,TP,In House,TP,9
     U1,LM1086CS-ADJ,Package_TO_SOT_SMD:TO-263-3_TabPin2,http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf,3V3 LDO,TO-263,LM1086CS-ADJ,In House,LM1086CS-ADJ,1
 ">  U2, U3",MCP1702T-3302,Package_TO_SOT_SMD:SOT-89-3,http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf,5V regulator from main power,SOT-89-3,MCP1702T-3302,In House,MCP1702T-3302,2
@@ -77,4 +77,4 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
     U12,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,Battery charger,SOT-23-5,MCP73831-2ACI-OT,Microchip,MCP73831-2ACI-OT,1
     U13,MCP1642D-50,pandora:MSOP-8_3x3mm_P0.65mm,http://ww1.microchip.com/downloads/en/DeviceDoc/20005253A.pdf,Auxiliary battery boost converter,MSOP-8,MCP1642D-50I/MS,Microchip,MCP1642D-50I/MS,1
     Y1,NC26_32.768k,pandora:NC26H_Mirrored,~,Low frequency clock crystal,NC26,NC26,In House,NC26,1
-    Y2,FA-238_48M,pandora:FA-238,~,High frequency clock crystal,FA-238,FA-238,In House,FA-238,1
+    Y2,FA-238_48M,Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm,~,High frequency clock crystal,FA-238,FA-238,In House,FA-238,1
