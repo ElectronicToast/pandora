@@ -27,7 +27,7 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
 ">  FB1, FB3",1206_4A,Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP2125HS600-T%20%20&u=M,,1206,FBMJ3216HS800-T,Digi-Key,587-1772-1-ND,2
     FB2,0603_500mA,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BKP1608HS391-T%20%20&u=M,,603,BKP1608HS391-T,Digi-Key,587-1927-1-ND,1
 >  H1-H7,#6,pandora:MountingHole_No6,~,"#6 mounting hole, NPTH",HOLE_156mil_NPTH,N/A,N/A,N/A,7
-    J1,SMA,Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal, ~,External antenna connector,SMA_SMD_RightAngle,,Molex,732511150,1
+    J1,SMA,Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal,https://www.molex.com/pdm_docs/sd/732511153_sd.pdf,External antenna connector,SMA_SMD_RightAngle,732511150,Molex,732511150,1
     J2,PinHeader_100mil_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,Servo connector,100mil_01x04,,In House,N/A,1
     J3,JST-SH_2,Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,~,JST SH auxiliary Li-ion connector,JST-SH_SM_2_SMD_RghtAngle,,In House,N/A,1
     J4,TX3 / MTA-156-3,pandora:TE_640389-3,~,156mil 3-pin power connector,156mil_01x03,,In House,N/A,1
@@ -56,7 +56,7 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
     R20,100k,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,1
 >  R21-R23,0,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,3
 ">  R24, R27",1k,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,603,,In House,N/A,2
-    RV1,10k,Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical,https://www.bourns.com/docs/Product-Datasheets/TC33.pdf,LCD contrast potentiometer,Bourns_TC33,TC33X-2-103E,Digi-Key,TC33X-103ECT-ND,1
+    RV1,10k,pandora:Pot_VR4_Small,https://www.bourns.com/docs/Product-Datasheets/TC33.pdf,LCD contrast potentiometer,Bourns_TC33,TC33X-2-103E,Digi-Key,TC33X-103ECT-ND,1
     SPK1,DBX-01PN,pandora:DBX-01PN,~,"Speaker, board mount",DBX-01PN,DBX-01PN,In House,DBX-01PN,1
     SW1,GF-126-0317,pandora:GF-126-0317,https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0317.pdf,Power switch,GF-126-037,GF-126-037,Digi-Key,CWI351-ND,1
 ">  SW2-SW8, SW10-SW12",PTS645-S-H-50-SMTR92-LFS,pandora:SW_Push_PTS645_SMT,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf,"Keypad button, black",Tact_Push_SMD_6mm,PTS645SH50SMTR92 LFS,Digi-Key,CKN9085CT-ND,10
@@ -67,10 +67,10 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
     U1,LM1086CS-ADJ,Package_TO_SOT_SMD:TO-263-3_TabPin2,http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf,3V3 LDO,TO-263,LM1086CS-ADJ,In House,LM1086CS-ADJ,1
 ">  U2, U3",MCP1702T-3302,Package_TO_SOT_SMD:SOT-89-3,http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf,5V regulator from main power,SOT-89-3,MCP1702T-3302,In House,MCP1702T-3302,2
     U4,MCP6001,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,Servo feedback opamp,SOT-23-5,MCP6001RT-I/OT,In House,MCP6001RT-I/OT,1
-    U5,MPU-9250,pandora:MPU-9250,https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf,9-DOF IMU,QFN-24-EP,MPU-9250,In House,MPU-9250,1
+    U5,MPU-9250,pandora:MPU-9250_Wide,https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf,9-DOF IMU,QFN-24-EP,MPU-9250,In House,MPU-9250,1
     U6,ULN2003D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/uln2003a.pdf,Peripheral low side switch,SOIC-16,ULN2003D,In House,ULN2003D,1
     U7,74LCX245,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,https://www.mouser.com/datasheet/2/149/74LCX245-21038.pdf,LCD level shifter,SOIC-20W,74LCX245WM,In House,74LCX245WM,1
-    U8,CC2652R,pandora:Texas_RGZ0048A,http://www.ti.com/lit/ds/symlink/cc2652r.pdf,MCU,VQFN-48-EP,CC2652R,In House,CC2652R,1
+    U8,CC2652R,pandora:Texas_RGZ0048A_Wide,http://www.ti.com/lit/ds/symlink/cc2652r.pdf,MCU,VQFN-48-EP,CC2652R,In House,CC2652R,1
     U9,74LVC1G08,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,Auxiliary battery boost converter,SOT-23-5,SN74LVC1G08DBVR,Digi-Key,296-11601-1-ND,1
     U10,ADM811ZARTZ,Package_TO_SOT_SMD:SOT-143,https://www.analog.com/media/en/technical-documentation/data-sheets/ADM811_812.pdf,Reset supervisor,SOT-143,ADM811ZARTZ,Analog Devices,ADM811ZARTZ,1
     U11,LCD_Adafruit_16x02_Neg_RGB,pandora:LCD_Adafruit_16x02_Neg_RGB,https://cdn-shop.adafruit.com/product-files/399/399+spec+sheet.pdf,"LCD, negative, LCD backlight",LCD_18,399,In House,Adafruit_399,1
