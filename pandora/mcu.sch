@@ -499,7 +499,7 @@ AR Path="/5E2BBC74" Ref="U8"  Part="1"
 AR Path="/5E2B9A47/5E2BBC74" Ref="U8"  Part="1" 
 F 0 "U8" H 5500 4965 50  0000 C CNN
 F 1 "CC2652R" H 5500 4874 50  0000 C CNN
-F 2 "pandora:Texas_RGZ0048A" H 5500 3250 50  0001 C CNN
+F 2 "pandora:Texas_RGZ0048A_Wide" H 5500 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cc2652r.pdf" H 5500 3250 50  0001 C CNN
 F 4 "VQFN-48-EP" H 5500 3200 50  0001 C CNN "Package"
 F 5 "MCU" H 5500 3200 50  0001 C CNN "Comment"
