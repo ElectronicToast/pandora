@@ -184,7 +184,7 @@ U 1 1 5E3CC972
 P 7700 4200
 F 0 "RV1" H 7632 4246 50  0000 R CNN
 F 1 "10k" H 7632 4155 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 7700 4200 50  0001 C CNN
+F 2 "pandora:Pot_VR4_Small" H 7700 4200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 7700 4200 50  0001 C CNN
 F 4 "Bourns_TC33" H 7700 4200 50  0001 C CNN "Package"
 F 5 "TC33X-2-103E" H 7700 4200 50  0001 C CNN "PartNo"
@@ -309,7 +309,7 @@ Wire Notes Line
 Wire Notes Line
 	8600 3500 7000 3500
 Text Notes 7800 4400 0    50   ~ 0
-TC33X-2-103E
+VR4_250mil
 Entry Wire Line
 	1700 1600 1800 1700
 Entry Wire Line
