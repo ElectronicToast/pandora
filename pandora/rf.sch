@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 7 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-08"
+Date "2020-03-24"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -312,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4000 5400 4000
 Text Notes 6400 4500 0    50   ~ 0
-TWO-WAY\nJUMPER\n0402
+TWO-WAY\nJUMPER\n0603
 Wire Wire Line
 	6900 4100 8000 4100
 Wire Wire Line

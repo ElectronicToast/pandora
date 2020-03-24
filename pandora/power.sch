@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-08"
+Date "2020-03-24"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -99,8 +99,6 @@ Wire Notes Line
 	9700 5000 9700 3900
 Wire Notes Line
 	8700 3900 8700 5000
-Text Notes 7100 4100 0    50   ~ 0
-CHECK\nFOOTPRINT
 Wire Wire Line
 	5600 4400 6200 4400
 Connection ~ 6200 4400
@@ -110,10 +108,6 @@ Text Notes 6500 3800 0    100  ~ 20
 5V LIN REG
 Wire Notes Line
 	5900 3900 8100 3900
-Wire Notes Line
-	5900 3900 5900 5600
-Text Notes 6100 5400 0    50   ~ 0
-CHECK\nFOOTPRINT
 Text Notes 6300 4900 0    50   ~ 0
 35V
 Text Notes 6300 5000 0    50   ~ 0
@@ -124,14 +118,10 @@ Wire Wire Line
 	6200 4500 6200 4400
 Text Notes 6300 4800 0    50   ~ 0
 TANT
-Text Notes 7600 5400 0    50   ~ 0
-CHECK\nFOOTPRINT
 Text Notes 7800 5000 0    50   ~ 0
 2312
 Text Notes 7800 4900 0    50   ~ 0
 35V
-Wire Notes Line
-	5900 5600 8100 5600
 Wire Wire Line
 	7700 4900 7700 4700
 $Comp
@@ -159,8 +149,6 @@ Wire Wire Line
 	7200 4700 6800 4700
 Text Notes 7800 4800 0    50   ~ 0
 TANT
-Wire Notes Line
-	8100 3900 8100 5600
 $Comp
 L pandora:GNDD #PWR022
 U 1 1 5E40C4C5
@@ -262,12 +250,8 @@ Text Notes 5200 5000 0    50   ~ 0
 2917
 Text Notes 5200 4900 0    50   ~ 0
 25V
-Text Notes 6700 5500 0    50   ~ 0
-RECOMMENDED\nVALUES\nMAY REPLACE
 Wire Notes Line
 	8700 5000 9700 5000
-Text Notes 8800 5200 0    50   ~ 0
-LOOK AT ALTERNATIVES\nMAKE FOOTPRINTS
 Text Notes 6000 2700 0    50   ~ 0
 0805
 Wire Wire Line
@@ -1007,8 +991,6 @@ Wire Wire Line
 Connection ~ 5500 2700
 Wire Wire Line
 	5500 2700 5100 2700
-Text Notes 8900 4900 0    50   ~ 0
-4A, RIGHT ANGLE
 Text Notes 7400 1800 0    100  ~ 20
 SERVO POWER
 Wire Notes Line
@@ -1192,4 +1174,10 @@ F 8 "CWI351-ND" H 9200 4500 50  0001 C CNN "SupplierPartNo"
 	1    9200 4500
 	-1   0    0    -1  
 $EndComp
+Wire Notes Line
+	8100 3900 8100 5400
+Wire Notes Line
+	5900 5400 8100 5400
+Wire Notes Line
+	5900 3900 5900 5400
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 11 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-08"
+Date "2020-03-24"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -462,8 +462,6 @@ F 6 "N/A" H 5200 6100 50  0001 C CNN "SupplierPartNo"
 $EndComp
 Text Notes 5300 6300 0    50   ~ 0
 0805
-Text Notes 3000 5300 0    50   ~ 0
-CHECK\nFOOTPRINT
 Wire Wire Line
 	4400 6400 4400 6200
 $Comp

@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 12 12
 Title "Pandora CC2652R Development Board"
-Date "2020-03-08"
+Date "2020-03-24"
 Rev "A"
 Comp "California Institute of Technology"
 Comment1 "Embedded Systems Design Laboratory"
@@ -136,8 +136,6 @@ F 7 "N/A" H 8100 1600 50  0001 C CNN "SupplierPartNo"
 	1    8100 1600
 	1    0    0    -1  
 $EndComp
-Text Notes 8200 1900 0    50   ~ 0
-MAKE FOOTPRINT
 Text Label 7500 1700 0    50   ~ 0
 SRV_PWM
 Wire Wire Line
@@ -648,8 +646,6 @@ Wire Notes Line
 	3100 5800 900  5800
 Wire Notes Line
 	3600 7300 5700 7300
-Text Notes 1500 7300 0    50   ~ 0
-ADD MORE TP IF NEEDED
 Wire Notes Line
 	10000 5200 10000 2700
 Wire Wire Line
@@ -805,8 +801,6 @@ Wire Wire Line
 Connection ~ 8700 3900
 Wire Wire Line
 	8700 3900 8000 3900
-Text Notes 1400 6600 0    50   ~ 0
-CHECK PHYSICAL TP DIAMETER
 $Comp
 L power:+3V3 #PWR092
 U 1 1 5E5EAE31
@@ -838,10 +832,8 @@ Wire Notes Line
 	6300 5200 10000 5200
 Wire Notes Line
 	10000 2700 6300 2700
-Text Notes 3500 3400 0    50   ~ 0
-SHORT TO POWER TARGET\nFROM PROGRAMMER
-Text Notes 3200 4500 0    50   ~ 0
-CHECK PINOUT
+Text Notes 3400 3400 0    50   ~ 0
+OPEN TO NOT POWER \nTARGET FROM PROGRAMMER
 Text Notes 3700 2300 0    50   ~ 0
 RIGHT ANGLE\nTE 640389-3
 Wire Wire Line
@@ -856,8 +848,6 @@ Text Notes 4700 1300 0    50   ~ 0
 1S Li-ion
 Text Notes 4600 1200 0    50   ~ 0
 AUXILIARY BATTERY
-Text Notes 5400 1700 0    50   ~ 0
-CHECK\nPINOUT
 $Comp
 L pandora:GNDBAT #PWR090
 U 1 1 5E4FFFFB
@@ -956,8 +946,6 @@ Wire Wire Line
 	5100 3800 5600 3800
 Text Label 5100 3800 0    50   ~ 0
 JTAG_~RESET
-Text Notes 3700 2000 0    50   ~ 0
-CHECK FOOTPRINT
 Wire Wire Line
 	3300 1900 3300 2000
 Connection ~ 3300 1900
