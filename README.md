@@ -1,6 +1,6 @@
 ![logo](img/logo/pandora.png)
 
-![release](https://img.shields.io/github/v/release/electronictoast/pandora?include_prereleases) ![license](https://img.shields.io/github/license/electronictoast/pandora) ![madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
+![release](https://img.shields.io/github/v/release/ElectronicToast/pandora?include_prereleases) ![license](https://img.shields.io/github/license/ElectronicToast/pandora) ![madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
 
 TI SimpleLink CC2652R mesh network embedded system development board
 
