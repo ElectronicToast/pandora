@@ -1132,7 +1132,6 @@ Wire Wire Line
 	4500 6800 4900 6800
 Wire Wire Line
 	3100 6800 3300 6800
-Connection ~ 3100 6800
 Wire Notes Line
 	6100 5800 2200 5800
 Wire Notes Line
@@ -1148,8 +1147,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 6300 3700 6200
 Connection ~ 3700 6300
-Wire Wire Line
-	2900 6800 3100 6800
 $Comp
 L Switch:SW_Push SW18
 U 1 1 5E3AAA5E
