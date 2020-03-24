@@ -64,8 +64,8 @@ Designator,Value,FootprintRef,Datasheet,Comment,Footprint,PartNo,Supplier,Suppli
 >  SW14-SW17,PTS645-S-K-50-SMTR92-LFS,pandora:SW_Push_PTS645_SMT,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS645/documents/datasheet.pdf,"Keypad button, red",Tact_Push_SMD_6mm,PTS645SK50SMTR92 LFS,Digi-Key,CKN9087CT-ND,4
     SW18,PTS526-S-K-15-SMTR92,pandora:SW_Push_PTS526,https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf,Reset button,Tact_Push_SMD_PTS526,PTS526SK15SMTR92 LFS,In House,PTS526SK15SMTR92 LFS,1
 >  TP1-TP9,TestPoint,pandora:TestPoint_62-80mil,~,Test point,Hole_62mil,TP,In House,TP,9
-    U1,LM1086CS-ADJ,Package_TO_SOT_SMD:TO-263-3_TabPin2,http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf,3V3 LDO,TO-263,LM1086CS-ADJ,In House,LM1086CS-ADJ,1
-">  U2, U3",MCP1702T-3302,Package_TO_SOT_SMD:SOT-89-3,http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf,5V regulator from main power,SOT-89-3,MCP1702T-3302,In House,MCP1702T-3302,2
+    U1,LM1086CS-ADJ,Package_TO_SOT_SMD:TO-263-3_TabPin2,http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf,5V LDO,TO-263,LM1086CS-ADJ,In House,LM1086CS-ADJ,1
+">  U2, U3",MCP1702T-3302,Package_TO_SOT_SMD:SOT-89-3,http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf,...,SOT-89-3,MCP1702T-3302,In House,MCP1702T-3302,2
     U4,MCP6001,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,Servo feedback opamp,SOT-23-5,MCP6001RT-I/OT,In House,MCP6001RT-I/OT,1
     U5,MPU-9250,pandora:MPU-9250_Wide,https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf,9-DOF IMU,QFN-24-EP,MPU-9250,In House,MPU-9250,1
     U6,ULN2003D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/uln2003a.pdf,Peripheral low side switch,SOIC-16,ULN2003D,In House,ULN2003D,1
