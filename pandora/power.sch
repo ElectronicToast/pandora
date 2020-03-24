@@ -389,7 +389,7 @@ F 1 "MCP1702T-3302" H 2200 4851 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2200 4925 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 2200 4700 50  0001 C CNN
 F 4 "SOT-89-3" H 2200 4700 50  0001 C CNN "Package"
-F 5 "5V regulator from main power" H 2200 4700 50  0001 C CNN "Comment"
+F 5 "3V3D regulator" H 2200 4700 50  0001 C CNN "Comment"
 F 6 "MCP1702T-3302" H 2200 4700 50  0001 C CNN "PartNo"
 F 7 "In House" H 2200 4700 50  0001 C CNN "Supplier"
 F 8 "MCP1702T-3302" H 2200 4700 50  0001 C CNN "SupplierPartNo"
@@ -535,7 +535,7 @@ F 1 "LM1086CS-ADJ" H 6800 4551 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 6800 4650 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/snvs039j/snvs039j.pdf" H 6800 4400 50  0001 C CNN
 F 4 "TO-263" H 6800 4400 50  0001 C CNN "Package"
-F 5 "3V3 LDO" H 6800 4400 50  0001 C CNN "Comment"
+F 5 "5V LDO" H 6800 4400 50  0001 C CNN "Comment"
 F 6 "LM1086CS-ADJ" H 6800 4400 50  0001 C CNN "PartNo"
 F 7 "In House" H 6800 4400 50  0001 C CNN "Supplier"
 F 8 "LM1086CS-ADJ" H 6800 4400 50  0001 C CNN "SupplierPartNo"
@@ -652,7 +652,7 @@ F 1 "MCP1702T-3302" H 2200 6651 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2200 6725 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22008e.pdf" H 2200 6500 50  0001 C CNN
 F 4 "SOT-89-3" H 2200 6500 50  0001 C CNN "Package"
-F 5 "5V regulator from main power" H 2200 6500 50  0001 C CNN "Comment"
+F 5 "3V3A regulator" H 2200 6500 50  0001 C CNN "Comment"
 F 6 "MCP1702T-3302" H 2200 6500 50  0001 C CNN "PartNo"
 F 7 "In House" H 2200 6500 50  0001 C CNN "Supplier"
 F 8 "MCP1702T-3302" H 2200 6500 50  0001 C CNN "SupplierPartNo"
